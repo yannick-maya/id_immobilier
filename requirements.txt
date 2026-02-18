@@ -1,0 +1,28 @@
+# ID Immobilier — Dépendances Python
+# Installer avec : pip install -r requirements.txt
+
+# Data manipulation
+pandas==2.2.0
+numpy==1.26.4
+openpyxl==3.1.2
+
+# Big Data
+pyspark==3.5.1
+
+# Base de données MySQL
+mysql-connector-python==8.3.0
+sqlalchemy==2.0.28
+
+# Orchestration
+apache-airflow==2.8.2
+
+# Dashboard & Visualisation
+streamlit==1.32.0
+plotly==5.19.0
+folium==0.16.0
+streamlit-folium==0.19.0
+
+# Utilitaires
+python-dotenv==1.0.1
+jupyter==1.0.0
+ipykernel==6.29.3
