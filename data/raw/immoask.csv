@@ -1,0 +1,501 @@
+Source,Titre,Type d'offre,Type de bien,Quartier,Prix,Piece,Surface,source
+ImmoAsk,Villa Lomé,LOCATION,Appartement,Non spécifié,500,3,120.0,ImmoAsk
+ImmoAsk,Boutique 1 pièce(s) 50 m² - Baguida,LOCATION,Boutique,Baguida,70000,1,50.0,ImmoAsk
+ImmoAsk,Villa 3 pièce(s) 104 m² - Agoe,LOCATION,Villa,Agoe,250000,3,104.0,ImmoAsk
+ImmoAsk,Espace commercial 2 pièce(s) 10 m² - Kpomé,LOCATION,Espace commercial,Kpomé,5003,2,10.0,ImmoAsk
+ImmoAsk,Espace commercial 2 pièce(s) 10 m² - Kpomé,LOCATION,Espace commercial,Kpomé,5003,2,10.0,ImmoAsk
+ImmoAsk,Espace commercial 2 pièce(s) 10 m² - Kpomé,LOCATION,Espace commercial,Kpomé,5003,2,10.0,ImmoAsk
+ImmoAsk,Appartement 3 pièce(s) 10 m² - Adetikope,LOCATION,Appartement,Adetikope,100000,3,10.0,ImmoAsk
+ImmoAsk,Maison 3 pièce(s) 10 m² - Afagnan,LOCATION,Maison,Afagnan,80000,3,10.0,ImmoAsk
+ImmoAsk,Villa 3 pièce(s) 10 m² - Adetikope,LOCATION,Villa,Adetikope,90000,3,10.0,ImmoAsk
+ImmoAsk,Chambre salon 1 pièce(s) 14 m² - Baguida,LOCATION,Chambre salon,Baguida,300000,1,14.0,ImmoAsk
+ImmoAsk,Appartement meublé 1 pièce(s) 30 m² - Agbalépédo,LOCATION,Appartement meublé,Agbalépédo,450000,1,30.0,ImmoAsk
+ImmoAsk,Appartement meublé 1 pièce(s) 25 m² - Djidjolé,LOCATION,Appartement meublé,Djidjolé,500000,1,25.0,ImmoAsk
+ImmoAsk,Terrain urbain 2 pièce(s) 600 m² - Agoe,VENTE,Terrain urbain,Agoe,32000000,2,600.0,ImmoAsk
+ImmoAsk,Appartement 3 pièce(s) 40 m² - Ablogame,LOCATION,Appartement,Ablogame,250000,3,40.0,ImmoAsk
+ImmoAsk,Appartement 3 pièce(s) 10 m² - Bè,LOCATION,Appartement,Bè,300000,3,10.0,ImmoAsk
+ImmoAsk,Maison 4 pièce(s) 600 m² - Avepozo,VENTE,Maison,Avepozo,35000000,4,600.0,ImmoAsk
+ImmoAsk,Appartement meublé 2 pièce(s) 80 m² - Adidogome,LOCATION,Appartement meublé,Adidogome,500000,2,80.0,ImmoAsk
+ImmoAsk,Terrain urbain 2 pièce(s) 600 m² - Ablogame,BAILLER,Terrain urbain,Ablogame,400000,2,600.0,ImmoAsk
+ImmoAsk,Appartement 3 pièce(s) 60 m² - Totsi,LOCATION,Appartement,Totsi,200000,3,60.0,ImmoAsk
+ImmoAsk,Appartement 3 pièce(s) 70 m² - Adidogome,LOCATION,Appartement,Adidogome,80000,3,70.0,ImmoAsk
+ImmoAsk,Appartement 2 pièce(s) 40 m² - Djidjolé,LOCATION,Appartement,Djidjolé,90000,2,40.0,ImmoAsk
+ImmoAsk,Villa 3 pièce(s) 80 m² - Djidjolé,LOCATION,Villa,Djidjolé,200000,3,80.0,ImmoAsk
+ImmoAsk,Villa 3 pièce(s) 900 m² - Agoe,VENTE,Villa,Agoe,45000000,3,900.0,ImmoAsk
+ImmoAsk,Villa 3 pièce(s) 900 m² - Agoe,LOCATION,Villa,Agoe,90000,3,900.0,ImmoAsk
+ImmoAsk,Appartement meublé 2 pièce(s) 78 m² - Adidogome,LOCATION,Appartement meublé,Adidogome,1150000,2,78.0,ImmoAsk
+ImmoAsk,Appartement meublé 1 pièce(s) 20 m² - Adidogome,LOCATION,Appartement meublé,Adidogome,673000,1,20.0,ImmoAsk
+ImmoAsk,Appartement 3 pièce(s) 80 m² - Agoe,LOCATION,Appartement,Agoe,100000,3,80.0,ImmoAsk
+ImmoAsk,Appartement meublé 2 pièce(s) 70 m² - Adidogome,LOCATION,Appartement meublé,Adidogome,1070000,2,70.0,ImmoAsk
+ImmoAsk,Appartement meublé 2 pièce(s) 77 m² - Adidogome,LOCATION,Appartement meublé,Adidogome,980000,2,77.0,ImmoAsk
+ImmoAsk,Appartement meublé 1 pièce(s) 60 m² - Adewui,LOCATION,Appartement meublé,Adewui,430000,1,60.0,ImmoAsk
+ImmoAsk,Appartement meublé 2 pièce(s) 71 m² - Adidogome,LOCATION,Appartement meublé,Adidogome,450000,2,71.0,ImmoAsk
+ImmoAsk,Appartement meublé 1 pièce(s) 25 m² - Adewui,LOCATION,Appartement meublé,Adewui,320000,1,25.0,ImmoAsk
+ImmoAsk,Villa 3 pièce(s) 80 m² - Totsi,LOCATION,Villa,Totsi,200000,3,80.0,ImmoAsk
+ImmoAsk,Appartement meublé 2 pièce(s) 70 m² - Adidogome,LOCATION,Appartement meublé,Adidogome,1150000,2,70.0,ImmoAsk
+ImmoAsk,Appartement meublé 1 pièce(s) 26 m² - Hédzranawoe,LOCATION,Appartement meublé,Hédzranawoe,350000,1,26.0,ImmoAsk
+ImmoAsk,Appartement meublé 1 pièce(s) 20 m² - Hédzranawoe,LOCATION,Appartement meublé,Hédzranawoe,250000,1,20.0,ImmoAsk
+ImmoAsk,Villa 4 pièce(s) 150 m² - Agbalépédo,LOCATION,Villa,Agbalépédo,380000,4,150.0,ImmoAsk
+ImmoAsk,Appartement 2 pièce(s) 60 m² - Agoe,LOCATION,Appartement,Agoe,70000,2,60.0,ImmoAsk
+ImmoAsk,Chambre 1 pièce(s) 15 m² - Adidogome,LOCATION,Chambre,Adidogome,30000,1,15.0,ImmoAsk
+ImmoAsk,Appartement meublé 2 pièce(s) 70 m² - Adidogome,LOCATION,Appartement meublé,Adidogome,1092000,2,70.0,ImmoAsk
+ImmoAsk,Appartement 3 pièce(s) 80 m² - Djidjolé,LOCATION,Appartement,Djidjolé,220000,3,80.0,ImmoAsk
+ImmoAsk,Terrain urbain 2 pièce(s) 450 m² - Segbe,VENTE,Terrain urbain,Segbe,8500000,2,450.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,sagboville",LOCATION,Villa,Sagboville,200000,3,10.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,agoe",LOCATION,Villa meublée,Agoe,800000,4,600.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,agoe",LOCATION,Villa meublée,Agoe,800000,4,600.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,adidogome",LOCATION,Villa,Adidogome,250000,3,150.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,djagble",VENTE,Terrain,Djagble,15000000,2,600.0,ImmoAsk
+ImmoAsk,"bureau,louer,lome,bernard cope",LOCATION,Bureau,Agoe,150000,5,60.0,ImmoAsk
+ImmoAsk,"boutique,louer,lome,agbalepedo",LOCATION,Boutique,Agbalépédo,60000,1,20.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,zossime",LOCATION,Villa,Agoe,150000,4,100.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,akepedo",VENTE,Terrain,Akepedo,320000000,2,600.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,kegue",LOCATION,Appartement meublé,Kegue,500000,2,90.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,agoe",LOCATION,Appartement meublé,Agoe,400000,2,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,kegue",LOCATION,Appartement meublé,Kegue,400000,2,90.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,legbassito",VENTE,Terrain,Agoe,30000000,2,600.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,segbe",VENTE,Terrain,Segbe,17000000,2,900.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,segbe",VENTE,Terrain,Segbe,20000000,2,600.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,adidogome",VENTE,Terrain,Adidogome,30000000,2,600.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,baguida",LOCATION,Villa meublée,Baguida,850000,3,600.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,zanguera",LOCATION,Chambre salon,Zanguera,45000,1,40.0,ImmoAsk
+ImmoAsk,"2 chambres salon,louer,lome,legbasito",LOCATION,2 chambres salon,Agoe,70000,2,10.0,ImmoAsk
+ImmoAsk,"2 chambres salon,louer,lome,adidogome assiyeye",LOCATION,2 chambres salon,Adidogome,120000,2,100.0,ImmoAsk
+ImmoAsk,"studio meublé,louer,lome,kegue",LOCATION,Appartement meublé,Kegue,300000,1,20.0,ImmoAsk
+ImmoAsk,"3 chambres salon,louer,lome,lankouvi",LOCATION,3 chambres salon,Adidogome,80000,2,80.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,agbalepedo",LOCATION,Appartement meublé,Agbalépédo,600000,2,100.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,3k",LOCATION,Villa,Baguida,350000,3,300.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,nukafu",LOCATION,Chambre salon,Nukafu,45000,1,25.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,agbelouve",VENTE,Terrain,Agbelouve,2800000,2,10000.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,kegue",VENTE,Terrain,Kegue,55000000,2,750.0,ImmoAsk
+ImmoAsk,"villa meublée,vendre,lome,zanguera",VENTE,Villa meublée,Zanguera,550000000,3,600.0,ImmoAsk
+ImmoAsk,"chambre,louer,lome,totsi egblinkome",LOCATION,Chambre,Totsi,30000,1,10.0,ImmoAsk
+ImmoAsk,"2 chambres salon,louer,1,nukafu",LOCATION,2 chambres salon,Nukafu,100000,2,60.0,ImmoAsk
+ImmoAsk,"3 chambres salon,louer,lome,kegue",LOCATION,3 chambres salon,Kegue,250000,2,120.0,ImmoAsk
+ImmoAsk,"villa,vendre,lome,forever",VENTE,Villa,Tokoin,250000000,5,10.0,ImmoAsk
+ImmoAsk,"chambre,louer,lome,zanguera",LOCATION,Chambre,Zanguera,30000,1,16.0,ImmoAsk
+ImmoAsk,"2 chambres salon,louer,lome,tokoin",LOCATION,2 chambres salon,Tokoin,35000,2,80.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,adidogome atilamonou",LOCATION,Chambre salon,Adidogome,45000,1,25.0,ImmoAsk
+ImmoAsk,"2 chambres salon,louer,lome,adidogome kohe",LOCATION,2 chambres salon,Adidogome,70000,2,50.0,ImmoAsk
+ImmoAsk,"3 chambres salon,louer,lome,kegue",LOCATION,3 chambres salon,Kegue,150000,2,80.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,kegue",LOCATION,Chambre salon,Kegue,60000,1,20.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,avenou",LOCATION,Villa meublée,Avenou,2000000,3,120.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,avenou",LOCATION,Villa meublée,Avenou,2000000,3,120.0,ImmoAsk
+ImmoAsk,"studio meublé,louer,lome,agoe",LOCATION,Studio,Agoe,150000,1,80.0,ImmoAsk
+ImmoAsk,"maison,vendre,lome,agoe",VENTE,Maison,Agoe,35000000,3,10.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,tokoin",LOCATION,Appartement meublé,Tokoin,450000,2,80.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,agbalepedo",LOCATION,Appartement meublé,Agbalépédo,400000,2,25.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,hedzranawoe",LOCATION,Villa meublée,Hédzranawoe,500000,3,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidoadin",LOCATION,Appartement meublé,Adidoadin,500000,2,250.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,1,adidoadin",LOCATION,Appartement meublé,Adidoadin,500000,2,250.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,agoe",LOCATION,Appartement meublé,Agoe,200000,2,25.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,avedji limousine",LOCATION,Appartement meublé,Adidogome,550000,2,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,amadahome",LOCATION,Appartement meublé,Adidogome,350000,2,25.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,amandahome",LOCATION,Appartement meublé,Adidogome,700000,2,300.0,ImmoAsk
+ImmoAsk,"villa,vendre,lome,agoe",VENTE,Appartement meublé,Agoe,155000000,2,1200.0,ImmoAsk
+ImmoAsk,"villa,vendre,lome,adidogome akato",VENTE,Villa,Adidogome,65000000,3,300.0,ImmoAsk
+ImmoAsk,"studio meublé,louer,lome,agoe",LOCATION,Appartement meublé,Agoe,170000,2,16.0,ImmoAsk
+ImmoAsk,"maison,vendre,lome,tokoin hopital",VENTE,Maison,Tokoin,70000000,3,392.0,ImmoAsk
+ImmoAsk,"studio meublé,louer,lome,avedji",LOCATION,Appartement meublé,Avedji,200000,2,20.0,ImmoAsk
+ImmoAsk,"terrain,vendre,kpalime,avetonou",VENTE,Terrain,Avetonou,550000,2,10000.0,ImmoAsk
+ImmoAsk,"terrain,vendre,kpalime,avetonou",VENTE,Terrain,Avetonou,550000,2,10000.0,ImmoAsk
+ImmoAsk,"terrain,vendre,kpalime,avetonou",VENTE,Terrain,Avetonou,550000,2,10000.0,ImmoAsk
+ImmoAsk,"terrain,vendre,kpalime,avetonou",VENTE,Terrain,Avetonou,550000,2,10000.0,ImmoAsk
+ImmoAsk,"terrain,vendre,kpalime,avetonou",VENTE,Terrain,Avetonou,550000,2,10000.0,ImmoAsk
+ImmoAsk,"terrain,vendre,kpalime,avetonou",VENTE,Terrain,Avetonou,550000,2,10000.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,be gbenyedzi",LOCATION,Appartement meublé,Bè,400000,2,120.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,atiegou",LOCATION,Appartement meublé,Attiégou,200000,1,80.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,be gbenyedzi",LOCATION,Appartement meublé,Bè,350000,2,100.0,ImmoAsk
+ImmoAsk,"villa,vendre,lome,segbe",VENTE,Villa,Segbe,30000000,3,300.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,totsi",LOCATION,Villa,Totsi,300000,3,300.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,totsi",LOCATION,Villa,Totsi,300000,3,300.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,totsi",LOCATION,Villa,Totsi,300000,3,300.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,leo 2000",LOCATION,Villa,Leo 2000,230000,3,150.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,sagbado",LOCATION,Villa,Sagbado,100000,4,300.0,ImmoAsk
+ImmoAsk,"boutique,louer,akepe,noepe",LOCATION,Boutique,Noepe,60000,1,80.0,ImmoAsk
+ImmoAsk,"chambre,louer,lome,hedzranawoe",LOCATION,Chambre,Hédzranawoe,30000,1,25.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,sagbado",VENTE,Terrain,Sagbado,11000000,2,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adewi",LOCATION,Appartement meublé,Adewui,410000,2,100.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,atilamonou",LOCATION,Appartement meublé,Adidogome,180000,2,120.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,atilamonou",LOCATION,Appartement meublé,Adidogome,180000,2,120.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome, adewi",LOCATION,Appartement meublé,Adewui,310000,1,110.0,ImmoAsk
+ImmoAsk,"studio meublé,louer,lome,adewi",LOCATION,Studio,Adewui,210000,1,90.0,ImmoAsk
+ImmoAsk,"magasin,louer,lome,hedzranawoe",LOCATION,Magasin,Hédzranawoe,350000,1,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,nyekonakpoe",LOCATION,Appartement meublé,Nyékonakpoè,1000000,3,156.0,ImmoAsk
+ImmoAsk,"immeuble,vendre,lome,adewui",VENTE,Immeuble,Adewui,100000000,2,680.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,akepe",VENTE,Terrain,Akepe,5500000,2,600.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,akepe",VENTE,Terrain,Akepe,6500000,2,600.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adewi",LOCATION,Appartement meublé,Adewui,450000,2,130.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,ave maria",LOCATION,Villa,Adidogome,120000,2,70.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,adidogome",VENTE,Terrain,Adidogome,15500000,2,300.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,soviepe",LOCATION,Chambre salon,Adidogome,25000,1,15.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,hedzranawoe",LOCATION,Appartement meublé,Hédzranawoe,500000,3,250.0,ImmoAsk
+ImmoAsk,"appartement,louer,lome,adidogome",LOCATION,Appartement,Adidogome,120000,2,100.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,non loin de t-oil leo 2000",VENTE,Terrain,Agoe,40000000,2,740.0,ImmoAsk
+ImmoAsk,"appartement,louer,lome,adidogome",LOCATION,Appartement,Adidogome,180000,3,120.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,hedzranawoe",LOCATION,Appartement meublé,Hédzranawoe,600000,3,250.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,adewi",LOCATION,Chambre salon,Adewui,200000,1,60.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,adidogome",LOCATION,Villa,Adidogome,80000,3,70.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,agoe",VENTE,Terrain,Agoe,12500000,2,300.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,soviefe",LOCATION,Chambre salon,Adidogome,50000,1,16.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,soviefe",LOCATION,Chambre salon,Adidogome,50000,1,16.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,adidogome",LOCATION,Chambre salon,Adidogome,60000,1,16.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,adidogome",LOCATION,Chambre salon,Adidogome,25000,1,14.5,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,adidogome",LOCATION,Chambre salon,Adidogome,33000,1,25.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,adidogome",LOCATION,Villa meublée,Adidogome,600000,3,100.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,adidogome",LOCATION,Villa meublée,Adidogome,450000,2,100.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,adidogome",LOCATION,Villa,Adidogome,300000,6,120.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,adidogome",LOCATION,Chambre salon,Adidogome,50000,1,20.0,ImmoAsk
+ImmoAsk,"2 chambres salon,louer,lome,adidogome",LOCATION,2 chambres salon,Adidogome,60000,2,40.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,agoe",LOCATION,Appartement meublé,Agoe,250000,1,100.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,350000,2,150.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,adidogome",LOCATION,Villa meublée,Adidogome,1000000,4,150.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,zanguera",LOCATION,Chambre salon,Zanguera,35000,1,15.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,450000,2,150.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome, centre ville",LOCATION,Appartement meublé,Nyékonakpoè,1100000,1,100.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome, zanguera",LOCATION,Chambre salon,Zanguera,45000,1,20.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,carrefour aised",LOCATION,Villa meublée,Adidogome,400000,2,150.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome, gblinkome",LOCATION,Appartement meublé,Gblinkome,250000,2,55.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome, gblinkome",LOCATION,Appartement meublé,Gblinkome,250000,1,55.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,kodjoviakope",LOCATION,Appartement meublé,Kodjoviakope,300000,1,50.0,ImmoAsk
+ImmoAsk,"studio meublé,louer,lome,agoe",LOCATION,Appartement meublé,Agoe,150000,1,25.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,200000,2,50.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,kodjoviakope",LOCATION,Appartement meublé,Kodjoviakope,550000,2,100.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,hedzranawoe",LOCATION,Appartement meublé,Hédzranawoe,350000,1,70.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,agoe nyive",LOCATION,Appartement meublé,Agoe,250000,1,70.0,ImmoAsk
+ImmoAsk,"immeuble commercial,vendre,lome,legbassito",VENTE,Appartement meublé,Agoe,85000000,2,600.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,avenou",LOCATION,Appartement meublé,Avenou,450000,2,100.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,agbalepedo",LOCATION,Appartement meublé,Agbalépédo,150000,2,70.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,agbalepedo",LOCATION,Appartement meublé,Agbalépédo,300000,3,120.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,segbe",LOCATION,Appartement meublé,Segbe,330000,2,70.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,segbe",LOCATION,Appartement meublé,Segbe,330000,2,70.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidoadin",LOCATION,Appartement meublé,Adidoadin,350000,2,100.0,ImmoAsk
+ImmoAsk,"boutique,louer,lome,djidjole",LOCATION,2 chambres salon,Djidjolé,40000,1,11.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,avedji",LOCATION,Appartement meublé,Avedji,250000,2,150.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,avedji",LOCATION,Appartement meublé,Avedji,250000,2,150.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,avedji",LOCATION,Appartement meublé,Avedji,250000,2,15.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,avedji",LOCATION,Appartement meublé,Avedji,250000,2,15.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,sagbado",LOCATION,Appartement meublé,Sagbado,350000,2,150.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,davie",VENTE,Terrain,Davie,1000000,2,150.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,davie",VENTE,Terrain,Davie,6500000,2,600.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,kohe",VENTE,Terrain,Adidogome,13500000,2,760.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,avepozo",LOCATION,Villa,Avepozo,250000,3,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,segbe",LOCATION,Appartement meublé,Segbe,350000,2,100.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,adetikope",VENTE,Terrain,Adetikope,8000000,2,600.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,adetikope",VENTE,Terrain,Adetikope,16000000,2,600.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,segbe",VENTE,Terrain,Segbe,26000000,2,880.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,adeticope",VENTE,Terrain,Adetikope,3500000,2,300.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,adeticope",VENTE,Terrain,Adetikope,2000000,2,150.0,ImmoAsk
+ImmoAsk,"maison,vendre,lome,vapkossito",VENTE,Maison,Agoe,25000000,3,300.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,adidoadin",LOCATION,Villa meublée,Adidoadin,250000,1,150.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,adetikope",VENTE,Terrain,Adetikope,3500000,2,300.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,adetikope",VENTE,Terrain,Adetikope,2000000,2,150.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,djagble",VENTE,Terrain,Djagble,3500000,2,300.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,adetikope",VENTE,Terrain,Adetikope,6500000,2,600.0,ImmoAsk
+ImmoAsk,"appartement,louer,lome,adewi",LOCATION,Appartement meublé,Adewui,300000,2,60.0,ImmoAsk
+ImmoAsk,"villa,vendre,lome,agoe",VENTE,Villa,Agoe,40000000,3,300.0,ImmoAsk
+ImmoAsk,"studio meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,250000,1,17.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,akodessewa",LOCATION,Villa meublée,Akodessewa,1800000,5,700.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,350000,1,35.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,500000,2,80.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,600000,2,80.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,djagble",VENTE,Terrain,Djagble,12000000,2,600.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,attiegou",LOCATION,Appartement meublé,Attiégou,500000,2,153.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,agbalepedo",LOCATION,Chambre salon,Agbalépédo,55000,1,35.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,zanguera",VENTE,Terrain,Zanguera,9000000,2,600.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,adidogome",VENTE,Terrain,Adidogome,16000000,2,600.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,adidogome",LOCATION,Chambre salon,Adidogome,35000,1,30.0,ImmoAsk
+ImmoAsk,"2 chambres salon,louer,lome,adewui",LOCATION,2 chambres salon,Adewui,300000,2,90.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,adewui",LOCATION,Chambre salon,Adewui,225000,1,75.0,ImmoAsk
+ImmoAsk,"chambre,louer,lome,adewui",LOCATION,Appartement meublé,Adewui,125000,2,40.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,adetikope",VENTE,Terrain,Adetikope,6000000,2,600.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,davie",VENTE,Terrain,Davie,5600000,2,600.0,ImmoAsk
+ImmoAsk,"maison,vendre,lome,djiffa kpota",VENTE,Maison,Bè,45000000,3,515.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,agbalepedo",VENTE,Terrain,Agbalépédo,37000000,2,345.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,agbalepedo",LOCATION,Terrain,Agbalépédo,37000000,2,345.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,350000,1,30.0,ImmoAsk
+ImmoAsk,"studio meublé,louer,lome,adidogome",LOCATION,Studio meublé,Adidogome,250000,1,25.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,1000000,2,100.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,1000000,3,100.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,600000,2,70.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,adidogome",LOCATION,Villa,Adidogome,150000,3,200.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,450000,2,70.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,rue de l’ocam",LOCATION,Appartement meublé,Bè,300000,2,45.0,ImmoAsk
+ImmoAsk,"appartement,louer,lome,agoe",LOCATION,Appartement meublé,Agoe,55000,2,53.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,segbe",LOCATION,Villa meublée,Segbe,250000,1,150.0,ImmoAsk
+ImmoAsk,"villa,vendre,lome,avenou",VENTE,Villa,Avenou,130000000,3,334.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,amandahome.",LOCATION,Appartement meublé,Adidogome,300000,2,70.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,aneho,agbanou",LOCATION,Appartement meublé,Agbanou,250000,3,100.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,aneho,agbanou",LOCATION,Appartement meublé,Agbanou,250000,2,100.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,todman",LOCATION,Appartement meublé,Tokoin,500000,2,60.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,tokoin protestant",VENTE,Terrain,Tokoin,25000000,2,300.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,sagbado",VENTE,Terrain,Sagbado,19000000,2,459.0,ImmoAsk
+ImmoAsk,"villa,vendre,lome,klikame",VENTE,Villa,Klikamé,15000000,3,150.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,attiegou",LOCATION,Chambre salon,Attiégou,45000,1,30.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,be",LOCATION,Villa,Bè,400001,3,400.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,attiegou",VENTE,Terrain,Attiégou,100000000,2,1800.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,hedzranawoe",VENTE,Terrain,Hédzranawoe,200000000,2,1650.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,400000,2,65.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,adidogome",LOCATION,Villa meublée,Adidogome,800000,3,700.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,apedokoe",LOCATION,Villa,Adidogome,500000,3,600.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,avenou",LOCATION,Appartement meublé,Avenou,500000,2,70.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,avenou",LOCATION,Appartement meublé,Avenou,500000,2,70.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,adidogome",LOCATION,Villa,Adidogome,110000,3,150.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,adidogome",LOCATION,Chambre salon,Adidogome,45000,1,30.0,ImmoAsk
+ImmoAsk,"2 chambres salon,louer,lome,adidogome",LOCATION,2 chambres salon,Adidogome,65000,2,50.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,agoe",VENTE,Terrain,Agoe,15000000,2,600.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,zanguera",VENTE,Terrain,Zanguera,27000000,2,1330.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,lankouvi",VENTE,Terrain,Adidogome,11500000,2,300.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,agoe",LOCATION,Terrain,Agoe,15000000,2,600.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,400000,3,300.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,agbavi",LOCATION,Villa meublée,Agbavi,500000,2,600.0,ImmoAsk
+ImmoAsk,"villa,louer,lomé,kegue",LOCATION,Villa,Kegue,500000,3,300.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,tokoin",LOCATION,Appartement meublé,Tokoin,450000,2,300.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,attilamonou",LOCATION,Chambre salon,Adidogome,45000,1,40.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,zanguera",LOCATION,Chambre salon,Zanguera,35000,1,35.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,300000,2,60.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,cite oua",LOCATION,Villa,Cite Oua,2500000,5,900.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,zanguera",LOCATION,Chambre salon,Zanguera,50000,1,50.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,tokoin",LOCATION,Appartement meublé,Tokoin,500000,2,70.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,hedzranawoe",LOCATION,Appartement meublé,Hédzranawoe,400000,2,80.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,kegue",LOCATION,Villa,Kegue,500000,3,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,zanguera",LOCATION,Appartement meublé,Zanguera,300000,3,70.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,avepozo",LOCATION,Villa,Avepozo,550000,3,600.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,super taco",LOCATION,Appartement meublé,Super Taco,200000,2,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,600000,2,600.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,kpogan",LOCATION,Villa meublée,Kpogan,800000,4,600.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,350000,2,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,super taco",LOCATION,Appartement meublé,Super Taco,200000,2,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lomé,nyekonakpoe",LOCATION,Appartement meublé,Nyékonakpoè,350000,2,300.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,adidogome",LOCATION,Villa meublée,Adidogome,600000,3,600.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,adidogome",LOCATION,Villa meublée,Adidogome,1000000,3,600.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,kodjoviakope",LOCATION,Appartement meublé,Kodjoviakope,600000,2,300.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,gbossime",LOCATION,Villa meublée,Gbossime,250000,3,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,agbalepedo",LOCATION,Appartement meublé,Agbalépédo,300000,2,300.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,adidogome",LOCATION,Villa meublée,Adidogome,1200000,3,300.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,adidogome",LOCATION,Villa meublée,Adidogome,450000,3,80.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,hedzranawoe",LOCATION,Appartement meublé,Hédzranawoe,400000,2,50.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,nyekonakpoe",LOCATION,Appartement meublé,Nyékonakpoè,350000,2,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidoadin",LOCATION,Appartement meublé,Adidoadin,250000,1,150.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,adeticope",LOCATION,Villa meublée,Adetikope,350000,3,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidoadin",LOCATION,Appartement meublé,Adidoadin,200000,1,150.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,kpota non loin du lycee",LOCATION,Appartement meublé,Bè,450000,3,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,kegue",LOCATION,Appartement meublé,Kegue,150000,2,150.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,1,kegue",LOCATION,Appartement meublé,Kegue,150000,2,150.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,1,kegue",LOCATION,Appartement meublé,Kegue,150000,2,150.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,attiegou",LOCATION,Appartement meublé,Attiégou,250000,2,150.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,hedzanawoe - novissi",LOCATION,Villa meublée,Hédzranawoe,500000,3,300.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,kpogan non loin du goudron",LOCATION,Villa meublée,Kpogan,800000,3,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,kegue tsinga",LOCATION,Appartement meublé,Kegue,200000,1,150.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,hedzranawoe",LOCATION,Villa meublée,Hédzranawoe,400000,3,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,cito aeroport",LOCATION,Appartement meublé,Cito Aeroport,300000,1,150.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,cito aeroport",LOCATION,Chambre salon,Cito Aeroport,300000,1,150.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,tokoin",LOCATION,Villa,Tokoin,150000,2,150.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,hedzranawoe",LOCATION,Appartement meublé,Hédzranawoe,350000,2,200.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,hedzranawoe",LOCATION,Appartement meublé,Hédzranawoe,350000,2,120.0,ImmoAsk
+ImmoAsk,"villa,vendre,lome,adidogome",VENTE,Villa,Adidogome,50000000,3,300.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,agoe",VENTE,Terrain,Agoe,150000000,2,1200.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,agoe",LOCATION,Terrain,Agoe,150000000,2,1200.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,agoe zossime",LOCATION,Chambre salon,Agoe,45000,1,45.0,ImmoAsk
+ImmoAsk,"appartement,louer,lome,agoe zossime",LOCATION,Appartement,Agoe,70000,2,50.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,avepozo",LOCATION,Appartement meublé,Avepozo,250000,2,1200.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,avepozo",LOCATION,Villa,Avepozo,250000,6,1200.0,ImmoAsk
+ImmoAsk,"terrain,vendre,kpalime,yokele",VENTE,Terrain,Yokele,20000000,2,2400.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,be kpota",LOCATION,Chambre salon,Bè,45000,1,42.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,cacaveli",LOCATION,Chambre salon,Agoe,55000,1,25.0,ImmoAsk
+ImmoAsk,"terrain,vendre,kpalime,kpime",VENTE,Terrain,Kpime,700000,2,600.0,ImmoAsk
+ImmoAsk,"studio meublé,louer,lomé,avenou",LOCATION,Appartement meublé,Avenou,220000,2,24.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,500000,2,35.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,500000,2,35.0,ImmoAsk
+ImmoAsk,"villa,vendre,lome,be kpota",VENTE,Villa,Bè,130000000,4,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,agoe",LOCATION,Appartement meublé,Agoe,170000,2,55.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,agoe",VENTE,Appartement meublé,Agoe,33000000,2,300.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,agoe",VENTE,Terrain,Agoe,33000000,2,300.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,agoe",VENTE,Terrain,Agoe,33000000,2,300.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,agoe",VENTE,Terrain,Agoe,33000000,2,300.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,baguida",LOCATION,Villa,Baguida,150000,3,300.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,adidogome la pampar",LOCATION,Villa meublée,Adidogome,600000,3,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome la pampar",LOCATION,Appartement meublé,Adidogome,700000,2,400.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,baguida",LOCATION,Villa meublée,Baguida,500000,3,600.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,sagbado",LOCATION,Villa,Sagbado,300000,3,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,tokoin",LOCATION,Appartement meublé,Tokoin,150000,1,80.0,ImmoAsk
+ImmoAsk,"studio meublé,louer,lome,agbalepedo",LOCATION,Appartement meublé,Agbalépédo,210000,2,80.0,ImmoAsk
+ImmoAsk,"studio meublé,louer,lome,agbalepeto",LOCATION,Studio meublé,Agbalepeto,210000,1,80.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,agoe sogbossito",VENTE,Terrain,Agoe,6000000,2,300.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,kegue",LOCATION,Villa,Kegue,300000,3,300.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,avedji",LOCATION,Villa meublée,Avedji,300000,3,300.0,ImmoAsk
+ImmoAsk,"villa,louer,lomé,atiegou",LOCATION,Villa,Attiégou,250000,3,300.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,atiegou",LOCATION,Villa,Attiégou,250000,3,300.0,ImmoAsk
+ImmoAsk,"villa,vendre,lome,djagble",VENTE,Villa,Djagble,215000000,10,300.0,ImmoAsk
+ImmoAsk,"appartement,louer,lome,djagble",LOCATION,Appartement,Djagble,300000,6,300.0,ImmoAsk
+ImmoAsk,"appartement,louer,lome,djagble",LOCATION,Appartement,Djagble,300000,6,300.0,ImmoAsk
+ImmoAsk,"appartement,louer,lome,djagble",LOCATION,Appartement,Djagble,350000,4,300.0,ImmoAsk
+ImmoAsk,"appartement,louer,lome,djagble",LOCATION,Appartement,Djagble,350000,3,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,nyekonakpoe",LOCATION,Appartement meublé,Nyékonakpoè,400000,2,60.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,tokoin casablanca",LOCATION,Appartement meublé,Tokoin,450000,2,125.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,totsi",LOCATION,Appartement meublé,Totsi,300000,2,150.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidoadin",LOCATION,Appartement meublé,Adidoadin,300000,2,200.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,legbassito",VENTE,Terrain,Agoe,15000000,2,600.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,kagome",LOCATION,Chambre salon,Kagome,30000,1,50.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,adidogome",LOCATION,Villa,Adidogome,375000,3,400.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,agbalepedo",LOCATION,Appartement meublé,Agbalépédo,300000,2,200.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,agbalepedo",LOCATION,Appartement meublé,Agbalépédo,300000,2,300.0,ImmoAsk
+ImmoAsk,"maison,vendre,lome,sanguera",VENTE,Maison,Sanguera,65000000,3,500.0,ImmoAsk
+ImmoAsk,"terrain,vendre,1,afagnan",VENTE,Terrain,Afagnan,3000000,2,600.0,ImmoAsk
+ImmoAsk,"terrain,vendre,1,afagnan",VENTE,Terrain,Afagnan,3000000,2,600.0,ImmoAsk
+ImmoAsk,"terrain,vendre,1,afagnan",VENTE,Terrain,Afagnan,3000000,2,600.0,ImmoAsk
+ImmoAsk,"terrain,vendre,1,afagnan",VENTE,Terrain,Afagnan,3000000,2,600.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,djidjole",VENTE,Appartement meublé,Djidjolé,27000000,2,386.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,segbe,akato-deme",LOCATION,Villa,Segbe,140000,4,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,gbossime",LOCATION,Appartement meublé,Gbossime,250000,3,150.0,ImmoAsk
+ImmoAsk,"villa,vendre,lome,djagble",VENTE,Villa,Djagble,32000000,5,445.0,ImmoAsk
+ImmoAsk,"magasin,louer,lome,be kpota",LOCATION,Magasin,Bè,400000,1,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,agoe anome",LOCATION,Appartement meublé,Agoe,300000,2,300.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lomé,amadahome",LOCATION,Villa meublée,Adidogome,600000,3,600.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,kegue",LOCATION,Appartement meublé,Kegue,150000,2,80.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,kegue",LOCATION,Appartement meublé,Kegue,150000,1,80.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,hedzranawoe",LOCATION,Appartement meublé,Hédzranawoe,350000,2,100.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,hedzranawoe",LOCATION,Appartement meublé,Hédzranawoe,350000,2,100.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,hedzranawoe",LOCATION,Appartement meublé,Hédzranawoe,350000,2,100.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,hedranawoe",LOCATION,Appartement meublé,Hédzranawoe,250000,1,80.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,djidjole",LOCATION,Appartement meublé,Djidjolé,350000,2,100.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,avepozo",LOCATION,Villa meublée,Avepozo,400000,3,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,baguida",LOCATION,Appartement meublé,Baguida,400000,2,300.0,ImmoAsk
+ImmoAsk,"villa,vendre,lome,be kpota",VENTE,Villa,Bè,130000000,4,400.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,hedzranawoe",LOCATION,Villa,Hédzranawoe,1200000,6,600.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,hedranawoe",LOCATION,Villa,Hédzranawoe,1200000,3,600.0,ImmoAsk
+ImmoAsk,"immeuble commercial,vendre,lome,legbassito",VENTE,Immeuble commercial,Agoe,85000000,13,600.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,be kpota",LOCATION,Villa,Bè,500000,3,300.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,agoe togble",VENTE,Terrain,Agoe,6500000,2,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,agoe legbassito anhonkpoe",LOCATION,Appartement meublé,Agoe,200000,2,48.0,ImmoAsk
+ImmoAsk,"maison,vendre,lome,agoe sogbossito",VENTE,Maison,Agoe,35000000,2,120.0,ImmoAsk
+ImmoAsk,"2 chambres salon,louer,lome,agoe legbassito anhonkpoe",LOCATION,2 chambres salon,Agoe,200000,2,48.0,ImmoAsk
+ImmoAsk,"boutique,louer,lome,lomegan",LOCATION,Boutique,Lomégan,100000,1,50.0,ImmoAsk
+ImmoAsk,"terrain,bailler,lome,sagbado",BAILLER,Terrain,Sagbado,75000,2,600.0,ImmoAsk
+ImmoAsk,"terrain,bailler,lome,agoe",BAILLER,Terrain,Agoe,75000,2,600.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,avedji",LOCATION,Villa,Avedji,150000,3,150.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,agoe",LOCATION,Chambre salon,Agoe,50000,1,25.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,agoe",LOCATION,Chambre salon,Agoe,50000,1,25.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,agoe",LOCATION,Chambre salon,Agoe,50000,1,25.0,ImmoAsk
+ImmoAsk,"terrain,bailler,lome,avedji",BAILLER,Terrain,Avedji,150000,2,1200.0,ImmoAsk
+ImmoAsk,"3 chambres salon,louer,lome,vakpossito",LOCATION,Appartement,Agoe,90000,3,80.0,ImmoAsk
+ImmoAsk,"3 chambres salon,louer,lome,adidogome cite mokpokpo",LOCATION,3 chambres salon,Adidogome,120000,2,80.0,ImmoAsk
+ImmoAsk,"terrain,vendre,tsevie,davie",VENTE,Terrain,Davie,4500000,2,1800.0,ImmoAsk
+ImmoAsk,"2 chambres salon,louer,lome,be station t-oil",LOCATION,2 chambres salon,Bè,220000,2,48.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,zanguera",LOCATION,Villa meublée,Zanguera,250000,2,48.0,ImmoAsk
+ImmoAsk,"chambre,louer,lome,zanguera",LOCATION,Chambre,Zanguera,15000,1,16.0,ImmoAsk
+ImmoAsk,"2 chambres salon,louer,lome,adidogome soviepe",LOCATION,2 chambres salon,Adidogome,65000,2,64.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,carrefour minamadou",LOCATION,Chambre salon,Agoe,60000,1,64.0,ImmoAsk
+ImmoAsk,"2 chambres salon,louer,lomé,segbe",LOCATION,2 chambres salon,Segbe,35000,2,48.0,ImmoAsk
+ImmoAsk,"2 chambres salon,louer,lome,segbe",LOCATION,2 chambres salon,Segbe,45000,2,48.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,agoe",LOCATION,Appartement meublé,Agoe,350000,2,80.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,lome madibar",LOCATION,Villa meublée,Adidogome,650000,11,1200.0,ImmoAsk
+ImmoAsk,"villa,vendre,lome,segbe",VENTE,Villa,Segbe,65000000,3,450.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,gbegnedji",LOCATION,Villa,Gbegnedji,80000,3,150.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,kagome",LOCATION,Villa,Kagome,100000,2,300.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,kagome",LOCATION,Villa,Kagome,100000,3,300.0,ImmoAsk
+ImmoAsk,"villa,louer,lome, adidogome",LOCATION,Villa,Adidogome,350000,4,600.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,djidjole",LOCATION,Appartement meublé,Djidjolé,200000,1,45.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,aneho,kpeme",LOCATION,Villa meublée,Kpeme,700000,3,600.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,djidjole",LOCATION,Appartement meublé,Djidjolé,550000,2,80.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,akodessewa",LOCATION,Chambre salon,Akodessewa,50000,1,35.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,akodessewa",LOCATION,Chambre salon,Akodessewa,60000,1,35.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,akodessewa",LOCATION,Chambre salon,Akodessewa,60000,1,35.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,baguida",LOCATION,Villa,Baguida,750000,4,10.0,ImmoAsk
+ImmoAsk,"appartement,louer,lome,amadahome",LOCATION,Appartement,Adidogome,60000,2,55.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,tokoin",LOCATION,Appartement meublé,Tokoin,300000,1,35.0,ImmoAsk
+ImmoAsk,"studio meublé,louer,lome, tokoin",LOCATION,Appartement meublé,Tokoin,350000,1,25.0,ImmoAsk
+ImmoAsk,"studio meublé,louer,lome, tokoin",LOCATION,Appartement meublé,Tokoin,300000,1,18.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome, tokoin",LOCATION,Appartement meublé,Tokoin,450000,2,100.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,tokoin",LOCATION,Appartement meublé,Tokoin,350000,2,80.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,hedzranawoe",VENTE,Terrain,Hédzranawoe,1050000000,2,9000.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,hedzranawoe",VENTE,Terrain,Hédzranawoe,560000000,2,4200.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,agoe",VENTE,Terrain,Agoe,7000000,2,300.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,zanguera",VENTE,Terrain,Zanguera,11000000,2,600.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,djagble",VENTE,Terrain,Djagble,6000000,2,300.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,avenou",LOCATION,Villa,Avenou,350000,3,600.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,avenou",LOCATION,Villa,Avenou,350000,3,600.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,avenou",LOCATION,Villa,Avenou,350000,3,600.0,ImmoAsk
+ImmoAsk,"immeuble commercial,louer,lome,assivito",LOCATION,Appartement meublé,Assivito,1200000,2,1000.0,ImmoAsk
+ImmoAsk,"studio meublé,louer,lome,assivito",LOCATION,Appartement meublé,Assivito,900000,2,18.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,assivito",LOCATION,Appartement meublé,Assivito,1800000,2,35.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lomé,adidogome",LOCATION,Appartement meublé,Adidogome,350000,2,85.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,djidjole",VENTE,Terrain,Djidjolé,40000000,2,500.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,djidjole",VENTE,Terrain,Djidjolé,40000000,2,500.0,ImmoAsk
+ImmoAsk,"maison,louer,lome,djidjole",LOCATION,Maison,Djidjolé,40000000,3,500.0,ImmoAsk
+ImmoAsk,"villa,vendre,lome,agoe",VENTE,Villa,Agoe,15000000,2,150.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,agoe",LOCATION,Appartement meublé,Agoe,400000,2,90.0,ImmoAsk
+ImmoAsk,"appartement,louer,lome,djidjole",LOCATION,Appartement,Djidjolé,150000,3,80.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome, cacaveli",LOCATION,Appartement meublé,Agoe,300000,2,35.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,cacaveli",LOCATION,Appartement meublé,Agoe,400000,2,69.0,ImmoAsk
+ImmoAsk,"studio meublé,louer,lome,be",LOCATION,Appartement meublé,Bè,200000,2,20.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,be",LOCATION,Appartement meublé,Bè,400000,2,65.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,kegue",LOCATION,Villa meublée,Kegue,350000,3,250.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,adidogome",LOCATION,Villa meublée,Adidogome,450000,3,250.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,kegue",LOCATION,Villa meublée,Kegue,300000,3,120.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,hedzranawoe",LOCATION,Villa meublée,Hédzranawoe,400000,3,250.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,230000,2,30.0,ImmoAsk
+ImmoAsk,"villa,vendre,lome,sito aeroport",VENTE,Villa,Sito Aeroport,100000000,3,600.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,totsi",LOCATION,Villa meublée,Totsi,450000,3,150.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,djagble",VENTE,Terrain,Djagble,6000000,2,600.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,agoe",LOCATION,Villa,Agoe,170000,3,300.0,ImmoAsk
+ImmoAsk,"villa,louer,lome, agoe",LOCATION,Villa,Agoe,200000,3,300.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,leo2000",VENTE,Terrain,Leo 2000,35000000,2,600.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lomé,djidjole",LOCATION,Appartement meublé,Djidjolé,200000,2,35.0,ImmoAsk
+ImmoAsk,"maison,vendre,lome,agoe",VENTE,Maison,Agoe,40000000,3,310.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,zanguera",VENTE,Terrain,Zanguera,7000000,2,300.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,leo2000",LOCATION,Villa,Leo 2000,500000,3,400.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,agoe",LOCATION,Villa,Agoe,150000,3,200.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lome,agoe",LOCATION,Villa meublée,Agoe,300000,3,200.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,agoe",LOCATION,Chambre salon,Agoe,50000,1,30.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,agoe",LOCATION,Chambre salon,Agoe,70000,1,35.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,agoe",LOCATION,Chambre salon,Agoe,50000,1,25.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,adidogome",LOCATION,Villa,Adidogome,130000,3,300.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,sito aeroport",LOCATION,Villa,Sito Aeroport,300000,3,300.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,kegue",LOCATION,Villa,Kegue,180000,3,200.0,ImmoAsk
+ImmoAsk,"chambre,louer,lome,avepozo",LOCATION,Chambre,Avepozo,150000,1,1200.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,tokoin",LOCATION,Appartement meublé,Tokoin,300000,2,65.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,tokoin",LOCATION,Appartement meublé,Tokoin,300000,2,65.0,ImmoAsk
+ImmoAsk,"maison,vendre,lome, agbavi",VENTE,Maison,Agbavi,27000000,3,300.0,ImmoAsk
+ImmoAsk,"maison,vendre,lome, agbavi",VENTE,Maison,Agbavi,27000000,3,300.0,ImmoAsk
+ImmoAsk,"villa,vendre,lome,dague",VENTE,Villa,Dague,15000000,2,300.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,kagome",LOCATION,Villa,Kagome,100000,3,600.0,ImmoAsk
+ImmoAsk,"maison,vendre,lome,avepozo",VENTE,Maison,Avepozo,23000000,3,300.0,ImmoAsk
+ImmoAsk,"terrain,vendre,lome,ahanoukope",VENTE,Terrain,Ahanoukope,800000000,2,1200.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,agoe",LOCATION,Chambre salon,Agoe,50000,1,25.0,ImmoAsk
+ImmoAsk,"appartement,louer,lome,agoe",LOCATION,Appartement,Agoe,65000,2,65.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,amadahome",LOCATION,Appartement meublé,Adidogome,200000,2,25.0,ImmoAsk
+ImmoAsk,"bureau,louer,lome,noukafou",LOCATION,Bureau,Noukafou,100000,5,120.0,ImmoAsk
+ImmoAsk,"villa,vendre,lome,togo2000",VENTE,Villa,Togo 2000,32000000,3,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,avedji",LOCATION,Appartement meublé,Avedji,350000,2,120.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,be kpota",LOCATION,Villa,Bè,250000,3,600.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,djidjole",LOCATION,Appartement meublé,Djidjolé,200000,2,25.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,totsi",LOCATION,Villa,Totsi,100000,2,120.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,adidogome",LOCATION,Appartement meublé,Adidogome,250000,2,35.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,agoe",LOCATION,Villa,Agoe,80000,2,100.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,djidjole",LOCATION,Chambre salon,Djidjolé,60000,1,40.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,aneho,djidjole",LOCATION,Chambre salon,Djidjolé,60000,1,40.0,ImmoAsk
+ImmoAsk,"appartement,louer,lome,agoe",LOCATION,Appartement,Agoe,300000,3,400.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,agoe",LOCATION,Appartement meublé,Agoe,150000,2,35.0,ImmoAsk
+ImmoAsk,"studio meublé,louer,lome,agoe",LOCATION,Appartement meublé,Agoe,150000,2,20.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,agoe",LOCATION,Chambre salon,Agoe,45000,1,35.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,sagbado",LOCATION,Appartement meublé,Sagbado,200000,2,35.0,ImmoAsk
+ImmoAsk,"villa meublée,louer,lomé,sagbado",LOCATION,Villa meublée,Sagbado,300000,3,200.0,ImmoAsk
+ImmoAsk,"appartement,louer,lome,agoe",LOCATION,Appartement,Agoe,70000,3,75.0,ImmoAsk
+ImmoAsk,"chambre salon,louer,lome,agoe",LOCATION,Chambre salon,Agoe,45000,1,60.0,ImmoAsk
+ImmoAsk,"appartement,louer,lome,agoe",LOCATION,Appartement,Agoe,100000,3,120.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,leo2000",LOCATION,Villa,Leo 2000,300000,3,300.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,agoe",LOCATION,Villa,Agoe,300000,3,400.0,ImmoAsk
+ImmoAsk,"villa,vendre,lome,adidogome",VENTE,Villa,Adidogome,26000000,3,150.0,ImmoAsk
+ImmoAsk,"appartement,louer,lome,agbalepedo",LOCATION,Appartement,Agbalépédo,120000,2,78.0,ImmoAsk
+ImmoAsk,"appartement,louer,lome,agbalepedo",LOCATION,Appartement,Agbalépédo,120000,3,80.0,ImmoAsk
+ImmoAsk,"appartement,louer,lome,agbalepedo",LOCATION,Appartement,Agbalépédo,102000,2,70.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,entreprise de l'union",LOCATION,Villa,Leo 2000,200000,3,300.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,entreprise de l'union",LOCATION,Villa,Leo 2000,200000,3,300.0,ImmoAsk
+ImmoAsk,"immeuble commercial,louer,lome,attiegou",LOCATION,Appartement,Attiégou,250000,3,300.0,ImmoAsk
+ImmoAsk,"villa,vendre,lome,amadahome",VENTE,Villa,Adidogome,47500000,3,10.0,ImmoAsk
+ImmoAsk,"studio meublé,louer,lomé,adidogome",LOCATION,Appartement meublé,Adidogome,150000,2,21.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,agoe",LOCATION,Villa,Agoe,130000,5,250.0,ImmoAsk
+ImmoAsk,"villa,louer,lome, amadahome",LOCATION,Villa,Adidogome,23000000,3,150.0,ImmoAsk
+ImmoAsk,"villa,louer,lome,kegue",LOCATION,Villa,Kegue,300000,3,300.0,ImmoAsk
+ImmoAsk,"appartement meublé,louer,lome,tokoin",LOCATION,Appartement meublé,Tokoin,350000,2,100.0,ImmoAsk
