@@ -11,7 +11,8 @@ pyspark==3.5.1
 
 # Base de données MySQL
 mysql-connector-python==8.3.0
-sqlalchemy==2.0.28
+sqlalchemy==1.4.49
+
 
 # Orchestration
 apache-airflow==2.8.2
