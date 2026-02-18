@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS bien_immobilier (
     type_offre VARCHAR(50),             -- VENTE, LOCATION
     surface_m2 DECIMAL(10,2),
     pieces INT,
-    usage VARCHAR(50),                  -- Résidentiel, Commercial
+    `usage` VARCHAR(50),                -- Résidentiel, Commercial
     id_zone INT,
     FOREIGN KEY (id_zone) REFERENCES zone_geographique(id)
 );
