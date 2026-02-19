@@ -1,54 +1,29 @@
-version: '3.8'
-
 services:
 
-  # ── MySQL ────────────────────────────────────────────────────────────────────
-  mysql:
-    image: mysql:8.0
-    container_name: id_immobilier_mysql
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: root1234
-      MYSQL_DATABASE: id_immobilier
-      MYSQL_USER: immo_user
-      MYSQL_PASSWORD: immo1234
-    ports:
-      - "3307:3306"       # 3307 sur ta machine pour eviter conflit avec XAMPP
-    volumes:
-      - mysql_data:/var/lib/mysql
-      - ./sql/schema.sql:/docker-entrypoint-initdb.d/schema.sql
-    networks:
-      - immo_network
-    healthcheck:
-      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-
-  # ── Spark ────────────────────────────────────────────────────────────────────
+  # ── Spark Master ─────────────────────────────────────────────────────────────
   spark:
-    image: bitnami/spark:3.5
+    image: apache/spark:3.5.1
     container_name: id_immobilier_spark
     environment:
-      - SPARK_MODE=master
-      - SPARK_RPC_AUTHENTICATION_ENABLED=no
-      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_NO_DAEMONIZE=true
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.master.Master
     ports:
-      - "8080:8080"       # Interface Spark
-      - "7077:7077"       # Port Spark master
+      - "8080:8080"
+      - "7077:7077"
     volumes:
       - ./data:/app/data
       - ./pipeline:/app/pipeline
     networks:
       - immo_network
 
+  # ── Spark Worker ─────────────────────────────────────────────────────────────
   spark-worker:
-    image: bitnami/spark:3.5
+    image: apache/spark:3.5.1
     container_name: id_immobilier_spark_worker
+    command: /opt/spark/bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark:7077
     environment:
-      - SPARK_MODE=worker
-      - SPARK_MASTER_URL=spark://spark:7077
-      - SPARK_WORKER_MEMORY=1G
+      - SPARK_NO_DAEMONIZE=true
+      - SPARK_WORKER_MEMORY=1g
       - SPARK_WORKER_CORES=1
     volumes:
       - ./data:/app/data
@@ -58,7 +33,7 @@ services:
     depends_on:
       - spark
 
-  # ── Airflow ──────────────────────────────────────────────────────────────────
+  # ── Airflow ───────────────────────────────────────────────────────────────────
   airflow:
     image: apache/airflow:2.8.2
     container_name: id_immobilier_airflow
@@ -68,12 +43,13 @@ services:
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=sqlite:////opt/airflow/airflow.db
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
       - AIRFLOW__WEBSERVER__SECRET_KEY=id_immobilier_secret
-      - MYSQL_HOST=mysql
-      - MYSQL_USER=immo_user
-      - MYSQL_PASSWORD=immo1234
+      # Connexion vers XAMPP sur ta machine locale
+      - MYSQL_HOST=host.docker.internal
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=
       - MYSQL_DB=id_immobilier
     ports:
-      - "8081:8080"       # Interface Airflow sur port 8081
+      - "8081:8080"
     volumes:
       - ./dags:/opt/airflow/dags
       - ./pipeline:/opt/airflow/pipeline
@@ -88,11 +64,10 @@ services:
                airflow webserver & airflow scheduler"
     networks:
       - immo_network
-    depends_on:
-      mysql:
-        condition: service_healthy
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
 
-  # ── Streamlit ────────────────────────────────────────────────────────────────
+  # ── Streamlit ─────────────────────────────────────────────────────────────────
   streamlit:
     build:
       context: .
@@ -100,24 +75,23 @@ services:
     container_name: id_immobilier_streamlit
     restart: always
     environment:
-      - MYSQL_HOST=mysql
-      - MYSQL_USER=immo_user
-      - MYSQL_PASSWORD=immo1234
+      # Connexion vers XAMPP sur ta machine locale
+      - MYSQL_HOST=host.docker.internal
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=
       - MYSQL_DB=id_immobilier
     ports:
-      - "8501:8501"       # Dashboard
+      - "8501:8501"
     volumes:
       - ./dashboard:/app/dashboard
       - ./data:/app/data
     networks:
       - immo_network
-    depends_on:
-      mysql:
-        condition: service_healthy
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
 
-# ── Volumes persistants ───────────────────────────────────────────────────────
+# ── Volumes ───────────────────────────────────────────────────────────────────
 volumes:
-  mysql_data:
   airflow_logs:
 
 # ── Reseau interne ────────────────────────────────────────────────────────────
