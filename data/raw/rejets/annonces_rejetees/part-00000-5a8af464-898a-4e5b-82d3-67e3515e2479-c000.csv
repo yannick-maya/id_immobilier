@@ -1,0 +1,73 @@
+Source0,titre,type_offre,type_bien,zone,prix,pieces,surface_m2,source8,source,raison_rejet
+ImmoAsk,Villa Lomé,LOCATION,Appartement,non spécifié,500.0,3,120.0,ImmoAsk,immoask,zone_invalide
+ImmoAsk,Espace commercial 2 pièce(s) 10 m² - Kpomé,LOCATION,Espace commercial,kpomé,5003.0,2,10.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,Espace commercial 2 pièce(s) 10 m² - Kpomé,LOCATION,Espace commercial,kpomé,5003.0,2,10.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,Espace commercial 2 pièce(s) 10 m² - Kpomé,LOCATION,Espace commercial,kpomé,5003.0,2,10.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,Terrain urbain 2 pièce(s) 600 m² - Ablogame,BAILLER,Terrain urbain,ablogame,400000.0,2,600.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,Villa 3 pièce(s) 900 m² - Agoe,LOCATION,Villa,agoe,90000.0,3,900.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"terrain,vendre,lome,agbelouve",VENTE,Terrain,agbelouve,2800000.0,2,10000.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,vendre,lome,forever",VENTE,Villa,tokoin,2.5E8,5,10.0,ImmoAsk,immoask,prix_m2_trop_eleve
+ImmoAsk,"2 chambres salon,louer,lome,tokoin",LOCATION,2 chambres salon,tokoin,35000.0,2,80.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"maison,vendre,lome,agoe",VENTE,Maison,agoe,3.5E7,3,10.0,ImmoAsk,immoask,prix_m2_trop_eleve
+ImmoAsk,"terrain,vendre,kpalime,avetonou",VENTE,Terrain,avetonou,550000.0,2,10000.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"terrain,vendre,kpalime,avetonou",VENTE,Terrain,avetonou,550000.0,2,10000.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"terrain,vendre,kpalime,avetonou",VENTE,Terrain,avetonou,550000.0,2,10000.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"terrain,vendre,kpalime,avetonou",VENTE,Terrain,avetonou,550000.0,2,10000.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"terrain,vendre,kpalime,avetonou",VENTE,Terrain,avetonou,550000.0,2,10000.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"terrain,vendre,kpalime,avetonou",VENTE,Terrain,avetonou,550000.0,2,10000.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,sagbado",LOCATION,Villa,sagbado,100000.0,4,300.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"boutique,louer,akepe,noepe",LOCATION,Boutique,noepe,60000.0,1,80.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,avepozo",LOCATION,Villa,avepozo,250000.0,3,300.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,adidogome",LOCATION,Villa,adidogome,150000.0,3,200.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,apedokoe",LOCATION,Villa,adidogome,500000.0,3,600.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,adidogome",LOCATION,Villa,adidogome,110000.0,3,150.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa meublée,louer,lome,agbavi",LOCATION,Villa meublée,agbavi,500000.0,2,600.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,avepozo",LOCATION,Villa,avepozo,550000.0,3,600.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"appartement meublé,louer,lome,super taco",LOCATION,Appartement meublé,super taco,200000.0,2,300.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"appartement meublé,louer,lome,super taco",LOCATION,Appartement meublé,super taco,200000.0,2,300.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa meublée,louer,lome,gbossime",LOCATION,Villa meublée,gbossime,250000.0,3,300.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,avepozo",LOCATION,Appartement meublé,avepozo,250000.0,2,1200.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,avepozo",LOCATION,Villa,avepozo,250000.0,6,1200.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,baguida",LOCATION,Villa,baguida,150000.0,3,300.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa meublée,louer,lome,baguida",LOCATION,Villa meublée,baguida,500000.0,3,600.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lomé,atiegou",LOCATION,Villa,attiégou,250000.0,3,300.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,atiegou",LOCATION,Villa,attiégou,250000.0,3,300.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"chambre salon,louer,lome,kagome",LOCATION,Chambre salon,kagome,30000.0,1,50.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,adidogome",LOCATION,Villa,adidogome,375000.0,3,400.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,segbe,akato-deme",LOCATION,Villa,segbe,140000.0,4,300.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"terrain,bailler,lome,sagbado",BAILLER,Terrain,sagbado,75000.0,2,600.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"terrain,bailler,lome,agoe",BAILLER,Terrain,agoe,75000.0,2,600.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"terrain,bailler,lome,avedji",BAILLER,Terrain,avedji,150000.0,2,1200.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"chambre,louer,lome,zanguera",LOCATION,Chambre,zanguera,15000.0,1,16.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"chambre salon,louer,lome,carrefour minamadou",LOCATION,Chambre salon,agoe,60000.0,1,64.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"2 chambres salon,louer,lomé,segbe",LOCATION,2 chambres salon,segbe,35000.0,2,48.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"2 chambres salon,louer,lome,segbe",LOCATION,2 chambres salon,segbe,45000.0,2,48.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa meublée,louer,lome,lome madibar",LOCATION,Villa meublée,adidogome,650000.0,11,1200.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,gbegnedji",LOCATION,Villa,gbegnedji,80000.0,3,150.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,kagome",LOCATION,Villa,kagome,100000.0,2,300.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,kagome",LOCATION,Villa,kagome,100000.0,3,300.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome, adidogome",LOCATION,Villa,adidogome,350000.0,4,600.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,avenou",LOCATION,Villa,avenou,350000.0,3,600.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,avenou",LOCATION,Villa,avenou,350000.0,3,600.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,avenou",LOCATION,Villa,avenou,350000.0,3,600.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,agoe",LOCATION,Villa,agoe,170000.0,3,300.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome, agoe",LOCATION,Villa,agoe,200000.0,3,300.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,agoe",LOCATION,Villa,agoe,150000.0,3,200.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,adidogome",LOCATION,Villa,adidogome,130000.0,3,300.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,kegue",LOCATION,Villa,kegue,180000.0,3,200.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"chambre,louer,lome,avepozo",LOCATION,Chambre,avepozo,150000.0,1,1200.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,kagome",LOCATION,Villa,kagome,100000.0,3,600.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"bureau,louer,lome,noukafou",LOCATION,Bureau,noukafou,100000.0,5,120.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,be kpota",LOCATION,Villa,bè,250000.0,3,600.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,totsi",LOCATION,Villa,totsi,100000.0,2,120.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,agoe",LOCATION,Villa,agoe,80000.0,2,100.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"appartement,louer,lome,agoe",LOCATION,Appartement,agoe,300000.0,3,400.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"appartement,louer,lome,agoe",LOCATION,Appartement,agoe,70000.0,3,75.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"chambre salon,louer,lome,agoe",LOCATION,Chambre salon,agoe,45000.0,1,60.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"appartement,louer,lome,agoe",LOCATION,Appartement,agoe,100000.0,3,120.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,agoe",LOCATION,Villa,agoe,300000.0,3,400.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,entreprise de l'union",LOCATION,Villa,leo 2000,200000.0,3,300.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,louer,lome,entreprise de l'union",LOCATION,Villa,leo 2000,200000.0,3,300.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"immeuble commercial,louer,lome,attiegou",LOCATION,Appartement,attiégou,250000.0,3,300.0,ImmoAsk,immoask,prix_m2_trop_bas
+ImmoAsk,"villa,vendre,lome,amadahome",VENTE,Villa,adidogome,4.75E7,3,10.0,ImmoAsk,immoask,prix_m2_trop_eleve
+ImmoAsk,"villa,louer,lome,agoe",LOCATION,Villa,agoe,130000.0,5,250.0,ImmoAsk,immoask,prix_m2_trop_bas
