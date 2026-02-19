@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.git
+*.xlsx
+data/cleaned/
+data/cleaned_v2/
+data/raw/rejets/
+notebooks/

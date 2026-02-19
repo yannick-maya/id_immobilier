@@ -1,16 +1,17 @@
 """
-DAG Apache Airflow — ID Immobilier
-Orchestration complète du pipeline de données
-Fréquence : hebdomadaire (chaque lundi à 6h00)
+DAG Apache Airflow - ID Immobilier
+Orchestration complete du pipeline de donnees
+Frequence : hebdomadaire (chaque lundi a 6h00)
 """
 
 from airflow import DAG
 from airflow.operators.python import PythonOperator
+from airflow.operators.bash import BashOperator
 from datetime import datetime, timedelta
 import subprocess
 import sys
+import os
 
-# ─── Configuration du DAG ──────────────────────────────────────────────────────
 default_args = {
     "owner": "id_immobilier",
     "depends_on_past": False,
@@ -23,53 +24,48 @@ default_args = {
 dag = DAG(
     dag_id="id_immobilier_pipeline",
     default_args=default_args,
-    description="Pipeline complet ID Immobilier — Ingestion → Cleaning → MySQL → Indicateurs → Indice",
-    schedule_interval="0 6 * * 1",  # Chaque lundi à 6h00
+    description="Pipeline ID Immobilier - Ingestion -> Cleaning V2 -> Modeling V2 -> Indicateurs -> Indice",
+    schedule_interval="0 6 * * 1",
     catchup=False,
-    tags=["immobilier", "togo", "data-pipeline"],
+    tags=["immobilier", "togo", "big-data"],
 )
 
-# ─── Fonctions wrappées pour Airflow ───────────────────────────────────────────
+# ── Tache 1 : Ingestion ───────────────────────────────────────────────────────
 def run_ingestion():
+    sys.path.insert(0, "/opt/airflow")
     from pipeline.ingestion import ingest
     ingest()
 
-def run_cleaning():
-    subprocess.run(
-        ["spark-submit", "--master", "local[*]", "pipeline/cleaning.py"],
-        check=True
-    )
-
-def run_modeling():
-    from pipeline.modeling import run
-    run()
-
-def run_indicators():
-    from pipeline.indicators import run
-    run()
-
-def run_index():
-    from pipeline.index import run
-    run()
-
-# ─── Définition des tâches ─────────────────────────────────────────────────────
 task_ingestion = PythonOperator(
     task_id="ingestion_donnees",
     python_callable=run_ingestion,
     dag=dag,
 )
 
-task_cleaning = PythonOperator(
-    task_id="cleaning_pyspark",
-    python_callable=run_cleaning,
+# ── Tache 2 : Nettoyage V2 avec Spark ────────────────────────────────────────
+task_cleaning = BashOperator(
+    task_id="cleaning_pyspark_v2",
+    bash_command="cd /opt/airflow && spark-submit --master spark://spark:7077 pipeline/cleaning_v2.py",
     dag=dag,
 )
 
+# ── Tache 3 : Modelisation V2 ────────────────────────────────────────────────
+def run_modeling():
+    sys.path.insert(0, "/opt/airflow")
+    from pipeline.modeling_v2 import run
+    run()
+
 task_modeling = PythonOperator(
-    task_id="modeling_mysql",
+    task_id="modeling_mysql_v2",
     python_callable=run_modeling,
     dag=dag,
 )
+
+# ── Tache 4 : Calcul des indicateurs ─────────────────────────────────────────
+def run_indicators():
+    sys.path.insert(0, "/opt/airflow")
+    from pipeline.indicators import run
+    run()
 
 task_indicators = PythonOperator(
     task_id="calcul_indicateurs",
@@ -77,11 +73,17 @@ task_indicators = PythonOperator(
     dag=dag,
 )
 
+# ── Tache 5 : Calcul de l indice ─────────────────────────────────────────────
+def run_index():
+    sys.path.insert(0, "/opt/airflow")
+    from pipeline.index import run
+    run()
+
 task_index = PythonOperator(
     task_id="calcul_indice",
     python_callable=run_index,
     dag=dag,
 )
 
-# ─── Ordre d'exécution ─────────────────────────────────────────────────────────
+# ── Ordre d execution ─────────────────────────────────────────────────────────
 task_ingestion >> task_cleaning >> task_modeling >> task_indicators >> task_index

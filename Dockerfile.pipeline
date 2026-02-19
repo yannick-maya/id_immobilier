@@ -1,0 +1,18 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+RUN pip install --no-cache-dir \
+    pandas \
+    openpyxl \
+    pyspark \
+    mysql-connector-python \
+    sqlalchemy \
+    python-dotenv \
+    geopy
+
+COPY pipeline/ ./pipeline/
+COPY sql/ ./sql/
+COPY data/ ./data/
+
+CMD ["python", "pipeline/ingestion.py"]

@@ -188,3 +188,44 @@ airflow scheduler
 Cours : Introduction au Big Data  
 Encadrant : [Nom du professeur]  
 Données : ImmoAsk, Facebook Marketplace, CoinAfrique, OTR Togo
+
+
+  todo
+
+
+  
+# 1. Aller a la racine du projet
+cd C:\Users\yanni\Desktop\Projet_Immobilier\id_immobilier
+
+# 2. Lancer tous les conteneurs
+docker-compose up -d
+
+# 3. Verifier que tout tourne
+docker-compose ps
+
+# 4. Voir les logs si probleme
+docker-compose logs -f airflow
+docker-compose logs -f streamlit
+```
+
+---
+
+## URLs apres lancement
+```
+Dashboard Streamlit  : http://localhost:8501
+Airflow              : http://localhost:8081  (admin / admin1234)
+Spark UI             : http://localhost:8080
+MySQL                : localhost:3307
+```
+
+---
+
+## Point important — XAMPP et MySQL
+
+Comme tu utilises XAMPP sur le port 3306, le MySQL Docker est configure sur le **port 3307** pour eviter le conflit. Quand tu utilises Docker, change ton `.env` :
+```
+MYSQL_HOST=localhost
+MYSQL_USER=immo_user
+MYSQL_PASSWORD=immo1234
+MYSQL_DB=id_immobilier
+# Port 3307 pour Docker, 3306 pour XAMPP

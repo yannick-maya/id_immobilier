@@ -1,0 +1,126 @@
+version: '3.8'
+
+services:
+
+  # ── MySQL ────────────────────────────────────────────────────────────────────
+  mysql:
+    image: mysql:8.0
+    container_name: id_immobilier_mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root1234
+      MYSQL_DATABASE: id_immobilier
+      MYSQL_USER: immo_user
+      MYSQL_PASSWORD: immo1234
+    ports:
+      - "3307:3306"       # 3307 sur ta machine pour eviter conflit avec XAMPP
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./sql/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    networks:
+      - immo_network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── Spark ────────────────────────────────────────────────────────────────────
+  spark:
+    image: bitnami/spark:3.5
+    container_name: id_immobilier_spark
+    environment:
+      - SPARK_MODE=master
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+    ports:
+      - "8080:8080"       # Interface Spark
+      - "7077:7077"       # Port Spark master
+    volumes:
+      - ./data:/app/data
+      - ./pipeline:/app/pipeline
+    networks:
+      - immo_network
+
+  spark-worker:
+    image: bitnami/spark:3.5
+    container_name: id_immobilier_spark_worker
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark:7077
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_WORKER_CORES=1
+    volumes:
+      - ./data:/app/data
+      - ./pipeline:/app/pipeline
+    networks:
+      - immo_network
+    depends_on:
+      - spark
+
+  # ── Airflow ──────────────────────────────────────────────────────────────────
+  airflow:
+    image: apache/airflow:2.8.2
+    container_name: id_immobilier_airflow
+    restart: always
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=sqlite:////opt/airflow/airflow.db
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__WEBSERVER__SECRET_KEY=id_immobilier_secret
+      - MYSQL_HOST=mysql
+      - MYSQL_USER=immo_user
+      - MYSQL_PASSWORD=immo1234
+      - MYSQL_DB=id_immobilier
+    ports:
+      - "8081:8080"       # Interface Airflow sur port 8081
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./pipeline:/opt/airflow/pipeline
+      - ./data:/opt/airflow/data
+      - ./sql:/opt/airflow/sql
+      - airflow_logs:/opt/airflow/logs
+    command: >
+      bash -c "airflow db init &&
+               airflow users create --username admin --password admin1234
+                 --firstname Admin --lastname User --role Admin
+                 --email admin@idimmobilier.tg &&
+               airflow webserver & airflow scheduler"
+    networks:
+      - immo_network
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+  # ── Streamlit ────────────────────────────────────────────────────────────────
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    container_name: id_immobilier_streamlit
+    restart: always
+    environment:
+      - MYSQL_HOST=mysql
+      - MYSQL_USER=immo_user
+      - MYSQL_PASSWORD=immo1234
+      - MYSQL_DB=id_immobilier
+    ports:
+      - "8501:8501"       # Dashboard
+    volumes:
+      - ./dashboard:/app/dashboard
+      - ./data:/app/data
+    networks:
+      - immo_network
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+# ── Volumes persistants ───────────────────────────────────────────────────────
+volumes:
+  mysql_data:
+  airflow_logs:
+
+# ── Reseau interne ────────────────────────────────────────────────────────────
+networks:
+  immo_network:
+    driver: bridge
