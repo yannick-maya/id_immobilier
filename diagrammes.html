@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ID Immobilier - Diagrammes</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap');
+
+  :root {
+    --bg: #0a0e1a;
+    --surface: #111827;
+    --border: #1e2d45;
+    --accent: #f97316;
+    --accent2: #3b82f6;
+    --accent3: #10b981;
+    --text: #e2e8f0;
+    --muted: #64748b;
+    --pk: #fbbf24;
+    --fk: #a78bfa;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Syne', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  .header {
+    padding: 40px 60px 20px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .header p {
+    color: var(--muted);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.8rem;
+    margin-top: 4px;
+  }
+
+  .tabs {
+    display: flex;
+    gap: 8px;
+    padding: 24px 60px 0;
+  }
+
+  .tab {
+    padding: 10px 28px;
+    border-radius: 8px 8px 0 0;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border: 1px solid var(--border);
+    border-bottom: none;
+    transition: all 0.2s;
+    background: var(--surface);
+    color: var(--muted);
+  }
+
+  .tab.active {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+
+  .content {
+    padding: 40px 60px;
+    border-top: 2px solid var(--accent);
+  }
+
+  .panel { display: none; }
+  .panel.active { display: block; }
+
+  /* ── DIAGRAMME BD ── */
+  .bd-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .table-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .table-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 32px rgba(249,115,22,0.15);
+  }
+
+  .table-header {
+    padding: 12px 16px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .table-header.reference  { background: rgba(59,130,246,0.2); color: var(--accent2); border-bottom: 2px solid var(--accent2); }
+  .table-header.fact       { background: rgba(249,115,22,0.2); color: var(--accent);  border-bottom: 2px solid var(--accent); }
+  .table-header.analytics  { background: rgba(16,185,129,0.2); color: var(--accent3); border-bottom: 2px solid var(--accent3); }
+  .table-header.quarantine { background: rgba(239,68,68,0.2);  color: #ef4444;        border-bottom: 2px solid #ef4444; }
+
+  .table-fields { padding: 8px 0; }
+
+  .field {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 16px;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.72rem;
+    transition: background 0.15s;
+  }
+
+  .field:hover { background: rgba(255,255,255,0.03); }
+
+  .field-icon {
+    font-size: 0.65rem;
+    width: 14px;
+    text-align: center;
+  }
+
+  .field-name { color: var(--text); flex: 1; }
+  .field-type { color: var(--muted); font-size: 0.65rem; }
+
+  .pk { color: var(--pk); }
+  .fk { color: var(--fk); }
+
+  .badge {
+    font-size: 0.55rem;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-weight: 700;
+  }
+
+  .badge-pk { background: rgba(251,191,36,0.2); color: var(--pk); }
+  .badge-fk { background: rgba(167,139,250,0.2); color: var(--fk); }
+
+  /* Legend */
+  .legend {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+
+  .legend-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+
+  /* Relations */
+  .relations {
+    margin-top: 32px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+  }
+
+  .relations h3 {
+    font-size: 0.9rem;
+    color: var(--accent);
+    margin-bottom: 16px;
+    font-family: 'Space Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .relation-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem;
+  }
+
+  .relation-row:last-child { border-bottom: none; }
+
+  .rel-from { color: var(--accent2); min-width: 200px; }
+  .rel-arrow { color: var(--muted); }
+  .rel-to { color: var(--accent3); min-width: 200px; }
+  .rel-type { color: var(--muted); font-size: 0.65rem; }
+
+  /* ── DIAGRAMME CLASSES ── */
+  .class-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .class-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .class-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 32px rgba(59,130,246,0.15);
+  }
+
+  .class-header {
+    padding: 14px 16px;
+    background: rgba(59,130,246,0.15);
+    border-bottom: 2px solid var(--accent2);
+  }
+
+  .class-name {
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--accent2);
+    font-family: 'Space Mono', monospace;
+  }
+
+  .class-file {
+    font-size: 0.65rem;
+    color: var(--muted);
+    margin-top: 2px;
+    font-family: 'Space Mono', monospace;
+  }
+
+  .class-section-title {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    padding: 10px 16px 4px;
+    font-family: 'Space Mono', monospace;
+    border-top: 1px solid var(--border);
+  }
+
+  .class-method {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 16px;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    transition: background 0.15s;
+  }
+
+  .class-method:hover { background: rgba(255,255,255,0.03); }
+
+  .method-icon { color: var(--accent3); font-size: 0.65rem; }
+  .method-name { color: var(--text); }
+  .method-return { color: var(--muted); font-size: 0.6rem; margin-left: auto; }
+
+  .class-attr {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 16px;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+  }
+
+  .attr-icon { color: var(--accent); font-size: 0.65rem; }
+  .attr-name { color: var(--text); }
+  .attr-type { color: var(--muted); font-size: 0.6rem; margin-left: auto; }
+
+  /* Stats bar */
+  .stats-bar {
+    display: flex;
+    gap: 32px;
+    padding: 20px 0 32px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 28px;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .stat-value {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--accent);
+    line-height: 1;
+  }
+
+  .stat-label {
+    font-size: 0.75rem;
+    color: var(--muted);
+    font-family: 'Space Mono', monospace;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>ID Immobilier</h1>
+    <p>Diagrammes Techniques — Base de Donnees & Classes</p>
+  </div>
+  <div style="font-family:'Space Mono',monospace;font-size:0.75rem;color:var(--muted);text-align:right;">
+    <div>Python | PySpark | MySQL</div>
+    <div style="color:var(--accent);">Togo Real Estate Analytics</div>
+  </div>
+</div>
+
+<div class="tabs">
+  <div class="tab active" onclick="showPanel('bd')">Diagramme Base de Donnees</div>
+  <div class="tab" onclick="showPanel('classes')">Diagramme de Classes</div>
+</div>
+
+<div class="content">
+
+  <!-- ── PANEL BD ── -->
+  <div class="panel active" id="panel-bd">
+
+    <div class="stats-bar">
+      <div class="stat"><div class="stat-value">8</div><div class="stat-label">Tables</div></div>
+      <div class="stat"><div class="stat-value">5 778</div><div class="stat-label">Annonces traitees</div></div>
+      <div class="stat"><div class="stat-value">959</div><div class="stat-label">Zones geographiques</div></div>
+      <div class="stat"><div class="stat-value">354</div><div class="stat-label">Valeurs venales</div></div>
+      <div class="stat"><div class="stat-value">4</div><div class="stat-label">Sources de donnees</div></div>
+    </div>
+
+    <div class="legend">
+      <div class="legend-item"><div class="legend-dot" style="background:var(--accent2)"></div>Tables de reference</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--accent)"></div>Tables de faits</div>
+      <div class="legend-item"><div class="legend-dot" style="background:var(--accent3)"></div>Tables analytiques</div>
+      <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div>Quarantaine</div>
+      <div class="legend-item"><span style="color:var(--pk);font-family:'Space Mono',monospace;font-size:0.75rem">PK</span> — Cle primaire</div>
+      <div class="legend-item"><span style="color:var(--fk);font-family:'Space Mono',monospace;font-size:0.75rem">FK</span> — Cle etrangere</div>
+    </div>
+
+    <div class="bd-grid">
+
+      <!-- source_donnees -->
+      <div class="table-card">
+        <div class="table-header reference">source_donnees</div>
+        <div class="table-fields">
+          <div class="field"><span class="field-icon pk">🔑</span><span class="field-name pk">id</span><span class="badge badge-pk">PK</span><span class="field-type">INT AI</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">nom</span><span class="field-type">VARCHAR(100)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">url</span><span class="field-type">VARCHAR(255)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">nombre_annonces</span><span class="field-type">INT</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">date_collecte</span><span class="field-type">DATE</span></div>
+        </div>
+      </div>
+
+      <!-- zone_geographique -->
+      <div class="table-card">
+        <div class="table-header reference">zone_geographique</div>
+        <div class="table-fields">
+          <div class="field"><span class="field-icon pk">🔑</span><span class="field-name pk">id</span><span class="badge badge-pk">PK</span><span class="field-type">INT AI</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">nom</span><span class="field-type">VARCHAR(100)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">commune</span><span class="field-type">VARCHAR(100)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">prefecture</span><span class="field-type">VARCHAR(100)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">latitude</span><span class="field-type">DECIMAL(10,7)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">longitude</span><span class="field-type">DECIMAL(10,7)</span></div>
+        </div>
+      </div>
+
+      <!-- bien_immobilier -->
+      <div class="table-card">
+        <div class="table-header fact">bien_immobilier</div>
+        <div class="table-fields">
+          <div class="field"><span class="field-icon pk">🔑</span><span class="field-name pk">id</span><span class="badge badge-pk">PK</span><span class="field-type">INT AI</span></div>
+          <div class="field"><span class="field-icon fk">🔗</span><span class="field-name fk">id_zone</span><span class="badge badge-fk">FK</span><span class="field-type">INT</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">type_bien</span><span class="field-type">VARCHAR(100)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">type_offre</span><span class="field-type">VARCHAR(50)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">surface_m2</span><span class="field-type">DECIMAL(10,2)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">pieces</span><span class="field-type">INT</span></div>
+        </div>
+      </div>
+
+      <!-- annonce -->
+      <div class="table-card">
+        <div class="table-header fact">annonce</div>
+        <div class="table-fields">
+          <div class="field"><span class="field-icon pk">🔑</span><span class="field-name pk">id</span><span class="badge badge-pk">PK</span><span class="field-type">INT AI</span></div>
+          <div class="field"><span class="field-icon fk">🔗</span><span class="field-name fk">id_bien</span><span class="badge badge-fk">FK</span><span class="field-type">INT</span></div>
+          <div class="field"><span class="field-icon fk">🔗</span><span class="field-name fk">id_source</span><span class="badge badge-fk">FK</span><span class="field-type">INT</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">titre</span><span class="field-type">VARCHAR(255)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">prix</span><span class="field-type">DECIMAL(15,2)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">prix_m2</span><span class="field-type">DECIMAL(15,2)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">date_annonce</span><span class="field-type">DATETIME</span></div>
+        </div>
+      </div>
+
+      <!-- valeur_venale -->
+      <div class="table-card">
+        <div class="table-header fact">valeur_venale</div>
+        <div class="table-fields">
+          <div class="field"><span class="field-icon pk">🔑</span><span class="field-name pk">id</span><span class="badge badge-pk">PK</span><span class="field-type">INT AI</span></div>
+          <div class="field"><span class="field-icon fk">🔗</span><span class="field-name fk">id_zone</span><span class="badge badge-fk">FK</span><span class="field-type">INT</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">prix_m2_officiel</span><span class="field-type">DECIMAL(15,2)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">surface_m2</span><span class="field-type">DECIMAL(10,2)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">valeur_totale</span><span class="field-type">DECIMAL(15,2)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">annee</span><span class="field-type">INT</span></div>
+        </div>
+      </div>
+
+      <!-- statistiques_zone -->
+      <div class="table-card">
+        <div class="table-header analytics">statistiques_zone</div>
+        <div class="table-fields">
+          <div class="field"><span class="field-icon pk">🔑</span><span class="field-name pk">id</span><span class="badge badge-pk">PK</span><span class="field-type">INT AI</span></div>
+          <div class="field"><span class="field-icon fk">🔗</span><span class="field-name fk">id_zone</span><span class="badge badge-fk">FK</span><span class="field-type">INT</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">type_bien</span><span class="field-type">VARCHAR(100)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">type_offre</span><span class="field-type">VARCHAR(50)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">prix_moyen_m2</span><span class="field-type">DECIMAL(15,2)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">prix_median_m2</span><span class="field-type">DECIMAL(15,2)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">prix_min_m2</span><span class="field-type">DECIMAL(15,2)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">prix_max_m2</span><span class="field-type">DECIMAL(15,2)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">nombre_annonces</span><span class="field-type">INT</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">ecart_valeur_venale</span><span class="field-type">DECIMAL(15,2)</span></div>
+        </div>
+      </div>
+
+      <!-- indice_immobilier -->
+      <div class="table-card">
+        <div class="table-header analytics">indice_immobilier</div>
+        <div class="table-fields">
+          <div class="field"><span class="field-icon pk">🔑</span><span class="field-name pk">id</span><span class="badge badge-pk">PK</span><span class="field-type">INT AI</span></div>
+          <div class="field"><span class="field-icon fk">🔗</span><span class="field-name fk">id_zone</span><span class="badge badge-fk">FK</span><span class="field-type">INT</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">periode</span><span class="field-type">VARCHAR(20)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">type_bien</span><span class="field-type">VARCHAR(100)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">valeur_indice</span><span class="field-type">DECIMAL(10,2)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">tendance</span><span class="field-type">VARCHAR(20)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">date_calcul</span><span class="field-type">DATETIME</span></div>
+        </div>
+      </div>
+
+      <!-- annonces_rejetees -->
+      <div class="table-card">
+        <div class="table-header quarantine">annonces_rejetees</div>
+        <div class="table-fields">
+          <div class="field"><span class="field-icon pk">🔑</span><span class="field-name pk">id</span><span class="badge badge-pk">PK</span><span class="field-type">INT AI</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">titre</span><span class="field-type">VARCHAR(255)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">zone</span><span class="field-type">VARCHAR(255)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">prix</span><span class="field-type">DECIMAL(15,2)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">surface_m2</span><span class="field-type">DECIMAL(10,2)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">type_bien</span><span class="field-type">VARCHAR(100)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">source</span><span class="field-type">VARCHAR(100)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">raison_rejet</span><span class="field-type">VARCHAR(100)</span></div>
+          <div class="field"><span class="field-icon">·</span><span class="field-name">date_rejet</span><span class="field-type">DATETIME</span></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Relations -->
+    <div class="relations">
+      <h3>Relations entre tables</h3>
+      <div class="relation-row">
+        <span class="rel-from">annonce.id_bien</span>
+        <span class="rel-arrow">──────────►</span>
+        <span class="rel-to">bien_immobilier.id</span>
+        <span class="rel-type">N:1 — Une annonce concerne un bien</span>
+      </div>
+      <div class="relation-row">
+        <span class="rel-from">annonce.id_source</span>
+        <span class="rel-arrow">──────────►</span>
+        <span class="rel-to">source_donnees.id</span>
+        <span class="rel-type">N:1 — Une annonce vient d une source</span>
+      </div>
+      <div class="relation-row">
+        <span class="rel-from">bien_immobilier.id_zone</span>
+        <span class="rel-arrow">──────────►</span>
+        <span class="rel-to">zone_geographique.id</span>
+        <span class="rel-type">N:1 — Un bien est dans une zone</span>
+      </div>
+      <div class="relation-row">
+        <span class="rel-from">valeur_venale.id_zone</span>
+        <span class="rel-arrow">──────────►</span>
+        <span class="rel-to">zone_geographique.id</span>
+        <span class="rel-type">N:1 — Valeur officielle par zone</span>
+      </div>
+      <div class="relation-row">
+        <span class="rel-from">statistiques_zone.id_zone</span>
+        <span class="rel-arrow">──────────►</span>
+        <span class="rel-to">zone_geographique.id</span>
+        <span class="rel-type">N:1 — Stats calculees par zone</span>
+      </div>
+      <div class="relation-row">
+        <span class="rel-from">indice_immobilier.id_zone</span>
+        <span class="rel-arrow">──────────►</span>
+        <span class="rel-to">zone_geographique.id</span>
+        <span class="rel-type">N:1 — Indice calcule par zone</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── PANEL CLASSES ── -->
+  <div class="panel" id="panel-classes">
+
+    <div class="stats-bar">
+      <div class="stat"><div class="stat-value">7</div><div class="stat-label">Scripts Python</div></div>
+      <div class="stat"><div class="stat-value">2</div><div class="stat-label">Versions pipeline</div></div>
+      <div class="stat"><div class="stat-value">1</div><div class="stat-label">DAG Airflow</div></div>
+      <div class="stat"><div class="stat-value">1</div><div class="stat-label">Dashboard Streamlit</div></div>
+    </div>
+
+    <div class="class-grid">
+
+      <!-- ingestion -->
+      <div class="class-card">
+        <div class="class-header">
+          <div class="class-name">Ingestion</div>
+          <div class="class-file">pipeline/ingestion.py</div>
+        </div>
+        <div class="class-section-title">Attributs</div>
+        <div class="class-attr"><span class="attr-icon">▪</span><span class="attr-name">SOURCES_DIR</span><span class="attr-type">str</span></div>
+        <div class="class-attr"><span class="attr-icon">▪</span><span class="attr-name">RAW_DIR</span><span class="attr-type">str</span></div>
+        <div class="class-attr"><span class="attr-icon">▪</span><span class="attr-name">FICHIERS</span><span class="attr-type">dict</span></div>
+        <div class="class-section-title">Methodes</div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">ingest()</span><span class="method-return">void</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">excel_to_csv(path, name)</span><span class="method-return">DataFrame</span></div>
+      </div>
+
+      <!-- cleaning_v2 -->
+      <div class="class-card">
+        <div class="class-header">
+          <div class="class-name">CleaningV2</div>
+          <div class="class-file">pipeline/cleaning_v2.py</div>
+        </div>
+        <div class="class-section-title">Constantes</div>
+        <div class="class-attr"><span class="attr-icon">▪</span><span class="attr-name">PRIX_M2_MIN</span><span class="attr-type">1 000 FCFA</span></div>
+        <div class="class-attr"><span class="attr-icon">▪</span><span class="attr-name">PRIX_M2_MAX</span><span class="attr-type">2 000 000 FCFA</span></div>
+        <div class="class-attr"><span class="attr-icon">▪</span><span class="attr-name">ZONE_MAX_LEN</span><span class="attr-type">30 chars</span></div>
+        <div class="class-attr"><span class="attr-icon">▪</span><span class="attr-name">MOTS_SUSPECTS</span><span class="attr-type">list[str]</span></div>
+        <div class="class-section-title">Methodes</div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">clean_annonces_v2(source)</span><span class="method-return">DataFrame, DataFrame</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">ajouter_raison_rejet(df)</span><span class="method-return">DataFrame</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">clean_prix(col)</span><span class="method-return">Column</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">clean_venales_v2()</span><span class="method-return">DataFrame</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">run()</span><span class="method-return">void</span></div>
+      </div>
+
+      <!-- modeling_v2 -->
+      <div class="class-card">
+        <div class="class-header">
+          <div class="class-name">ModelingV2</div>
+          <div class="class-file">pipeline/modeling_v2.py</div>
+        </div>
+        <div class="class-section-title">Attributs</div>
+        <div class="class-attr"><span class="attr-icon">▪</span><span class="attr-name">DB_CONFIG</span><span class="attr-type">dict</span></div>
+        <div class="class-attr"><span class="attr-icon">▪</span><span class="attr-name">CLEANED_DIR</span><span class="attr-type">str</span></div>
+        <div class="class-section-title">Methodes</div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">get_connection()</span><span class="method-return">Connection</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">create_schema(conn)</span><span class="method-return">void</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">vider_tables(conn)</span><span class="method-return">void</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">insert_sources(conn, df)</span><span class="method-return">void</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">insert_zones(conn, df)</span><span class="method-return">void</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">insert_annonces(conn, df)</span><span class="method-return">void</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">insert_valeurs_venales(conn)</span><span class="method-return">void</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">insert_rejets(conn)</span><span class="method-return">void</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">run()</span><span class="method-return">void</span></div>
+      </div>
+
+      <!-- indicators -->
+      <div class="class-card">
+        <div class="class-header">
+          <div class="class-name">Indicators</div>
+          <div class="class-file">pipeline/indicators.py</div>
+        </div>
+        <div class="class-section-title">Attributs</div>
+        <div class="class-attr"><span class="attr-icon">▪</span><span class="attr-name">DB_CONFIG</span><span class="attr-type">dict</span></div>
+        <div class="class-section-title">Methodes</div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">calculer_stats(conn)</span><span class="method-return">DataFrame</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">calculer_ecart_venale(conn)</span><span class="method-return">DataFrame</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">insert_statistiques(conn, df)</span><span class="method-return">void</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">run()</span><span class="method-return">void</span></div>
+      </div>
+
+      <!-- index -->
+      <div class="class-card">
+        <div class="class-header">
+          <div class="class-name">IndexCalculator</div>
+          <div class="class-file">pipeline/index.py</div>
+        </div>
+        <div class="class-section-title">Attributs</div>
+        <div class="class-attr"><span class="attr-icon">▪</span><span class="attr-name">DB_CONFIG</span><span class="attr-type">dict</span></div>
+        <div class="class-attr"><span class="attr-icon">▪</span><span class="attr-name">BASE_INDEX</span><span class="attr-type">100.0</span></div>
+        <div class="class-section-title">Methodes</div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">calculer_indice(conn)</span><span class="method-return">DataFrame</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">determiner_tendance(val)</span><span class="method-return">str</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">insert_indice(conn, df)</span><span class="method-return">void</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">run()</span><span class="method-return">void</span></div>
+      </div>
+
+      <!-- geocoding -->
+      <div class="class-card">
+        <div class="class-header">
+          <div class="class-name">Geocoding</div>
+          <div class="class-file">pipeline/geocoding.py</div>
+        </div>
+        <div class="class-section-title">Attributs</div>
+        <div class="class-attr"><span class="attr-icon">▪</span><span class="attr-name">OUTPUT_FILE</span><span class="attr-type">str</span></div>
+        <div class="class-attr"><span class="attr-icon">▪</span><span class="attr-name">COORDS_CONNUES</span><span class="attr-type">dict</span></div>
+        <div class="class-section-title">Methodes</div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">geocoder_zone(geo, nom)</span><span class="method-return">list[float]</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">run()</span><span class="method-return">void</span></div>
+      </div>
+
+      <!-- DAG Airflow -->
+      <div class="class-card">
+        <div class="class-header">
+          <div class="class-name">DAG Airflow</div>
+          <div class="class-file">dags/dag_immobilier.py</div>
+        </div>
+        <div class="class-section-title">Configuration</div>
+        <div class="class-attr"><span class="attr-icon">▪</span><span class="attr-name">dag_id</span><span class="attr-type">id_immobilier_pipeline</span></div>
+        <div class="class-attr"><span class="attr-icon">▪</span><span class="attr-name">schedule</span><span class="attr-type">0 6 * * 1</span></div>
+        <div class="class-attr"><span class="attr-icon">▪</span><span class="attr-name">retries</span><span class="attr-type">1</span></div>
+        <div class="class-section-title">Taches</div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">ingestion_donnees</span><span class="method-return">PythonOperator</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">cleaning_pyspark_v2</span><span class="method-return">BashOperator</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">modeling_mysql_v2</span><span class="method-return">PythonOperator</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">calcul_indicateurs</span><span class="method-return">PythonOperator</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">calcul_indice</span><span class="method-return">PythonOperator</span></div>
+      </div>
+
+      <!-- Dashboard -->
+      <div class="class-card">
+        <div class="class-header">
+          <div class="class-name">Dashboard</div>
+          <div class="class-file">dashboard/app.py</div>
+        </div>
+        <div class="class-section-title">Loaders (cache 1h)</div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">load_statistiques()</span><span class="method-return">DataFrame</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">load_annonces()</span><span class="method-return">DataFrame</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">load_venales()</span><span class="method-return">DataFrame</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">load_sources()</span><span class="method-return">DataFrame</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">load_indice_par_type()</span><span class="method-return">DataFrame</span></div>
+        <div class="class-section-title">Visualisations</div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">render_kpis(df)</span><span class="method-return">void</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">render_carte_folium(df)</span><span class="method-return">void</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">render_histogramme(df)</span><span class="method-return">void</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">render_comparaison_venales()</span><span class="method-return">void</span></div>
+        <div class="class-method"><span class="method-icon">►</span><span class="method-name">render_indice(df)</span><span class="method-return">void</span></div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<script>
+function showPanel(name) {
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('panel-' + name).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
+</body>
+</html>

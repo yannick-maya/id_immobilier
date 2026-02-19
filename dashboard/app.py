@@ -120,7 +120,10 @@ zones_dispo = sorted(df_stats["zone_nom"].unique().tolist())
 zone_selectionnee = st.sidebar.selectbox("Zone geographique", ["Toutes"] + zones_dispo)
 
 types_bien = sorted(df_stats["type_bien"].unique().tolist())
-type_selectionnee = st.sidebar.multiselect("Type de bien", types_bien, default=types_bien[:3])
+type_selectionnee = st.sidebar.multiselect("Type de bien", types_bien, default=types_bien)
+# Si aucun type selectionne = Tous par defaut
+if not type_selectionnee:
+    type_selectionnee = types_bien
 
 type_offre = st.sidebar.radio("Type d offre", ["Tous", "VENTE", "LOCATION"])
 
