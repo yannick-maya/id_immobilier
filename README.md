@@ -229,3 +229,68 @@ MYSQL_USER=immo_user
 MYSQL_PASSWORD=immo1234
 MYSQL_DB=id_immobilier
 # Port 3307 pour Docker, 3306 pour XAMPP
+
+# SPARK code
+
+docker exec -it id_immobilier_spark /opt/spark/bin/spark-submit --master spark://spark:7077 /app/pipeline/cleaning_v2.py
+
+
+PS C:\Users\yanni\Desktop\Projet_Immobilier\id_immobilier> docker exec -it id_immobilier_spark /opt/spark/bin/spark-submit --master spark://spark:7077 /app/pipeline/cleaning_v2.py
+26/02/19 17:11:35 INFO SparkContext: Running Spark version 3.5.1
+26/02/19 17:11:35 INFO SparkContext: OS info Linux, 6.6.87.2-microsoft-standard-WSL2, amd64
+26/02/19 17:11:35 INFO SparkContext: Java version 11.0.22
+Nettoyage V2 en cours...
+
+Traitement : immoask
+  Avant nettoyage : 460 lignes
+  Apres nettoyage : 388 lignes valides
+  Rejetes         : 72 lignes
+  Repartition des rejets :
++------------------+-----+
+|raison_rejet      |count|
++------------------+-----+
+|prix_m2_trop_bas  |68   |
+|prix_m2_trop_eleve|3    |
+|zone_invalide     |1    |
++------------------+-----+
+
+
+Traitement : facebook
+  Avant nettoyage : 89 lignes
+  Apres nettoyage : 31 lignes valides
+  Rejetes         : 58 lignes
+  Repartition des rejets :
++------------------------+-----+
+|raison_rejet            |count|
++------------------------+-----+
+|zone_invalide           |41   |
+|prix_ou_surface_manquant|13   |
+|prix_m2_trop_bas        |4    |
++------------------------+-----+
+
+
+Traitement : coinafrique
+  Avant nettoyage : 4841 lignes
+  Apres nettoyage : 3572 lignes valides
+  Rejetes         : 1269 lignes
+  Repartition des rejets :
++------------------------+-----+
+|raison_rejet            |count|
++------------------------+-----+
+|prix_ou_surface_manquant|975  |
+|prix_m2_trop_bas        |106  |
+|zone_invalide           |70   |
+|zone_description_lieu   |66   |
+|zone_trop_longue        |35   |
+|prix_m2_trop_eleve      |17   |
+==================================================
+Total avant nettoyage : 5390
+Total valides         : 3991
+Total rejetes         : 1399
+Taux de rejet         : 25.96%
+Valeurs venales       : 354
+
+Valides  -> /app/data/cleaned_v2/annonces
+Rejetes  -> /app/data/raw/rejets/annonces_rejetees
+==================================================
+PS C:\Users\yanni\Desktop\Projet_Immobilier\id_immobilier>
