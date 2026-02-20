@@ -38,6 +38,159 @@ ZONES_INVALIDES = [
     "non spécifié", "non spécifiés", "togo", "nan", "", "none", "null"
 ]
 
+# ── Standardisation des types de biens ───────────────────────────────────────
+# Logique :
+# - "2 chambres", "3 chambres" = Maison avec N pieces (chiffre -> pieces)
+# - "Chambre" seul = chambre meublee/studio a louer
+# - La difference entre biens se fait via la colonne "pieces"
+
+TYPES_BIEN_STANDARD = {
+    # Chambre seule (location meublee, cite universitaire)
+    "chambre": "Chambre",
+    "chambre meublee": "Chambre",
+    "chambre non meublee": "Chambre",
+    "studio": "Studio",
+
+    # Maison avec N chambres -> Maison (le chiffre ira dans pieces)
+    "1 chambre": "Maison",
+    "2 chambres": "Maison",
+    "3 chambres": "Maison",
+    "4 chambres": "Maison",
+    "5 chambres": "Maison",
+    "6 chambres": "Maison",
+    "1chambre": "Maison",
+    "2chambre": "Maison",
+    "3chambre": "Maison",
+    "4chambre": "Maison",
+    "5chambre": "Maison",
+    "6chambre": "Maison",
+    "1 chambre a coucher": "Maison",
+    "2 chambres a coucher": "Maison",
+    "3 chambres a coucher": "Maison",
+    "4 chambres a coucher": "Maison",
+    "maison": "Maison",
+    "maisons": "Maison",
+
+    # Villa
+    "villa": "Villa",
+    "villas": "Villa",
+    "villa moderne": "Villa",
+    "villa duplex": "Villa",
+
+    # Appartement
+    "appartement": "Appartement",
+    "appartements": "Appartement",
+    "appart": "Appartement",
+    "appartement meuble": "Appartement",
+
+    # Terrain
+    "terrain": "Terrain",
+    "terrains": "Terrain",
+    "terrain agricole": "Terrain Agricole",
+    "terrains agricoles": "Terrain Agricole",
+    "terrain a batir": "Terrain",
+
+    # Bureau / Commerce
+    "bureau": "Bureau",
+    "bureaux": "Bureau",
+    "boutique": "Boutique",
+    "boutiques": "Boutique",
+    "magasin": "Magasin",
+    "commerce": "Commerce",
+    "local commercial": "Commerce",
+
+    # Immeuble
+    "immeuble": "Immeuble",
+    "immeubles": "Immeuble",
+    "immeuble de rapport": "Immeuble",
+
+    # Entrepot
+    "entrepot": "Entrepot",
+    "entrepôt": "Entrepot",
+
+    # Chambre salon (chambre + salon = Maison, chiffre -> pieces)
+    "chambre salon": "Chambre Salon",
+    "1 chambre salon": "Maison",
+    "2 chambres salon": "Maison",
+    "3 chambres salon": "Maison",
+    "4 chambres salon": "Maison",
+    "1chambre salon": "Maison",
+    "2chambre salon": "Maison",
+    "3chambre salon": "Maison",
+
+    # Bureau / Commerce variantes
+    "bureau/commerce": "Commerce",
+    "espace commercial": "Commerce",
+    "local commercial": "Commerce",
+    "immeuble commercial": "Immeuble",
+
+    # Terrain variantes
+    "terrain urbain": "Terrain",
+
+    # Hotel / Bar / Ecole / Station
+    "bar": "Bar",
+    "hotel": "Hotel",
+    "ecole": "Ecole",
+    "station": "Station Service",
+
+    # Versions meublees -> meme type
+    "studio meuble": "Studio",
+    "studio meublé": "Studio",
+    "villa meublee": "Villa",
+    "villa meublée": "Villa",
+    "appartement meuble": "Appartement",
+    "appartement meublé": "Appartement",
+    "chambre meublee": "Chambre",
+    "chambre meublée": "Chambre",
+}
+
+def standardiser_type_bien(col_name):
+    """Standardise les types de biens via mapping."""
+    result = F.lower(F.trim(F.col(col_name)))
+    for val_lower, val_standard in TYPES_BIEN_STANDARD.items():
+        result = F.when(result == val_lower, F.lit(val_standard)).otherwise(result)
+    # Capitaliser la premiere lettre pour les cas non mappes
+    result = F.initcap(result)
+    return result
+
+def extraire_pieces_depuis_type(df):
+    """
+    Extrait le nombre de pieces depuis le type de bien si present.
+    Ex: "2 chambres"           -> type_bien="Maison", pieces=2
+        "3chambre"             -> type_bien="Maison", pieces=3
+        "3 chambres a coucher" -> type_bien="Maison", pieces=3
+        "Chambre"              -> type_bien="Chambre", pieces=inchange
+    """
+    # Extraire le chiffre devant "chambre" (avec ou sans espace, avec ou sans "a coucher")
+    df = df.withColumn(
+        "pieces_extrait",
+        F.regexp_extract(
+            F.lower(F.col("type_bien")),
+            r"^(\d+)\s*chambre",  # capture: "2 chambres", "3chambre", "4 chambres a coucher"
+            1
+        ).cast("int")
+    )
+    # Remplir pieces seulement si on a extrait un chiffre et que pieces est vide
+    if "pieces" in df.columns:
+        df = df.withColumn(
+            "pieces",
+            F.when(
+                (F.col("pieces_extrait") > 0) & (F.col("pieces").isNull()),
+                F.col("pieces_extrait")
+            ).otherwise(F.col("pieces"))
+        )
+    else:
+        df = df.withColumn(
+            "pieces",
+            F.when(F.col("pieces_extrait") > 0, F.col("pieces_extrait")).otherwise(F.lit(None))
+        )
+    return df.drop("pieces_extrait")
+
+def standardiser_type_offre(col_name):
+    """Standardise VENTE/LOCATION en majuscules."""
+    return F.upper(F.trim(F.col(col_name)))
+
+
 
 def clean_prix(col_name):
     return F.regexp_replace(F.col(col_name).cast("string"), r"[^\d.]", "").cast(DoubleType())
@@ -126,6 +279,15 @@ def clean_annonces_v2(source_name):
     df = df.withColumn("prix", clean_prix("prix"))
     df = df.withColumn("surface_m2", F.col("surface_m2").cast(DoubleType()))
     df = df.withColumn("zone", F.lower(F.trim(F.col("zone"))))
+
+    # Standardisation des types
+    if "type_bien" in df.columns:
+        # 1. Extraire le nb de pieces AVANT la standardisation (pendant que "2 chambres" est encore lisible)
+        df = extraire_pieces_depuis_type(df)
+        # 2. Puis standardiser le type
+        df = df.withColumn("type_bien", standardiser_type_bien("type_bien"))
+    if "type_offre" in df.columns:
+        df = df.withColumn("type_offre", standardiser_type_offre("type_offre"))
 
     # Appliquer les regles de rejet
     df = ajouter_raison_rejet(df)

@@ -294,3 +294,42 @@ Valides  -> /app/data/cleaned_v2/annonces
 Rejetes  -> /app/data/raw/rejets/annonces_rejetees
 ==================================================
 PS C:\Users\yanni\Desktop\Projet_Immobilier\id_immobilier>
+
+
+
+
+
+
+
+
+
+
+# 1. Lire les fichiers Excel et convertir en CSV
+python pipeline/ingestion.py
+
+# 2. Nettoyer avec Spark (filtrage + standardisation)
+python pipeline/cleaning_v2.py
+
+# 3. Insérer dans MySQL
+python pipeline/modeling_v2.py
+
+# 4. Calculer les statistiques par zone
+python pipeline/indicators.py
+
+# 5. Calculer l'indice immobilier
+python pipeline/index.py
+
+# 6. Lancer le dashboard
+streamlit run dashboard/app.py
+```
+
+---
+
+## Pourquoi cet ordre ?
+```
+ingestion     → produit les CSV dans data/raw/
+cleaning_v2   → lit data/raw/  → produit data/cleaned_v2/
+modeling_v2   → lit data/cleaned_v2/ → remplit MySQL
+indicators    → lit MySQL (table annonce) → remplit statistiques_zone
+index         → lit statistiques_zone → remplit indice_immobilier
+streamlit     → lit tout MySQL → affiche le dashboard
