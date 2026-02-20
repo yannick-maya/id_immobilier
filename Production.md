@@ -57,4 +57,3 @@ Tu dois voir 4 conteneurs verts :
 - Clique **une seule fois** sur Trigger DAG
 - Surveille `http://127.0.0.1:8082` pour Spark
 
-Dis-moi quand tu es à l'étape 6 !
