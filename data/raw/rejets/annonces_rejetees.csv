@@ -1,0 +1,1406 @@
+titre,type_offre,type_bien,zone,prix,pieces,surface_m2,source,raison_rejet
+Villa Lomé,LOCATION,Appartement,non spécifié,500,3.0,120.0,immoask,zone_invalide
+Espace commercial 2 pièce(s) 10 m² - Kpomé,LOCATION,Commerce,kpomé,5003,2.0,10.0,immoask,prix_m2_trop_bas
+Espace commercial 2 pièce(s) 10 m² - Kpomé,LOCATION,Commerce,kpomé,5003,2.0,10.0,immoask,prix_m2_trop_bas
+Espace commercial 2 pièce(s) 10 m² - Kpomé,LOCATION,Commerce,kpomé,5003,2.0,10.0,immoask,prix_m2_trop_bas
+Terrain urbain 2 pièce(s) 600 m² - Ablogame,BAILLER,Terrain,ablogame,400000,2.0,600.0,immoask,prix_m2_trop_bas
+Villa 3 pièce(s) 900 m² - Agoe,LOCATION,Villa,agoe,90000,3.0,900.0,immoask,prix_m2_trop_bas
+"terrain,vendre,lome,agbelouve",VENTE,Terrain,agbelouve,2800000,2.0,10000.0,immoask,prix_m2_trop_bas
+"villa,vendre,lome,forever",VENTE,Villa,tokoin,250000000,5.0,10.0,immoask,prix_m2_trop_eleve
+"2 chambres salon,louer,lome,tokoin",LOCATION,Maison,tokoin,35000,2.0,80.0,immoask,prix_m2_trop_bas
+"maison,vendre,lome,agoe",VENTE,Maison,agoe,35000000,3.0,10.0,immoask,prix_m2_trop_eleve
+"terrain,vendre,kpalime,avetonou",VENTE,Terrain,avetonou,550000,2.0,10000.0,immoask,prix_m2_trop_bas
+"terrain,vendre,kpalime,avetonou",VENTE,Terrain,avetonou,550000,2.0,10000.0,immoask,prix_m2_trop_bas
+"terrain,vendre,kpalime,avetonou",VENTE,Terrain,avetonou,550000,2.0,10000.0,immoask,prix_m2_trop_bas
+"terrain,vendre,kpalime,avetonou",VENTE,Terrain,avetonou,550000,2.0,10000.0,immoask,prix_m2_trop_bas
+"terrain,vendre,kpalime,avetonou",VENTE,Terrain,avetonou,550000,2.0,10000.0,immoask,prix_m2_trop_bas
+"terrain,vendre,kpalime,avetonou",VENTE,Terrain,avetonou,550000,2.0,10000.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,sagbado",LOCATION,Villa,sagbado,100000,4.0,300.0,immoask,prix_m2_trop_bas
+"boutique,louer,akepe,noepe",LOCATION,Boutique,noepe,60000,1.0,80.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,avepozo",LOCATION,Villa,avepozo,250000,3.0,300.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,adidogome",LOCATION,Villa,adidogome,150000,3.0,200.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,apedokoe",LOCATION,Villa,adidogome,500000,3.0,600.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,adidogome",LOCATION,Villa,adidogome,110000,3.0,150.0,immoask,prix_m2_trop_bas
+"villa meublée,louer,lome,agbavi",LOCATION,Villa,agbavi,500000,2.0,600.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,avepozo",LOCATION,Villa,avepozo,550000,3.0,600.0,immoask,prix_m2_trop_bas
+"appartement meublé,louer,lome,super taco",LOCATION,Appartement,super taco,200000,2.0,300.0,immoask,prix_m2_trop_bas
+"appartement meublé,louer,lome,super taco",LOCATION,Appartement,super taco,200000,2.0,300.0,immoask,prix_m2_trop_bas
+"villa meublée,louer,lome,gbossime",LOCATION,Villa,gbossime,250000,3.0,300.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,avepozo",LOCATION,Appartement,avepozo,250000,2.0,1200.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,avepozo",LOCATION,Villa,avepozo,250000,6.0,1200.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,baguida",LOCATION,Villa,baguida,150000,3.0,300.0,immoask,prix_m2_trop_bas
+"villa meublée,louer,lome,baguida",LOCATION,Villa,baguida,500000,3.0,600.0,immoask,prix_m2_trop_bas
+"villa,louer,lomé,atiegou",LOCATION,Villa,attiégou,250000,3.0,300.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,atiegou",LOCATION,Villa,attiégou,250000,3.0,300.0,immoask,prix_m2_trop_bas
+"chambre salon,louer,lome,kagome",LOCATION,Chambre Salon,kagome,30000,1.0,50.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,adidogome",LOCATION,Villa,adidogome,375000,3.0,400.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,segbe,akato-deme",LOCATION,Villa,segbe,140000,4.0,300.0,immoask,prix_m2_trop_bas
+"terrain,bailler,lome,sagbado",BAILLER,Terrain,sagbado,75000,2.0,600.0,immoask,prix_m2_trop_bas
+"terrain,bailler,lome,agoe",BAILLER,Terrain,agoe,75000,2.0,600.0,immoask,prix_m2_trop_bas
+"terrain,bailler,lome,avedji",BAILLER,Terrain,avedji,150000,2.0,1200.0,immoask,prix_m2_trop_bas
+"chambre,louer,lome,zanguera",LOCATION,Chambre,zanguera,15000,1.0,16.0,immoask,prix_m2_trop_bas
+"chambre salon,louer,lome,carrefour minamadou",LOCATION,Chambre Salon,agoe,60000,1.0,64.0,immoask,prix_m2_trop_bas
+"2 chambres salon,louer,lomé,segbe",LOCATION,Maison,segbe,35000,2.0,48.0,immoask,prix_m2_trop_bas
+"2 chambres salon,louer,lome,segbe",LOCATION,Maison,segbe,45000,2.0,48.0,immoask,prix_m2_trop_bas
+"villa meublée,louer,lome,lome madibar",LOCATION,Villa,adidogome,650000,11.0,1200.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,gbegnedji",LOCATION,Villa,gbegnedji,80000,3.0,150.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,kagome",LOCATION,Villa,kagome,100000,2.0,300.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,kagome",LOCATION,Villa,kagome,100000,3.0,300.0,immoask,prix_m2_trop_bas
+"villa,louer,lome, adidogome",LOCATION,Villa,adidogome,350000,4.0,600.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,avenou",LOCATION,Villa,avenou,350000,3.0,600.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,avenou",LOCATION,Villa,avenou,350000,3.0,600.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,avenou",LOCATION,Villa,avenou,350000,3.0,600.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,agoe",LOCATION,Villa,agoe,170000,3.0,300.0,immoask,prix_m2_trop_bas
+"villa,louer,lome, agoe",LOCATION,Villa,agoe,200000,3.0,300.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,agoe",LOCATION,Villa,agoe,150000,3.0,200.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,adidogome",LOCATION,Villa,adidogome,130000,3.0,300.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,kegue",LOCATION,Villa,kegue,180000,3.0,200.0,immoask,prix_m2_trop_bas
+"chambre,louer,lome,avepozo",LOCATION,Chambre,avepozo,150000,1.0,1200.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,kagome",LOCATION,Villa,kagome,100000,3.0,600.0,immoask,prix_m2_trop_bas
+"bureau,louer,lome,noukafou",LOCATION,Bureau,noukafou,100000,5.0,120.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,be kpota",LOCATION,Villa,bè,250000,3.0,600.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,totsi",LOCATION,Villa,totsi,100000,2.0,120.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,agoe",LOCATION,Villa,agoe,80000,2.0,100.0,immoask,prix_m2_trop_bas
+"appartement,louer,lome,agoe",LOCATION,Appartement,agoe,300000,3.0,400.0,immoask,prix_m2_trop_bas
+"appartement,louer,lome,agoe",LOCATION,Appartement,agoe,70000,3.0,75.0,immoask,prix_m2_trop_bas
+"chambre salon,louer,lome,agoe",LOCATION,Chambre Salon,agoe,45000,1.0,60.0,immoask,prix_m2_trop_bas
+"appartement,louer,lome,agoe",LOCATION,Appartement,agoe,100000,3.0,120.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,agoe",LOCATION,Villa,agoe,300000,3.0,400.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,entreprise de l'union",LOCATION,Villa,leo 2000,200000,3.0,300.0,immoask,prix_m2_trop_bas
+"villa,louer,lome,entreprise de l'union",LOCATION,Villa,leo 2000,200000,3.0,300.0,immoask,prix_m2_trop_bas
+"immeuble commercial,louer,lome,attiegou",LOCATION,Appartement,attiégou,250000,3.0,300.0,immoask,prix_m2_trop_bas
+"villa,vendre,lome,amadahome",VENTE,Villa,adidogome,47500000,3.0,10.0,immoask,prix_m2_trop_eleve
+"villa,louer,lome,agoe",LOCATION,Villa,agoe,130000,5.0,250.0,immoask,prix_m2_trop_bas
+Terrain à vendre,VENTE,Terrain,non spécifié,3500000,,350.0,facebook,zone_invalide
+TERRAIN A VENDRE LOMÉ ADETIKOPE,VENTE,Terrain,adetikope,30000,,43.75,facebook,prix_m2_trop_bas
+Terrain à GTA LOME,VENTE,Terrain,non spécifié,1100000,,87.5,facebook,zone_invalide
+Terrain à vendre,VENTE,Terrain,non spécifié,3000000,,350.0,facebook,zone_invalide
+Terrain à vendre,VENTE,Terrain,non spécifié,1800000,,87.5,facebook,zone_invalide
+Terrain,VENTE,Terrain,non spécifié,12000000,,700.0,facebook,zone_invalide
+Terrain à vendre Djagblé,VENTE,Terrain,non spécifié,1200000,,87.5,facebook,zone_invalide
+Des terrains à vendre en ville a lomé,VENTE,Terrain,non spécifié,1000000,,43.75,facebook,zone_invalide
+Terrain à vendre,VENTE,Terrain,non spécifié,1200000,,87.5,facebook,zone_invalide
+Terrain à vendre Djagblé,VENTE,Terrain,non spécifié,1200000,,87.5,facebook,zone_invalide
+Des terrains à vendre en ville a lomé,VENTE,Terrain,non spécifié,1000000,,43.75,facebook,zone_invalide
+OPPORTUNITÉ UNIQUE À LOMÉ – TERRAIN AU BORD DU GOUDRON EN ANGLE DE RUE DE 499m² CLÔTURÉ SUR LA ROUTE,VENTE,Terrain,non spécifié,4900000,,499.0,facebook,zone_invalide
+Terrain à vendre avec titre foncier,VENTE,Terrain,non spécifié,20000000,,700.0,facebook,zone_invalide
+Terrain 1/8 à vendre avec construction,VENTE,Terrain,non spécifié,4000000,,350.0,facebook,zone_invalide
+Terrain,VENTE,Terrain,non spécifié,2000000,,87.5,facebook,zone_invalide
+"😁😁LOCATION EN *CENTRE VILLE DE LOMÉ* 
+lckim🆘
+ *PRODUIT DIRECT¹AA* 
+
+
+*VILLA TRIPLEX DE 10 CHAMBRE",LOCATION,Villa,non spécifié,600000,10.0,100.0,facebook,zone_invalide
+Studio meublé à louer à Lomé,LOCATION,Appartement,non spécifié,15000,1.0,35.0,facebook,zone_invalide
+☎️🇹🇬 TÉL [hidden information] chambre salon meublé à Lomé totsi,VENTE,Terrain,non spécifié,15000,2.0,20.0,facebook,zone_invalide
+☎️🇹🇬 TÉL [hidden information] studio meublé à Lomé totsi,VENTE,Appartement,non spécifié,13000,1.0,35.0,facebook,zone_invalide
+Appartement / condominium de 1 chambre et 1 salle de bain 1 bed · 1 bath,LOCATION,Appartement,be,20000,1.0,60.0,facebook,prix_m2_trop_bas
+☎️🇹🇬 TÉL[hidden information] Appartement meublé Lomé totsi,LOCATION,Appartement,non spécifié,15000,2.0,60.0,facebook,zone_invalide
+Pièce meublée en ville de Lomé.,LOCATION,Appartement,non spécifié,10000,1.0,20.0,facebook,zone_invalide
+☎️🇹🇬 TÉL [hidden information] Appartement meublé Lomé tokoin pharmacie gbonssime,LOCATION,Appartement,tokoin,15000,2.0,60.0,facebook,prix_m2_trop_bas
+☎️🇹🇬 TÉL[hidden information] Appartement meublé à Lomé avedji,LOCATION,Appartement,avedji,20000,1.0,60.0,facebook,prix_m2_trop_bas
+Location maison meublee ,LOCATION,Terrain,non spécifié,40000,1.0,20.0,facebook,zone_invalide
+Location appartement ,LOCATION,Appartement,non spécifié,35000,1.0,20.0,facebook,zone_invalide
+"Location cour unique 
+
+Zossimé non loin du marché 
+
+nous mettons en location une chambre salon plafo",LOCATION,Terrain,non spécifié,30000,2.0,20.0,facebook,zone_invalide
+LOCATION,LOCATION,Terrain,non spécifié,70000,,20.0,facebook,zone_invalide
+Location,LOCATION,Terrain,non spécifié,70000,,20.0,facebook,zone_invalide
+Cours unique chambre salon,VENTE,Villa,non spécifié,40000,2.0,20.0,facebook,zone_invalide
+Appartement scindé en cour unique,VENTE,Villa,non spécifié,65000,3.0,60.0,facebook,zone_invalide
+TERRAIN A VENDRE AKATO,VENTE,Terrain,non spécifié,150000,,43.75,facebook,zone_invalide
+Terrain à vendre,VENTE,Terrain,non spécifié,5500000,,350.0,facebook,zone_invalide
+Lomé Togo terrain à vendre,VENTE,Terrain,non spécifié,90000000,,700.0,facebook,zone_invalide
+Terrain un lot en vente a lome aképé port sec,VENTE,Terrain,non spécifié,9000000,,350.0,facebook,zone_invalide
+Terrain fiable à vendre,VENTE,Terrain,non spécifié,2800000,,350.0,facebook,zone_invalide
+"*A VENDRE*
+02 LOT de terrain au cœur du grand marché de LOMÉ.
+Surface : 1000 m2.
+
+Situés en angle de",VENTE,Terrain,non spécifié,1000000000,,700.0,facebook,zone_invalide
+Terrain demi Lot,VENTE,Terrain,non spécifié,35000000,,700.0,facebook,zone_invalide
+Terrain à Lomé 🇹🇬,VENTE,Terrain,non spécifié,120000000,,700.0,facebook,zone_invalide
+TERRAINS AGRICOLES EN VENTE À AZAHOUN,VENTE,Terrain,non spécifié,1300000,,87.5,facebook,zone_invalide
+Terrain en vente a Lomé aképé,VENTE,Terrain,non spécifié,9000000,,350.0,facebook,zone_invalide
+Terrain : 1/2 lot avec Titre Foncier P à klikamé non loin campus Lomé,VENTE,Terrain,non spécifié,19000000,,175.0,facebook,zone_invalide
+Terrain à vendre à Lomé akepe,VENTE,Terrain,non spécifié,9000000,,350.0,facebook,zone_invalide
+Terrain à vendre au grand marché de lomé (Assigame),VENTE,Terrain,non spécifié,1000000,,43.75,facebook,zone_invalide
+VENTE DE TERRAIN A NOTSÈ 13 KL AU GOUDRON 🇹🇬,VENTE,Terrain,non spécifié,400000,,43.75,facebook,zone_invalide
+VENTE DE TERRAIN A NOTSÈ À 13 KLM DU GOUDRON 🇹🇬,VENTE,Terrain,non spécifié,400000,,43.75,facebook,zone_invalide
+TERRAIN À VENDRE,VENTE,Terrain,non spécifié,4000000,,350.0,facebook,zone_invalide
+Terrain quart de Lot en vente a Lomé mission tové,VENTE,Terrain,non spécifié,2000000,,87.5,facebook,zone_invalide
+Location appartement 2 chambres salon à la Caisse,LOCATION,Appartement,la caisse,130000000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement haut standing meublée à SOTED,LOCATION,Appartement,soted,7000000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambres salon meublé à Nukafu,LOCATION,Appartement,nukafu,4300000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 chambres meublé - Togo,LOCATION,Appartement,togo,1900000,4.0,,coinafrique,zone_invalide
+Location appartement meublée 4 pièces - Assivito,LOCATION,Appartement,assivito,1500000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublée 4 pièces - Centre ville fréau jardin,LOCATION,Appartement,centre ville freau jardin,1500000,4.0,,coinafrique,prix_ou_surface_manquant
+"Location appartement - Cité renaissance (,caise de lomê)",LOCATION,Appartement,non precise,1400000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé haut standing Nyekonakpoe,LOCATION,Appartement,nyekonakpoe,1100000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 3 pièces - Klikamé,LOCATION,Appartement,klikame,950000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé haut standings - Klikamé n,LOCATION,Appartement,klikame n,950000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 4 pièces - Lomé,LOCATION,Appartement,lome,900000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement chambre salon meublé centre ville Fréau jardin.,LOCATION,Appartement,centre ville,900000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 02 pièces Lomé_fréau jardin,LOCATION,Appartement,freau jardin,900000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement chambre salon à centre ville Fréau jardin,LOCATION,Appartement,centre ville freau jardin,900000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé Lomé_fréau jardin,LOCATION,Appartement,centre ville freau jardin,900000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 3 pièces à Lomé,LOCATION,Appartement,lome,900000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé - Centre ville Fréau jardin,LOCATION,Appartement,centre ville freau jardin,900000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé haut standing de l'aéroport,LOCATION,Appartement,togo 2000,900000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublée de 02 pièces à aéroport,LOCATION,Appartement,hedzranawoe aeroport,900000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartements meublée 02 pièces - cité renaissance Lomé,LOCATION,Appartement,non precise,750000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 2 chambres salon Lomé cité Renaissance,LOCATION,Appartement,non precise,750000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 3 pièces - Lomé,LOCATION,Appartement,lome,750000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 3 pièces - Lomé cité renaissance,LOCATION,Appartement,lome,750000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublée 04 pièces - Avédji coconut,LOCATION,Appartement,avedji,700000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublée 03 pièces - Ablogamé,LOCATION,Appartement,ablogame,700000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 4 pièces - Lomé,LOCATION,Appartement,lome,700000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublée 03 pièces à Bè hôpital,LOCATION,Appartement,be,700000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé - Agoe,LOCATION,Appartement,agoe,650000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 3 pièces - Avenou,LOCATION,Appartement,avenou,650000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 4 pièces - Nukafu,LOCATION,Appartement,nukafu,650000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement chambres salon Amadahomè CAP,LOCATION,Appartement,amadahome,650000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 3 chambres haut standing Agoè Minamadou,LOCATION,Appartement,agoe,600000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublée de 02 pièces à adidoadin,LOCATION,Appartement,adidoadin,600000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement haut standing meublée de 02 pièces à Totsi,LOCATION,Appartement,totsi,600000,2.0,,coinafrique,prix_ou_surface_manquant
+location appartements meublés 2 pièces - Hedranawoe,LOCATION,Appartement,hedzranawoe,550000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublée 03 pièces - Djidjolé,LOCATION,Appartement,djidjole,550000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Totsi,LOCATION,Appartement,totsi,550000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé de 03 pièces à Bè kpota,LOCATION,Appartement,be,550000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 4 pièces à Agoè minamadou,LOCATION,Appartement,agoe,500000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartements meublés 3 pièces - Hedranawoe,LOCATION,Appartement,hedzranawoe,500000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 3 pièces - Pharmacie Hedzanawoe,LOCATION,Appartement,hedzranawoe,500000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartements 2 pièces - Adidoadin,LOCATION,Appartement,adidoadin,500000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 03 pièces Avénou,LOCATION,Appartement,avenou,500000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement deux chambres salon à la Caisse,LOCATION,Appartement,la caisse,500000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 02 pièces agoe minamadou,LOCATION,Appartement,agoe minamadou,500000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 2 pièces - Avenou,LOCATION,Appartement,avenou,500000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 2 chambres salon - Kegue bouli com,LOCATION,Appartement,kegue bouli com,500000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Agoe Minamadou,LOCATION,Appartement,agoe minamadou,500000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meuble - Assiyeye,LOCATION,Appartement,assiyeye,500000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 3 pièces - Bé rue de locame,LOCATION,Appartement,be rue de locame,450000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 2 pièces - Hedranawoé,LOCATION,Appartement,hedzranawoe,450000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 3 pièces a Hedranawoé,LOCATION,Appartement,hedzranawoe,450000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartements 1 pièces - lomé,LOCATION,Appartement,lome,450000,1.0,,coinafrique,prix_ou_surface_manquant
+Location apparemment de 02 pièces - Lomé cité renaissance,LOCATION,Appartement,lome,450000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartements 4 pièces - Avénou,LOCATION,Appartement,avenou,450000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartements meublés piscine 4 pièces - Amadahome,LOCATION,Appartement,amadahome,450000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement duplex - Adidogomé Madiba,LOCATION,Appartement,adidogome,450000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé - Djidjolé Lomé,LOCATION,Appartement,djidjole,450000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé - Djidjolé,LOCATION,Appartement,djidjole,450000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 3 pièces - Minamadou,LOCATION,Appartement,minamadou,450000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé - Forever,LOCATION,Appartement,forever,450000,,,coinafrique,zone_description_lieu
+Location appartement meublé - Lomé,LOCATION,Appartement,lome,450000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 3 pièces - Agoè Demakpoe,LOCATION,Appartement,agoe,400000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meuble a Agoè boisson,LOCATION,Appartement,agoe,400000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 3 pièces à Ablogamé hôtel la paix,LOCATION,Appartement,ablogame,400000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartements de 02 pièces - Lomé aéroport,LOCATION,Appartement,hedzranawoe aeroport,400000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé de 2 chambres salon à Koffi Panou,LOCATION,Appartement,koffi panou,400000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambre salon à Ablogamer,LOCATION,Appartement,ablogame,400000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartements haut standing meublée de chambre salon à Amadahome cap,LOCATION,Appartement,amadahome cap,400000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé chambre salon à Adidogomé,LOCATION,Appartement,adidogome,350000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 3 pièces à Totsi,LOCATION,Appartement,totsi,350000,3.0,,coinafrique,prix_ou_surface_manquant
+Location meublé 3 pièces à Adidogomé,LOCATION,Appartement,adidogome,350000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à Togo 2000,LOCATION,Appartement,togo,350000,3.0,,coinafrique,zone_invalide
+Location appartement meublés 2 pièces - Meche Amina,LOCATION,Appartement,meche amina,350000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartements meublés piscine 3 pièces - amadahome,LOCATION,Appartement,amadahome,350000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartements meublés 3 pièces - Hédzranawoé,LOCATION,Appartement,hedzranawoe,350000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces à Hedranawoé aéroport,LOCATION,Appartement,hedzranawoe aeroport,350000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublée 3 pièces - Agoe demakpoe,LOCATION,Appartement,agoe demakpoe,350000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartements 2 pièces - Adidoadin,LOCATION,Appartement,adidoadin,350000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublés 2 pièces à Avenou,LOCATION,Appartement,avenou,350000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublés 3 pièces à Avedji Limous,LOCATION,Appartement,avedji limous,350000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 chambres salon à Djidjolé donou au bord du goudron,LOCATION,Appartement,djidjole,350000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublée de chambre salon bon standing Tokoin ramco,LOCATION,Appartement,tokoin,350000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublée chambre salon bon standing à Tokoin Ramco*,LOCATION,Appartement,tokoin,350000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 3 pièces - Forever,LOCATION,Appartement,forever,350000,3.0,,coinafrique,zone_description_lieu
+Location appartement meublé 4 pièces à Decon centre ville lomé,LOCATION,Appartement,decon centre ville lome,350000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé - Adidogomé,LOCATION,Appartement,adidogome,350000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé - Avedji,LOCATION,Appartement,avedji,350000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé à Tosti Blimkome à 150m du goudron,LOCATION,Appartement,tosti blimkome a,350000,,,coinafrique,prix_ou_surface_manquant
+"Location appartement 4 pièces à tokoin doumassesse (lomé) mois : 350 000 f avance : 3 mois | caution : 6 mois ➡️ un appartement de standing hôtelier situé à l’étage, dans un envir",LOCATION,Appartement,tokoin,350000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartements 3 pièces - Adetikopé,LOCATION,Appartement,adetikope,350000,3.0,600.0,coinafrique,prix_m2_trop_bas
+Location appartement meublé 2 pièces - Hedjranawoe,LOCATION,Appartement,hedzranawoe,350000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 2 pièces - Hedranawoe,LOCATION,Appartement,hedzranawoe,350000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartements 3 pièces à Tokoin Wuiti,LOCATION,Appartement,tokoin,340000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 3 pièces - Agoe Bodjona,LOCATION,Appartement,agoe bodjona,320000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces - Wuiti,LOCATION,Appartement,wuiti,300000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé chambre salon à Djidjolé,LOCATION,Appartement,djidjole,300000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 2 pièces à Hedzranawoe,LOCATION,Appartement,hedzranawoe,300000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 4 pièces à Tokoin franscicain,LOCATION,Appartement,tokoin,300000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 4 pièces à Tokoin franciscain,LOCATION,Appartement,tokoin,300000,4.0,,coinafrique,prix_ou_surface_manquant
+Location Appartement 4 pièces - Wuiti,LOCATION,Appartement,wuiti,300000,4.0,,coinafrique,prix_ou_surface_manquant
+Location meublé 3 pièces à Adidogomé,LOCATION,Appartement,adidogome,300000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartements meublés 2 pièces - Adidogome Amadahome,LOCATION,Appartement,amadahome,300000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartements meublés 5 pièces - Kpota,LOCATION,Appartement,be kpota,300000,5.0,,coinafrique,prix_ou_surface_manquant
+"Location appartements meublés 6 pièces - adidogomé, lomé",LOCATION,Appartement,adidogome,300000,6.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 3 pièces - Togo 2000,LOCATION,Appartement,togo 2000,300000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 3 pièces à Attiegou DVA,LOCATION,Appartement,attiegou dva,300000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 5 pièces a Agbalepedo,LOCATION,Appartement,agbalepedo,300000,5.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé - Adidogome,LOCATION,Appartement,adidogome,300000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 chambres salon à Agbalépédo école cours,LOCATION,Appartement,agbalepedo,300000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartements 3 pièces - Lomé,LOCATION,Appartement,lome,300000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement - Lomé,LOCATION,Appartement,lome,300000,,,coinafrique,prix_ou_surface_manquant
+Location appartement - Agoē Sogbossito,LOCATION,Appartement,sogbossito,300000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 2 pièces - Adidogome wonyome,LOCATION,Appartement,adidogome wonyome,300000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé chambre salon - Adidogomé,LOCATION,Appartement,adidogome,300000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 2 pièces - Adidogome Yokoe,LOCATION,Appartement,adidogome yokoe,300000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Résidence à la Caisse,LOCATION,Appartement,residence a la caisse,300000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement scindé 03 pièces à Agoè réserve,LOCATION,Appartement,agoe,300000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 2 pièces - agoe logope,LOCATION,Appartement,agoe logope,270000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à Novissi,LOCATION,Appartement,novissi,250000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartements 02 pièces - Djidjolé,LOCATION,Appartement,djidjole,250000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé - Centre Ville de Lomé,LOCATION,Appartement,centre ville de lome,250000,,,coinafrique,prix_ou_surface_manquant
+"Location appartement meublé chambre+ salon en cour unique - Lomé, Gbossimé",LOCATION,Appartement,gbossime,250000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé - Nyékonakpoë,LOCATION,Appartement,nyekonakpoe,250000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces - Adidoadin,LOCATION,Appartement,adidoadin,250000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces - Djidjolé,LOCATION,Appartement,djidjole,250000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 2 pièces - Amadahome Rail Madiba,LOCATION,Appartement,amadahome,250000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement scindé - Djidjole,LOCATION,Appartement,djidjole,250000,,,coinafrique,prix_ou_surface_manquant
+Location appartement cour unique 2 pièces à Djidjole marché,LOCATION,Appartement,djidjole marche,250000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 5 pièces - Agoè pardon,LOCATION,Appartement,agoe,220000,5.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 03 pièces à Agoè plateau,LOCATION,Appartement,agoe,210000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement á Djidjolé,LOCATION,Appartement,djidjole,200000,,,coinafrique,prix_ou_surface_manquant
+Location appartement cour unique 3 chambres salon à Kegue non loin de l'ambassade du Pakistan,LOCATION,Appartement,kegue,200000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé à Adidogomé,LOCATION,Appartement,adidogome,200000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces Atiégou,LOCATION,Appartement,attiegou,200000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartements meublés - Hédzranawoé,LOCATION,Appartement,hedzranawoe,200000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambres salon a Gbossime,LOCATION,Appartement,gbossime,200000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 pièces à Kegué,LOCATION,Appartement,kegue,200000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à Agbalepedo cour lumière,LOCATION,Appartement,agbalepedo cour lumiere,200000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces - Carrefour Dallee,LOCATION,Appartement,non precise,200000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartements 04 pièces - Agoe léo 2000,LOCATION,Appartement,agoe leo 2000,200000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement à Tokoin Gbossimé,LOCATION,Appartement,tokoin,200000,,,coinafrique,prix_ou_surface_manquant
+Location appartements de 02 pièces Atikoumé,LOCATION,Appartement,atikoume,200000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambres salon àAgbalépédo école cours lumière,LOCATION,Appartement,agbalepedo,200000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé - Adeticopé,LOCATION,Appartement,adetikope,200000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé à Tokoin colombe de la paix,LOCATION,Appartement,tokoin,200000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambres salon à Kodjoviakopé,LOCATION,Appartement,kodjoviakope,200000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 3 pièces - Attiegouvi,LOCATION,Appartement,attiegouvi,200000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3pièces - Gbossimé,LOCATION,Appartement,gbossime,200000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 Chambre salon Sanguera à 150m du goudron Bien avant le marché,LOCATION,Appartement,zanguera,200000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement - Totsi,LOCATION,Appartement,totsi,200000,,,coinafrique,prix_ou_surface_manquant
+Location appartements meublés 3 pièces - Adidogomé,LOCATION,Appartement,adidogome,200000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement haut standing de 02 pièces à Totsi,LOCATION,Appartement,totsi,200000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces à agoè plateau,LOCATION,Appartement,agoe,200000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé à Lomé,LOCATION,Appartement,lome,185000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à Hountigomé,LOCATION,Appartement,hountigome,180000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 5 pièces - Nukafu,LOCATION,Appartement,nukafu,180000,5.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 5 pièces à Nukafu cerfer,LOCATION,Appartement,nukafu cerfer,180000,5.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces - Hountigomé,LOCATION,Appartement,hountigome,180000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Lomé Avépozo,LOCATION,Appartement,avepozo,180000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Cité Mokpokpo,LOCATION,Appartement,non precise,180000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces - Nukafou hountigomé,LOCATION,Appartement,nukafou hountigome,180000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 5 chambres salon àAgoè Nanégbé,LOCATION,Appartement,agoe,180000,5.0,,coinafrique,prix_ou_surface_manquant
+location appartements meublés 2 pièces - lomé,LOCATION,Appartement,lome,180000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement haut standing 3 pièces - zanguéra,LOCATION,Appartement,zanguera,180000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement - Zanguéra,LOCATION,Appartement,zanguera,180000,,600.0,coinafrique,prix_m2_trop_bas
+Location appartement haut standing 3 pièces - Zangera,LOCATION,Appartement,zangera,180000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Zanguéra,LOCATION,Appartement,zanguera,180000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé - Agoè sogbossito près de la station t - oil,LOCATION,Appartement,agoe,180000,,,coinafrique,prix_ou_surface_manquant
+Location appartement nouvelle construction 2 pièces à GTA,LOCATION,Appartement,gta,180000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces - Agoè adétikopé pia,LOCATION,Appartement,agoe,170000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement scindé en cour unique Avedji sun city,LOCATION,Appartement,avedji sun city,170000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces - Adetikopé,LOCATION,Appartement,adetikope,170000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Avedji,LOCATION,Appartement,avedji,160000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces a Avedji,LOCATION,Appartement,avedji,160000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 chambres salon à Avedji limousine,LOCATION,Appartement,avedji limousine,160000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces - Cité mokpokpo,LOCATION,Appartement,non precise,150000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à Totsi école isages proche du goudron,LOCATION,Appartement,totsi,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Garage centrale,LOCATION,Appartement,garage centrale,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartements 2 pièces - lomé,LOCATION,Appartement,lome,150000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à Totsi,LOCATION,Appartement,totsi,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Adidogomé,LOCATION,Appartement,adidogome,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 chambres Hedranawoe sagboville non loin du goudron,LOCATION,Appartement,hedzranawoe sagboville,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces - Assigome,LOCATION,Appartement,assigome,150000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces à Atikoumé adinamoto,LOCATION,Appartement,atikoume adinamoto,150000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Avedji,LOCATION,Appartement,avedji,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement de 4 pièces a Hedranawoé sagboville,LOCATION,Appartement,hedzranawoe sagboville,150000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à Tokoin wuiti catholique,LOCATION,Appartement,tokoin,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé - Cacaveli,LOCATION,Appartement,cacaveli,150000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambres salon Lomé Tokoin trésor,LOCATION,Appartement,tokoin,150000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambres à Atiégou lycée,LOCATION,Appartement,atiegou,150000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement dallé staffé de 4 pièces - Amandahomé,LOCATION,Appartement,amadahome,150000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 chambres salon à Atikumé,LOCATION,Appartement,atikume,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambres salon à Attiégou epp,LOCATION,Appartement,attiegou epp,150000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Lomé Tokoin,LOCATION,Appartement,tokoin,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à Atikoumé Adinamoto,LOCATION,Appartement,atikoume adinamoto,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartements 2 pièces à Atiégou,LOCATION,Appartement,atiegou,150000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à kegué derrière hôtel obligado,LOCATION,Appartement,kegue,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement a l'étage dd 2 chambres salon à Attiegou lycée technique,LOCATION,Appartement,attiegou,150000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Tokoin Gbadago,LOCATION,Appartement,tokoin,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Cacaveli tde,LOCATION,Appartement,cacaveli tde,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces a Tokoin ramco,LOCATION,Appartement,tokoin,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à Avedji limousine,LOCATION,Appartement,avedji limousine,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces a kegué pharmacie,LOCATION,Appartement,kegue pharmacie,150000,4.0,,coinafrique,zone_description_lieu
+Location appartement 4 pièces - Agoè,LOCATION,Appartement,agoe,150000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé - Agoè,LOCATION,Appartement,agoe,150000,,,coinafrique,prix_ou_surface_manquant
+Location apparemment meublé - Avedji Limousine,LOCATION,Appartement,avedji limousine,150000,,,coinafrique,prix_ou_surface_manquant
+Location cour unique à Sagbado Logoté,LOCATION,Appartement,sagbado logote,150000,,,coinafrique,prix_ou_surface_manquant
+Location appartement de 03 pièces à kpogan,LOCATION,Appartement,kpogan,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - N'kafou,LOCATION,Appartement,nukafou,140000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartements 4 pièces - Lomé,LOCATION,Appartement,lome,140000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambres salon Lomé Tokoin Nukafou,LOCATION,Appartement,tokoin,140000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 chambres salon à Adidogomè Amadahom,LOCATION,Appartement,amadahome,135000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à Amadamhomé,LOCATION,Appartement,amadahome,130000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement scindé de 2 chambres salon à Akodessewa,LOCATION,Appartement,akodessewa,130000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - hedranawoé réveil d'or,LOCATION,Appartement,hedzranawoe reveil d or,130000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Adidogomè Amadahomè,LOCATION,Appartement,amadahome,130000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Adidogomè,LOCATION,Appartement,adidogome,130000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambres Salon Bè Kpota,LOCATION,Appartement,be,130000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 chambres salon à Amadahomé,LOCATION,Appartement,amadahome,130000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement au bord de la grande voie sallé staffé de 3 chambres salon à Amadahomé,LOCATION,Appartement,amadahome,130000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Totsi,LOCATION,Appartement,totsi,130000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces à Avedji gblinkome,LOCATION,Appartement,avedji gblinkome,130000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à Bè Kpota,LOCATION,Appartement,be,130000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement chambre salon - Totsi,LOCATION,Appartement,totsi,130000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces - l’entreprise de l’union,LOCATION,Appartement,l entreprise de l union,130000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé - Avedji,LOCATION,Appartement,avedji,130000,,,coinafrique,prix_ou_surface_manquant
+Location appartement chambres à Nykonakpoe siège Gozem,LOCATION,Appartement,nykonakpoe siege gozem,125000,,,coinafrique,prix_ou_surface_manquant
+Location appartement - Wognomé sagbado,LOCATION,Appartement,wognome sagbado,125000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambres salon Lomé Tokoin,LOCATION,Appartement,tokoin,125000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambres salon à Tokoin trésor,LOCATION,Appartement,tokoin,125000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Tokoin ramco,LOCATION,Appartement,tokoin,125000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambres 02 à Tokoin trésor,LOCATION,Appartement,tokoin,125000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambres Tokoin trésor,LOCATION,Appartement,tokoin,125000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartements meublés 2 pièces - Kpota,LOCATION,Appartement,be kpota,125000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Amadahomé,LOCATION,Appartement,amadahome,120000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à Agoè telessou,LOCATION,Appartement,agoe,120000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Agbalepedo,LOCATION,Appartement,agbalepedo,120000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Agbalopédo,LOCATION,Appartement,agbalepedo,120000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambres salon a Avedji,LOCATION,Appartement,avedji,120000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartements de 02 pièces - Avédji limousine,LOCATION,Appartement,avedji,120000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement Bureau 3 pièces à Agoe 2 Lions,LOCATION,Appartement,agoe,120000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 chambres salon à Akodéssewa,LOCATION,Appartement,akodessewa,120000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 chambres salon - Legbassito Adidome,LOCATION,Appartement,legbassito adidome,120000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Lomé - Agoe minamadou,LOCATION,Appartement,agoe minamadou,120000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Avepozo,LOCATION,Appartement,avepozo,120000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3pièces - Taco,LOCATION,Appartement,taco,120000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 02 pièces à zanguera,LOCATION,Appartement,zanguera,120000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement à Agoè Assyéyé,LOCATION,Appartement,agoe,115000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 02 pièces - Adidogomé logoté,LOCATION,Appartement,adidogome,110000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Nukafou,LOCATION,Appartement,nukafou,100000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à Adidogomé atilamonou,LOCATION,Appartement,adidogome,100000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à Hedranawoé,LOCATION,Appartement,hedzranawoe,100000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement à Agoè logopé,LOCATION,Appartement,agoe,100000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à Legbas,LOCATION,Appartement,legbas,100000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Hedzranawoé,LOCATION,Appartement,hedzranawoe,100000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Agoè logopé,LOCATION,Appartement,agoe,100000,3.0,,coinafrique,prix_ou_surface_manquant
+"Location appartement 3 pièces a Agoè logopé, non loin du carrefour tazo",LOCATION,Appartement,agoe,100000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces - Amandahome,LOCATION,Appartement,amadahome,100000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Hedranawoé école ayessou,LOCATION,Appartement,hedzranawoe,100000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Hedranawoè,LOCATION,Appartement,hedzranawoe,100000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 chambres Agoè Sogbossito somayaf,LOCATION,Appartement,agoe,100000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement de 2 chambre salon à Sogbo,LOCATION,Appartement,sogbo,100000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement à Agoè Assyéyé,LOCATION,Appartement,agoe,100000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambres salon Hedrzanwoé total,LOCATION,Appartement,hedzranawoe,100000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambre salon Avedji amétossimé,LOCATION,Appartement,avedji ametossime,100000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à Sogbossito,LOCATION,Appartement,sogbossito,100000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces a agoé camp de police,LOCATION,Appartement,agoe camp de police,100000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Togokome,LOCATION,Appartement,togokome,100000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement - Adidogome,LOCATION,Appartement,adidogome,100000,,,coinafrique,prix_ou_surface_manquant
+Location appartement - dekon centre ville,LOCATION,Appartement,dekon centre ville,100000,,,coinafrique,prix_ou_surface_manquant
+Location appartement cour unique de 02 pièces à baguida,LOCATION,Appartement,baguida,100000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement scindé au rez - de - chaussée 3 pièces à Agoè Madjikpeto,LOCATION,Appartement,agoe,95000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement - Avedji,LOCATION,Appartement,avedji,90000,,,coinafrique,prix_ou_surface_manquant
+Location appartement a Agoé gendarmerie,LOCATION,Appartement,agoe gendarmerie,90000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à Adakpame,LOCATION,Appartement,adetikope,90000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces a Hedranawoé,LOCATION,Appartement,hedzranawoe,90000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement cour unique a l'étage 4 pièces a kegué o'queens,LOCATION,Appartement,l etage,90000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement chambre salon à Zanguera IPG,LOCATION,Appartement,zanguera,90000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces a Agoè gendarmerie,LOCATION,Appartement,agoe,90000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 chambres salon à Agoè Sogbossito,LOCATION,Appartement,agoe,90000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement à Zanguera IPG,LOCATION,Appartement,zanguera,90000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Hedranawoé aéroport,LOCATION,Appartement,hedzranawoe aeroport,90000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambres salon à Agoé anokui,LOCATION,Appartement,agoe anokui,90000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 chambres salon à Hedranawoé Total,LOCATION,Appartement,hedzranawoe total,90000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Hedzranawoe,LOCATION,Appartement,hedzranawoe,90000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 chambres - Togo,LOCATION,Appartement,togo,90000,3.0,,coinafrique,zone_invalide
+Location appartement 2 chambres salon interne à Agoe,LOCATION,Appartement,agoe,90000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartements 3 pièces - Agoe Est,LOCATION,Appartement,agoe est,90000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces à Agoé camp gp,LOCATION,Appartement,agoe,85000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Adidogomé Logoté,LOCATION,Appartement,adidogome,85000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à Agoè demakpoe,LOCATION,Appartement,agoe,85000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambres salon au rez et chambre a l'étage sous forme de cour unique à Kegué kpatcha,LOCATION,Appartement,kegue kpatcha,80000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces a Kégué koffi panou,LOCATION,Appartement,kegue,80000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Zanguera,LOCATION,Appartement,zanguera,80000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement à Agoè plateau,LOCATION,Appartement,agoe,80000,,,coinafrique,prix_ou_surface_manquant
+Location appartements 2 pièces - Lomé,LOCATION,Appartement,lome,80000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces a Agoé kochigan,LOCATION,Appartement,agoe kochigan,80000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement a Agoè plateau,LOCATION,Appartement,agoe,80000,,,coinafrique,prix_ou_surface_manquant
+Location appartement à Atikoumé,LOCATION,Appartement,atikoume,80000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces à Adidogomé,LOCATION,Appartement,adidogome,80000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement bon standing à Ségbé,LOCATION,Appartement,segbe,80000,,,coinafrique,prix_ou_surface_manquant
+Location appartements 2 pièces - lomé,LOCATION,Appartement,lome,80000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Agoè nanégbe,LOCATION,Appartement,agoe,80000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement cour unique 2 chambres à Ceg nanégbe,LOCATION,Appartement,non precise,80000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces - Agoe logope,LOCATION,Appartement,agoe logope,80000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 4 pièces - Agoè Daliko,LOCATION,Appartement,agoe,80000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambres salon WC douche à Koffi Panou vers hôtel blewoy,LOCATION,Appartement,koffi panou vers hotel blewoy,80000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 chambres salon Tokoin Gbossimé,LOCATION,Appartement,tokoin,80000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement chambre salon à Adidogomé lycée technique un splendide appartement d'une chambre salon nouvellement construite wc douche cuisine tout interne large baie vitrée et bien staffée,LOCATION,Appartement,adidogome,80000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Attiegou,LOCATION,Appartement,attiegou,80000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement de chambres salon 2 chambres salon - Hédzranawoé Total en face,LOCATION,Appartement,hedzranawoe,80000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Togo 2000,LOCATION,Appartement,togo 2000,80000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement de chambre salon - Togo,LOCATION,Appartement,togo,80000,,,coinafrique,zone_invalide
+Location appartement a sagboville,LOCATION,Appartement,sagboville,80000,,,coinafrique,prix_ou_surface_manquant
+Location appartement au wuiti au bord des pavés non loin de la caisse,LOCATION,Appartement,caisse,75000,,,coinafrique,prix_ou_surface_manquant
+Location appartement scindé en cour unique chambre salon à Agbalepedo groupe C,LOCATION,Appartement,agbalepedo,75000,,,coinafrique,prix_ou_surface_manquant
+Location appartement a Hedranawoé aéroport,LOCATION,Appartement,hedzranawoe aeroport,75000,,,coinafrique,prix_ou_surface_manquant
+Location appartement chambres salon wc à Tokoin Soted,LOCATION,Appartement,tokoin,75000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 pièces - Cacaveli,LOCATION,Appartement,cacaveli,75000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement - Djidjolé,LOCATION,Appartement,djidjole,75000,,,coinafrique,prix_ou_surface_manquant
+Location appartement à Adidogomè Amadahomè,LOCATION,Appartement,amadahome,75000,,,coinafrique,prix_ou_surface_manquant
+Location appartement à Kégué station d'essence cap,LOCATION,Appartement,kegue,75000,,,coinafrique,prix_ou_surface_manquant
+Location appartement chambres salon à Adidogomè Amadahomè Eli palace,LOCATION,Appartement,amadahome,75000,,,coinafrique,prix_ou_surface_manquant
+Location appartement - Tokoin soted,LOCATION,Appartement,tokoin,75000,,,coinafrique,prix_ou_surface_manquant
+Location appartement a Koffi panou,LOCATION,Appartement,koffi panou,75000,,,coinafrique,prix_ou_surface_manquant
+Location appartement à kegué kokou tozoum,LOCATION,Appartement,kegue kokou tozoum,70000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Agbalepedo,LOCATION,Appartement,agbalepedo,70000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 pièces - Amadahomé,LOCATION,Appartement,amadahome,70000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartements 2 pièces - Lomé,LOCATION,Appartement,lome,70000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 pièces - Logbassito,LOCATION,Appartement,logbassito,70000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement - Kpota,LOCATION,Appartement,be kpota,70000,,,coinafrique,prix_ou_surface_manquant
+Location appartement a togo 2000,LOCATION,Appartement,togo,70000,,,coinafrique,zone_invalide
+Location appartement nvel construction de chambre salon WC douche cuisine interne à Attiegou ceg,LOCATION,Appartement,attiegou,70000,,,coinafrique,prix_ou_surface_manquant
+Location appartement de 2 chambres salon wc douche interne à Avedji CEG,LOCATION,Appartement,avedji,70000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Adidogome Assiyeye,LOCATION,Appartement,adidogome assiyeye,70000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Carrefour Agbemado,LOCATION,Appartement,non precise,70000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Agoé,LOCATION,Appartement,agoe,65000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement - Kegué,LOCATION,Appartement,kegue,65000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Nanégbe carrefour bonheur,LOCATION,Appartement,nanegbe,65000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement à Attiégou Adoyi,LOCATION,Appartement,attiegou adoyi,65000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à Hedranawoé,LOCATION,Appartement,hedzranawoe,65000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement scindé de chambre salon à Segbe,LOCATION,Appartement,segbe,65000,,,coinafrique,prix_ou_surface_manquant
+Location appartement a avedji carrefour margo,LOCATION,Appartement,avedji,62000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 pièces - Kégué Émaruto,LOCATION,Appartement,kegue,62000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces a Adidogomé akato,LOCATION,Appartement,adidogome,60000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement chambres salon à Plateau,LOCATION,Appartement,plateau,60000,,,coinafrique,prix_ou_surface_manquant
+Location appartement a Agoé plateau,LOCATION,Appartement,agoe plateau,60000,,,coinafrique,prix_ou_surface_manquant
+Location appartement a Agoè Léo 2000,LOCATION,Appartement,agoe,60000,,,coinafrique,prix_ou_surface_manquant
+Location appartement de chambre salon à Kegué emarito,LOCATION,Appartement,kegue emarito,60000,,,coinafrique,prix_ou_surface_manquant
+Location appartement de chambre salon à Kegué Emarito,LOCATION,Appartement,kegue emarito,60000,,,coinafrique,prix_ou_surface_manquant
+Location appartement à Léo 2000 église catholique,LOCATION,Appartement,leo,60000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Sagbado Logoté,LOCATION,Appartement,sagbado logote,60000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement a Avedji Assigomé,LOCATION,Appartement,avedji assigome,60000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Hedranawoé lycée awoudja,LOCATION,Appartement,hedzranawoe,60000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement à Attiegou marché,LOCATION,Appartement,attiegou marche,60000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Djagblé,LOCATION,Appartement,djagble,60000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 pièces - Lomé,LOCATION,Appartement,lome,60000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement à Léo 2000,LOCATION,Appartement,leo,60000,,,coinafrique,prix_ou_surface_manquant
+Location appartement - Lomé,LOCATION,Appartement,lome,60000,,,coinafrique,prix_ou_surface_manquant
+Location appartement deux chambres salon - Tokoin Soted,LOCATION,Appartement,tokoin,60000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces a Léo 2000,LOCATION,Appartement,leo,60000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement chambre salon - Kégué émaruto,LOCATION,Appartement,kegue,60000,,,coinafrique,prix_ou_surface_manquant
+Location appartement pièces wc douche interne à Avedji Vessomé,LOCATION,Appartement,avedji vessome,60000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Lomé,LOCATION,Appartement,lome,55000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartements 2 pièces - Lomé,LOCATION,Appartement,lome,55000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces à Adidogomé akato,LOCATION,Appartement,adidogome,55000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Carrefour Kpogli,LOCATION,Appartement,non precise,55000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement - Agoè Demakpoèdans,LOCATION,Appartement,agoe,55000,,,coinafrique,prix_ou_surface_manquant
+Location appartement de 02 pièces à l'étage à zanguera maco,LOCATION,Appartement,l etage a zanguera maco,55000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 pièces - Agoe anokoui,LOCATION,Appartement,agoe anokoui,52000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement a Attiegou ceg,LOCATION,Appartement,attiegou,50000,,,coinafrique,prix_ou_surface_manquant
+Location appartements 1 pièces - lomé,LOCATION,Appartement,lome,50000,1.0,,coinafrique,prix_ou_surface_manquant
+Location appartements 2 pièces - Lomé,LOCATION,Appartement,lome,50000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 pièces - Lomé Avepozo,LOCATION,Appartement,avepozo,50000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement - Agoè,LOCATION,Appartement,agoe,50000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Agoé zongo,LOCATION,Appartement,agoe zongo,50000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement de chambres salon wc douche cuisine interne a l'étage à Adidogomé Sagbado,LOCATION,Appartement,adidogome,50000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 pièces - Nanégbé,LOCATION,Appartement,nanegbe,50000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement - Agoè anokui,LOCATION,Appartement,agoe,50000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 pièces - Cité Des Anges,LOCATION,Appartement,non precise,50000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement - Amadahome,LOCATION,Appartement,amadahome,50000,,,coinafrique,prix_ou_surface_manquant
+Location appartement a hedranawoé,LOCATION,Appartement,hedzranawoe,50000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces a koffi panou,LOCATION,Appartement,koffi panou,50000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement de chambre salon - Togo,LOCATION,Appartement,togo,50000,,,coinafrique,zone_invalide
+Location appartement chambres salon - Nyekonakpoe lycée français,LOCATION,Appartement,nyekonakpoe,45000,,,coinafrique,prix_ou_surface_manquant
+Location appartement a Agoè athiémé,LOCATION,Appartement,agoe,45000,,,coinafrique,prix_ou_surface_manquant
+Location appartement a Legbassito derrière carrefour napoléon,LOCATION,Appartement,legbassito,45000,,,coinafrique,prix_ou_surface_manquant
+Location appartement à Legbassito Kové derrière carrefour Napoléon,LOCATION,Appartement,legbassito kove,45000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 pièces - Ségbé,LOCATION,Appartement,segbe,45000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement chambre salon à Agoé camp de police,LOCATION,Appartement,agoe camp de police,45000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 pièces - Agoe CCL,LOCATION,Appartement,agoe ccl,45000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement à Agoè Koffi,LOCATION,Appartement,agoe,43500,,,coinafrique,prix_ou_surface_manquant
+Location appartement à Agbalepedo,LOCATION,Appartement,agbalepedo,43000,,,coinafrique,prix_ou_surface_manquant
+Location appartement a Tokoin sotede,LOCATION,Appartement,tokoin,40000,,,coinafrique,prix_ou_surface_manquant
+Location appartement a Agbaledo rond point oeuf,LOCATION,Appartement,agbaledo rond point oeuf,40000,,,coinafrique,prix_ou_surface_manquant
+Location appartement a Leo 2000,LOCATION,Appartement,leo,40000,,,coinafrique,prix_ou_surface_manquant
+Location appartement - l'union station Zener,LOCATION,Appartement,l union station zener,40000,,,coinafrique,prix_ou_surface_manquant
+Location appartement cour unique - Agoè,LOCATION,Appartement,agoe,40000,,,coinafrique,prix_ou_surface_manquant
+Location appartement - Atilamonou,LOCATION,Appartement,atilamonou,40000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 pièces - Agoe Camp de Police,LOCATION,Appartement,agoe camp de police,40000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 pièces - Nanegbé,LOCATION,Appartement,nanegbe,40000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement - Amandahome,LOCATION,Appartement,amadahome,35000,,,coinafrique,prix_ou_surface_manquant
+Location appartement 3 pièces - Atakpamé,LOCATION,Appartement,atakpame,35000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 pièces - Lomé,LOCATION,Appartement,lome,35000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement - Lomé,LOCATION,Appartement,lome,35000,,,coinafrique,prix_ou_surface_manquant
+Location appartements 3pièces - Lomé,LOCATION,Appartement,lome,35000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 3 pièces - Lomé,LOCATION,Appartement,lome,35000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartements 2 pièces - Lomé Attiégou,LOCATION,Appartement,attiegou,35000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement a kegué antigagomé,LOCATION,Appartement,kegue antigagome,35000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 4 pièces - Adidogome atilamonou,LOCATION,Appartement,adidogome atilamonou,30000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement a Agoè plateau,LOCATION,Appartement,agoe,30000,,,coinafrique,prix_ou_surface_manquant
+Location appartements 1 pièces - Lomé,LOCATION,Appartement,lome,30000,1.0,,coinafrique,prix_ou_surface_manquant
+Location appartement - Legbassito,LOCATION,Appartement,legbassito,30000,,,coinafrique,prix_ou_surface_manquant
+Location appartement - Agoe Logopé,LOCATION,Appartement,agoe logope,30000,,,coinafrique,prix_ou_surface_manquant
+Location appartement a Sogbossito,LOCATION,Appartement,sogbossito,30000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé - Sagbado Agotimé,LOCATION,Appartement,sagbado agotime,30000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 4 pièces - Lomé,LOCATION,Appartement,lome,30000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé - Lomé,LOCATION,Appartement,lome,30000,,,coinafrique,prix_ou_surface_manquant
+Location appartements meublés 3 pièces - Lomé,LOCATION,Appartement,lome,30000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé 3 pièces - Agoe Cacaveli,LOCATION,Appartement,agoe cacaveli,25000,3.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublés 2 pièces cour unique à Lomé,LOCATION,Appartement,lome,25000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartements meublés 2 pièces - Lomé Kégué,LOCATION,Appartement,kegue,20000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartements meublés 2 pièces - Lomé Hédzranawoé Aéroport,LOCATION,Appartement,hedzranawoe,20000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 pièces - Lomé Adeticope,LOCATION,Appartement,adetikope,20000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement 2 pièces - Zanguera Maco,LOCATION,Appartement,zanguera maco,20000,2.0,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé - Baguida,LOCATION,Appartement,baguida,16900,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé - Lomé,LOCATION,Appartement,lome,15000,,,coinafrique,prix_ou_surface_manquant
+Location appartement - Avedji Rail,LOCATION,Appartement,avedji,15000,,,coinafrique,prix_ou_surface_manquant
+Location appartement meublé - Baguida / Avepozo,LOCATION,Appartement,baguida avepozo,13900,,,coinafrique,prix_ou_surface_manquant
+Location appartement 1 pièces - Lomé Aéroport,LOCATION,Appartement,hedzranawoe aeroport,12500,1.0,,coinafrique,prix_ou_surface_manquant
+Location appartements meublés - Togo 2000,LOCATION,Appartement,togo 2000,12000,,,coinafrique,prix_ou_surface_manquant
+Location appartement à agoè athiémé,LOCATION,Appartement,agoe,12000,,,coinafrique,prix_ou_surface_manquant
+Location boutique à Agoe 2 Lions,LOCATION,Boutique,agoe,650000,,,coinafrique,prix_ou_surface_manquant
+Location boutique - Baguida,LOCATION,Boutique,baguida,500000,,,coinafrique,prix_ou_surface_manquant
+Location boutique - centre ville Lomé boulevard circulaire,LOCATION,Boutique,centre ville lome boulevard circulaire,450000,,,coinafrique,zone_trop_longue
+Location boutique au bord du goudron à Ave - maria,LOCATION,Boutique,maria,450000,,,coinafrique,prix_ou_surface_manquant
+Location 3 boutiques à Boulevard,LOCATION,Boutique,boulevard,400000,,,coinafrique,prix_ou_surface_manquant
+Location boutique - Adewui,LOCATION,Boutique,adewui,350000,,,coinafrique,prix_ou_surface_manquant
+Location boutiques au bord des pavée de Adewui,LOCATION,Boutique,adewui,350000,,,coinafrique,prix_ou_surface_manquant
+Location boutique à Assigamé grand marché de lomé,LOCATION,Boutique,assigame grand marche de lome,350000,,,coinafrique,prix_ou_surface_manquant
+Location boutique à Assigamé grand marché de Lomé,LOCATION,Boutique,assigame grand marche de lome,350000,,,coinafrique,prix_ou_surface_manquant
+Location boutique à assigamé,LOCATION,Boutique,assigame,350000,,,coinafrique,prix_ou_surface_manquant
+Location grande boutique à Adewui - Tokoin,LOCATION,Boutique,tokoin,350000,,,coinafrique,prix_ou_surface_manquant
+Location boutique à Assivito,LOCATION,Boutique,assivito,350000,,,coinafrique,prix_ou_surface_manquant
+Location boutique avec sanitaire au bord des pavés de Wuiti,LOCATION,Boutique,wuiti,300000,,,coinafrique,prix_ou_surface_manquant
+Location boutique face au goudron à Totsi,LOCATION,Boutique,totsi,250000,,,coinafrique,prix_ou_surface_manquant
+Location Boutique - Sanguéra,LOCATION,Boutique,sanguera,250000,,,coinafrique,prix_ou_surface_manquant
+Location boutique au bord du goudron de Jean Paul 2 a 'Nukafu,LOCATION,Boutique,nukafu,250000,,,coinafrique,prix_ou_surface_manquant
+Location boutique à Nukafu,LOCATION,Boutique,nukafu,200000,,,coinafrique,prix_ou_surface_manquant
+Location restaurant de 300 m2 à Bé Yesuvito,LOCATION,Boutique,be yesuvito,200000,,300.0,coinafrique,prix_m2_trop_bas
+Location restaurant 300 m2 à Bé yesuvito,LOCATION,Boutique,be yesuvito,200000,,300.0,coinafrique,prix_m2_trop_bas
+Location boutique - Agbalepedo,LOCATION,Boutique,agbalepedo,200000,,,coinafrique,prix_ou_surface_manquant
+Location boutiques - Agbaledo groupe C,LOCATION,Boutique,agbaledo groupe c,150000,,,coinafrique,prix_ou_surface_manquant
+Location boutique - Tokoin,LOCATION,Boutique,tokoin,150000,,,coinafrique,prix_ou_surface_manquant
+Location grand local commercial en baie vitrée au bord du goudron à Agbalépedo - fan milk,LOCATION,Boutique,fan milk,120000,,,coinafrique,prix_ou_surface_manquant
+Location boutique WC douche - Hedranawoé,LOCATION,Boutique,hedzranawoe,100000,,,coinafrique,prix_ou_surface_manquant
+Location boutique avec wc douche cuisine a Hedranawoé station total au bord du goudron,LOCATION,Boutique,hedzranawoe station total,100000,,,coinafrique,prix_ou_surface_manquant
+Location Boutique à Hedrzanawé,LOCATION,Boutique,hedzranawoe,100000,,,coinafrique,prix_ou_surface_manquant
+Location boutique a Avedji Léo 2000,LOCATION,Boutique,avedji leo,100000,,,coinafrique,prix_ou_surface_manquant
+Location boutique a Agoè logope,LOCATION,Boutique,agoe,100000,,,coinafrique,prix_ou_surface_manquant
+Location boutique - Kégué,LOCATION,Boutique,kegue,100000,,,coinafrique,prix_ou_surface_manquant
+Location boutique - Gbossimé,LOCATION,Boutique,gbossime,70000,,,coinafrique,prix_ou_surface_manquant
+Location boutique - Togo,LOCATION,Boutique,togo,70000,,,coinafrique,zone_invalide
+Location boutique staffée a djodjolé au bord de la rue de 28 m,LOCATION,Boutique,djodjole au bord de la rue de,50000,,,coinafrique,prix_ou_surface_manquant
+Location boutique - Rue de 28m,LOCATION,Boutique,rue de 28m,50000,,,coinafrique,prix_ou_surface_manquant
+Location boutique - Adidogomé,LOCATION,Boutique,adidogome,35000,,,coinafrique,prix_ou_surface_manquant
+Location entrepôt avec bureaux à Agoé camp fir,LOCATION,Commerce,agoe camp fir,70000000,,,coinafrique,prix_ou_surface_manquant
+Location bureau meublé à Forever,LOCATION,Commerce,forever,2500000,,,coinafrique,zone_description_lieu
+Location bureaux à Forever,LOCATION,Commerce,forever,2500000,,,coinafrique,zone_description_lieu
+Location bureaux & commerces 300 - lomé,LOCATION,Commerce,lome,1200000,,,coinafrique,prix_ou_surface_manquant
+Location entrepôt avec bureau au bord du pavé de bè,LOCATION,Commerce,be,600000,,,coinafrique,prix_ou_surface_manquant
+Location bureaux & commerces 250 - Lomé,LOCATION,Commerce,lome,350000,,,coinafrique,prix_ou_surface_manquant
+Location bureau meublée de 03 pièces à hedzranawoe à côté de clinique ST Joseph,LOCATION,Commerce,hedzranawoe a cote de clinique st joseph,300000,3.0,,coinafrique,zone_trop_longue
+Location bureau - Atikoumé,LOCATION,Commerce,atikoume,230000,,,coinafrique,prix_ou_surface_manquant
+Location bureau - Atikoumé adinamoto,LOCATION,Commerce,atikoume adinamoto,230000,,,coinafrique,prix_ou_surface_manquant
+Location bureaux & commerces - Lomé,LOCATION,Commerce,lome,230000,,,coinafrique,prix_ou_surface_manquant
+Location bureaux et commerces - Hedjranawoé,LOCATION,Commerce,hedzranawoe,200000,,,coinafrique,prix_ou_surface_manquant
+Location bureaux et commerces - Adidogomé,LOCATION,Commerce,adidogome,200000,,,coinafrique,prix_ou_surface_manquant
+Location bureaux & commerces 001 - Lomé,LOCATION,Commerce,lome,150000,,,coinafrique,prix_ou_surface_manquant
+Location bureaux & commerces 150 - lomé,LOCATION,Commerce,lome,150000,,,coinafrique,prix_ou_surface_manquant
+Location bureau de 03 pièces - Agbalépédo,LOCATION,Commerce,agbalepedo,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location bureau 03 pièces au bord du pavé Adidoadin,LOCATION,Commerce,adidogome,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location bureau 02 hall au bord du goudron à Agbalepedo fan milk,LOCATION,Commerce,agbalepedo,120000,,,coinafrique,prix_ou_surface_manquant
+Location bureaux et commerces - Kosigan 2,LOCATION,Commerce,kosigan 2,80000,,,coinafrique,prix_ou_surface_manquant
+Location bureau - Lomé,LOCATION,Commerce,lome,70000,,,coinafrique,prix_ou_surface_manquant
+Location bureaux et commerces - Lomé,LOCATION,Commerce,lome,54000,,,coinafrique,prix_ou_surface_manquant
+Location bureaux et commerces - Adidogomé,LOCATION,Commerce,adidogome,35000,,,coinafrique,prix_ou_surface_manquant
+Location bureaux et commerces - Agoē Atsanvé,LOCATION,Commerce,agoe atsanve,25000,,,coinafrique,prix_ou_surface_manquant
+Location maison 7 chambres salon + 2 à Sogbossito derrière coris banque,LOCATION,Chambre,sogbossito,600000,7.0,,coinafrique,prix_ou_surface_manquant
+Location meublé 2 chambres salon à Avédji limousine,LOCATION,Chambre,avedji,500000,2.0,,coinafrique,prix_ou_surface_manquant
+Location meublé 2 chambres salon à Minamadou,LOCATION,Chambre,minamadou,450000,2.0,,coinafrique,prix_ou_surface_manquant
+Location meublée 02 chambres salon à Cacavéli,LOCATION,Chambre,cacaveli,450000,2.0,,coinafrique,prix_ou_surface_manquant
+Location apparemment meublé 2 chambres salon - Bè kpota,LOCATION,Chambre,be,450000,2.0,,coinafrique,prix_ou_surface_manquant
+Location meublé Chambres salon à Agoè Sogbosito,LOCATION,Chambre,agoe,350000,,,coinafrique,prix_ou_surface_manquant
+Location meublé chambre salon à Agoè 2lion,LOCATION,Chambre,agoe,350000,,,coinafrique,prix_ou_surface_manquant
+Location cour unique haut standing 04 chambres salon à Djidjole donou,LOCATION,Chambre,djidjole donou,350000,4.0,,coinafrique,prix_ou_surface_manquant
+Location meublé chambres salon à Adidogomé,LOCATION,Chambre,adidogome,300000,,,coinafrique,prix_ou_surface_manquant
+Location villa meublée chambres salon et studio à Zanguéra,LOCATION,Chambre,zanguera,300000,,,coinafrique,prix_ou_surface_manquant
+Location studio meublé - Avedji Penthouse,LOCATION,Chambre,avedji penthouse,250000,,,coinafrique,prix_ou_surface_manquant
+Location studio meublé à Avedji,LOCATION,Chambre,avedji,250000,,,coinafrique,prix_ou_surface_manquant
+Location chambre salons meublé - Hedjranawoe lomé 2,LOCATION,Chambre,hedjranawoe lome 2,250000,,600.0,coinafrique,prix_m2_trop_bas
+Location studio meublé - Avedji,LOCATION,Chambre,avedji,230000,,,coinafrique,prix_ou_surface_manquant
+Location cour unique 3 chambres salon à Hedranawoé non loin du goudron et de l'école Ayeqsou,LOCATION,Chambre,hedzranawoe non loin du goudron et de l,200000,3.0,,coinafrique,zone_trop_longue
+Location cour unique 3 chambres salon A Agoé carrefour pardon,LOCATION,Chambre,agoe,180000,3.0,,coinafrique,prix_ou_surface_manquant
+Location maison cour unique de 4 chambres salon à Avedji sun city,LOCATION,Chambre,avedji sun city,170000,4.0,,coinafrique,prix_ou_surface_manquant
+Location chambre salon - Avepozo Olibo,LOCATION,Chambre,avepozo olibo,150000,,,coinafrique,prix_ou_surface_manquant
+Location cour unique 2 chambres salon à Bé Kpéhénou 150 m du goudron,LOCATION,Chambre,be kpehenou,150000,2.0,,coinafrique,prix_ou_surface_manquant
+Location studio meublé à kegué kpatcha haut standing,LOCATION,Chambre,kegue kpatcha,130000,,,coinafrique,prix_ou_surface_manquant
+Location 2 chambres salon - Agoé Cacaveli,LOCATION,Chambre,agoe cacaveli,120000,2.0,,coinafrique,prix_ou_surface_manquant
+Location cour unique 2 chambres salon à Adidogomé Assiyéyé,LOCATION,Chambre,adidogome,100000,2.0,,coinafrique,prix_ou_surface_manquant
+Location cour unique 3 chambres salon - Sogbossito,LOCATION,Chambre,sogbossito,100000,3.0,,coinafrique,prix_ou_surface_manquant
+Location cour unique de 2 chambres salon WC douche interne à Kegué échangeur,LOCATION,Chambre,kegue echangeur,80000,2.0,,coinafrique,prix_ou_surface_manquant
+Location chambre salon à Atikoumé,LOCATION,Chambre,atikoume,80000,,,coinafrique,prix_ou_surface_manquant
+Location studio - Atikoumé,LOCATION,Chambre,atikoume,80000,,,coinafrique,prix_ou_surface_manquant
+Location chambre salon à Avédji Amadahomè,LOCATION,Chambre,avedji,75000,,,coinafrique,prix_ou_surface_manquant
+Location Chambre Salon - Atikoumé,LOCATION,Chambre,atikoume,70000,,,coinafrique,prix_ou_surface_manquant
+Location 02 chambre salon - Togo,LOCATION,Chambre,togo,70000,2.0,,coinafrique,zone_invalide
+Location chambre salon à Agoé Plateau,LOCATION,Chambre,agoe plateau,65000,,,coinafrique,prix_ou_surface_manquant
+Location chambres salon à Hedranawoe radio Maria,LOCATION,Chambre,hedzranawoe radio maria,65000,,,coinafrique,prix_ou_surface_manquant
+Location 02 chambres salon à Zanguéra IPG,LOCATION,Chambre,zanguera,60000,2.0,,coinafrique,prix_ou_surface_manquant
+Location chambre salon à Leo 2000,LOCATION,Chambre,leo,60000,,,coinafrique,prix_ou_surface_manquant
+Location chambres salon à Avedji Assigomé,LOCATION,Chambre,avedji assigome,60000,,,coinafrique,prix_ou_surface_manquant
+Location chambre - Adidogome Atilamonu,LOCATION,Chambre,adidogome atilamonou,60000,,,coinafrique,prix_ou_surface_manquant
+Location 2 chambres salon scindé cour a l'étage à Agoé Bawara,LOCATION,Chambre,agoe bawara,55000,2.0,,coinafrique,prix_ou_surface_manquant
+Location chambre salon WC douche cuisine interne à Kegué tshinga,LOCATION,Chambre,kegue tshinga,55000,,,coinafrique,prix_ou_surface_manquant
+Location studio - Legbassito,LOCATION,Chambre,legbassito,50000,,,coinafrique,prix_ou_surface_manquant
+Location studio - Attiegou CEG,LOCATION,Chambre,attiegou,50000,,,coinafrique,prix_ou_surface_manquant
+Location studio haut standing à Ségbé,LOCATION,Chambre,segbe,50000,,,coinafrique,prix_ou_surface_manquant
+Location local - Apedokoe,LOCATION,Chambre,apedokoe,50000,,,coinafrique,prix_ou_surface_manquant
+Location chambre - Adidogome sagbado,LOCATION,Chambre,adidogome sagbado,50000,,,coinafrique,prix_ou_surface_manquant
+Location chambre salon - Adidogomé,LOCATION,Chambre,adidogome,50000,,,coinafrique,prix_ou_surface_manquant
+Location chambre - Lomé,LOCATION,Chambre,lome,50000,,,coinafrique,prix_ou_surface_manquant
+Location studio - Amandahomé,LOCATION,Chambre,amadahome,50000,,,coinafrique,prix_ou_surface_manquant
+Location studio - Nukafu,LOCATION,Chambre,nukafu,45000,,,coinafrique,prix_ou_surface_manquant
+Location studio - Sogbossito,LOCATION,Chambre,sogbossito,45000,,,coinafrique,prix_ou_surface_manquant
+Location pièce interne à vec cuisine américaine cap Amadahome,LOCATION,Chambre,vec cuisine americaine cap amadahome,45000,,,coinafrique,zone_trop_longue
+Location chambre salon WC douche cuisine interne à Sogbossito 2,LOCATION,Chambre,sogbossito,45000,,,coinafrique,prix_ou_surface_manquant
+Location deux chambres salon cuisine et salle - Kohe,LOCATION,Chambre,kohe,40000,,,coinafrique,prix_ou_surface_manquant
+Location chambre - Adidogomé Sagbado Agotimé,LOCATION,Chambre,adidogome,40000,,,coinafrique,prix_ou_surface_manquant
+Location chambre salon - Wuiti,LOCATION,Chambre,wuiti,40000,,,coinafrique,prix_ou_surface_manquant
+Location studio à Agoè athiémé,LOCATION,Chambre,agoe,35000,,,coinafrique,prix_ou_surface_manquant
+Location chambre - Agoè Atchanve,LOCATION,Chambre,agoe,35000,,,coinafrique,prix_ou_surface_manquant
+Location studio - Togo,LOCATION,Chambre,togo,35000,,,coinafrique,zone_invalide
+Location chambre - Lomé,LOCATION,Chambre,lome,30000,,,coinafrique,prix_ou_surface_manquant
+Location chambres 2 pièces - Lomé,LOCATION,Chambre,lome,30000,2.0,,coinafrique,prix_ou_surface_manquant
+Location chambre salon - Davié juste derrière l'école de la police,LOCATION,Chambre,davie juste,30000,,,coinafrique,zone_description_lieu
+Location chambre - Avepozo Lomé,LOCATION,Chambre,avepozo lome,30000,,,coinafrique,prix_ou_surface_manquant
+Location chambre salon wc douche cuisine interne + terrasse à Kegué O king's,LOCATION,Chambre,kegue o king s,30000,,,coinafrique,prix_ou_surface_manquant
+Location studio - Togo,LOCATION,Chambre,togo,25000,,,coinafrique,zone_invalide
+Location large pièce avec sanitaire interne et cuisine à Agoè camp GP,LOCATION,Chambre,agoe,25000,,,coinafrique,prix_ou_surface_manquant
+Location chambre - Kara,LOCATION,Chambre,kara,23000,,,coinafrique,prix_ou_surface_manquant
+Location studio meublé - Totsi,LOCATION,Chambre,totsi,23000,,,coinafrique,prix_ou_surface_manquant
+Location studio meublé avec cuisine - Hedrzanawé,LOCATION,Chambre,hedzranawoe,20000,,,coinafrique,prix_ou_surface_manquant
+Location chambres - Grand marché de lomé,LOCATION,Chambre,grand marche de lome,17000,,,coinafrique,prix_ou_surface_manquant
+Location chambre - Agbalepedo,LOCATION,Chambre,agbalepedo,17000,,,coinafrique,prix_ou_surface_manquant
+Location studio meublé à Attiegou dva,LOCATION,Chambre,attiegou dva,15000,,,coinafrique,prix_ou_surface_manquant
+Location chambre salon meublé - Togo,LOCATION,Chambre,togo,15000,,,coinafrique,zone_invalide
+Location studio meublé - Totsi,LOCATION,Chambre,totsi,15000,,,coinafrique,prix_ou_surface_manquant
+Location studio Adidogomé,LOCATION,Chambre,adidogome,15000,1.0,,coinafrique,prix_ou_surface_manquant
+Location chambres - Lomégan,LOCATION,Chambre,lomegan,15000,,,coinafrique,prix_ou_surface_manquant
+location chambres - Grand Marché De Lomé,LOCATION,Chambre,grand marche de lome,13000,,,coinafrique,prix_ou_surface_manquant
+Location chambre - Grand Marché de Lomé,LOCATION,Chambre,grand marche de lome,12000,,,coinafrique,prix_ou_surface_manquant
+Location entrepôt à Noukafu,LOCATION,Entrepot,noukafu,1700000000,,,coinafrique,prix_ou_surface_manquant
+Location entrepôt Bé rue de l'Ocam,LOCATION,Entrepot,be,200000000,,,coinafrique,prix_ou_surface_manquant
+Location entrepôt Baguida,LOCATION,Entrepot,baguida,30000000,,,coinafrique,prix_ou_surface_manquant
+Location magasin et entrepôt - zone portuaire,LOCATION,Entrepot,zone portuaire,16120000,,,coinafrique,prix_ou_surface_manquant
+Location Entrepôt à Kpogan,LOCATION,Entrepot,kpogan,12000000,,,coinafrique,prix_ou_surface_manquant
+Location magasins et entrepôts - Avepozo,LOCATION,Entrepot,avepozo,10537500,,,coinafrique,prix_ou_surface_manquant
+Location Entrepôt à Kpogan),LOCATION,Entrepot,kpogan,8100000,,,coinafrique,prix_ou_surface_manquant
+Location entrepôt à baguida,LOCATION,Entrepot,baguida,5200000,,,coinafrique,prix_ou_surface_manquant
+Location hall - Klikamé au bord du goudron,LOCATION,Entrepot,klikame,2500000,,,coinafrique,prix_ou_surface_manquant
+Location entrepôt - Aeroport,LOCATION,Entrepot,hedzranawoe aeroport,1500000,,,coinafrique,prix_ou_surface_manquant
+Location 2 Grand hall au 1er et 2eme étages - Atikoume',LOCATION,Entrepot,atikoume,1000000,,,coinafrique,prix_ou_surface_manquant
+Location Salle de conférence - Tokoin,LOCATION,Entrepot,tokoin,300000,,,coinafrique,prix_ou_surface_manquant
+Location entrepôt ou magasin Tokoin Cassablanca au bord du goudron,LOCATION,Entrepot,tokoin,300000,,,coinafrique,prix_ou_surface_manquant
+Location magasin - 2 lions,LOCATION,Entrepot,agoe 2 lions,140000,,,coinafrique,prix_ou_surface_manquant
+Location immeuble locatif à Logopé,LOCATION,Immeuble,logope,12000000,,,coinafrique,prix_ou_surface_manquant
+Location immeuble à Atikoumé,LOCATION,Immeuble,atikoume,6000000,,,coinafrique,prix_ou_surface_manquant
+Location immeuble - Kégué somayaf au bord du goudron,LOCATION,Immeuble,kegue,4000000,,,coinafrique,prix_ou_surface_manquant
+Location immeuble R+4 à Kegue,LOCATION,Immeuble,kegue,4000000,,,coinafrique,prix_ou_surface_manquant
+Location immeubles - Agoe cacaveli,LOCATION,Immeuble,agoe cacaveli,800000,,,coinafrique,prix_ou_surface_manquant
+Location immeuble bureaux à Avédji limousine,LOCATION,Immeuble,avedji,800000,,,coinafrique,prix_ou_surface_manquant
+Location immeuble - Agoè Cacaveli,LOCATION,Immeuble,agoe,750000,,,coinafrique,prix_ou_surface_manquant
+Location immeuble a Agoé cacaveli,LOCATION,Immeuble,agoe cacaveli,750000,,,coinafrique,prix_ou_surface_manquant
+Location immeuble - Lomé,LOCATION,Immeuble,lome,750000,,,coinafrique,prix_ou_surface_manquant
+Location immeuble r+2 à Cacavéli,LOCATION,Immeuble,cacaveli,750000,,,coinafrique,prix_ou_surface_manquant
+Location immeubles - Agoè Cacaveli,LOCATION,Immeuble,agoe,750000,,,coinafrique,prix_ou_surface_manquant
+Location immeuble - Agoè,LOCATION,Immeuble,agoe,600000,,,coinafrique,prix_ou_surface_manquant
+Location immeuble de 06 pièces - Togo 2000,LOCATION,Immeuble,togo 2000,500000,6.0,,coinafrique,prix_ou_surface_manquant
+Location terrains agricole 1200000 m² - Lomé,LOCATION,Terrain,lome,800000,,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 6 pièces à la cité OUA,LOCATION,Villa,la,1200000000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 6 pièces - Casablanca,LOCATION,Villa,casablanca,310000000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villas 9 pièces - Kegue,LOCATION,Villa,kegue,300000000,9.0,,coinafrique,prix_ou_surface_manquant
+Location villa triplex 6 pièces - Tokoin casablanca,LOCATION,Villa,tokoin,250000000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex avec piscine Agbalepedo,LOCATION,Villa,agbalepedo,195000000,,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces - Noukafu,LOCATION,Villa,noukafu,120000000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces - Adidogome cité mokpkokpo,LOCATION,Villa,adidogome,90000000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa - Avepozo ( la craie),LOCATION,Villa,avepozo la craie,75000000,,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 7 pièces à Agoè adougba,LOCATION,Villa,agoe,65000000,7.0,,coinafrique,prix_ou_surface_manquant
+Location villa3 pièces - Adidogome,LOCATION,Villa,adidogome,55000000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa à Kegue Kelegougan,LOCATION,Villa,kegue kelegougan,50000000,,,coinafrique,prix_ou_surface_manquant
+Location villa à Avepozo,LOCATION,Villa,avepozo,50000000,,,coinafrique,prix_ou_surface_manquant
+Location villa 3pièces - Zanguera,LOCATION,Villa,zanguera,47000000,3.0,,coinafrique,prix_ou_surface_manquant
+Location maison à raser Agoê assiyeye main De Dieu,LOCATION,Villa,agoe assiyeye,30000000,,,coinafrique,prix_ou_surface_manquant
+Location villa 2 pièces à Apessito,LOCATION,Villa,apessito,30000000,2.0,,coinafrique,prix_ou_surface_manquant
+Location villa Leo 2000 entreprise de l'union,LOCATION,Villa,leo,25000000,,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 10 pièces + jardin - Togo 2000,LOCATION,Villa,togo 2000,22000000,10.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 6 pièces - Forever wuiti novissi caisse,LOCATION,Villa,forever wuiti novissi caisse,22000000,6.0,,coinafrique,zone_description_lieu
+Location maison de vacance meublé - Lomé togo totsi,LOCATION,Villa,totsi,13000000,,,coinafrique,prix_ou_surface_manquant
+Location maison 3 pièces à Sanguera,LOCATION,Villa,sanguera,13000000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 6 pièces à la cité OUA,LOCATION,Villa,la,3500000,6.0,,coinafrique,prix_ou_surface_manquant
+Location résidence à la Caisse,LOCATION,Villa,la caisse,2600000,,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces - Lomé,LOCATION,Villa,lome,2500000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces - Tokoin,LOCATION,Villa,tokoin,2500000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 chs à Tokoin Forever,LOCATION,Villa,tokoin,2500000,,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 11 pièces climatisée + jardin + piscine à Togo 2000,LOCATION,Villa,togo,2200000,11.0,,coinafrique,zone_invalide
+Location villa cité la Caisse,LOCATION,Villa,non precise,2200000,,,coinafrique,prix_ou_surface_manquant
+Location villa 4pièces - La Caisse,LOCATION,Villa,la caisse,2200000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa avec piscine 03 pièces à la Caisse,LOCATION,Villa,la caisse,2200000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa à la citée OUA,LOCATION,Villa,la,2000000,,,coinafrique,prix_ou_surface_manquant
+Location villa R+ 2 - Casablanca,LOCATION,Villa,casablanca,2000000,,,coinafrique,prix_ou_surface_manquant
+Location villa haut standing a Forever au bord des pavés,LOCATION,Villa,haut standing a forever au bord des paves,2000000,,,coinafrique,zone_trop_longue
+Location villa piscine + jardin à Tokoin forever au bord des pavés non loin de la caisse,LOCATION,Villa,tokoin,2000000,,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - à la caisse,LOCATION,Villa,la caisse,2000000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - cité la caisse,LOCATION,Villa,non precise,2000000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces à la cité oua,LOCATION,Villa,la,2000000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 4 pièces - Tokoin wuiti forever,LOCATION,Villa,tokoin,2000000,4.0,,coinafrique,prix_ou_surface_manquant
+Location résidence 10 pièces - Baguida,LOCATION,Villa,baguida,2000000,10.0,,coinafrique,prix_ou_surface_manquant
+Location villa résidence piscine louer à lomé togo hedranawoé ville proche goudron aéroport,LOCATION,Villa,hedzranawoe,2000000,,,coinafrique,prix_ou_surface_manquant
+Location villa 3 chambres salon Résidence de la caisse,LOCATION,Villa,caisse,2000000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Résidence de la caisse,LOCATION,Villa,residence de la caisse,2000000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - cité caisse,LOCATION,Villa,non precise,2000000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex avec piscine et jardin a Totsi,LOCATION,Villa,totsi,2000000,,,coinafrique,prix_ou_surface_manquant
+Location villa avec piscine 4 pièces à Tokoin hôpital,LOCATION,Villa,tokoin,2000000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée avec piscine de 3 pièces à kodjoviakopé,LOCATION,Villa,kodjoviakope,2000000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 6 pièces - Kodjoviakope,LOCATION,Villa,kodjoviakope,1800000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa 6pièces - Togo,LOCATION,Villa,togo,1800000,6.0,,coinafrique,zone_invalide
+Location villa à Totsi,LOCATION,Villa,totsi,1800000,,,coinafrique,prix_ou_surface_manquant
+Location villa duplex à Totsi,LOCATION,Villa,totsi,1800000,,,coinafrique,prix_ou_surface_manquant
+Location villa 4chs à Totsi,LOCATION,Villa,totsi,1800000,,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces avec piscine à Casablanca,LOCATION,Villa,casablanca,1800000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa à la cité la Caisse,LOCATION,Villa,la,1500000,,,coinafrique,prix_ou_surface_manquant
+Location villa duplex meublée avec piscine non loin de la Caisse,LOCATION,Villa,caisse,1500000,,,coinafrique,prix_ou_surface_manquant
+Location villa - Hedzranawoe,LOCATION,Villa,hedzranawoe,1500000,,,coinafrique,prix_ou_surface_manquant
+Location villa duplex à Agbalepedo,LOCATION,Villa,agbalepedo,1500000,,,coinafrique,prix_ou_surface_manquant
+Location villa à côté de la pharmacie Yembla et de la caisse résidence du Bénin,LOCATION,Villa,cote de la pharmacie yembla et de la caisse residence du benin,1500000,,,coinafrique,zone_trop_longue
+Location villa meublée 4 pièces à Nyékonakpoè,LOCATION,Villa,nyekonakpoe,1500000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa à la cité Oua,LOCATION,Villa,la,1500000,,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 5 pièces à Baguida,LOCATION,Villa,baguida,1500000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa sous - sol avec piscine meublée de 5 pièces à Baguida,LOCATION,Villa,sol avec piscine meublee de 5 pieces a baguida,1500000,5.0,,coinafrique,zone_trop_longue
+Location villa 5 pièces avec piscine à Forever,LOCATION,Villa,forever,1500000,5.0,,coinafrique,zone_description_lieu
+Location villas 4 pièces - Lomé,LOCATION,Villa,lome,1300000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces + jardin et piscine - Tokoin protestant,LOCATION,Villa,tokoin,1300000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa piscine + jardin de 4 chambres salon à Tokoin,LOCATION,Villa,tokoin,1300000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa triplex 5 pièces - Kodjoviakope,LOCATION,Villa,kodjoviakope,1300000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces - Tokoin,LOCATION,Villa,tokoin,1300000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces à la citée caisse,LOCATION,Villa,la,1300000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 6 pièces - Cité Millénium,LOCATION,Villa,non precise,1300000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa - Tokoin,LOCATION,Villa,tokoin,1300000,,,coinafrique,prix_ou_surface_manquant
+Location villa triplex avec piscine Kodjoviakope Lomé,LOCATION,Villa,kodjoviakope,1300000,,,coinafrique,prix_ou_surface_manquant
+Location villa triplex avec piscine à Kodjoviakope Lomé,LOCATION,Villa,kodjoviakope lome,1300000,,,coinafrique,prix_ou_surface_manquant
+Location villa à Forever,LOCATION,Villa,forever,1300000,,,coinafrique,zone_description_lieu
+Location villa avec piscine de 04 pièces à Gtaà gta,LOCATION,Villa,gtaa gta,1300000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 5 pièces - Lomé,LOCATION,Villa,lome,1300000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex à Forever pharmacie,LOCATION,Villa,forever pharmacie,1300000,,,coinafrique,zone_description_lieu
+Location villa duplex meublé 7 pièces + piscine - Avenou,LOCATION,Villa,avenou,1200000,7.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces à la résidence Caisse,LOCATION,Villa,la residence caisse,1200000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 07 pièces - Djidjolé,LOCATION,Villa,djidjole,1200000,7.0,,coinafrique,prix_ou_surface_manquant
+Location villa à jardin piscine climatisé a GTA,LOCATION,Villa,jardin piscine climatise a gta,1200000,,,coinafrique,prix_ou_surface_manquant
+Location Maison de vacances 5 pièces - Adidogomé,LOCATION,Villa,adidogome,1200000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa piscine à Forever,LOCATION,Villa,forever,1200000,,,coinafrique,zone_description_lieu
+Location villa meublée 4 pièces à Amadahome Ecobank,LOCATION,Villa,amadahome,1200000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex de 04 pièces à Amadahome ecobank,LOCATION,Villa,amadahome,1200000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 8 pieces à Avénou,LOCATION,Villa,avenou,1100000,,,coinafrique,prix_ou_surface_manquant
+Location villa duplex avec piscine à Forever,LOCATION,Villa,forever,1100000,,,coinafrique,zone_description_lieu
+Location villas 5 pièces - Lomé,LOCATION,Villa,lome,1100000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 10 pièces - Agoé,LOCATION,Villa,agoe,1100000,10.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 6 pièces - Lomé,LOCATION,Villa,lome,1100000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa à Lomé précisément Forever,LOCATION,Villa,forever,1100000,,,coinafrique,zone_description_lieu
+Location villa 4 pièces à Forever),LOCATION,Villa,forever,1100000,4.0,,coinafrique,zone_description_lieu
+Location villa duplex piscine 3 chambres Forever,LOCATION,Villa,duplex piscine,1100000,3.0,,coinafrique,prix_ou_surface_manquant
+VILLA MEUBLÉE AVEC PISCINE,LOCATION,Villa,meublee avec piscine,1100000,,600.0,coinafrique,zone_description_lieu
+VILLA MEUBLÉE AVEC PISCINE,LOCATION,Villa,meublee avec piscine,1100000,,,coinafrique,zone_description_lieu
+Location villa duplex 3 chambres salon piscine à Lomé,LOCATION,Villa,lome,1100000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 7 pièces - Kégué fédération,LOCATION,Villa,kegue,1000000,7.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 5 pièces - Hedranawoé,LOCATION,Villa,hedzranawoe,1000000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 6 pièces - Hedranawoé,LOCATION,Villa,hedzranawoe,1000000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa à Hedzranawoe,LOCATION,Villa,hedzranawoe,1000000,,,coinafrique,prix_ou_surface_manquant
+Location villas 5 pièces - Lomé,LOCATION,Villa,lome,1000000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 7 pièces - Adewui,LOCATION,Villa,adewui,1000000,7.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 6 pièces - Hedranawoe,LOCATION,Villa,hedzranawoe,1000000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 chambres cité Oua,LOCATION,Villa,non precise,1000000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex - Hedranawoé,LOCATION,Villa,hedzranawoe,1000000,,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 12 pièces - Adewi,LOCATION,Villa,adewui,1000000,12.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5pièces - La Caisse,LOCATION,Villa,la caisse,1000000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex - Hedzranawoé,LOCATION,Villa,hedzranawoe,1000000,,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 4 pièces meublée + piscine et jardin a Baguida bateauvi,LOCATION,Villa,baguida,1000000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces à la Caisse,LOCATION,Villa,la caisse,1000000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 8 pièces - Hedranawoé,LOCATION,Villa,hedzranawoe,900000,8.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 chambres salon piscine - Hedranawoe,LOCATION,Villa,hedzranawoe,900000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Novissi,LOCATION,Villa,novissi,900000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa jardin avec piscine à Nyekonakpoe,LOCATION,Villa,nyekonakpoe,900000,,,coinafrique,prix_ou_surface_manquant
+Location villa 5pièces avec piscine jardin - Hedranawoé tchinga,LOCATION,Villa,hedzranawoe tchinga,900000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 8 pièces - Avenou,LOCATION,Villa,avenou,900000,8.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 3 chambres salon à Tokoin Sotède,LOCATION,Villa,tokoin,900000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 chambres à Wuiti,LOCATION,Villa,wuiti,900000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa à Hedrzanwoé,LOCATION,Villa,hedzranawoe,850000,,,coinafrique,prix_ou_surface_manquant
+Location villa 7 chambres - Togokme,LOCATION,Villa,togokme,850000,7.0,,coinafrique,prix_ou_surface_manquant
+Location villa 7 chambres - Togokome,LOCATION,Villa,togokome,850000,7.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 3 pièces à Adidoadin,LOCATION,Villa,adidoadin,850000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces cour unique de 4 chambres - Rue de l'ocam,LOCATION,Villa,rue de l ocam,800000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex jardin 4 chambres salon à Hedranawoé balcan,LOCATION,Villa,hedzranawoe balcan,800000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 5 pièces + piscine a Baguida,LOCATION,Villa,meublee,800000,5.0,,coinafrique,zone_description_lieu
+Location villa 7 pièces - Lomé,LOCATION,Villa,lome,800000,7.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 8 pièces - kégué,LOCATION,Villa,kegue,800000,8.0,,coinafrique,prix_ou_surface_manquant
+Location villas 4 pièces - Lomé,LOCATION,Villa,lome,800000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 6 pièces - Agodeka,LOCATION,Villa,agodeka,800000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa 6 pièces - Kegue,LOCATION,Villa,kegue,800000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 chambres salon + jardin à Kegué 14 villas,LOCATION,Villa,kegue,800000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 10 pièces - Vakpossito,LOCATION,Villa,vakpossito,800000,10.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 4 pièces - cito - aéroport,LOCATION,Villa,hedzranawoe aeroport,800000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublé - Legbassito,LOCATION,Villa,legbassito,800000,,,coinafrique,prix_ou_surface_manquant
+Location villa 6pièces - Kegue,LOCATION,Villa,kegue,800000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 chambres salon à Tokoin Nukafu,LOCATION,Villa,tokoin,800000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 6pièces - Kegue,LOCATION,Villa,kegue,800000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa piscine avec jardin à Atikoume,LOCATION,Villa,atikoume,800000,,,coinafrique,prix_ou_surface_manquant
+Location villa - Tokoin,LOCATION,Villa,tokoin,800000,,,coinafrique,prix_ou_surface_manquant
+Location villa 9 pièces - Gand Marché De Lomé,LOCATION,Villa,gand marche de lome,800000,9.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 05 pièces à Baguida Luzolin,LOCATION,Villa,baguida luzolin,800000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa de 04 pièces à Avedji cito,LOCATION,Villa,avedji cito,800000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 06 pièces à Hedzranawoe,LOCATION,Villa,hedzranawoe,800000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée de 4 pièces avec piscine à adidogomé sagbado,LOCATION,Villa,adidogome,800000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 3 pièces à Agoé 2lion,LOCATION,Villa,agoe,800000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 6pièces - Kégué 14 villa,LOCATION,Villa,kegue,800000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex à Balkan,LOCATION,Villa,balkan,800000,,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 4 chambres salon à Hôtel balkan,LOCATION,Villa,hotel balkan,800000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 5 pièces - Tokoin,LOCATION,Villa,tokoin,750000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée - Togo 2000,LOCATION,Villa,togo 2000,750000,,,coinafrique,prix_ou_surface_manquant
+Location villa 4 chambres salon + 2 dépendances à Forever,LOCATION,Villa,forever,750000,4.0,,coinafrique,zone_description_lieu
+Location villa basse 7 pièces a forever,LOCATION,Villa,basse,750000,7.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 4 pièces – résidence à baguida,LOCATION,Villa,baguida,750000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée de 03 pièces à Baguida,LOCATION,Villa,baguida,750000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 4 pièces - Novissi,LOCATION,Villa,novissi,700000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 chambres à Tokoin forever,LOCATION,Villa,tokoin,700000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 3 chambres jardin à Novissi,LOCATION,Villa,novissi,700000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 chambres 2 salon à Tokoin forever,LOCATION,Villa,tokoin,700000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 6 chambres 2 salons Noukafou pas loin de la pharmacie,LOCATION,Villa,pharmacie,700000,6.0,,coinafrique,zone_description_lieu
+Location villa - Hedzranawé :+228 99 25 60 08,LOCATION,Villa,hedzranawoe,700000,,,coinafrique,prix_ou_surface_manquant
+Location villa 6 pièces - Novissi,LOCATION,Villa,novissi,700000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 4 pièces - Lomé,LOCATION,Villa,lome,700000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 8 pièces - Hedjranawoé Sagboville,LOCATION,Villa,hedjranawoe sagboville,700000,8.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex avec jardin à la Novissi,LOCATION,Villa,la novissi,700000,,,coinafrique,prix_ou_surface_manquant
+Location villa de 05 pièces à Hedzranawoe sagboville,LOCATION,Villa,hedzranawoe sagboville,700000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 6 pièces avec piscine à kégué kpatcha,LOCATION,Villa,kegue,700000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 8 pièces a bailler a Agbolopedo,LOCATION,Villa,agbalepedo,650000,8.0,,coinafrique,prix_ou_surface_manquant
+A louer une villa avec piscine + jardin - Ablogamé sarakawa,LOCATION,Villa,ablogame,650000,,,coinafrique,prix_ou_surface_manquant
+Location villa 8pièces - Adidogomé wonyomé,LOCATION,Villa,adidogome,650000,8.0,,coinafrique,prix_ou_surface_manquant
+Location villa avec piscine de 04 pièces à ablogame,LOCATION,Villa,ablogame,650000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée avec piscine à Entreprise l'union,LOCATION,Villa,entreprise l union,600000,,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces à Djidjolé,LOCATION,Villa,djidjole,600000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 8 pièces - Klikamé,LOCATION,Villa,klikame,600000,8.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 8 pièces + jardin à Tokoin hôpital,LOCATION,Villa,tokoin,600000,8.0,,coinafrique,prix_ou_surface_manquant
+Location villa 2 pièces entreprise de l'union,LOCATION,Villa,entreprise l union,600000,2.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 08 pièces - Nukafu,LOCATION,Villa,nukafu,600000,8.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces - Lomé,LOCATION,Villa,lome,600000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa triplex 10 pièces à Nyékonakpoe,LOCATION,Villa,nyekonakpoe,600000,10.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 4 pièces - Agoè 2 Lion,LOCATION,Villa,agoe,600000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa triplex 10chambre 2 salon - Nyekonakpoè,LOCATION,Villa,nyekonakpoe,600000,10.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 7 chambres salon à Agoé Sogbossito derrière coris banque,LOCATION,Villa,sogbossito,600000,7.0,,coinafrique,prix_ou_surface_manquant
+Location villa 2 lots avec piscine et jardin à Ablogamé Sarakawa,LOCATION,Villa,ablogame,600000,,1200.0,coinafrique,prix_m2_trop_bas
+Location villa 5 pièces - Noukafu,LOCATION,Villa,noukafu,600000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex meuble 4 pièces - Agoè,LOCATION,Villa,agoe,600000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 8 pièces à Adidogomé Ipg,LOCATION,Villa,adidogome,600000,8.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces à Agbalepedo,LOCATION,Villa,agbalepedo,600000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces à Cité Mokpokpo,LOCATION,Villa,non precise,600000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa de 06 pièces - Nukafu,LOCATION,Villa,nukafu,600000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa 05 pièces Atikoumé estao,LOCATION,Villa,atikoume,600000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 4 pièces - Tokoin Nukafu,LOCATION,Villa,tokoin,600000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 11 pièces - Avenou,LOCATION,Villa,avenou,600000,11.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Lomé,LOCATION,Villa,lome,600000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa - Ablogamé Sarakawa,LOCATION,Villa,ablogame,600000,,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 4 pièces - Agoe 2 Lion,LOCATION,Villa,agoe 2 lions,600000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 7 pièces - Ablogamé,LOCATION,Villa,ablogame,600000,7.0,,coinafrique,prix_ou_surface_manquant
+Location villa jardin de 10 chambres salon à Hedranawoé clinique,LOCATION,Villa,hedzranawoe clinique,600000,10.0,,coinafrique,zone_description_lieu
+Location villa de 8 pièces à adidogomé ipj,LOCATION,Villa,adidogome,600000,8.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Lomé,LOCATION,Villa,lome,550000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublé - Adidogomé,LOCATION,Villa,adidogome,550000,,,coinafrique,prix_ou_surface_manquant
+Location villa 11 pièces - Adidogomé,LOCATION,Villa,adidogome,550000,11.0,,coinafrique,prix_ou_surface_manquant
+Location villa de 8 pièces à avenou,LOCATION,Villa,avenou,550000,8.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublé 3 ch ambres salon à Djidjolé,LOCATION,Villa,djidjole,500000,,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces de haut standing a Agoé Daliko,LOCATION,Villa,agoe daliko,500000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa haute game 04 pièces Agoe Daliko,LOCATION,Villa,haute game,500000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces - Agoé Daliko,LOCATION,Villa,agoe daliko,500000,5.0,,coinafrique,prix_ou_surface_manquant
+Location mini villa 2chs à Agoe 2 Lion,LOCATION,Villa,agoe,500000,,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 4 pièces - Agbalepedo,LOCATION,Villa,agbalepedo,500000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 6 pièces Avénou,LOCATION,Villa,avenou,500000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa de 06 pièces - kégué,LOCATION,Villa,kegue,500000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 3 pièces - Tokoin Soted,LOCATION,Villa,tokoin,500000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 3 chambres salon à Avépozo,LOCATION,Villa,avepozo,500000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa à Agoe Daliko Lomé,LOCATION,Villa,agoe daliko lome,500000,,,coinafrique,prix_ou_surface_manquant
+Location villa - Kégué Kpatcha,LOCATION,Villa,kegue,500000,,,coinafrique,prix_ou_surface_manquant
+Location villa 6 pièces - Kodjoviakope,LOCATION,Villa,kodjoviakope,500000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces - Agoè,LOCATION,Villa,agoe,500000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 4 pièces - Adidogomé,LOCATION,Villa,adidogome,500000,4.0,,coinafrique,prix_ou_surface_manquant
+Location maison duplex haut standing à Adidogomé Sagbado,LOCATION,Villa,adidogome,500000,,,coinafrique,prix_ou_surface_manquant
+Location villa meublé de 4 pièces à Kpogan,LOCATION,Villa,kpogan,450000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 3 pièces - Tokoin,LOCATION,Villa,tokoin,450000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 3 pièces - tokoin,LOCATION,Villa,tokoin,450000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 6 pièces à Bailler - Kpogan Lomé,LOCATION,Villa,kpogan lome,450000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 3 pièces à adidogomé cité mokpokpo,LOCATION,Villa,adidogome,450000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 2 chambres salon Agoe lycée mairie,LOCATION,Villa,agoe,450000,2.0,,coinafrique,prix_ou_surface_manquant
+Location villa basse 3 chambres salon à Tokoin forever a,LOCATION,Villa,tokoin,450000,3.0,,coinafrique,prix_ou_surface_manquant
+Location Villa de 8 pièces à Tokoin Super Taco,LOCATION,Villa,tokoin,400000,8.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Hedranawoé à côté de l'hôtel balkan une cilla duplex de 3 chambres salon,LOCATION,Villa,hedzranawoe a cote de l hotel balkan une cilla duplex de 3 chambres salon,400000,4.0,,coinafrique,zone_trop_longue
+Location villa 4 pièces à Nyékonakpoé,LOCATION,Villa,nyekonakpoe,400000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex de 5 pièces à Soviépé,LOCATION,Villa,soviepe,400000,5.0,,coinafrique,prix_ou_surface_manquant
+Location Villa de 8 pièces à Avépozo,LOCATION,Villa,avepozo,400000,8.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 chambres à Tokoin Forever,LOCATION,Villa,tokoin,400000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa base 4 chambres à Super taco,LOCATION,Villa,super taco,400000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 4 pièces haut standing a Agoé cacaveli,LOCATION,Villa,cacaveli,400000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 8 pièces - Agoé cacaveli,LOCATION,Villa,agoe cacaveli,400000,8.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Forever,LOCATION,Villa,forever,400000,4.0,,coinafrique,zone_description_lieu
+Location villa 5 pièces - Nyekonakpoe,LOCATION,Villa,nyekonakpoe,400000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 chambre salon à Hedrzanwoé hôtel balkan,LOCATION,Villa,hedzranawoe,400000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces - Lomé,LOCATION,Villa,lome,400000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces a hedranawoé hôtel balkan,LOCATION,Villa,hedzranawoe hotel balkan,400000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Hedzranawoe,LOCATION,Villa,hedzranawoe,400000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 3 pièces - Agoè,LOCATION,Villa,agoe,400000,3.0,,coinafrique,prix_ou_surface_manquant
+Location mini villa 3 pièces - Agoè,LOCATION,Villa,agoe,400000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 4 pièces à Tokoin soted Lomé,LOCATION,Villa,tokoin,400000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa basse jardin 7 pièces a forever,LOCATION,Villa,basse jardin,400000,7.0,,coinafrique,prix_ou_surface_manquant
+Location villa cour unique 4 chambres salon à Bé hôpital,LOCATION,Villa,be,400000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces - Agoè CEG Est,LOCATION,Villa,agoe,400000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa située juste derrière Mèche Amina,LOCATION,Villa,situee juste,400000,,,coinafrique,zone_description_lieu
+Location villa duplex jardin de 5 pièces a Ablogamé sarakawa,LOCATION,Villa,ablogame,400000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces - Kégué,LOCATION,Villa,kegue,400000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 chambres à Kegue,LOCATION,Villa,kegue,400000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 4 pièces - Adidoadon,LOCATION,Villa,adidoadin,350000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa basse 5 pièces - Tosti,LOCATION,Villa,tosti,350000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée de 3 pieces à Baguida,LOCATION,Villa,baguida,350000,,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces a hedranawoe,LOCATION,Villa,hedzranawoe,350000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Lomé,LOCATION,Villa,lome,350000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces à forever 3 k au bord du goudron,LOCATION,Villa,forever,350000,5.0,,coinafrique,zone_description_lieu
+Location villa meublée 3 pièces - Baguida Cité BCEAO,LOCATION,Villa,baguida,350000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 4 chambres à Tokoin Doumassessé,LOCATION,Villa,tokoin,350000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 5 pièces - Adewui,LOCATION,Villa,adewui,350000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 chambres salon à Casablanca a 20 m du goudron,LOCATION,Villa,casablanca a,350000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex cour unique 4 chambres à Lankouvi,LOCATION,Villa,lankouvi,350000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublé - Kpogan,LOCATION,Villa,kpogan,350000,,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces a n'kafou,LOCATION,Villa,nukafou,350000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa cour unique située à Lankouvi,LOCATION,Villa,lankouvi,350000,,,coinafrique,prix_ou_surface_manquant
+Location villa 10 pièces - Hédzranawoé Station Yatt,LOCATION,Villa,hedzranawoe,350000,10.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex staffée de 06 chambres salon à Hedjranawoé - yatt&co à 100m du goudron,LOCATION,Villa,yatt co a 100m du goudron,350000,6.0,,coinafrique,zone_description_lieu
+Location villa meublée 4pièces - Adidogomè,LOCATION,Villa,adidogome,350000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée - Agoé,LOCATION,Villa,agoe,350000,,,coinafrique,prix_ou_surface_manquant
+Location mini villa meublée de 2 chambres salon - Agoe,LOCATION,Villa,agoe,350000,2.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces - Kegué,LOCATION,Villa,kegue,350000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 5 pièces - Hedzranawoe,LOCATION,Villa,hedzranawoe,350000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa de 04 pièces à Nyekonakpoe,LOCATION,Villa,nyekonakpoe,350000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa de 8 pièces à Cerfer,LOCATION,Villa,cerfer,350000,8.0,,coinafrique,prix_ou_surface_manquant
+Location villas 3 pièces - lomé,LOCATION,Villa,lome,340000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Tokoin witti,LOCATION,Villa,tokoin,340000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces à Tokoin Wuiti,LOCATION,Villa,tokoin,340000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublé de chambres salon à Kpogan,LOCATION,Villa,kpogan,300000,,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces - Nukafu,LOCATION,Villa,nukafu,300000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces à Tokoin franciscain,LOCATION,Villa,tokoin,300000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 6 pièces - Nukafou,LOCATION,Villa,nukafou,300000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 4 pièces à Adidogomé,LOCATION,Villa,adidogome,300000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villas 5 pièces - lomé,LOCATION,Villa,lome,300000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Djidjole,LOCATION,Villa,djidjole,300000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 8 pièces a Nukafu saint Joseph,LOCATION,Villa,nukafu saint joseph,300000,8.0,,coinafrique,prix_ou_surface_manquant
+Location villa jardin de 3 chambres salon à Totsi,LOCATION,Villa,totsi,300000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Adidogomé soviepé,LOCATION,Villa,adidogome,300000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa basse de 5 pièces - Baguida mairie,LOCATION,Villa,baguida mairie,300000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 03 pièces Djidjolé,LOCATION,Villa,djidjole,300000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Djidjolé,LOCATION,Villa,djidjole,300000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Agoè Sogbossito,LOCATION,Villa,agoe,300000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 4 pièces - Adidogomé,LOCATION,Villa,adidogome,300000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Djidjole Susanne Aho,LOCATION,Villa,djidjole susanne aho,300000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 03 pièces à Agoè Téléssou,LOCATION,Villa,agoe,300000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Kégué,LOCATION,Villa,kegue,300000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Lomé,LOCATION,Villa,lome,300000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 5 chambres salon à Kegué,LOCATION,Villa,kegue,280000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Attiegou,LOCATION,Villa,attiegou,280000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 1 pièces - Lomé,LOCATION,Villa,lome,275000,1.0,,coinafrique,prix_ou_surface_manquant
+Location villas 5 pièces - lomé,LOCATION,Villa,lome,250000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 6 pièces - Agbavi,LOCATION,Villa,agbavi,250000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa 8 pièces à Adidogomé,LOCATION,Villa,adidogome,250000,8.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces à novissi,LOCATION,Villa,novissi,250000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 5 pièces à Agoè catholique d'atchanvédd 4,LOCATION,Villa,agoe,250000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces - Kpota,LOCATION,Villa,be kpota,250000,5.0,,coinafrique,prix_ou_surface_manquant
+Location cours unique de 03 pièces - Avedji - leo 2000,LOCATION,Villa,leo 2000,250000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 3 pièces - Adidogomé sagbado,LOCATION,Villa,adidogome,250000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Novissi,LOCATION,Villa,novissi,250000,4.0,600.0,coinafrique,prix_m2_trop_bas
+Location villa cour unique de 4 pièces à forever bar 3 k,LOCATION,Villa,forever bar,250000,4.0,,coinafrique,zone_description_lieu
+Location villa 4 pièces - Agoè Minamadou,LOCATION,Villa,agoe,250000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa cour unique 3 chambres salon à Forever bar 3 k,LOCATION,Villa,forever bar,250000,3.0,,coinafrique,zone_description_lieu
+Location villa 6 pièces - Baguida Lome,LOCATION,Villa,baguida,250000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa cours unique 4 pièces à Agoe,LOCATION,Villa,agoe,250000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces a Nukafu,LOCATION,Villa,nukafu,250000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4pièces - Adidogome,LOCATION,Villa,adidogome,250000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 chambres Nukafu,LOCATION,Villa,nukafu,250000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa - Baguida Lome,LOCATION,Villa,baguida,250000,,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 3 chambres salon + 2 dépendances à Avepozo,LOCATION,Villa,avepozo,250000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Agbalepedo Haac,LOCATION,Villa,agbalepedo,250000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 03 pièces à Agoè Assiyeye,LOCATION,Villa,agoe,230000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 chambres salon à Adidogomè Atigagomé,LOCATION,Villa,adidogome atigagome,220000,4.0,,coinafrique,prix_ou_surface_manquant
+Location Villa 4 pièces - Agoé,LOCATION,Villa,agoe,200000,4.0,,coinafrique,prix_ou_surface_manquant
+Location voiture 4 pièces - Attiegou,LOCATION,Villa,attiegou,200000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 04 pièces - Tokoin Casablanca,LOCATION,Villa,tokoin,200000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces à avedji y au bord du goudron,LOCATION,Villa,avedji y,200000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa - Agoe docta lafia et China Mall,LOCATION,Villa,agoe docta lafia et china mall,200000,,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces à Hedranawoé station total,LOCATION,Villa,hedzranawoe station total,200000,4.0,,coinafrique,prix_ou_surface_manquant
+Location cours unique 4 pièces a Hedrzanawé,LOCATION,Villa,hedzranawoe,200000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa cour unique 3 chambresà Hedranawoé pharmacie bien etre,LOCATION,Villa,hedzranawoe pharmacie bien etre,200000,3.0,,coinafrique,zone_trop_longue
+Location villa duplex cour unique duplex 3 chambres à Adidoadin non loin de l'hôtel concorde,LOCATION,Villa,adidoadin,200000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 chambres salon à Hedranawoé Sagboville,LOCATION,Villa,hedzranawoe sagboville,200000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 3 chambres salon à Totsi Adidoadin,LOCATION,Villa,totsi,200000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 chambres salon à Avépozo,LOCATION,Villa,avepozo,200000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa duplex 5 pièces - Adidoadin,LOCATION,Villa,adidoadin,200000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa cour unique CAP Zossimé,LOCATION,Villa,cour unique cap zossime,200000,,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Agoè,LOCATION,Villa,agoe,200000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Adidogomé,LOCATION,Villa,adidogome,200000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 6 pièces - Hédzranawoè,LOCATION,Villa,hedzranawoe,200000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa 03 chambres salon - Hedzranawoe station total,LOCATION,Villa,hedzranawoe station total,200000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces - Lomé,LOCATION,Villa,lome,200000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Leo 2000,LOCATION,Villa,leo 2000,200000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces à Hedzranawoe Sagboville,LOCATION,Villa,hedzranawoe sagboville,200000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces a la cité Mokpokpo,LOCATION,Villa,la,180000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa de 4 pièces à Agoè,LOCATION,Villa,agoe,180000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa basse 4 pièces - Vakpossito,LOCATION,Villa,vakpossito,180000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 6 pièces a Attiegou savoir,LOCATION,Villa,attiegou savoir,180000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 chambres salon WC à Za Avepozo,LOCATION,Villa,za avepozo,180000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces a Agoé koffi panou,LOCATION,Villa,agoe koffi panou,180000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 chambres salon à Agoè bks2,LOCATION,Villa,agoe,170000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces à Agoè bks2,LOCATION,Villa,agoe,170000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villas 3 pièces - Lomé,LOCATION,Villa,lome,160000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Koffi,LOCATION,Villa,koffi,160000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Amandahome,LOCATION,Villa,amadahome,160000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Agoe Koffi Panou,LOCATION,Villa,agoe koffi panou,160000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces - Agoè Legbassito,LOCATION,Villa,agoe,160000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces à Entreprise l'union,LOCATION,Villa,entreprise l union,150000,5.0,,coinafrique,prix_ou_surface_manquant
+Location Cour Unique 4 pièces à Avédji,LOCATION,Villa,avedji,150000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces - Kegué tingamé,LOCATION,Villa,kegue tingame,150000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces - Lomé,LOCATION,Villa,lome,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villas 2 pièces - Lomé,LOCATION,Villa,lome,150000,2.0,,coinafrique,prix_ou_surface_manquant
+Location villa de 4 pièces à Adidogomé,LOCATION,Villa,adidogome,150000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces - Kodjoviakope,LOCATION,Villa,kodjoviakope,150000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces - Agoé,LOCATION,Villa,agoe,150000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces avec jardin à Agoè fil o park,LOCATION,Villa,agoe,150000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces a Avedji sun,LOCATION,Villa,avedji sun,150000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces - Agodékè Ceg Abalovie,LOCATION,Villa,agodeka,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa cour unique 4 pièces à Kegué hôtel Maximum,LOCATION,Villa,kegue hotel maximum,150000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 2 chambres salon WC douche cuisine interne a hedranawoé cito aéroport,LOCATION,Villa,hedzranawoe aeroport,150000,2.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Agoe cool catché,LOCATION,Villa,agoe cool catche,150000,4.0,,coinafrique,prix_ou_surface_manquant
+Location appartenant meublé à Tokoin soted,LOCATION,Villa,tokoin,150000,,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces a Kegué oqueens,LOCATION,Villa,kegue oqueens,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces a Djidjolé Suzanne Aho,LOCATION,Villa,djidjole,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 chambres salon tout interne avec un grand espace libre à agoè - atsanvé non loin du goudron,LOCATION,Villa,agoe,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location cour unique à Sagbado Logoté,LOCATION,Villa,sagbado logote,150000,,,coinafrique,prix_ou_surface_manquant
+"Location villa 7 pièces - Lomé,",LOCATION,Villa,lome,150000,7.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Lomé Hedzanawoe,LOCATION,Villa,hedzranawoe,150000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces - Keguer Oqueens,LOCATION,Villa,kegue r oqueens,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 03 pièces à zanguera en face de l'école madonne,LOCATION,Villa,zanguera en face de l,150000,3.0,,coinafrique,prix_ou_surface_manquant
+Location cour unique 3 pièces à Agbalépédo,LOCATION,Villa,agbalepedo,140000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces - Agbalepedo,LOCATION,Villa,agbalepedo,140000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces a kegué derrière somayaf,LOCATION,Villa,kegue,140000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces à Avedji Léo 2000,LOCATION,Villa,avedji leo,140000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Carrefour Bruyère,LOCATION,Villa,non precise,135000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Agoe Logope,LOCATION,Villa,agoe logope,135000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa - Dagué,LOCATION,Villa,dague,130000,,,coinafrique,prix_ou_surface_manquant
+Location villa cour unique 3 chambres salon Avepozo,LOCATION,Villa,cour unique,130000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces à Agoe,LOCATION,Villa,agoe,130000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 5 pièces - Sagbado Lankouvi,LOCATION,Villa,sagbado lankouvi,120000,5.0,,coinafrique,prix_ou_surface_manquant
+Location Villa 4 pièces - Zossimé,LOCATION,Villa,zossime,120000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces - Lomé,LOCATION,Villa,lome,120000,3.0,,coinafrique,prix_ou_surface_manquant
+Location mini villa 3 pièces - Agoè Sogbossito,LOCATION,Villa,agoe,120000,3.0,,coinafrique,prix_ou_surface_manquant
+Location maison - Baguida devego,LOCATION,Villa,baguida devego,120000,,,coinafrique,prix_ou_surface_manquant
+Location villa 4pièces - Zossimé,LOCATION,Villa,zossime,120000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 2 chambres salon + dépendance à Klobateme,LOCATION,Villa,klobateme,110000,2.0,,coinafrique,prix_ou_surface_manquant
+Location villas 2 pièces - Lomé,LOCATION,Villa,lome,105000,2.0,,coinafrique,prix_ou_surface_manquant
+Location mini villa interne + petit jardin Aablogamé,LOCATION,Villa,appe,100000,,,coinafrique,prix_ou_surface_manquant
+Location maisons de vacances 6 pièces - Adidogomé,LOCATION,Villa,adidogome,100000,6.0,,coinafrique,prix_ou_surface_manquant
+Location mini villa de 4 pièces à kegué kpatcha,LOCATION,Villa,kegue kpatcha,100000,4.0,,coinafrique,prix_ou_surface_manquant
+Location mini villa 3 pièces - Adidogomè atilamonou,LOCATION,Villa,adidogome atilamonou,100000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa chambres salon - Agoe Ora queens,LOCATION,Villa,agoe ora queens,100000,,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces - Lomé,LOCATION,Villa,lome,100000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces - FIH Immobilier met à votre disposition une villa nouvellement construite à Agoè Sogbossito,LOCATION,Villa,agoe,100000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublé 6 pièces - aéroport international,LOCATION,Villa,hedzranawoe aeroport,100000,6.0,,coinafrique,prix_ou_surface_manquant
+Location mini villa 3pièces - Agbalepedo,LOCATION,Villa,agbalepedo,100000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces - Adétikopé,LOCATION,Villa,adetikope,100000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces - Agoe sogbossito,LOCATION,Villa,sogbossito,85000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Agoé sogbossito,LOCATION,Villa,sogbossito,85000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Lomé,LOCATION,Villa,lome,85000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces - Amadahomé IPG Rail,LOCATION,Villa,amadahome,85000,3.0,,coinafrique,prix_ou_surface_manquant
+Location Villa de 4 pièces à Agoè Logopé,LOCATION,Villa,agoe,80000,4.0,,coinafrique,prix_ou_surface_manquant
+Location mini villa 3 pièces - derrière l'église catholique de totsi,LOCATION,Villa,totsi,80000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Léo 2000,LOCATION,Villa,leo 2000,80000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Lomé,LOCATION,Villa,lome,80000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3pièces - Assigomé,LOCATION,Villa,assigome,80000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces - Adidogomé Amadahomé,LOCATION,Villa,adidogome,80000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces - Kladjeme,LOCATION,Villa,kladjeme,80000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces a agoé adjoudba,LOCATION,Villa,agoe adjougba,80000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces - Lomé,LOCATION,Villa,lome,60000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa 4 pièces - Agoe Legbassito,LOCATION,Villa,agoe legbassito,60000,4.0,,coinafrique,prix_ou_surface_manquant
+Location villa chambre salon - Amandahome,LOCATION,Villa,amadahome,60000,,,coinafrique,prix_ou_surface_manquant
+Location villa 2 pièces à Avedji,LOCATION,Villa,avedji,60000,2.0,,coinafrique,prix_ou_surface_manquant
+Location villa 3 pièces - Atakpamé,LOCATION,Villa,atakpame,55000,3.0,,coinafrique,prix_ou_surface_manquant
+Location villa - Adidogome Logoté,LOCATION,Villa,adidogome logote,55000,,,coinafrique,prix_ou_surface_manquant
+Location villa chambre salon à Agbavie côté plage,LOCATION,Villa,agbavi cote plage,50000,2.0,,coinafrique,prix_ou_surface_manquant
+Location villas meublée de 5 pièces - lomé,LOCATION,Villa,lome,40000,5.0,,coinafrique,prix_ou_surface_manquant
+Location villa meublée 6 pièces - Agoe Carrefour Kpogbli,LOCATION,Villa,agoe,40000,6.0,,coinafrique,prix_ou_surface_manquant
+Location villa - Amadahome Amenope,LOCATION,Villa,amadahome,25000,,,coinafrique,prix_ou_surface_manquant
+Location villa - Vakpossito assigomé,LOCATION,Villa,vakpossito assigome,15000,,,coinafrique,prix_ou_surface_manquant
+Vente entrepôt à Lomé noukafu,VENTE,Entrepot,noukafu,1700000000,,600.0,coinafrique,prix_m2_trop_eleve
+Entrepôt sur 1003 m² à Akodessewa non loin du port,VENTE,Entrepot,akodessewa non loin du port,350000000,,1003.0,coinafrique,zone_description_lieu
+Vente immeuble - Pharmacie Yembla,VENTE,Immeuble,pharmacie yembla,2000000000,,600.0,coinafrique,zone_description_lieu
+Vente immeuble - Agoe,VENTE,Immeuble,agoe,2000000000,,600.0,coinafrique,prix_m2_trop_eleve
+Vente immeuble Bourd du boulevard du mono,VENTE,Immeuble,boulevard,1900000000,,600.0,coinafrique,prix_m2_trop_eleve
+Terrain 1 lot à Assigame,VENTE,Terrain,assigame,1500000000,,600.0,coinafrique,prix_m2_trop_eleve
+Terrain agricole - Badja,VENTE,Terrain,badja,1272000000,,600.0,coinafrique,prix_m2_trop_eleve
+Terrain 300 lots - Anié Awatere,VENTE,Terrain,anie awatere,1050000000,,300.0,coinafrique,prix_m2_trop_eleve
+Terrain 1 lot 1/2 - Assigamé,VENTE,Terrain,assigame,900000000,,300.0,coinafrique,prix_m2_trop_eleve
+Terrain 1 lot à Togo,VENTE,Terrain,togo,700000000,,600.0,coinafrique,zone_invalide
+Terrain 2 lots collés à kodjoviakope au bord de goudron,VENTE,Terrain,kodjoviakope au bord de goudron,600000000,,1200.0,coinafrique,zone_trop_longue
+"Terrain 273,50ha à Tchékpo",VENTE,Terrain,tchekpo,547000000,,,coinafrique,prix_ou_surface_manquant
+Terrain 25 lot face à la mer Kpeme à côté du CEG,VENTE,Terrain,la mer kpeme a cote du,312500000,,15000.0,coinafrique,zone_description_lieu
+Terrain 4 lots ouvert sur 2 voies Baguida à côté de la cité Boad,VENTE,Terrain,cote de la,220000000,,2400.0,coinafrique,zone_description_lieu
+Terrain 1 lot & 1/2 lot angle rue - Noukafu pharmacie du peuple,VENTE,Terrain,noukafu pharmacie du peuple,175000000,,900.0,coinafrique,zone_description_lieu
+Terrain 1 lot et 1/4 face au goudron pavé Forever,VENTE,Terrain,forever,170000000,,750.0,coinafrique,zone_description_lieu
+Terrain 1 lot à Forever,VENTE,Terrain,forever,170000000,,600.0,coinafrique,zone_description_lieu
+Terrain 740m² à Forever,VENTE,Terrain,forever,170000000,,740.0,coinafrique,zone_description_lieu
+Terrain 91ha à Wahala,VENTE,Terrain,wahala,136500000,,910000.0,coinafrique,prix_m2_trop_bas
+Terrain 4 lots Stevie à côté de la direction de togocel ou yass - togo,VENTE,Terrain,togo,120000000,,2400.0,coinafrique,zone_invalide
+Terrain 12 ha 02ca - Hanoukopé,VENTE,Terrain,hanoukope,110000000,,120000.0,coinafrique,prix_m2_trop_bas
+Terrain 1 lot - Bord du goudron côté Mocrofinance,VENTE,Terrain,bord du goudron cote mocrofinance,100000000,,600.0,coinafrique,zone_trop_longue
+Terrain 1 lot - Forever,VENTE,Terrain,forever,90000000,,600.0,coinafrique,zone_description_lieu
+Terrain 1 lot angle au bord du goudron a Togo 2000,VENTE,Terrain,togo,90000000,,600.0,coinafrique,zone_invalide
+Terrainà Togo 2000 au bord du goudron,VENTE,Terrain,togo,90000000,,600.0,coinafrique,zone_invalide
+Terrain 20 ha - Badza,VENTE,Terrain,badza,80000000,,200000.0,coinafrique,prix_m2_trop_bas
+Terrain 1lot - Togo,VENTE,Terrain,togo,80000000,,600.0,coinafrique,zone_invalide
+Terrain 1lot à Togo 2000,VENTE,Terrain,togo,80000000,,600.0,coinafrique,zone_invalide
+Terrain 1 lot à Togo 2000,VENTE,Terrain,togo,65000000,,600.0,coinafrique,zone_invalide
+Terrains 8lots collès - Togo,VENTE,Terrain,togo,55000000,,4800.0,coinafrique,zone_invalide
+Terrain 100 m² - Lomé,VENTE,Terrain,lome,40000000,,60000.0,coinafrique,prix_m2_trop_bas
+Terrain 12 hectares et demi à Amouzou kope,VENTE,Terrain,amouzou kope,36000000,,120000.0,coinafrique,prix_m2_trop_bas
+Terrain 11 ha 6a à 7 km du goudron Agbessia Kpalime,VENTE,Terrain,agbessia kpalime,35000000,,110000.0,coinafrique,prix_m2_trop_bas
+"Terrain 4,5 hectares à Kpevego",VENTE,Terrain,kpevego,35000000,,45000.0,coinafrique,prix_m2_trop_bas
+Terrain 1 lot - Togo,VENTE,Terrain,togo,35000000,,600.0,coinafrique,zone_invalide
+Terrain 11 ha - Assahoun,VENTE,Terrain,assahoun,33000000,,110000.0,coinafrique,prix_m2_trop_bas
+Terrain 1/2 Lot 350 m² TF en face de la pharmacie St Joseph,VENTE,Terrain,pharmacie st joseph,33000000,,300.0,coinafrique,zone_description_lieu
+"Terrain 1,75 lots à Apessito",VENTE,Terrain,apessito,30000000,,45000.0,coinafrique,prix_m2_trop_bas
+Vente maison à démolir non loin du terrain de football d'Asfoza à Ablogame,VENTE,Terrain,demolir non loin du terrain de football d asfoza a ablogame,28000000,,600.0,coinafrique,zone_trop_longue
+Terrain demi lot à Togo 2000,VENTE,Terrain,togo,26000000,,600.0,coinafrique,zone_invalide
+Terrain chambres salon - Entreprise de l'union 500m du goudron,VENTE,Terrain,entreprise de l union 500m du goudron,26000000,,600.0,coinafrique,zone_trop_longue
+Terrain agricole 5H - Lilikopé,VENTE,Terrain,lilikope,25000000,,50000.0,coinafrique,prix_m2_trop_bas
+Terrain 10 ha à à Avédjé,VENTE,Terrain,avedje,25000000,,100000.0,coinafrique,prix_m2_trop_bas
+Vente ferme 5 ha - Agbelouvé,VENTE,Terrain,agbelouve,25000000,,50000.0,coinafrique,prix_m2_trop_bas
+Terrain 10 hectares à Avedje,VENTE,Terrain,avedje,25000000,,100000.0,coinafrique,prix_m2_trop_bas
+Terrain à Kegue clinique des moineaux,VENTE,Terrain,kegue clinique des moineaux,25000000,,600.0,coinafrique,zone_description_lieu
+Terrain 1 lot non loin de la station Sanol Adidogome Sagbado,VENTE,Terrain,station sanol adidogome sagbado,25000000,,600.0,coinafrique,zone_trop_longue
+Terrain 01 et 1/4 lot à Djagblé non loin du CEG,VENTE,Terrain,djagble non loin du,23000000,,750.0,coinafrique,zone_description_lieu
+Terrains 24000 m² - Lomé,VENTE,Terrain,lome,20000000,,24000.0,coinafrique,prix_m2_trop_bas
+Terrain demi lot carré - Togo,VENTE,Terrain,togo,20000000,,600.0,coinafrique,zone_invalide
+Terrain 2 lots collés à Apessito côté opposé de la pharmacie bakoe avec accès facile et direct à 300 mètres de la grande voie. document: titre foncierprix:20 millions,VENTE,Terrain,apessito cote oppose de la pharmacie bakoe avec acces facile et direct a,20000000,,1200.0,coinafrique,zone_trop_longue
+Terrain 3/4 de lot clôturé à Togokome côté plage angle rue a 300 m du goudron,VENTE,Terrain,togokome cote plage angle rue a,17000000,,450.0,coinafrique,zone_trop_longue
+Terrain sur 1/2lot à Adidogome wonyome catholique pour 16000000f,VENTE,Terrain,adidogome wonyome catholique pour,16000000,,300.0,coinafrique,zone_trop_longue
+Parcelle 15 ha - Bagbe,VENTE,Terrain,bagbe,15000000,,150000.0,coinafrique,prix_m2_trop_bas
+Terrain ½ lot bien clôturée à côté de l'église catholique angle de rue,VENTE,Terrain,cote de l eglise catholique angle de rue,14000000,,600.0,coinafrique,zone_trop_longue
+Terrain 24 lots dont 18 collés à Koala,VENTE,Terrain,koala,13000000,,14400.0,coinafrique,prix_m2_trop_bas
+Terrain 5 hectares à Noepe,VENTE,Terrain,noepe,12000000,,50000.0,coinafrique,prix_m2_trop_bas
+Terrain 30 lots à Klobateme,VENTE,Terrain,klobateme,11000000,,18000.0,coinafrique,prix_m2_trop_bas
+Terrain 30 lots - Djagblé,VENTE,Terrain,djagble,11000000,,18000.0,coinafrique,prix_m2_trop_bas
+Terrain 1/2 lot à Annexe pya avant Adetikopé,VENTE,Terrain,annexe pya avant adetikope,10000000,,300.0,coinafrique,zone_description_lieu
+Terrain 70 lots à Zanguéra Akepedo,VENTE,Terrain,zanguera,10000000,,42000.0,coinafrique,prix_m2_trop_bas
+Terrains 31ha - Lilikope,VENTE,Terrain,lilikope,10000000,,310000.0,coinafrique,prix_m2_trop_bas
+Terrain 28 lots collés - Legbassito,VENTE,Terrain,legbassito,8000000,,16800.0,coinafrique,prix_m2_trop_bas
+Terrain 20 lots collés - Tsevie,VENTE,Terrain,tsevie,8000000,,12000.0,coinafrique,prix_m2_trop_bas
+Terrain 20 lots à Tsevie kpali,VENTE,Terrain,tsevie kpali,8000000,,12000.0,coinafrique,prix_m2_trop_bas
+Terrain 28lots - Legbassito,VENTE,Terrain,legbassito,8000000,,16800.0,coinafrique,prix_m2_trop_bas
+Terrain 1 ha - Tsévié,VENTE,Terrain,tsevie,8000000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain 1/4 lot - contournement après péage,VENTE,Terrain,contournement apres peage,7000000,,150.0,coinafrique,zone_description_lieu
+Terrain 20 lots collés à Adétikopé,VENTE,Terrain,adetikope,6500000,,12000.0,coinafrique,prix_m2_trop_bas
+Terrains 12 lots face à la grande voie Badja Agoudja,VENTE,Terrain,la grande voie badja agoudja,6000000,,7200.0,coinafrique,prix_m2_trop_bas
+Terrain à Zanguera juste derrière la fabrication de gaz,VENTE,Terrain,zanguera juste,6000000,,600.0,coinafrique,zone_description_lieu
+Terrain 20 lots collés à Adétikopé,VENTE,Terrain,adetikope,5500000,,12000.0,coinafrique,prix_m2_trop_bas
+Terrain 1/2 lot - Pharmacie de Davié,VENTE,Terrain,pharmacie de davie,5500000,,300.0,coinafrique,zone_description_lieu
+Terrain 27 lots collés - Tsevie,VENTE,Terrain,tsevie,5000000,,16200.0,coinafrique,prix_m2_trop_bas
+Terrain à Djagble klobateme non loin du goudron,VENTE,Terrain,djagble klobateme non loin du goudron,5000000,,600.0,coinafrique,zone_trop_longue
+Terrain 10lots collés à Davié Tékpo,VENTE,Terrain,davie tekpo,5000000,,6000.0,coinafrique,prix_m2_trop_bas
+Terrain à Togo ville coté lac pas loin du goudron,VENTE,Terrain,togo ville cote lac pas loin du goudron,5000000,,600.0,coinafrique,zone_trop_longue
+Terrain avec 2 chambres salon à Agoe non loin d'assiyeye,VENTE,Terrain,agoe non loin d assiyeye,4900000,2.0,600.0,coinafrique,zone_description_lieu
+Terrain 30 lots collés - Tsevie,VENTE,Terrain,tsevie,4000000,,18000.0,coinafrique,prix_m2_trop_bas
+Terrain 36 hectares à Dalave,VENTE,Terrain,dalave,4000000,,360000.0,coinafrique,prix_m2_trop_bas
+Terrain agricole 18 lots - Noépé,VENTE,Terrain,noepe,4000000,,10800.0,coinafrique,prix_m2_trop_bas
+Terrain agricole 85 ha à Amoussoukopé,VENTE,Terrain,amoussoukope,3500000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain - Kara - togo,VENTE,Terrain,togo,3500000,,600.0,coinafrique,zone_invalide
+Terrain 70 lots collés - Tsevie,VENTE,Terrain,tsevie,3000000,,42000.0,coinafrique,prix_m2_trop_bas
+Terrain agricole 1 ha - Badja,VENTE,Terrain,badja,3000000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain 30 lots à Davié vli,VENTE,Terrain,davie vli,2500000,,18000.0,coinafrique,prix_m2_trop_bas
+Terrain 97 hectares à Agbelouve,VENTE,Terrain,agbelouve,2500000,,10000.0,coinafrique,prix_m2_trop_bas
+Vente terrains agricoles 60000 m² - Kpalimé,VENTE,Terrain,kpalime,2000000,,60000.0,coinafrique,prix_m2_trop_bas
+Tzrrain 16 ha à kdpele adeta,VENTE,Terrain,kdpele adeta,2000000,,160000.0,coinafrique,prix_m2_trop_bas
+Terrain 1ha à Assahoun,VENTE,Terrain,assahoun,2000000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain 1 /4 lot à Kpemé,VENTE,Terrain,kpeme,1700000,,2400.0,coinafrique,prix_m2_trop_bas
+Terrains 41 m² - Atakpamé,VENTE,Terrain,atakpame,1500000,,24600.0,coinafrique,prix_m2_trop_bas
+Terrain 91 ha a wahala,VENTE,Terrain,wahala,1500000,,910000.0,coinafrique,prix_m2_trop_bas
+Terrain TF 3 lots à Kpalimé agognongbo,VENTE,Terrain,kpalime agognongbo,1500000,,1800.0,coinafrique,prix_m2_trop_bas
+Terrain 13 lots collés à Adetikope GMK,VENTE,Terrain,adetikope gmk,1300000,,7800.0,coinafrique,prix_m2_trop_bas
+Terrain agricoles 50 ha à agbelouve,VENTE,Terrain,agbelouve,1200000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain agricole 90000m² - Grand Marché de Lomé,VENTE,Terrain,grand marche de lome,800000,,90000.0,coinafrique,prix_m2_trop_bas
+Terrain 2 lots - Kpalimé,VENTE,Terrain,kpalime,800000,,1200.0,coinafrique,prix_m2_trop_bas
+Terrain 5 lots - Adetikope,VENTE,Terrain,adetikope,500000,,3000.0,coinafrique,prix_m2_trop_bas
+Terrain agricole - Tohoun,VENTE,Terrain,tohoun,500000,,600.0,coinafrique,prix_m2_trop_bas
+Terrain agricole 154 ha - Hawala,VENTE,Terrain,hawala,450000,,,coinafrique,prix_ou_surface_manquant
+Terrain agricole - Wahala,VENTE,Terrain,wahala,400000,,600.0,coinafrique,prix_m2_trop_bas
+Terrain face au goudron 1/2 lot au niveau 3 k,VENTE,Terrain,adewui,150000,,300.0,coinafrique,prix_m2_trop_bas
+Terrain - Vakpossitoa,VENTE,Terrain,vakpossitoa,60000,,600.0,coinafrique,prix_m2_trop_bas
+Terrain 1 lot - Agbalepedo,VENTE,Terrain,agbalepedo,60000,,600.0,coinafrique,prix_m2_trop_bas
+Vente hôtel R+5 à Adidoadin,VENTE,Villa,adidoadin,1830000000,,600.0,coinafrique,prix_m2_trop_eleve
+Vente villa 29 pièces à Cité Oua,VENTE,Villa,non precise,1800000000,29.0,600.0,coinafrique,prix_m2_trop_eleve
+Vente villa duplex à Forever juste à côté de cité sidéal,VENTE,Villa,forever juste a cote de,1750000000,,600.0,coinafrique,zone_description_lieu
+Vente villa à Lomé Novissi au bord du goudron,VENTE,Villa,novissi,1500000000,,600.0,coinafrique,prix_m2_trop_eleve
+Vente villa - Kodjoviakop,VENTE,Villa,kodjoviakope,1500000000,,600.0,coinafrique,prix_m2_trop_eleve
+Vente villa - Kodjoviakope,VENTE,Villa,kodjoviakope,1500000000,,600.0,coinafrique,prix_m2_trop_eleve
+Vente villa R+1 à cité Oua,VENTE,Villa,non precise,1500000000,,600.0,coinafrique,prix_m2_trop_eleve
+Vente villa 13 pièces - Tako,VENTE,Villa,tako,1500000000,13.0,600.0,coinafrique,prix_m2_trop_eleve
+Vente villa à cité Oua,VENTE,Villa,non precise,1250000000,,600.0,coinafrique,prix_m2_trop_eleve
+Vente villa 4 chambres salon à cité Oua,VENTE,Villa,non precise,1250000000,4.0,600.0,coinafrique,prix_m2_trop_eleve
+Vente hôtel 32 chambres sur un lot 600m² sur la rue de lOCAM,VENTE,Villa,rue de locam,1250000000,32.0,600.0,coinafrique,prix_m2_trop_eleve
+Vente villa duplex de 4 chambres salon à Axuiti forever proche de la caisse,VENTE,Villa,axuiti forever proche de la caisse,500000000,4.0,600.0,coinafrique,zone_trop_longue
+Vente villa - Pharmacie Yembla,VENTE,Villa,pharmacie yembla,500000000,,600.0,coinafrique,zone_description_lieu
+Vente villa haut standing avec piscine de 4 chambres salon proche de la caisse non loin de la pharmacie Yembla,VENTE,Villa,haut standing avec piscine de,500000000,4.0,600.0,coinafrique,zone_description_lieu
+Vente villa à rénover ou à démolir à la Caisse,VENTE,Villa,renover ou a demolir a la caisse,400000000,,600.0,coinafrique,zone_trop_longue
+Vente villa piscine de haut standing à Baguida côté plage,VENTE,Villa,baguida cote plage,400000000,,600.0,coinafrique,zone_description_lieu
+Vente villa a démolir - Togo,VENTE,Villa,togo,360000000,,600.0,coinafrique,zone_invalide
+Vente maison à raser à la caisse à la Résidence Caisse,VENTE,Villa,raser a la caisse a la residence caisse,350000000,,600.0,coinafrique,zone_trop_longue
+Vente villa duplex 6pièces - Baguida côté plage,VENTE,Villa,baguida cote plage,280000000,6.0,600.0,coinafrique,zone_description_lieu
+Vente villa 1 lot à Hedzranawoé non loin du marché,VENTE,Villa,hedzranawoe non loin du marche,240000000,,600.0,coinafrique,zone_description_lieu
+Vente 2 villas 5 pièces - forever wuiti Lomé togo 228,VENTE,Villa,forever wuiti lome togo 228,185000000,5.0,600.0,coinafrique,zone_description_lieu
+Vente villa 7 pièces à Forever,VENTE,Villa,forever,185000000,7.0,600.0,coinafrique,zone_description_lieu
+Vente villa 6 pièces à Forever,VENTE,Villa,forever,185000000,6.0,600.0,coinafrique,zone_description_lieu
+Vente villa duplex 9 chambres à Hedzranawoe ou Attiégou Sokpanou,VENTE,Villa,hedzranawoe ou attiegou sokpanou,185000000,9.0,600.0,coinafrique,zone_trop_longue
+Vente villa avec piscine à Forever,VENTE,Villa,forever,175000000,,600.0,coinafrique,zone_description_lieu
+Vente villa duplex 5 pièces - Forever,VENTE,Villa,forever,175000000,5.0,600.0,coinafrique,zone_description_lieu
+Vente villa duplex à Forever,VENTE,Villa,forever,170000000,,600.0,coinafrique,zone_description_lieu
+Vente villa duplex 10 pièces - Forever,VENTE,Villa,forever,170000000,10.0,600.0,coinafrique,zone_description_lieu
+Vente villa à Attiegou pharmacie raoudha,VENTE,Villa,attiegou pharmacie raoudha,170000000,,600.0,coinafrique,zone_description_lieu
+4 chambres salon à Attiegou pharmacie roauda,VENTE,Villa,attiegou pharmacie roauda,170000000,4.0,600.0,coinafrique,zone_description_lieu
+Vente villa 10 pièces à Forever,VENTE,Villa,forever,135000000,10.0,600.0,coinafrique,zone_description_lieu
+Vente villa 4 chambres salon à Togo 2000,VENTE,Villa,togo,110000000,4.0,600.0,coinafrique,zone_invalide
+Vente maison à but lucratif Adidogome Apedokoe,VENTE,Villa,but lucratif adidogome apedokoe,75000000,,600.0,coinafrique,zone_trop_longue
+Vente villa à Agoe legbassito Assiko koklognipe,VENTE,Villa,agoe legbassito assiko koklognipe,70000000,,600.0,coinafrique,zone_trop_longue
+"Vente villa 4 pièces à zanguera akepedo, avant le nouveau péage à 800m du goudron lomé - kpalimé, villa composée de : __ rez: une très g",VENTE,Villa,kpalime villa composee de __ rez une tres g,70000000,4.0,600.0,coinafrique,zone_trop_longue
+Vente villa 5 pièces - Pharmacie Ave Maria,VENTE,Villa,pharmacie ave maria,65000000,5.0,600.0,coinafrique,zone_description_lieu
+Vente villa 4 pièces à Forever,VENTE,Villa,forever,60000000,4.0,600.0,coinafrique,zone_description_lieu
+Vente villa 3 pièces à zanguera kleme avant antenne moov,VENTE,Villa,zanguera kleme avant antenne moov,55000000,3.0,600.0,coinafrique,zone_trop_longue
+Vente villa inachevée - Avepozo à 800m du goudron,VENTE,Villa,avepozo a 800m du goudron,45000000,,600.0,coinafrique,zone_description_lieu
+Vente villa 3 chambres salon à Agoe Assiyeye non loin du goudron,VENTE,Villa,agoe assiyeye non loin du goudron,38000000,3.0,600.0,coinafrique,zone_trop_longue
+Vente villa 3 chambres salon - Legbassito pharmacie m'ba Senoukopé,VENTE,Villa,legbassito pharmacie m ba senoukope,30000000,3.0,600.0,coinafrique,zone_trop_longue
+Vente maison de location sur demi lot composée de chambres salon - Entreprise de l'union 500m du goudron,VENTE,Villa,entreprise de l union 500m du goudron,26000000,,300.0,coinafrique,zone_trop_longue
+Vente hôtel inachevé construite sur 1 / 4 de lot à Logoté pas loin du goudron,VENTE,Villa,logote pas loin du goudron,13000000,,300.0,coinafrique,zone_description_lieu
+Vente maison - Togo,VENTE,Villa,togo,13000000,,600.0,coinafrique,zone_invalide
+Vente villa 2 pièces - Atilamonou non loin du bar one day,VENTE,Villa,atilamonou non loin du bar one day,9000000,2.0,600.0,coinafrique,zone_trop_longue
+"Vente maison - Kpala juste après la ""cité kpala""",VENTE,Villa,kpala juste apres la,5000000,,600.0,coinafrique,zone_description_lieu
+Terrain 1 lot à l'entrée de la villa de Kpalimé,VENTE,Villa,l entree de la villa de kpalime,5000000,,600.0,coinafrique,zone_trop_longue
+Terrain agricole 11H - Kpalimé village,VENTE,Villa,kpalime village,3500000,,6600.0,coinafrique,prix_m2_trop_bas
+Vente villa 4pièces - Forever,VENTE,Villa,forever,1100000,4.0,600.0,coinafrique,zone_description_lieu
+Vente villa 5 pièces - Togo,VENTE,Villa,togo,400000,5.0,600.0,coinafrique,zone_invalide
+Vente villa 3 pièces à Atiomé carrefour Kponse,VENTE,Villa,atiome,150000,3.0,600.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre,VENTE,Terrain,non spécifié,3500000,,350.0,coinafrique,zone_invalide
+TERRAIN A VENDRE LOMÉ ADETIKOPE,VENTE,Terrain,adetikope,30000,,43.75,coinafrique,prix_m2_trop_bas
+Terrain à GTA LOME,VENTE,Terrain,non spécifié,1100000,,87.5,coinafrique,zone_invalide
+Terrain à vendre,VENTE,Terrain,non spécifié,3000000,,350.0,coinafrique,zone_invalide
+Terrain à vendre,VENTE,Terrain,non spécifié,1800000,,87.5,coinafrique,zone_invalide
+Terrain,VENTE,Terrain,non spécifié,12000000,,700.0,coinafrique,zone_invalide
+Terrain à vendre Djagblé,VENTE,Terrain,non spécifié,1200000,,87.5,coinafrique,zone_invalide
+Des terrains à vendre en ville a lomé,VENTE,Terrain,non spécifié,1000000,,43.75,coinafrique,zone_invalide
+Terrain à vendre,VENTE,Terrain,non spécifié,1200000,,87.5,coinafrique,zone_invalide
+Terrain à vendre Djagblé,VENTE,Terrain,non spécifié,1200000,,87.5,coinafrique,zone_invalide
+Des terrains à vendre en ville a lomé,VENTE,Terrain,non spécifié,1000000,,43.75,coinafrique,zone_invalide
+OPPORTUNITÉ UNIQUE À LOMÉ – TERRAIN AU BORD DU GOUDRON EN ANGLE DE RUE DE 499m² CLÔTURÉ SUR LA ROUTE,VENTE,Terrain,non spécifié,4900000,,499.0,coinafrique,zone_invalide
+Terrain à vendre avec titre foncier,VENTE,Terrain,non spécifié,20000000,,700.0,coinafrique,zone_invalide
+Terrain 1/8 à vendre avec construction,VENTE,Terrain,non spécifié,4000000,,350.0,coinafrique,zone_invalide
+Terrain,VENTE,Terrain,non spécifié,2000000,,87.5,coinafrique,zone_invalide
+"😁😁LOCATION EN *CENTRE VILLE DE LOMÉ* 
+lckim🆘
+ *PRODUIT DIRECT¹AA* 
+
+
+*VILLA TRIPLEX DE 10 CHAMBRE",LOCATION,Villa,non spécifié,600000,10.0,100.0,coinafrique,zone_invalide
+Studio meublé à louer à Lomé,LOCATION,Appartement,non spécifié,15000,1.0,35.0,coinafrique,zone_invalide
+☎️🇹🇬 TÉL [hidden information] chambre salon meublé à Lomé totsi,VENTE,Terrain,non spécifié,15000,2.0,20.0,coinafrique,zone_invalide
+☎️🇹🇬 TÉL [hidden information] studio meublé à Lomé totsi,VENTE,Appartement,non spécifié,13000,1.0,35.0,coinafrique,zone_invalide
+Appartement / condominium de 1 chambre et 1 salle de bain 1 bed · 1 bath,LOCATION,Appartement,be,20000,1.0,60.0,coinafrique,prix_m2_trop_bas
+☎️🇹🇬 TÉL[hidden information] Appartement meublé Lomé totsi,LOCATION,Appartement,non spécifié,15000,2.0,60.0,coinafrique,zone_invalide
+Pièce meublée en ville de Lomé.,LOCATION,Appartement,non spécifié,10000,1.0,20.0,coinafrique,zone_invalide
+☎️🇹🇬 TÉL [hidden information] Appartement meublé Lomé tokoin pharmacie gbonssime,LOCATION,Appartement,tokoin,15000,2.0,60.0,coinafrique,prix_m2_trop_bas
+☎️🇹🇬 TÉL[hidden information] Appartement meublé à Lomé avedji,LOCATION,Appartement,avedji,20000,1.0,60.0,coinafrique,prix_m2_trop_bas
+Location maison meublee ,LOCATION,Terrain,non spécifié,40000,1.0,20.0,coinafrique,zone_invalide
+Location appartement ,LOCATION,Appartement,non spécifié,35000,1.0,20.0,coinafrique,zone_invalide
+"Location cour unique 
+
+Zossimé non loin du marché 
+
+nous mettons en location une chambre salon plafo",LOCATION,Terrain,non spécifié,30000,2.0,20.0,coinafrique,zone_invalide
+LOCATION,LOCATION,Terrain,non spécifié,70000,,20.0,coinafrique,zone_invalide
+Location,LOCATION,Terrain,non spécifié,70000,,20.0,coinafrique,zone_invalide
+Cours unique chambre salon,VENTE,Villa,non spécifié,40000,2.0,20.0,coinafrique,zone_invalide
+Appartement scindé en cour unique,VENTE,Villa,non spécifié,65000,3.0,60.0,coinafrique,zone_invalide
+TERRAIN A VENDRE AKATO,VENTE,Terrain,non spécifié,150000,,43.75,coinafrique,zone_invalide
+Terrain à vendre,VENTE,Terrain,non spécifié,5500000,,350.0,coinafrique,zone_invalide
+Lomé Togo terrain à vendre,VENTE,Terrain,non spécifié,90000000,,700.0,coinafrique,zone_invalide
+Terrain un lot en vente a lome aképé port sec,VENTE,Terrain,non spécifié,9000000,,350.0,coinafrique,zone_invalide
+Terrain fiable à vendre,VENTE,Terrain,non spécifié,2800000,,350.0,coinafrique,zone_invalide
+"*A VENDRE*
+02 LOT de terrain au cœur du grand marché de LOMÉ.
+Surface : 1000 m2.
+
+Situés en angle de",VENTE,Terrain,non spécifié,1000000000,,700.0,coinafrique,zone_invalide
+Terrain demi Lot,VENTE,Terrain,non spécifié,35000000,,700.0,coinafrique,zone_invalide
+Terrain à Lomé 🇹🇬,VENTE,Terrain,non spécifié,120000000,,700.0,coinafrique,zone_invalide
+TERRAINS AGRICOLES EN VENTE À AZAHOUN,VENTE,Terrain,non spécifié,1300000,,87.5,coinafrique,zone_invalide
+Terrain en vente a Lomé aképé,VENTE,Terrain,non spécifié,9000000,,350.0,coinafrique,zone_invalide
+Terrain : 1/2 lot avec Titre Foncier P à klikamé non loin campus Lomé,VENTE,Terrain,non spécifié,19000000,,175.0,coinafrique,zone_invalide
+Terrain à vendre à Lomé akepe,VENTE,Terrain,non spécifié,9000000,,350.0,coinafrique,zone_invalide
+Terrain à vendre au grand marché de lomé (Assigame),VENTE,Terrain,non spécifié,1000000,,43.75,coinafrique,zone_invalide
+VENTE DE TERRAIN A NOTSÈ 13 KL AU GOUDRON 🇹🇬,VENTE,Terrain,non spécifié,400000,,43.75,coinafrique,zone_invalide
+VENTE DE TERRAIN A NOTSÈ À 13 KLM DU GOUDRON 🇹🇬,VENTE,Terrain,non spécifié,400000,,43.75,coinafrique,zone_invalide
+TERRAIN À VENDRE,VENTE,Terrain,non spécifié,4000000,,350.0,coinafrique,zone_invalide
+Terrain quart de Lot en vente a Lomé mission tové,VENTE,Terrain,non spécifié,2000000,,87.5,coinafrique,zone_invalide
+Terrain à vendre et valeur venales,VENTE,Terrain,tokoin forever,12500000,,600.0,coinafrique,zone_description_lieu
+Terrain à vendre et valeur venales,VENTE,Terrain,lomé ii (hors cité oua et caisse),12500000,,600.0,coinafrique,zone_trop_longue
+Terrain à vendre et valeur venales,VENTE,Terrain,résidence de la caisse(baguida),100000000,,600.0,coinafrique,zone_trop_longue
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,700000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,200000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,600000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,500000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,200000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,200000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,200000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,200000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,200000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,250000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,150000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,200000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,100000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,100000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,100000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,400000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,150000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,150000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,150000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,100000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,200000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,150000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,175000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,200000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,100000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,100000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,75000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,100000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,150000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,100000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,100000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,100000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,150000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,200000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,100000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,75000,,10000.0,coinafrique,prix_m2_trop_bas
+Terrain à vendre et valeur venales,VENTE,Terrain,terrains agricoles,100000,,10000.0,coinafrique,prix_m2_trop_bas

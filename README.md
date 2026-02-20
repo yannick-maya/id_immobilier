@@ -333,3 +333,7 @@ modeling_v2   → lit data/cleaned_v2/ → remplit MySQL
 indicators    → lit MySQL (table annonce) → remplit statistiques_zone
 index         → lit statistiques_zone → remplit indice_immobilier
 streamlit     → lit tout MySQL → affiche le dashboard
+
+# airflow
+
+docker exec -it id_immobilier_airflow airflow users create --username admin --password admin1234 --firstname Admin --lastname User --role Admin --email admin@idimmobilier.tg
