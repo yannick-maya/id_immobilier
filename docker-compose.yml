@@ -35,7 +35,10 @@ services:
 
   # ── Airflow ───────────────────────────────────────────────────────────────────
   airflow:
-    image: apache/airflow:2.8.2
+    build:
+      context: .
+      dockerfile: Dockerfile.airflow
+    image: id_immobilier_airflow:latest
     container_name: id_immobilier_airflow
     restart: always
     environment:
@@ -57,6 +60,7 @@ services:
       - ./data:/opt/airflow/data
       - ./sql:/opt/airflow/sql
       - airflow_logs:/opt/airflow/logs
+      - /var/run/docker.sock:/var/run/docker.sock
     command: >
       bash -c "
         airflow db migrate &&
