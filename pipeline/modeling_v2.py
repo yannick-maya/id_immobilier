@@ -80,11 +80,22 @@ def vider_tables(conn):
     """Vide les tables avant reinsertion pour eviter les doublons"""
     cursor = conn.cursor()
     cursor.execute("SET FOREIGN_KEY_CHECKS = 0")
+    cursor.execute("SET autocommit = 0")
+    # DELETE + TRUNCATE selon la table pour maximiser la vitesse
+    # Ordre important : d abord les tables enfants, puis les parents
+    for table in ["annonce", "bien_immobilier", "valeur_venale",
+                  "statistiques_zone", "indice_immobilier", "annonces_rejetees"]:
+        cursor.execute(f"DELETE FROM {table}")
+    # source_donnees et zone_geographique en dernier (tables parents)
+    cursor.execute("DELETE FROM source_donnees")
+    cursor.execute("DELETE FROM zone_geographique")
+    # Reinitialiser les auto_increment
     for table in ["annonce", "bien_immobilier", "valeur_venale",
                   "statistiques_zone", "indice_immobilier", "annonces_rejetees",
                   "source_donnees", "zone_geographique"]:
-        cursor.execute(f"TRUNCATE TABLE {table}")
+        cursor.execute(f"ALTER TABLE {table} AUTO_INCREMENT = 1")
     cursor.execute("SET FOREIGN_KEY_CHECKS = 1")
+    cursor.execute("SET autocommit = 1")
     conn.commit()
     cursor.close()
     print("  Tables videes proprement")
