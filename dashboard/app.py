@@ -99,7 +99,7 @@ def load_indice_par_type():
 
 # ── Header ─────────────────────────────────────────────────────────────────────
 st.title("ID Immobilier - Indice Intelligent du Marche Immobilier au Togo")
-st.markdown("**Donnees combinees : ImmoAsk - Facebook - CoinAfrique - Valeurs Venales OTR**")
+st.markdown("**Donnees combinees : ImmoAsk - Facebook - CoinAfrique et TogoImmobilier- Valeurs Venales OTR**")
 st.divider()
 
 # ── Chargement ─────────────────────────────────────────────────────────────────

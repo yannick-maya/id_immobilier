@@ -1,7 +1,7 @@
 """
 DAG Apache Airflow - ID Immobilier
 Orchestration complete du pipeline de donnees
-Frequence : hebdomadaire (chaque lundi a 6h00)
+Frequence : hebdomadaire (chaque jour a 6h00)
 """
 
 from airflow import DAG
@@ -23,7 +23,7 @@ dag = DAG(
     dag_id="id_immobilier_pipeline",
     default_args=default_args,
     description="Pipeline ID Immobilier - Ingestion -> Cleaning Spark -> Modeling -> Indicateurs -> Indice",
-    schedule_interval="0 6 * * 1",
+    schedule_interval="0 6 * * *",  # Tous les jours a 6h00
     catchup=False,
     tags=["immobilier", "togo", "big-data"],
 )

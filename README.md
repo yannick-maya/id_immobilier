@@ -329,7 +329,9 @@ streamlit run dashboard/app.py
 ```
 ingestion     → produit les CSV dans data/raw/
 cleaning_v2   → lit data/raw/  → produit data/cleaned_v2/
-modeling_v2   → lit data/cleaned_v2/ → remplit MySQL
+modeling_v2   → lit data/cleaned_v2/ → remplit MySQL       
+      <!-- Avant (données brutes)  : 3 993 annonces | 28% rejet
+      Apres (données camarade): 4 540 annonces |  5% rejet -->
 indicators    → lit MySQL (table annonce) → remplit statistiques_zone
 index         → lit statistiques_zone → remplit indice_immobilier
 streamlit     → lit tout MySQL → affiche le dashboard
