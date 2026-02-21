@@ -80,22 +80,12 @@ def vider_tables(conn):
     """Vide les tables avant reinsertion pour eviter les doublons"""
     cursor = conn.cursor()
     cursor.execute("SET FOREIGN_KEY_CHECKS = 0")
-    cursor.execute("SET autocommit = 0")
-    # DELETE + TRUNCATE selon la table pour maximiser la vitesse
-    # Ordre important : d abord les tables enfants, puis les parents
-    for table in ["annonce", "bien_immobilier", "valeur_venale",
-                  "statistiques_zone", "indice_immobilier", "annonces_rejetees"]:
-        cursor.execute(f"DELETE FROM {table}")
-    # source_donnees et zone_geographique en dernier (tables parents)
-    cursor.execute("DELETE FROM source_donnees")
-    cursor.execute("DELETE FROM zone_geographique")
-    # Reinitialiser les auto_increment
+    # Ordre : enfants d abord, parents ensuite
     for table in ["annonce", "bien_immobilier", "valeur_venale",
                   "statistiques_zone", "indice_immobilier", "annonces_rejetees",
                   "source_donnees", "zone_geographique"]:
-        cursor.execute(f"ALTER TABLE {table} AUTO_INCREMENT = 1")
+        cursor.execute(f"TRUNCATE TABLE {table}")
     cursor.execute("SET FOREIGN_KEY_CHECKS = 1")
-    cursor.execute("SET autocommit = 1")
     conn.commit()
     cursor.close()
     print("  Tables videes proprement")
@@ -161,6 +151,10 @@ def insert_annonces(conn, df):
     count = 0
     skipped = 0
 
+    # Preparer les donnees en batch
+    biens_batch = []
+    annonces_data = []  # stocke les donnees pour inserer annonces apres
+
     for _, row in df.iterrows():
         try:
             zone_key   = str(row.get("zone", "")).lower().strip()
@@ -178,34 +172,48 @@ def insert_annonces(conn, df):
             pieces   = int(float(pieces_raw)) if pd.notna(pieces_raw) and str(pieces_raw).replace(".", "").isdigit() else None
             prix_m2  = round(prix / surface, 2) if prix and surface and surface > 0 else None
 
-            # Standardisation finale au niveau insertion (securite supplementaire)
             type_bien_raw = str(row.get("type_bien", "Inconnu")).strip()
             type_bien_std = TYPES_BIEN_STANDARD.get(type_bien_raw.lower(), type_bien_raw.title())
             type_offre_std = str(row.get("type_offre", "Inconnu")).strip().upper()
 
-            cursor.execute(
-                """INSERT INTO bien_immobilier (type_bien, type_offre, surface_m2, pieces, id_zone)
-                   VALUES (%s, %s, %s, %s, %s)""",
-                (type_bien_std, type_offre_std, surface, pieces, id_zone)
-            )
-            id_bien = cursor.lastrowid
-
-            cursor.execute(
-                """INSERT INTO annonce (titre, prix, prix_m2, id_bien, id_source)
-                   VALUES (%s, %s, %s, %s, %s)""",
-                (str(row.get("titre", ""))[:255], prix, prix_m2, id_bien, id_source)
-            )
-            count += 1
-
-            if count % 100 == 0:
-                conn.commit()
-                print(f"  ... {count} lignes inserees")
+            biens_batch.append((type_bien_std, type_offre_std, surface, pieces, id_zone))
+            annonces_data.append((str(row.get("titre", ""))[:255], prix, prix_m2, id_source))
 
         except Exception:
             skipped += 1
             continue
 
-    conn.commit()
+    # Insertion en batch des biens
+    BATCH_SIZE = 500
+    for i in range(0, len(biens_batch), BATCH_SIZE):
+        batch = biens_batch[i:i+BATCH_SIZE]
+        cursor.executemany(
+            """INSERT INTO bien_immobilier (type_bien, type_offre, surface_m2, pieces, id_zone)
+               VALUES (%s, %s, %s, %s, %s)""",
+            batch
+        )
+        conn.commit()
+        print(f"  ... {min(i+BATCH_SIZE, len(biens_batch))} biens inseres")
+
+    # Recuperer les IDs des biens inseres
+    first_bien_id = cursor.lastrowid - len(biens_batch) + 1
+    bien_ids = list(range(first_bien_id, first_bien_id + len(biens_batch)))
+
+    # Insertion en batch des annonces
+    annonces_batch = [
+        (titre, prix, prix_m2, bien_id, id_source)
+        for (titre, prix, prix_m2, id_source), bien_id in zip(annonces_data, bien_ids)
+    ]
+    for i in range(0, len(annonces_batch), BATCH_SIZE):
+        batch = annonces_batch[i:i+BATCH_SIZE]
+        cursor.executemany(
+            """INSERT INTO annonce (titre, prix, prix_m2, id_bien, id_source)
+               VALUES (%s, %s, %s, %s, %s)""",
+            batch
+        )
+        conn.commit()
+        count += len(batch)
+
     cursor.close()
     print(f"  {count} annonces inserees | {skipped} ignorees")
 
@@ -366,7 +374,7 @@ def run():
 
     conn.close()
     print("\nModelisation V2 terminee !")
-
+  
 
 if __name__ == "__main__":
-    run()
+    run() 
