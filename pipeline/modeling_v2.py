@@ -150,10 +150,7 @@ def insert_annonces(conn, df):
     cursor = conn.cursor()
     count = 0
     skipped = 0
-
-    # Preparer les donnees en batch
-    biens_batch = []
-    annonces_data = []  # stocke les donnees pour inserer annonces apres
+    COMMIT_EVERY = 500
 
     for _, row in df.iterrows():
         try:
@@ -176,51 +173,39 @@ def insert_annonces(conn, df):
             type_bien_std = TYPES_BIEN_STANDARD.get(type_bien_raw.lower(), type_bien_raw.title())
             type_offre_std = str(row.get("type_offre", "Inconnu")).strip().upper()
 
-            biens_batch.append((type_bien_std, type_offre_std, surface, pieces, id_zone))
-            annonces_data.append((str(row.get("titre", ""))[:255], prix, prix_m2, id_source))
+            # Inserer le bien et recuperer son ID immediatement
+            cursor.execute(
+                """INSERT INTO bien_immobilier (type_bien, type_offre, surface_m2, pieces, id_zone)
+                   VALUES (%s, %s, %s, %s, %s)""",
+                (type_bien_std, type_offre_std, surface, pieces, id_zone)
+            )
+            id_bien = cursor.lastrowid
+
+            # Inserer l annonce liee a ce bien
+            cursor.execute(
+                """INSERT INTO annonce (titre, prix, prix_m2, id_bien, id_source)
+                   VALUES (%s, %s, %s, %s, %s)""",
+                (str(row.get("titre", ""))[:255], prix, prix_m2, id_bien, id_source)
+            )
+            count += 1
+
+            # Commit tous les 500 pour accelerer sans bloquer
+            if count % COMMIT_EVERY == 0:
+                conn.commit()
+                print(f"  ... {count} annonces inserees")
 
         except Exception:
             skipped += 1
             continue
 
-    # Insertion en batch des biens
-    BATCH_SIZE = 500
-    for i in range(0, len(biens_batch), BATCH_SIZE):
-        batch = biens_batch[i:i+BATCH_SIZE]
-        cursor.executemany(
-            """INSERT INTO bien_immobilier (type_bien, type_offre, surface_m2, pieces, id_zone)
-               VALUES (%s, %s, %s, %s, %s)""",
-            batch
-        )
-        conn.commit()
-        print(f"  ... {min(i+BATCH_SIZE, len(biens_batch))} biens inseres")
-
-    # Recuperer les IDs des biens inseres
-    first_bien_id = cursor.lastrowid - len(biens_batch) + 1
-    bien_ids = list(range(first_bien_id, first_bien_id + len(biens_batch)))
-
-    # Insertion en batch des annonces
-    annonces_batch = [
-        (titre, prix, prix_m2, bien_id, id_source)
-        for (titre, prix, prix_m2, id_source), bien_id in zip(annonces_data, bien_ids)
-    ]
-    for i in range(0, len(annonces_batch), BATCH_SIZE):
-        batch = annonces_batch[i:i+BATCH_SIZE]
-        cursor.executemany(
-            """INSERT INTO annonce (titre, prix, prix_m2, id_bien, id_source)
-               VALUES (%s, %s, %s, %s, %s)""",
-            batch
-        )
-        conn.commit()
-        count += len(batch)
-
+    conn.commit()
     cursor.close()
     print(f"  {count} annonces inserees | {skipped} ignorees")
 
 
 def insert_valeurs_venales(conn):
-    excel_path = os.path.join(SOURCES_DIR, "valeurs_venales_togo.xlsx")
-    csv_path   = os.path.join(SOURCES_DIR, "valeurs_venales_togo.csv")
+    excel_path = os.path.join(SOURCES_DIR, "Otr_Valeur_Venale.xlsx")
+    csv_path   = os.path.join(CLEANED_DIR, "venales_clean.csv")
 
     if os.path.exists(excel_path):
         df = pd.read_excel(excel_path, engine="openpyxl")
@@ -374,7 +359,7 @@ def run():
 
     conn.close()
     print("\nModelisation V2 terminee !")
-  
+
 
 if __name__ == "__main__":
-    run() 
+    run()
