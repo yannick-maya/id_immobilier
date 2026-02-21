@@ -1,0 +1,263 @@
+titre,type_offre,type_bien,zone,prix,pieces,surface_m2,Valeur par piece,Valeur par m2,source,raison_rejet
+Espace commercial 2 pièce(s) 10 m² - Kpomé,LOCATION,Boutique,kpome,5003,2.0,10.0,2502.0,500,immoask,prix_m2_trop_bas
+Espace commercial 2 pièce(s) 10 m² - Kpomé,LOCATION,Boutique,kpome,5003,2.0,10.0,2502.0,500,immoask,prix_m2_trop_bas
+Espace commercial 2 pièce(s) 10 m² - Kpomé,LOCATION,Boutique,kpome,5003,2.0,10.0,2502.0,500,immoask,prix_m2_trop_bas
+Terrain urbain 2 pièce(s) 600 m² - Ablogame,LOCATION,Terrain,ablogame,400000,2.0,600.0,200000.0,667,immoask,prix_m2_trop_bas
+Villa 3 pièce(s) 900 m² - Agoe,LOCATION,Appartement,agoe,90000,3.0,900.0,30000.0,100,immoask,prix_m2_trop_bas
+"terrain,vendre,lome,agbelouve",VENTE,Terrain,agbelouve,2800000,,10000.0,,280,immoask,prix_m2_trop_bas
+"villa,vendre,lome,forever",VENTE,Villa,tokoin,250000000,5.0,10.0,,25000000,immoask,prix_m2_trop_eleve
+"2 chambres salon,louer,lome,tokoin",LOCATION,Appartement,tokoin,35000,3.0,80.0,11667.0,438,immoask,prix_m2_trop_bas
+"maison,vendre,lome,agoe",VENTE,Maison,agoe,35000000,3.0,10.0,,3500000,immoask,prix_m2_trop_eleve
+"terrain,vendre,kpalime,avetonou",VENTE,Terrain,avetonou,550000,,10000.0,,55,immoask,prix_m2_trop_bas
+"terrain,vendre,kpalime,avetonou",VENTE,Terrain,avetonou,550000,,10000.0,,55,immoask,prix_m2_trop_bas
+"terrain,vendre,kpalime,avetonou",VENTE,Terrain,avetonou,550000,,10000.0,,55,immoask,prix_m2_trop_bas
+"terrain,vendre,kpalime,avetonou",VENTE,Terrain,avetonou,550000,,10000.0,,55,immoask,prix_m2_trop_bas
+"terrain,vendre,kpalime,avetonou",VENTE,Terrain,avetonou,550000,,10000.0,,55,immoask,prix_m2_trop_bas
+"terrain,vendre,kpalime,avetonou",VENTE,Terrain,avetonou,550000,,10000.0,,55,immoask,prix_m2_trop_bas
+"villa,louer,lome,sagbado",LOCATION,Appartement,sagbado,100000,4.0,300.0,25000.0,333,immoask,prix_m2_trop_bas
+"boutique,louer,akepe,noepe",LOCATION,Boutique,noepe,60000,1.0,80.0,60000.0,750,immoask,prix_m2_trop_bas
+"villa,louer,lome,avepozo",LOCATION,Appartement,avepozo,250000,3.0,300.0,83333.0,833,immoask,prix_m2_trop_bas
+"villa,louer,lome,adidogome",LOCATION,Appartement,adidogome,150000,3.0,200.0,50000.0,750,immoask,prix_m2_trop_bas
+"villa,louer,lome,apedokoe",LOCATION,Appartement,adidogome,500000,3.0,600.0,166667.0,833,immoask,prix_m2_trop_bas
+"villa,louer,lome,adidogome",LOCATION,Appartement,adidogome,110000,3.0,150.0,36667.0,733,immoask,prix_m2_trop_bas
+"villa meublée,louer,lome,agbavi",LOCATION,Villa Meuble,agbavi,500000,2.0,600.0,250000.0,833,immoask,prix_m2_trop_bas
+"villa,louer,lome,avepozo",LOCATION,Appartement,avepozo,550000,3.0,600.0,183333.0,917,immoask,prix_m2_trop_bas
+"appartement meublé,louer,lome,super taco",LOCATION,Appartement,super taco,200000,2.0,300.0,100000.0,667,immoask,prix_m2_trop_bas
+"appartement meublé,louer,lome,super taco",LOCATION,Appartement,super taco,200000,2.0,300.0,100000.0,667,immoask,prix_m2_trop_bas
+"villa meublée,louer,lome,gbossime",LOCATION,Villa Meuble,gbossime,250000,3.0,300.0,83333.0,833,immoask,prix_m2_trop_bas
+"villa,louer,lome,avepozo",LOCATION,Appartement,avepozo,250000,2.0,1200.0,125000.0,208,immoask,prix_m2_trop_bas
+"villa,louer,lome,avepozo",LOCATION,Appartement,avepozo,250000,6.0,1200.0,41667.0,208,immoask,prix_m2_trop_bas
+"villa,louer,lome,baguida",LOCATION,Appartement,baguida,150000,3.0,300.0,50000.0,500,immoask,prix_m2_trop_bas
+"villa meublée,louer,lome,baguida",LOCATION,Villa Meuble,baguida,500000,3.0,600.0,166667.0,833,immoask,prix_m2_trop_bas
+"villa,louer,lomé,atiegou",LOCATION,Appartement,attiegou,250000,3.0,300.0,83333.0,833,immoask,prix_m2_trop_bas
+"villa,louer,lome,atiegou",LOCATION,Appartement,attiegou,250000,3.0,300.0,83333.0,833,immoask,prix_m2_trop_bas
+"chambre salon,louer,lome,kagome",LOCATION,Chambre,kagome,30000,2.0,50.0,15000.0,600,immoask,prix_m2_trop_bas
+"villa,louer,lome,adidogome",LOCATION,Appartement,adidogome,375000,3.0,400.0,125000.0,938,immoask,prix_m2_trop_bas
+"villa,louer,lome,segbe,akato-deme",LOCATION,Appartement,segbe,140000,4.0,300.0,35000.0,467,immoask,prix_m2_trop_bas
+"terrain,bailler,lome,sagbado",LOCATION,Terrain,sagbado,75000,2.0,600.0,37500.0,125,immoask,prix_m2_trop_bas
+"terrain,bailler,lome,agoe",LOCATION,Terrain,agoe,75000,2.0,600.0,37500.0,125,immoask,prix_m2_trop_bas
+"terrain,bailler,lome,avedji",LOCATION,Terrain,avedji,150000,2.0,1200.0,75000.0,125,immoask,prix_m2_trop_bas
+"chambre,louer,lome,zanguera",LOCATION,Chambre,zanguera,15000,1.0,16.0,15000.0,938,immoask,prix_m2_trop_bas
+"chambre salon,louer,lome,carrefour minamadou",LOCATION,Chambre,agoe,60000,2.0,64.0,30000.0,938,immoask,prix_m2_trop_bas
+"2 chambres salon,louer,lomé,segbe",LOCATION,Appartement,segbe,35000,3.0,48.0,11667.0,729,immoask,prix_m2_trop_bas
+"2 chambres salon,louer,lome,segbe",LOCATION,Appartement,segbe,45000,3.0,48.0,15000.0,938,immoask,prix_m2_trop_bas
+"villa meublée,louer,lome,lome madibar",LOCATION,Villa Meuble,adidogome,650000,11.0,1200.0,59091.0,542,immoask,prix_m2_trop_bas
+"villa,louer,lome,gbegnedji",LOCATION,Appartement,gbegnedji,80000,3.0,150.0,26667.0,533,immoask,prix_m2_trop_bas
+"villa,louer,lome,kagome",LOCATION,Appartement,kagome,100000,2.0,300.0,50000.0,333,immoask,prix_m2_trop_bas
+"villa,louer,lome,kagome",LOCATION,Appartement,kagome,100000,3.0,300.0,33333.0,333,immoask,prix_m2_trop_bas
+"villa,louer,lome, adidogome",LOCATION,Appartement,adidogome,350000,4.0,600.0,87500.0,583,immoask,prix_m2_trop_bas
+"villa,louer,lome,avenou",LOCATION,Appartement,avenou,350000,3.0,600.0,116667.0,583,immoask,prix_m2_trop_bas
+"villa,louer,lome,avenou",LOCATION,Appartement,avenou,350000,3.0,600.0,116667.0,583,immoask,prix_m2_trop_bas
+"villa,louer,lome,avenou",LOCATION,Appartement,avenou,350000,3.0,600.0,116667.0,583,immoask,prix_m2_trop_bas
+"villa,louer,lome,agoe",LOCATION,Appartement,agoe,170000,3.0,300.0,56667.0,567,immoask,prix_m2_trop_bas
+"villa,louer,lome, agoe",LOCATION,Appartement,agoe,200000,3.0,300.0,66667.0,667,immoask,prix_m2_trop_bas
+"villa,louer,lome,agoe",LOCATION,Appartement,agoe,150000,3.0,200.0,50000.0,750,immoask,prix_m2_trop_bas
+"villa,louer,lome,adidogome",LOCATION,Appartement,adidogome,130000,3.0,300.0,43333.0,433,immoask,prix_m2_trop_bas
+"villa,louer,lome,kegue",LOCATION,Appartement,kegue,180000,3.0,200.0,60000.0,900,immoask,prix_m2_trop_bas
+"chambre,louer,lome,avepozo",LOCATION,Chambre,avepozo,150000,1.0,1200.0,150000.0,125,immoask,prix_m2_trop_bas
+"villa,louer,lome,kagome",LOCATION,Appartement,kagome,100000,3.0,600.0,33333.0,167,immoask,prix_m2_trop_bas
+"bureau,louer,lome,noukafou",LOCATION,Bureau,nukafu,100000,5.0,120.0,20000.0,833,immoask,prix_m2_trop_bas
+"villa,louer,lome,be kpota",LOCATION,Appartement,be,250000,3.0,600.0,83333.0,417,immoask,prix_m2_trop_bas
+"villa,louer,lome,totsi",LOCATION,Appartement,totsi,100000,2.0,120.0,50000.0,833,immoask,prix_m2_trop_bas
+"villa,louer,lome,agoe",LOCATION,Appartement,agoe,80000,2.0,100.0,40000.0,800,immoask,prix_m2_trop_bas
+"appartement,louer,lome,agoe",LOCATION,Appartement,agoe,300000,3.0,400.0,100000.0,750,immoask,prix_m2_trop_bas
+"appartement,louer,lome,agoe",LOCATION,Appartement,agoe,70000,3.0,75.0,23333.0,933,immoask,prix_m2_trop_bas
+"chambre salon,louer,lome,agoe",LOCATION,Chambre,agoe,45000,2.0,60.0,22500.0,750,immoask,prix_m2_trop_bas
+"appartement,louer,lome,agoe",LOCATION,Appartement,agoe,100000,3.0,120.0,33333.0,833,immoask,prix_m2_trop_bas
+"villa,louer,lome,agoe",LOCATION,Appartement,agoe,300000,3.0,400.0,100000.0,750,immoask,prix_m2_trop_bas
+"villa,louer,lome,entreprise de l'union",LOCATION,Appartement,leo 2000,200000,3.0,300.0,66667.0,667,immoask,prix_m2_trop_bas
+"villa,louer,lome,entreprise de l'union",LOCATION,Appartement,leo 2000,200000,3.0,300.0,66667.0,667,immoask,prix_m2_trop_bas
+"immeuble commercial,louer,lome,attiegou",LOCATION,Appartement,attiegou,250000,3.0,300.0,83333.0,833,immoask,prix_m2_trop_bas
+"villa,vendre,lome,amadahome",VENTE,Villa,adidogome,47500000,3.0,10.0,,4750000,immoask,prix_m2_trop_eleve
+"villa,louer,lome,agoe",LOCATION,Appartement,agoe,130000,5.0,250.0,26000.0,520,immoask,prix_m2_trop_bas
+À VENDRE 20 HECTARES DE TERRAIN SUR LA VOIE DE LOMÉ-KPALIMÉ,VENTE,Terrain,kpalime,2000000,,10000.0,,200,facebook,prix_m2_trop_bas
+Pièce meublée en ville de Lomé.,LOCATION,Appartement,lome,10000,1.0,20.0,10000.0,500,facebook,prix_m2_trop_bas
+☎️🇹🇬 TÉL [hidden information] Appartement meublé Lomé tokoin pharmacie gbonssime,LOCATION,Appartement,tokoin,15000,2.0,24.0,7500.0,625,facebook,prix_m2_trop_bas
+VENTE DE TERRAIN À AVETONOU 8KLM DU GOUDRON LOMÉ KPALIMÉ 🇹🇬,VENTE,Terrain,avetonou,500000,,600.0,,833,facebook,prix_m2_trop_bas
+VENTE DE TERRAINS À AVETONOU 8KLM DU GOUDRON LOMÉ KPALIMÉ 🇹🇬,VENTE,Terrain,kpalime,500000,,10000.0,,50,facebook,prix_m2_trop_bas
+TERRAINS AGRICOLES EN VENTE À AZAHOUN,VENTE,Terrain,azahoun,1300000,,10000.0,,130,facebook,prix_m2_trop_bas
+VENTE DE TERRAIN A NOTSÈ 13 KL AU GOUDRON 🇹🇬,VENTE,Terrain,notse,400000,,600.0,,667,facebook,prix_m2_trop_bas
+VENTE DE TERRAIN A NOTSÈ À 13 KLM DU GOUDRON 🇹🇬,VENTE,Terrain,notse,400000,,600.0,,667,facebook,prix_m2_trop_bas
+Location appartement 2 chambres salon à la Caisse,LOCATION,Appartement,cite oua,130000000,3.0,48.0,43333333.0,2708333,coinafrique,prix_m2_trop_eleve
+Location appartement meublé - Forever,LOCATION,Appartement,forever,450000,5.0,96.0,90000.0,4688,coinafrique,zone_description_lieu
+Location appartement meublé 3 pièces - Forever,LOCATION,Appartement,forever,350000,3.0,48.0,116667.0,7292,coinafrique,zone_description_lieu
+Location appartements 3 pièces - Adetikopé,LOCATION,Appartement,adetikope,350000,3.0,600.0,116667.0,583,coinafrique,prix_m2_trop_bas
+Location appartement - Zanguéra,LOCATION,Appartement,zanguera,180000,5.0,600.0,36000.0,300,coinafrique,prix_m2_trop_bas
+Location appartement 4 pièces a kegué pharmacie,LOCATION,Appartement,kegue pharmacie,150000,4.0,64.0,37500.0,2344,coinafrique,zone_description_lieu
+Location appartement 3 pièces - Carrefour Agbemado,LOCATION,Appartement,carrefour agbemadon,70000,3.0,48.0,23333.0,1458,coinafrique,zone_description_lieu
+Location appartement 3 pièces - Carrefour Kpogli,LOCATION,Appartement,carrefour kpogli,55000,3.0,48.0,18333.0,1146,coinafrique,zone_description_lieu
+Location appartement 3 pièces - Atakpamé,LOCATION,Appartement,atakpame,35000,3.0,48.0,11667.0,729,coinafrique,prix_m2_trop_bas
+Location appartements 3pièces - Lomé,LOCATION,Appartement,lome,35000,3.0,48.0,11667.0,729,coinafrique,prix_m2_trop_bas
+Location appartement meublé 3 pièces - Lomé,LOCATION,Appartement,lome,35000,3.0,48.0,11667.0,729,coinafrique,prix_m2_trop_bas
+Location appartement meublé 4 pièces - Adidogome atilamonou,LOCATION,Appartement,atilamonou,30000,4.0,64.0,7500.0,469,coinafrique,prix_m2_trop_bas
+Location appartement meublé 4 pièces - Lomé,LOCATION,Appartement,lome,30000,4.0,64.0,7500.0,469,coinafrique,prix_m2_trop_bas
+Location appartements meublés 3 pièces - Lomé,LOCATION,Appartement,lome,30000,3.0,48.0,10000.0,625,coinafrique,prix_m2_trop_bas
+Location appartement meublé 3 pièces - Agoe Cacaveli,LOCATION,Appartement,cacaveli,25000,3.0,48.0,8333.0,521,coinafrique,prix_m2_trop_bas
+Location appartement meublés 2 pièces cour unique à Lomé,LOCATION,Appartement,lome,25000,2.0,32.0,12500.0,781,coinafrique,prix_m2_trop_bas
+Location appartements meublés 2 pièces - Lomé Kégué,LOCATION,Appartement,kegue,20000,2.0,32.0,10000.0,625,coinafrique,prix_m2_trop_bas
+Location appartements meublés 2 pièces - Lomé Hédzranawoé Aéroport,LOCATION,Appartement,hedzranawoe,20000,2.0,32.0,10000.0,625,coinafrique,prix_m2_trop_bas
+Location appartement 2 pièces - Lomé Adeticope,LOCATION,Appartement,adetikope,20000,2.0,32.0,10000.0,625,coinafrique,prix_m2_trop_bas
+Location appartement 2 pièces - Zanguera Maco,LOCATION,Appartement,zanguera maco,20000,2.0,32.0,10000.0,625,coinafrique,prix_m2_trop_bas
+Location appartement - Avedji Rail,LOCATION,Appartement,avedji,15000,1.0,16.0,15000.0,938,coinafrique,prix_m2_trop_bas
+Location appartement 1 pièces - Lomé Aéroport,LOCATION,Appartement,hedzranawoe aeroport,12500,1.0,16.0,12500.0,781,coinafrique,prix_m2_trop_bas
+Location appartement à agoè athiémé,LOCATION,Appartement,agoe,12000,1.0,16.0,12000.0,750,coinafrique,prix_m2_trop_bas
+Location restaurant de 300 m2 à Bé Yesuvito,LOCATION,Boutique,be yesuvito,200000,10.0,300.0,20000.0,667,coinafrique,prix_m2_trop_bas
+Location restaurant 300 m2 à Bé yesuvito,LOCATION,Boutique,be yesuvito,200000,10.0,300.0,20000.0,667,coinafrique,prix_m2_trop_bas
+Location bureau meublé à Forever,LOCATION,Bureau,forever,2500000,3.0,450.0,833333.0,5556,coinafrique,zone_description_lieu
+Location bureaux à Forever,LOCATION,Bureau,forever,2500000,3.0,350.0,833333.0,7143,coinafrique,zone_description_lieu
+Location bureau meublée de 03 pièces à hedzranawoe à côté de clinique ST Joseph,LOCATION,Bureau,hedzranawoe a cote de clinique st joseph,300000,3.0,36.0,100000.0,8333,coinafrique,zone_trop_longue
+Location chambre salons meublé - Hedjranawoe lomé 2,LOCATION,Chambre,hedjranawoe lome 2,250000,7.0,600.0,35714.0,417,coinafrique,prix_m2_trop_bas
+Location chambre salon - Davié juste derrière l'école de la police,LOCATION,Chambre,davie juste,30000,2.0,24.0,15000.0,1250,coinafrique,zone_description_lieu
+Location entrepôt - Aeroport,LOCATION,Entrepot,hedzranawoe aeroport,1500000,1.0,1700.0,1500000.0,882,coinafrique,prix_m2_trop_bas
+Location Salle de conférence - Tokoin,LOCATION,Entrepot,tokoin,300000,1.0,390.0,300000.0,769,coinafrique,prix_m2_trop_bas
+Location entrepôt ou magasin Tokoin Cassablanca au bord du goudron,LOCATION,Entrepot,tokoin,300000,1.0,650.0,300000.0,462,coinafrique,prix_m2_trop_bas
+Location magasin - 2 lions,LOCATION,Entrepot,2 lions,140000,1.0,650.0,140000.0,215,coinafrique,prix_m2_trop_bas
+Location immeuble - Agoè,LOCATION,Immeuble,agoe,600000,6.0,650.0,100000.0,923,coinafrique,prix_m2_trop_bas
+Location terrains agricole 1200000 m² - Lomé,LOCATION,Terrain,lome,800000,1.0,1200000.0,800000.0,1,coinafrique,prix_m2_trop_bas
+Location villa duplex 6 pièces à la cité OUA,LOCATION,Villa,cite oua,1200000000,6.0,96.0,200000000.0,12500000,coinafrique,prix_m2_trop_eleve
+Location villa duplex 6 pièces - Casablanca,LOCATION,Villa,casablanca,310000000,6.0,96.0,51666667.0,3229167,coinafrique,prix_m2_trop_eleve
+Location villas 9 pièces - Kegue,LOCATION,Villa,kegue,300000000,9.0,144.0,33333333.0,2083333,coinafrique,prix_m2_trop_eleve
+Location villa triplex 6 pièces - Tokoin casablanca,LOCATION,Villa,tokoin,250000000,6.0,96.0,41666667.0,2604167,coinafrique,prix_m2_trop_eleve
+Location villa duplex 6 pièces - Forever wuiti novissi caisse,LOCATION,Villa,forever,22000000,6.0,96.0,3666667.0,229167,coinafrique,zone_description_lieu
+Location villa 5 pièces avec piscine à Forever,LOCATION,Villa,forever,1500000,5.0,80.0,300000.0,18750,coinafrique,zone_description_lieu
+Location villa 4 pièces à Forever),LOCATION,Villa,forever,1100000,4.0,64.0,275000.0,17188,coinafrique,zone_description_lieu
+Location villa duplex piscine 3 chambres Forever,LOCATION,Villa,forever,1100000,3.0,48.0,366667.0,22917,coinafrique,zone_description_lieu
+Location villa 4 chambres salon + 2 dépendances à Forever,LOCATION,Villa,forever,750000,4.0,64.0,187500.0,11719,coinafrique,zone_description_lieu
+Location villa basse 7 pièces a forever,LOCATION,Villa,forever,750000,7.0,112.0,107143.0,6696,coinafrique,zone_description_lieu
+Location villa 6 chambres 2 salons Noukafou pas loin de la pharmacie,LOCATION,Villa,pharmacie,700000,6.0,96.0,116667.0,7292,coinafrique,zone_description_lieu
+Location villa 2 lots avec piscine et jardin à Ablogamé Sarakawa,LOCATION,Villa,ablogame,600000,12.0,1200.0,50000.0,500,coinafrique,prix_m2_trop_bas
+Location villa jardin de 10 chambres salon à Hedranawoé clinique,LOCATION,Villa,hedzranawoe clinique,600000,10.0,160.0,60000.0,3750,coinafrique,zone_description_lieu
+Location villa 4 pièces - Hedranawoé à côté de l'hôtel balkan une cilla duplex de 3 chambres salon,LOCATION,Villa,hedzranawoe a cote de l hotel balkan une cilla duplex de 3 chambres salon,400000,4.0,64.0,100000.0,6250,coinafrique,zone_trop_longue
+Location villa 4 pièces - Forever,LOCATION,Villa,forever,400000,4.0,64.0,100000.0,6250,coinafrique,zone_description_lieu
+Location villa basse jardin 7 pièces a forever,LOCATION,Villa,forever,400000,7.0,112.0,57143.0,3571,coinafrique,zone_description_lieu
+Location villa 5 pièces à forever 3 k au bord du goudron,LOCATION,Villa,forever,350000,5.0,80.0,70000.0,4375,coinafrique,zone_description_lieu
+Location villa 4 pièces - Novissi,LOCATION,Villa,novissi,250000,4.0,600.0,62500.0,417,coinafrique,prix_m2_trop_bas
+Location villa cour unique de 4 pièces à forever bar 3 k,LOCATION,Villa,forever,250000,4.0,64.0,62500.0,3906,coinafrique,zone_description_lieu
+Location villa cour unique 3 chambres salon à Forever bar 3 k,LOCATION,Villa,forever,250000,3.0,48.0,83333.0,5208,coinafrique,zone_description_lieu
+Location villa cour unique 3 chambresà Hedranawoé pharmacie bien etre,LOCATION,Villa,hedzranawoe pharmacie bien etre,200000,3.0,48.0,66667.0,4167,coinafrique,zone_trop_longue
+Location villa 4 pièces - Carrefour Bruyère,LOCATION,Villa,carrefour bruyere,135000,4.0,64.0,33750.0,2109,coinafrique,zone_description_lieu
+Location villa 4 pièces - Agoe Legbassito,LOCATION,Villa,legbassito,60000,4.0,64.0,15000.0,938,coinafrique,prix_m2_trop_bas
+Location villas meublée de 5 pièces - lomé,LOCATION,Villa Meuble,lome,40000,5.0,80.0,8000.0,500,coinafrique,prix_m2_trop_bas
+Location villa meublée 6 pièces - Agoe Carrefour Kpogbli,LOCATION,Villa Meuble,agoe,40000,6.0,96.0,6667.0,417,coinafrique,prix_m2_trop_bas
+Vente entrepôt à Lomé noukafu,VENTE,Entrepot,nukafu,1700000000,,600.0,,2833333,coinafrique,prix_m2_trop_eleve
+Vente immeuble - Pharmacie Yembla,VENTE,Immeuble,pharmacie yembla,2000000000,,600.0,,3333333,coinafrique,zone_description_lieu
+Vente immeuble - Agoe,VENTE,Immeuble,agoe,2000000000,,600.0,,3333333,coinafrique,prix_m2_trop_eleve
+Vente immeuble Bourd du boulevard du mono,VENTE,Immeuble,boulevard 13 jan,1900000000,,600.0,,3166667,coinafrique,prix_m2_trop_eleve
+Terrain 1 lot à Assigame,VENTE,Terrain,assigame,1500000000,,600.0,,2500000,coinafrique,prix_m2_trop_eleve
+Terrain agricole - Badja,VENTE,Terrain,badja,1272000000,,600.0,,2120000,coinafrique,prix_m2_trop_eleve
+Terrain 300 lots - Anié Awatere,VENTE,Terrain,anie awatere,1050000000,,300.0,,3500000,coinafrique,prix_m2_trop_eleve
+Terrain 1 lot 1/2 - Assigamé,VENTE,Terrain,assigame,900000000,,300.0,,3000000,coinafrique,prix_m2_trop_eleve
+"Terrain 273,50ha à Tchékpo",VENTE,Terrain,tchekpo,547000000,,2730000.0,,200,coinafrique,prix_m2_trop_bas
+Terrain 2 lots collés - carrefour Sanol,VENTE,Terrain,carrefour sanol,170000000,,1200.0,,141667,coinafrique,zone_description_lieu
+Terrain 1 lot et 1/4 face au goudron pavé Forever,VENTE,Terrain,forever,170000000,,750.0,,226667,coinafrique,zone_description_lieu
+Terrain 1 lot à Forever,VENTE,Terrain,forever,170000000,,600.0,,283333,coinafrique,zone_description_lieu
+Terrain 740m² à Forever,VENTE,Terrain,forever,170000000,,740.0,,229730,coinafrique,zone_description_lieu
+Terrain 91ha à Wahala,VENTE,Terrain,wahala,136500000,,910000.0,,150,coinafrique,prix_m2_trop_bas
+Terrain 12 ha 02ca - Hanoukopé,VENTE,Terrain,hanoukope,110000000,,120000.0,,917,coinafrique,prix_m2_trop_bas
+Terrain 1 lot - Forever,VENTE,Terrain,forever,90000000,,600.0,,150000,coinafrique,zone_description_lieu
+Terrain 20 ha - Badza,VENTE,Terrain,badja,80000000,,200000.0,,400,coinafrique,prix_m2_trop_bas
+Terrain 1 lot - Carrefour Tazo,VENTE,Terrain,carrefour tazo,55000000,,600.0,,91667,coinafrique,zone_description_lieu
+Terrain 100 m² - Lomé,VENTE,Terrain,lome,40000000,,60000.0,,667,coinafrique,prix_m2_trop_bas
+Terrain 12 hectares et demi à Amouzou kope,VENTE,Terrain,amouzou kope,36000000,,120000.0,,300,coinafrique,prix_m2_trop_bas
+Terrain 11 ha 6a à 7 km du goudron Agbessia Kpalime,VENTE,Terrain,agbessia kpalime,35000000,,110000.0,,318,coinafrique,prix_m2_trop_bas
+"Terrain 4,5 hectares à Kpevego",VENTE,Terrain,kpevego,35000000,,45000.0,,778,coinafrique,prix_m2_trop_bas
+Terrain 1 lot non loin du carrefour commando et du CCL,VENTE,Terrain,carrefour commando,35000000,,600.0,,58333,coinafrique,zone_description_lieu
+Terrain 2 lots loin du Carrefour Bonheur,VENTE,Terrain,carrefour bonheur,35000000,,1200.0,,29167,coinafrique,zone_description_lieu
+Terrain 11 ha - Assahoun,VENTE,Terrain,assahoun,33000000,,110000.0,,300,coinafrique,prix_m2_trop_bas
+Terrain 1/2 Lot 350 m² TF en face de la pharmacie St Joseph,VENTE,Terrain,pharmacie st joseph,33000000,,300.0,,110000,coinafrique,zone_description_lieu
+"Terrain 1,75 lots à Apessito",VENTE,Terrain,apessito,30000000,,45000.0,,667,coinafrique,prix_m2_trop_bas
+Terrain chambres salon - Entreprise de l'union 500m du goudron,VENTE,Terrain,entreprise de l union 500m du goudron,26000000,,600.0,,43333,coinafrique,zone_trop_longue
+Terrain agricole 5H - Lilikopé,VENTE,Terrain,lilikope,25000000,,50000.0,,500,coinafrique,prix_m2_trop_bas
+Terrain 10 ha à à Avédjé,VENTE,Terrain,avedje,25000000,,100000.0,,250,coinafrique,prix_m2_trop_bas
+Vente ferme 5 ha - Agbelouvé,VENTE,Terrain,agbelouve,25000000,,50000.0,,500,coinafrique,prix_m2_trop_bas
+Terrain 10 hectares à Avedje,VENTE,Terrain,avedje,25000000,,100000.0,,250,coinafrique,prix_m2_trop_bas
+Terrain à Kegue clinique des moineaux,VENTE,Terrain,kegue clinique des moineaux,25000000,,600.0,,41667,coinafrique,zone_description_lieu
+Terrain 1 lot non loin de la station Sanol Adidogome Sagbado,VENTE,Terrain,station sanol adidogome sagbado,25000000,,600.0,,41667,coinafrique,zone_trop_longue
+Terrains 24000 m² - Lomé,VENTE,Terrain,lome,20000000,,24000.0,,833,coinafrique,prix_m2_trop_bas
+Terrain ½ Lot 300m² à carrefour Obena,VENTE,Terrain,carrefour obena,18000000,,300.0,,60000,coinafrique,zone_description_lieu
+Terrain 3/4 de lot clôturé à Togokome côté plage angle rue a 300 m du goudron,VENTE,Terrain,togokome cote plage angle rue a,17000000,,450.0,,37778,coinafrique,zone_trop_longue
+Parcelle 15 ha - Bagbe,VENTE,Terrain,bagbe,15000000,,150000.0,,100,coinafrique,prix_m2_trop_bas
+Terrain 24 lots dont 18 collés à Koala,VENTE,Terrain,kpala,13000000,,14400.0,,903,coinafrique,prix_m2_trop_bas
+Terrain 5 hectares à Noepe,VENTE,Terrain,noepe,12000000,,50000.0,,240,coinafrique,prix_m2_trop_bas
+Terrain 30 lots à Klobateme,VENTE,Terrain,klobateme,11000000,,18000.0,,611,coinafrique,prix_m2_trop_bas
+Terrain 30 lots - Djagblé,VENTE,Terrain,djagble,11000000,,18000.0,,611,coinafrique,prix_m2_trop_bas
+Terrain 70 lots à Zanguéra Akepedo,VENTE,Terrain,zanguera,10000000,,42000.0,,238,coinafrique,prix_m2_trop_bas
+Terrains 31ha - Lilikope,VENTE,Terrain,lilikope,10000000,,310000.0,,32,coinafrique,prix_m2_trop_bas
+Terrain 28 lots collés - Legbassito,VENTE,Terrain,legbassito,8000000,,16800.0,,476,coinafrique,prix_m2_trop_bas
+Terrain 20 lots collés - Tsevie,VENTE,Terrain,tsevie,8000000,,12000.0,,667,coinafrique,prix_m2_trop_bas
+Terrain 20 lots à Tsevie kpali,VENTE,Terrain,tsevie kpali,8000000,,12000.0,,667,coinafrique,prix_m2_trop_bas
+Terrain 28lots - Legbassito,VENTE,Terrain,legbassito,8000000,,16800.0,,476,coinafrique,prix_m2_trop_bas
+Terrain 1 ha - Tsévié,VENTE,Terrain,tsevie,8000000,,10000.0,,800,coinafrique,prix_m2_trop_bas
+Terrain 1/4 lot - contournement après péage,VENTE,Terrain,contournement apres peage,7000000,,150.0,,46667,coinafrique,zone_description_lieu
+Terrain 20 lots collés à Adétikopé,VENTE,Terrain,adetikope,6500000,,12000.0,,542,coinafrique,prix_m2_trop_bas
+Terrains 12 lots face à la grande voie Badja Agoudja,VENTE,Terrain,badja agoudja,6000000,,7200.0,,833,coinafrique,prix_m2_trop_bas
+Terrain 20 lots collés à Adétikopé,VENTE,Terrain,adetikope,5500000,,12000.0,,458,coinafrique,prix_m2_trop_bas
+Terrain 1/2 lot - Pharmacie de Davié,VENTE,Terrain,pharmacie de davie,5500000,,300.0,,18333,coinafrique,zone_description_lieu
+Terrain 27 lots collés - Tsevie,VENTE,Terrain,tsevie,5000000,,16200.0,,309,coinafrique,prix_m2_trop_bas
+Terrain à Djagble klobateme non loin du goudron,VENTE,Terrain,djagble klobateme non loin du goudron,5000000,,600.0,,8333,coinafrique,zone_trop_longue
+Terrain 10lots collés à Davié Tékpo,VENTE,Terrain,davie tekpo,5000000,,6000.0,,833,coinafrique,prix_m2_trop_bas
+Terrain à Togo ville coté lac pas loin du goudron,VENTE,Terrain,togo ville cote lac pas loin du goudron,5000000,,600.0,,8333,coinafrique,zone_trop_longue
+Terrain 30 lots collés - Tsevie,VENTE,Terrain,tsevie,4000000,,18000.0,,222,coinafrique,prix_m2_trop_bas
+Terrain 36 hectares à Dalave,VENTE,Terrain,dalave,4000000,,360000.0,,11,coinafrique,prix_m2_trop_bas
+Terrain agricole 18 lots - Noépé,VENTE,Terrain,noepe,4000000,,10800.0,,370,coinafrique,prix_m2_trop_bas
+Terrain agricole 85 ha à Amoussoukopé,VENTE,Terrain,amoussoukope,3500000,,10000.0,,350,coinafrique,prix_m2_trop_bas
+Terrain 70 lots collés - Tsevie,VENTE,Terrain,tsevie,3000000,,42000.0,,71,coinafrique,prix_m2_trop_bas
+Terrain agricole 1 ha - Badja,VENTE,Terrain,badja,3000000,,10000.0,,300,coinafrique,prix_m2_trop_bas
+Terrain 30 lots à Davié vli,VENTE,Terrain,davie vli,2500000,,18000.0,,139,coinafrique,prix_m2_trop_bas
+Terrain 97 hectares à Agbelouve,VENTE,Terrain,agbelouve,2500000,,10000.0,,250,coinafrique,prix_m2_trop_bas
+Vente terrains agricoles 60000 m² - Kpalimé,VENTE,Terrain,kpalime,2000000,,60000.0,,33,coinafrique,prix_m2_trop_bas
+Tzrrain 16 ha à kdpele adeta,VENTE,Terrain,kpele adeta,2000000,,160000.0,,12,coinafrique,prix_m2_trop_bas
+Terrain 1ha à Assahoun,VENTE,Terrain,assahoun,2000000,,10000.0,,200,coinafrique,prix_m2_trop_bas
+Terrain 1 /4 lot à Kpemé,VENTE,Terrain,kpeme,1700000,,2400.0,,708,coinafrique,prix_m2_trop_bas
+Terrains 41 m² - Atakpamé,VENTE,Terrain,atakpame,1500000,,24600.0,,61,coinafrique,prix_m2_trop_bas
+Terrain 91 ha a wahala,VENTE,Terrain,wahala,1500000,,910000.0,,2,coinafrique,prix_m2_trop_bas
+Terrain TF 3 lots à Kpalimé agognongbo,VENTE,Terrain,kpalime agognongbo,1500000,,1800.0,,833,coinafrique,prix_m2_trop_bas
+Terrain 13 lots collés à Adetikope GMK,VENTE,Terrain,adetikope gmk,1300000,,7800.0,,167,coinafrique,prix_m2_trop_bas
+Terrain agricoles 50 ha à agbelouve,VENTE,Terrain,agbelouve,1200000,,10000.0,,120,coinafrique,prix_m2_trop_bas
+Terrain agricole 90000m² - Grand Marché de Lomé,VENTE,Terrain,assigame,800000,,90000.0,,9,coinafrique,prix_m2_trop_bas
+Terrain 2 lots - Kpalimé,VENTE,Terrain,kpalime,800000,,1200.0,,667,coinafrique,prix_m2_trop_bas
+Terrain 5 lots - Adetikope,VENTE,Terrain,adetikope,500000,,3000.0,,167,coinafrique,prix_m2_trop_bas
+Terrain agricole - Tohoun,VENTE,Terrain,tohoun,500000,,600.0,,833,coinafrique,prix_m2_trop_bas
+Terrain agricole 154 ha - Hawala,VENTE,Terrain,hawala,450000,,10000.0,,45,coinafrique,prix_m2_trop_bas
+Terrain agricole - Wahala,VENTE,Terrain,wahala,400000,,600.0,,667,coinafrique,prix_m2_trop_bas
+Terrain face au goudron 1/2 lot au niveau 3 k,VENTE,Terrain,adewui,150000,,300.0,,500,coinafrique,prix_m2_trop_bas
+Terrain - Vakpossitoa,VENTE,Terrain,vakpossitoa,60000,,600.0,,100,coinafrique,prix_m2_trop_bas
+Terrain 1 lot - Agbalepedo,VENTE,Terrain,agbalepedo,60000,,600.0,,100,coinafrique,prix_m2_trop_bas
+Vente hôtel R+5 à Adidoadin,VENTE,Villa,adidoadin,1830000000,,600.0,,3050000,coinafrique,prix_m2_trop_eleve
+Vente villa 29 pièces à Cité Oua,VENTE,Villa,cite oua,1800000000,29.0,600.0,,3000000,coinafrique,prix_m2_trop_eleve
+Vente villa duplex à Forever juste à côté de cité sidéal,VENTE,Villa,forever,1750000000,,600.0,,2916667,coinafrique,zone_description_lieu
+Vente villa à Lomé Novissi au bord du goudron,VENTE,Villa,novissi,1500000000,,600.0,,2500000,coinafrique,prix_m2_trop_eleve
+Vente villa - Kodjoviakop,VENTE,Villa,kodjoviakope,1500000000,,600.0,,2500000,coinafrique,prix_m2_trop_eleve
+Vente villa - Kodjoviakope,VENTE,Villa,kodjoviakope,1500000000,,600.0,,2500000,coinafrique,prix_m2_trop_eleve
+Vente villa R+1 à cité Oua,VENTE,Villa,cite oua,1500000000,,600.0,,2500000,coinafrique,prix_m2_trop_eleve
+Vente villa 13 pièces - Tako,VENTE,Villa,super taco,1500000000,13.0,600.0,,2500000,coinafrique,prix_m2_trop_eleve
+Vente villa à cité Oua,VENTE,Villa,cite oua,1250000000,,600.0,,2083333,coinafrique,prix_m2_trop_eleve
+Vente villa 4 chambres salon à cité Oua,VENTE,Villa,cite oua,1250000000,4.0,600.0,,2083333,coinafrique,prix_m2_trop_eleve
+Vente hôtel 32 chambres sur un lot 600m² sur la rue de lOCAM,VENTE,Villa,rue de locam,1250000000,32.0,600.0,,2083333,coinafrique,prix_m2_trop_eleve
+Vente villa duplex de 4 chambres salon à Axuiti forever proche de la caisse,VENTE,Villa,axuiti forever proche de la caisse,500000000,4.0,600.0,,833333,coinafrique,zone_trop_longue
+Vente villa - Pharmacie Yembla,VENTE,Villa,pharmacie yembla,500000000,,600.0,,833333,coinafrique,zone_description_lieu
+Vente villa piscine de haut standing à Baguida côté plage,VENTE,Villa,baguida cote plage,400000000,,600.0,,666667,coinafrique,zone_description_lieu
+Vente maison à raser à la caisse à la Résidence Caisse,VENTE,Villa,raser a la caisse a la residence caisse,350000000,,600.0,,583333,coinafrique,zone_trop_longue
+Vente villa duplex 6pièces - Baguida côté plage,VENTE,Villa,baguida cote plage,280000000,6.0,600.0,,466667,coinafrique,zone_description_lieu
+Vente 2 villas 5 pièces - forever wuiti Lomé togo 228,VENTE,Villa,forever,185000000,5.0,600.0,,308333,coinafrique,zone_description_lieu
+Vente villa 7 pièces à Forever,VENTE,Villa,forever,185000000,7.0,600.0,,308333,coinafrique,zone_description_lieu
+Vente villa 6 pièces à Forever,VENTE,Villa,forever,185000000,6.0,600.0,,308333,coinafrique,zone_description_lieu
+Vente villa avec piscine à Forever,VENTE,Villa,forever,175000000,,600.0,,291667,coinafrique,zone_description_lieu
+Vente villa duplex 5 pièces - Forever,VENTE,Villa,forever,175000000,5.0,600.0,,291667,coinafrique,zone_description_lieu
+Vente villa duplex à Forever,VENTE,Villa,forever,170000000,,600.0,,283333,coinafrique,zone_description_lieu
+Vente villa duplex 10 pièces - Forever,VENTE,Villa,forever,170000000,10.0,600.0,,283333,coinafrique,zone_description_lieu
+Vente villa à Attiegou pharmacie raoudha,VENTE,Villa,attiegou pharmacie raoudha,170000000,,600.0,,283333,coinafrique,zone_description_lieu
+4 chambres salon à Attiegou pharmacie roauda,VENTE,Villa,attiegou pharmacie roauda,170000000,4.0,600.0,,283333,coinafrique,zone_description_lieu
+Vente villa 10 pièces à Forever,VENTE,Villa,forever,135000000,10.0,600.0,,225000,coinafrique,zone_description_lieu
+"Vente villa 4 pièces à zanguera akepedo, avant le nouveau péage à 800m du goudron lomé - kpalimé, villa composée de : __ rez: une très g",VENTE,Villa,kpalime villa composee de __ rez une tres g,70000000,4.0,600.0,,116667,coinafrique,zone_trop_longue
+Vente villa 5 pièces - Pharmacie Ave Maria,VENTE,Villa,pharmacie ave maria,65000000,5.0,600.0,,108333,coinafrique,zone_description_lieu
+Vente villa 4 pièces à Forever,VENTE,Villa,forever,60000000,4.0,600.0,,100000,coinafrique,zone_description_lieu
+Vente villa inachevée - Avepozo à 800m du goudron,VENTE,Villa,avepozo a 800m du goudron,45000000,,600.0,,75000,coinafrique,zone_description_lieu
+Vente villa 3 chambres salon - Legbassito pharmacie m'ba Senoukopé,VENTE,Villa,legbassito pharmacie m ba senoukope,30000000,3.0,600.0,,50000,coinafrique,zone_trop_longue
+Vente maison de location sur demi lot composée de chambres salon - Entreprise de l'union 500m du goudron,VENTE,Villa,entreprise de l union 500m du goudron,26000000,,300.0,,86667,coinafrique,zone_trop_longue
+Vente villa 2 pièces - Atilamonou non loin du bar one day,VENTE,Villa,atilamonou non loin du bar one day,9000000,2.0,600.0,,15000,coinafrique,zone_trop_longue
+"Vente maison - Kpala juste après la ""cité kpala""",VENTE,Villa,kpala juste apres la,5000000,,600.0,,8333,coinafrique,zone_description_lieu
+Terrain agricole 11H - Kpalimé village,VENTE,Villa,kpalime village,3500000,,6600.0,,530,coinafrique,prix_m2_trop_bas
+Vente villa 4pièces - Forever,VENTE,Villa,forever,1100000,4.0,600.0,,1833,coinafrique,zone_description_lieu
+Vente villa 5 pièces - Togo,VENTE,Villa,togo 2000,400000,5.0,600.0,,667,coinafrique,prix_m2_trop_bas
+Vente villa 3 pièces à Atiomé carrefour Kponse,VENTE,Villa,atiome,150000,3.0,600.0,,250,coinafrique,prix_m2_trop_bas

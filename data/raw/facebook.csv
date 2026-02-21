@@ -1,95 +1,80 @@
-Source,Titre,Type d'offre,Type de bien,Quartier,Prix,Piece,Surface,source
-Facebook Marketplace,Terrain à vendre,Vente,Terrain,Non spécifié,3500000,Non spécifié,350.0,Facebook
-Facebook Marketplace,Terrain 1lot et 1/4 à Nanegbe Lomé,Vente,Terrain,Be,2850000,Non spécifié,437.5,Facebook
-Facebook Marketplace,TERRAIN À VENDRE ADAKPAMÉ-LOMÉ,Vente,Terrain,Adakpame,1500000,Non spécifié,87.5,Facebook
-Facebook Marketplace,TERRAIN A VENDRE LOMÉ ADETIKOPE,Vente,Terrain,Adetikope,30000,Non spécifié,43.75,Facebook
-Facebook Marketplace,☎️🇹🇬 TÉL [hidden information] TERRAIN A vendre à Lomé quartier adidogome wonyome 1/4 de lot,Vente,Terrain,Wonyome,9000000,Non spécifié,87.5,Facebook
-Facebook Marketplace,Terrain à GTA LOME,Vente,Terrain,Non spécifié,1100000,Non spécifié,87.5,Facebook
-Facebook Marketplace,☎️🇹🇬 TÉL [hidden information] terrain 1/4 Avendre Lomé adidogome wonyome,Vente,Terrain,Wonyome,9000000,Non spécifié,350.0,Facebook
-Facebook Marketplace,TERRAIN À VENDRE CENTRE VILLE LOMÉ ZONGO,Vente,Terrain,Zongo,750000,Non spécifié,43.75,Facebook
-Facebook Marketplace,Terrain à vendre,Vente,Terrain,Non spécifié,3000000,Non spécifié,350.0,Facebook
-Facebook Marketplace,À VENDRE 20 HECTARES DE TERRAIN SUR LA VOIE DE LOMÉ-KPALIMÉ,Vente,Terrain,Kpalime,2000000,Non spécifié,87.5,Facebook
-Facebook Marketplace,Terrain à vendre,Vente,Terrain,Non spécifié,1800000,Non spécifié,87.5,Facebook
-Facebook Marketplace,Terrain,Vente,Terrain,Non spécifié,12000000,Non spécifié,700.0,Facebook
-Facebook Marketplace,Terrain à vendre Djagblé,Vente,Terrain,Non spécifié,1200000,Non spécifié,87.5,Facebook
-Facebook Marketplace,Des terrains à vendre en ville a lomé,Vente,Terrain,Non spécifié,1000000,Non spécifié,43.75,Facebook
-Facebook Marketplace,Terrain à vendre,Vente,Terrain,Non spécifié,1200000,Non spécifié,87.5,Facebook
-Facebook Marketplace,Terrain à vendre Djagblé,Vente,Terrain,Non spécifié,1200000,Non spécifié,87.5,Facebook
-Facebook Marketplace,Terrain à vendre Agoé Lomé,Vente,Terrain,Agoe,12000000,Non spécifié,700.0,Facebook
-Facebook Marketplace,Des terrains à vendre en ville a lomé,Vente,Terrain,Non spécifié,1000000,Non spécifié,43.75,Facebook
-Facebook Marketplace,OPPORTUNITÉ UNIQUE À LOMÉ – TERRAIN AU BORD DU GOUDRON EN ANGLE DE RUE DE 499m² CLÔTURÉ SUR LA ROUTE,Vente,Terrain,Non spécifié,4900000,Non spécifié,499.0,Facebook
-Facebook Marketplace,Terrain à vendre avec titre foncier,Vente,Terrain,Non spécifié,20000000,Non spécifié,700.0,Facebook
-Facebook Marketplace,"#TERRAIN A VENDRE À #KPESSI 
-Un terrain mis en vente à kpessi au bord du lac sur la voie de Lomé Ane",Vente,Terrain,Vo,7000000,Non spécifié,350.0,Facebook
-Facebook Marketplace,Terrain à Avedji Lomé,Vente,Terrain,Avedji,12000000,Non spécifié,700.0,Facebook
-Facebook Marketplace,TERRAIN À VENDRE DJAGBLÉ - LÉBÉ,Vente,Terrain,Be,9000000,Non spécifié,350.0,Facebook
-Facebook Marketplace,Terrain ½ lot clôturé à vendre à Lomé quartier avédji wessomé 00228 91 68 75 87,Vente,Terrain,Avedji,1600000,Non spécifié,87.5,Facebook
-Facebook Marketplace,Terrain 1/8 à vendre avec construction,Vente,Terrain,Non spécifié,4000000,Non spécifié,350.0,Facebook
-Facebook Marketplace,Terrain,Vente,Terrain,Non spécifié,2000000,Non spécifié,87.5,Facebook
-Facebook Marketplace,À VENDRE 1 LOT DE TERRAIN AU BORD DU GOUDRON DE LOMÉ KPALIMÉ À ZANGUÉRA,Vente,Terrain,Kpalime,40000000,Non spécifié,350.0,Facebook
-Facebook Marketplace,Terrain ¼ de lot à vendre à Lomé quartier djidjolé 00228 91 68 75 87,Vente,Terrain,Djidjole,1600000,Non spécifié,87.5,Facebook
-Facebook Marketplace,À VENDRE 1/2 LOT DE TERRAIN À AGOÈ LÉGBASSITO,Vente,Terrain,Agoe,16000000,Non spécifié,175.0,Facebook
-Facebook Marketplace,"😁😁LOCATION EN *CENTRE VILLE DE LOMÉ* 
+Source,Titre,Type d'offre,Type de bien,Quartier,Prix,Piece,Surface,Valeur par piece,Valeur par m2,source
+FACEBOOK MARKETPLACE,Terrain 1lot et 1/4 à Nanegbe Lomé,VENTE,TERRAIN,BE,2850000,,750,,3800,facebook
+FACEBOOK MARKETPLACE,TERRAIN À VENDRE ADAKPAMÉ-LOMÉ,VENTE,TERRAIN,ADAKPAME,1500000,,150,,10000,facebook
+FACEBOOK MARKETPLACE,TERRAIN A VENDRE LOMÉ ADETIKOPE,VENTE,TERRAIN,ADETIKOPE,3000000,,600,,5000,facebook
+FACEBOOK MARKETPLACE,☎️🇹🇬 TÉL [hidden information] TERRAIN A vendre à Lomé quartier adidogome wonyome 1/4 de lot,VENTE,TERRAIN,WONYOME,9000000,,150,,60000,facebook
+FACEBOOK MARKETPLACE,Terrain à GTA LOME,VENTE,TERRAIN,LOME,1100000,,350,,3143,facebook
+FACEBOOK MARKETPLACE,☎️🇹🇬 TÉL [hidden information] terrain 1/4 Avendre Lomé adidogome wonyome,VENTE,TERRAIN,WONYOME,9000000,,150,,60000,facebook
+FACEBOOK MARKETPLACE,TERRAIN À VENDRE CENTRE VILLE LOMÉ ZONGO,VENTE,TERRAIN,ZONGO,7500000,,150,,50000,facebook
+FACEBOOK MARKETPLACE,À VENDRE 20 HECTARES DE TERRAIN SUR LA VOIE DE LOMÉ-KPALIMÉ,VENTE,TERRAIN,KPALIME,2000000,,10000,,200,facebook
+FACEBOOK MARKETPLACE,Terrain à vendre Djagblé,VENTE,TERRAIN,DJAGBLE,1200000,,150,,8000,facebook
+FACEBOOK MARKETPLACE,Des terrains à vendre en ville a lomé,VENTE,TERRAIN,LOME,1000000,,150,,6667,facebook
+FACEBOOK MARKETPLACE,Terrain à vendre Djagblé,VENTE,TERRAIN,DJAGBLE,1200000,,150,,8000,facebook
+FACEBOOK MARKETPLACE,Terrain à vendre Agoé Lomé,VENTE,TERRAIN,LOME,12000000,,700,,17143,facebook
+FACEBOOK MARKETPLACE,Des terrains à vendre en ville a lomé,VENTE,TERRAIN,LOME,1000000,,100,,10000,facebook
+FACEBOOK MARKETPLACE,OPPORTUNITÉ UNIQUE À LOMÉ – TERRAIN AU BORD DU GOUDRON EN ANGLE DE RUE DE 499m² CLÔTURÉ SUR LA ROUTE,VENTE,TERRAIN,LOME,4900000,,499,,9820,facebook
+FACEBOOK MARKETPLACE,"#TERRAIN A VENDRE À #KPESSI 
+Un terrain mis en vente à kpessi au bord du lac sur la voie de Lomé Ane",VENTE,TERRAIN,VO,7000000,,350,,20000,facebook
+FACEBOOK MARKETPLACE,Terrain à Avedji Lomé,VENTE,TERRAIN,AVEDJI,12000000,,700,,17143,facebook
+FACEBOOK MARKETPLACE,TERRAIN À VENDRE DJAGBLÉ - LÉBÉ,VENTE,TERRAIN,BE,9000000,,350,,25714,facebook
+FACEBOOK MARKETPLACE,Terrain ½ lot clôturé à vendre à Lomé quartier avédji wessomé 00228 91 68 75 87,VENTE,TERRAIN,AVEDJI,1600000,,300,,5333,facebook
+FACEBOOK MARKETPLACE,À VENDRE 1 LOT DE TERRAIN AU BORD DU GOUDRON DE LOMÉ KPALIMÉ À ZANGUÉRA,VENTE,TERRAIN,KPALIME,40000000,,350,,114286,facebook
+FACEBOOK MARKETPLACE,Terrain ¼ de lot à vendre à Lomé quartier djidjolé 00228 91 68 75 87,VENTE,TERRAIN,DJIDJOLE,1600000,,150,,10667,facebook
+FACEBOOK MARKETPLACE,À VENDRE 1/2 LOT DE TERRAIN À AGOÈ LÉGBASSITO,VENTE,TERRAIN,AGOE,16000000,,175,,91429,facebook
+FACEBOOK MARKETPLACE,"😁😁LOCATION EN *CENTRE VILLE DE LOMÉ* 
 lckim🆘
  *PRODUIT DIRECT¹AA* 
 
 
-*VILLA TRIPLEX DE 10 CHAMBRE",Location,Villa,Non spécifié,600000,10,100.0,Facebook
-Facebook Marketplace,Studio meublé à louer à Lomé,Location,Appartement,Non spécifié,15000,1,35.0,Facebook
-Facebook Marketplace,☎️🇹🇬 TÉL [hidden information] chambre salon meublé à Lomé totsi,Vente,Terrain,Non spécifié,15000,2,20.0,Facebook
-Facebook Marketplace,☎️🇹🇬 TÉL [hidden information] studio meublé à Lomé totsi,Vente,Appartement,Non spécifié,13000,1,35.0,Facebook
-Facebook Marketplace,Appartement / condominium de 1 chambre et 1 salle de bain 1 bed · 1 bath,Location,Appartement,Be,20000,1,60.0,Facebook
-Facebook Marketplace,☎️🇹🇬 TÉL[hidden information] Appartement meublé Lomé totsi,Location,Appartement,Non spécifié,15000,2,60.0,Facebook
-Facebook Marketplace,Pièce meublée en ville de Lomé.,Location,Appartement,Non spécifié,10000,1,20.0,Facebook
-Facebook Marketplace,☎️🇹🇬 TÉL [hidden information] Appartement meublé Lomé tokoin pharmacie gbonssime,Location,Appartement,Tokoin,15000,2,60.0,Facebook
-Facebook Marketplace,☎️🇹🇬 TÉL[hidden information] Appartement meublé à Lomé avedji,Location,Appartement,Avedji,20000,1,60.0,Facebook
-Facebook Marketplace,Location des appartements à Lomé baguida.,Location,Appartement,Baguida,350000,2,60.0,Facebook
-Facebook Marketplace,Location maison meublee ,Location,Terrain,Non spécifié,40000,1,20.0,Facebook
-Facebook Marketplace,Location appartement ,Location,Appartement,Non spécifié,35000,1,20.0,Facebook
-Facebook Marketplace,"Location cour unique 
+*VILLA TRIPLEX DE 10 CHAMBRE",LOCATION,VILLA,CENTRE VILLE,600000,10.0,110,60000.0,5455,facebook
+FACEBOOK MARKETPLACE,Studio meublé à louer à Lomé,LOCATION,APPARTEMENT,LOME,15000,1.0,12,15000.0,1250,facebook
+FACEBOOK MARKETPLACE,☎️🇹🇬 TÉL [hidden information] chambre salon meublé à Lomé totsi,LOCATION,VILLA,TOTSI,75000,2.0,21,37500.0,3571,facebook
+FACEBOOK MARKETPLACE,☎️🇹🇬 TÉL [hidden information] studio meublé à Lomé totsi,LOCATION,VILLA,TOTSI,40000,1.0,15,40000.0,2667,facebook
+FACEBOOK MARKETPLACE,Appartement / condominium de 1 chambre et 1 salle de bain 1 bed · 1 bath,LOCATION,APPARTEMENT,BE,20000,1.0,15,20000.0,1333,facebook
+FACEBOOK MARKETPLACE,☎️🇹🇬 TÉL[hidden information] Appartement meublé Lomé totsi,LOCATION,APPARTEMENT,TOTSI,15000,2.0,15,7500.0,1000,facebook
+FACEBOOK MARKETPLACE,Pièce meublée en ville de Lomé.,LOCATION,APPARTEMENT,LOME,10000,1.0,20,10000.0,500,facebook
+FACEBOOK MARKETPLACE,☎️🇹🇬 TÉL [hidden information] Appartement meublé Lomé tokoin pharmacie gbonssime,LOCATION,APPARTEMENT,TOKOIN,15000,2.0,24,7500.0,625,facebook
+FACEBOOK MARKETPLACE,☎️🇹🇬 TÉL[hidden information] Appartement meublé à Lomé avedji,LOCATION,APPARTEMENT,AVEDJI,20000,1.0,12,20000.0,1667,facebook
+FACEBOOK MARKETPLACE,Location des appartements à Lomé baguida.,LOCATION,APPARTEMENT,BAGUIDA,350000,2.0,60,175000.0,5833,facebook
+FACEBOOK MARKETPLACE,Location maison meublee ,LOCATION,VILLA,LOME,30000,1.0,20,30000.0,1500,facebook
+FACEBOOK MARKETPLACE,Location appartement ,LOCATION,APPARTEMENT,LOME,35000,1.0,20,35000.0,1750,facebook
+FACEBOOK MARKETPLACE,"Location cour unique 
 
 Zossimé non loin du marché 
 
-nous mettons en location une chambre salon plafo",Location,Terrain,Non spécifié,30000,2,20.0,Facebook
-Facebook Marketplace,LOCATION,Location,Terrain,Non spécifié,70000,Non spécifié,20.0,Facebook
-Facebook Marketplace,Location,Location,Terrain,Non spécifié,70000,Non spécifié,20.0,Facebook
-Facebook Marketplace,Cours unique chambre salon,Vente,Villa,Non spécifié,40000,2,20.0,Facebook
-Facebook Marketplace,Appartement scindé en cour unique,Vente,Villa,Non spécifié,65000,3,60.0,Facebook
-Facebook Marketplace,Terrain de 1 lot avec tampon OTR à Noépé à 400m du goudron,Vente,Terrain,Noepe,4500000,Non spécifié,350.0,Facebook
-Facebook Marketplace,Terrain demi lot en vente a Lomé noépé,Vente,Terrain,Noepe,3500000,Non spécifié,350.0,Facebook
-Facebook Marketplace,TERRAIN A VENDRE AKATO,Vente,Terrain,Non spécifié,150000,Non spécifié,43.75,Facebook
-Facebook Marketplace,Terrain ½ lot à vendre à Lomé quartier agoé légbassito 00228 91 68 75 87,Vente,Terrain,Agoe,12000000,Non spécifié,700.0,Facebook
-Facebook Marketplace,Terrain de 05 lots collé près de la Nationale N5 Lomé-Kpalimé,Vente,Terrain,Kpalime,2000000,Non spécifié,1750.0,Facebook
-Facebook Marketplace,Terrain à vendre,Vente,Terrain,Non spécifié,5500000,Non spécifié,350.0,Facebook
-Facebook Marketplace,Lomé Togo terrain à vendre,Vente,Terrain,Non spécifié,90000000,Non spécifié,700.0,Facebook
-Facebook Marketplace,VENTE DE TERRAIN À AVETONOU 8KLM DU GOUDRON LOMÉ KPALIMÉ 🇹🇬,Vente,Terrain,Kpalime,500000,Non spécifié,43.75,Facebook
-Facebook Marketplace,Terrain en vente a Lomé adidogomé wonyomé,Vente,Terrain,Wonyome,9000000,Non spécifié,350.0,Facebook
-Facebook Marketplace,À VENDRE TERRAIN SUR  1/2 LOT À BAGUIDA - ADAMAVO À 1.8KM DU GOUDRON LOME-ANEHO,Vente,Terrain,Aneho,18000000,Non spécifié,175.0,Facebook
-Facebook Marketplace,Terrain a vendre 1lot et 1/4 Lomé-Nukafu 120 millions,Vente,Terrain,Nukafu,120000000,Non spécifié,437.5,Facebook
-Facebook Marketplace,Terrain un lot en vente a lome aképé port sec,Vente,Terrain,Non spécifié,9000000,Non spécifié,350.0,Facebook
-Facebook Marketplace,VENTE DE TERRAINS À AVETONOU 8KLM DU GOUDRON LOMÉ KPALIMÉ 🇹🇬,Vente,Terrain,Kpalime,500000,Non spécifié,43.75,Facebook
-Facebook Marketplace,Terrain fiable à vendre,Vente,Terrain,Non spécifié,2800000,Non spécifié,350.0,Facebook
-Facebook Marketplace,"*A VENDRE*
+nous mettons en location une chambre salon plafo",LOCATION,VILLA,ZOSSIME,30000,2.0,20,15000.0,1500,facebook
+FACEBOOK MARKETPLACE,Cours unique chambre salon,LOCATION,VILLA,LOME,40000,2.0,22,20000.0,1818,facebook
+FACEBOOK MARKETPLACE,Appartement scindé en cour unique,LOCATION,VILLA,LOME,65000,3.0,35,21667.0,1857,facebook
+FACEBOOK MARKETPLACE,Terrain de 1 lot avec tampon OTR à Noépé à 400m du goudron,VENTE,TERRAIN,NOEPE,4500000,,350,,12857,facebook
+FACEBOOK MARKETPLACE,Terrain demi lot en vente a Lomé noépé,VENTE,TERRAIN,NOEPE,3500000,,350,,10000,facebook
+FACEBOOK MARKETPLACE,TERRAIN A VENDRE AKATO,VENTE,TERRAIN,AKATO,15000000,,600,,25000,facebook
+FACEBOOK MARKETPLACE,Terrain ½ lot à vendre à Lomé quartier agoé légbassito 00228 91 68 75 87,VENTE,TERRAIN,AGOE,12000000,,700,,17143,facebook
+FACEBOOK MARKETPLACE,Terrain de 05 lots collé près de la Nationale N5 Lomé-Kpalimé,VENTE,TERRAIN,KPALIME,2000000,,1750,,1143,facebook
+FACEBOOK MARKETPLACE,VENTE DE TERRAIN À AVETONOU 8KLM DU GOUDRON LOMÉ KPALIMÉ 🇹🇬,VENTE,TERRAIN,AVETONOU,500000,,600,,833,facebook
+FACEBOOK MARKETPLACE,Terrain en vente a Lomé adidogomé wonyomé,VENTE,TERRAIN,WONYOME,9000000,,350,,25714,facebook
+FACEBOOK MARKETPLACE,À VENDRE TERRAIN SUR  1/2 LOT À BAGUIDA - ADAMAVO À 1.8KM DU GOUDRON LOME-ANEHO,VENTE,TERRAIN,ANEHO,18000000,,175,,102857,facebook
+FACEBOOK MARKETPLACE,Terrain a vendre 1lot et 1/4 Lomé-Nukafu 120 millions,VENTE,TERRAIN,NUKAFU,120000000,,750,,160000,facebook
+FACEBOOK MARKETPLACE,Terrain un lot en vente a lome aképé port sec,VENTE,TERRAIN,AKEPE,9000000,,350,,25714,facebook
+FACEBOOK MARKETPLACE,VENTE DE TERRAINS À AVETONOU 8KLM DU GOUDRON LOMÉ KPALIMÉ 🇹🇬,VENTE,TERRAIN,KPALIME,500000,,10000,,50,facebook
+FACEBOOK MARKETPLACE,"*A VENDRE*
 02 LOT de terrain au cœur du grand marché de LOMÉ.
 Surface : 1000 m2.
 
-Situés en angle de",Vente,Terrain,Non spécifié,1000000000,Non spécifié,700.0,Facebook
-Facebook Marketplace,Terrain demi Lot,Vente,Terrain,Non spécifié,35000000,Non spécifié,700.0,Facebook
-Facebook Marketplace,Terrain 2 lots coller en vente a Lome agoe centre,Vente,Terrain,Agoe,90000000,Non spécifié,700.0,Facebook
-Facebook Marketplace,Terrain à Lomé 🇹🇬,Vente,Terrain,Non spécifié,120000000,Non spécifié,700.0,Facebook
-Facebook Marketplace,TERRAINS AGRICOLES EN VENTE À AZAHOUN,Vente,Terrain,Non spécifié,1300000,Non spécifié,87.5,Facebook
-Facebook Marketplace,Terrain en vente a Lomé aképé,Vente,Terrain,Non spécifié,9000000,Non spécifié,350.0,Facebook
-Facebook Marketplace,Terrain : 1/2 lot avec Titre Foncier P à klikamé non loin campus Lomé,Vente,Terrain,Non spécifié,19000000,Non spécifié,175.0,Facebook
-Facebook Marketplace,VENTE DE TERRAINS À AMOUZOUKOPÉ 13 KLM DU GOUDRON LOMÉ- KPALIMÉ 🇹🇬,Vente,Terrain,Kpalime,600000,Non spécifié,43.75,Facebook
-Facebook Marketplace,Terrain à vendre à Lomé akepe,Vente,Terrain,Non spécifié,9000000,Non spécifié,350.0,Facebook
-Facebook Marketplace,Terrain demi lot carré en vente a lome avedji,Vente,Terrain,Avedji,22000000,Non spécifié,700.0,Facebook
-Facebook Marketplace,Terrain à vendre au grand marché de lomé (Assigame),Vente,Terrain,Non spécifié,1000000,Non spécifié,43.75,Facebook
-Facebook Marketplace,VENTE DE TERRAIN A NOTSÈ 13 KL AU GOUDRON 🇹🇬,Vente,Terrain,Non spécifié,400000,Non spécifié,43.75,Facebook
-Facebook Marketplace,Terrain 1 lot quart soit 700m² Nyekonakpoè Togo chaussures,Vente,Terrain,Nyekonakpo,70000000,Non spécifié,350.0,Facebook
-Facebook Marketplace,Terrain 6 lots collés Adewui à côté de l'université de Lomé,Vente,Terrain,Adewui,40000000,Non spécifié,2100.0,Facebook
-Facebook Marketplace,VENTE DE TERRAIN A NOTSÈ À 13 KLM DU GOUDRON 🇹🇬,Vente,Terrain,Non spécifié,400000,Non spécifié,43.75,Facebook
-Facebook Marketplace,Terrain en vente a Lome baguida bateauvi,Vente,Terrain,Baguida,17000000,Non spécifié,700.0,Facebook
-Facebook Marketplace,Terrain à vendre à tokoin 3k,Vente,Terrain,Tokoin,75000000,Non spécifié,700.0,Facebook
-Facebook Marketplace,"Terrain 1lot et ¼ ,bâti clôturé à vendre à Lomé quartier cacavéli 00228 91 68 75 87",Vente,Terrain,Cacavéli,50000000,Non spécifié,350.0,Facebook
-Facebook Marketplace,TERRAIN À VENDRE,Vente,Terrain,Non spécifié,4000000,Non spécifié,350.0,Facebook
-Facebook Marketplace,Terrain quart de Lot en vente a Lomé mission tové,Vente,Terrain,Non spécifié,2000000,Non spécifié,87.5,Facebook
+Situés en angle de",VENTE,TERRAIN,CENTRE VILLE,1000000000,,1200,,833333,facebook
+FACEBOOK MARKETPLACE,Terrain 2 lots coller en vente a Lome agoe centre,VENTE,TERRAIN,AGOE,90000000,,700,,128571,facebook
+FACEBOOK MARKETPLACE,Terrain à Lomé 🇹🇬,VENTE,TERRAIN,LOME,120000000,,700,,171429,facebook
+FACEBOOK MARKETPLACE,TERRAINS AGRICOLES EN VENTE À AZAHOUN,VENTE,TERRAIN,AZAHOUN,1300000,,10000,,130,facebook
+FACEBOOK MARKETPLACE,Terrain en vente a Lomé aképé,VENTE,TERRAIN,AKEPE,9000000,,350,,25714,facebook
+FACEBOOK MARKETPLACE,Terrain : 1/2 lot avec Titre Foncier P à klikamé non loin campus Lomé,VENTE,TERRAIN,KPALIME,19000000,,320,,59375,facebook
+FACEBOOK MARKETPLACE,VENTE DE TERRAINS À AMOUZOUKOPÉ 13 KLM DU GOUDRON LOMÉ- KPALIMÉ 🇹🇬,VENTE,TERRAIN,KPALIME,600000,,600,,1000,facebook
+FACEBOOK MARKETPLACE,Terrain à vendre à Lomé akepe,VENTE,TERRAIN,AKEPE,9000000,,350,,25714,facebook
+FACEBOOK MARKETPLACE,Terrain demi lot carré en vente a lome avedji,VENTE,TERRAIN,AVEDJI,22000000,,700,,31429,facebook
+FACEBOOK MARKETPLACE,Terrain à vendre au grand marché de lomé (Assigame),VENTE,TERRAIN,CENTRE VILLE,10000000,,435,,22989,facebook
+FACEBOOK MARKETPLACE,VENTE DE TERRAIN A NOTSÈ 13 KL AU GOUDRON 🇹🇬,VENTE,TERRAIN,NOTSE,400000,,600,,667,facebook
+FACEBOOK MARKETPLACE,Terrain 1 lot quart soit 700m² Nyekonakpoè Togo chaussures,VENTE,TERRAIN,NYEKONAKPOE,70000000,,350,,200000,facebook
+FACEBOOK MARKETPLACE,Terrain 6 lots collés Adewui à côté de l'université de Lomé,VENTE,TERRAIN,ADEWUI,40000000,,2100,,19048,facebook
+FACEBOOK MARKETPLACE,VENTE DE TERRAIN A NOTSÈ À 13 KLM DU GOUDRON 🇹🇬,VENTE,TERRAIN,NOTSE,400000,,600,,667,facebook
+FACEBOOK MARKETPLACE,Terrain en vente a Lome baguida bateauvi,VENTE,TERRAIN,BAGUIDA,17000000,,700,,24286,facebook
+FACEBOOK MARKETPLACE,Terrain à vendre à tokoin 3k,VENTE,TERRAIN,TOKOIN,75000000,,700,,107143,facebook
+FACEBOOK MARKETPLACE,"Terrain 1lot et ¼ ,bâti clôturé à vendre à Lomé quartier cacavéli 00228 91 68 75 87",VENTE,TERRAIN,CACAVELI,50000000,,350,,142857,facebook
+FACEBOOK MARKETPLACE,Terrain quart de Lot en vente a Lomé mission tové,VENTE,TERRAIN,TOVE,2000000,,150,,13333,facebook

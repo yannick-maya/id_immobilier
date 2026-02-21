@@ -1,355 +1,355 @@
-Préfecture,Zone,Quartier,Valeur vénale (FCFA),Surface (m²),Valeur/m² (FCFA),source
-GOLFE,Zone 1,Quartier administratif,50000000,600,83333.0,ValeursVenales
-GOLFE,Zone 1,Wetirivikondji,50000000,600,83333.0,ValeursVenales
-GOLFE,Zone 1,Adoboukomé,50000000,600,83333.0,ValeursVenales
-GOLFE,Zone 1,Abobokomé,50000000,600,83333.0,ValeursVenales
-GOLFE,Zone 1,Sanguera,50000000,600,83333.0,ValeursVenales
-GOLFE,Zone 1,Kokétimé,50000000,600,83333.0,ValeursVenales
-GOLFE,Zone 1,Agbadahonou,50000000,600,83333.0,ValeursVenales
-GOLFE,Zone 1,Adawlato,50000000,600,83333.0,ValeursVenales
-GOLFE,Zone 1,Béniglato,50000000,600,83333.0,ValeursVenales
-GOLFE,Zone 1,Aguiarkomé,50000000,600,83333.0,ValeursVenales
-GOLFE,Zone 1,Fréau Jardin,50000000,600,83333.0,ValeursVenales
-GOLFE,Zone 2,Kodjoviakopé,40000000,600,66667.0,ValeursVenales
-GOLFE,Zone 2,Nyéconakpoè,40000000,600,66667.0,ValeursVenales
-GOLFE,Zone 2,Octaviano Nétimé,40000000,600,66667.0,ValeursVenales
-GOLFE,Zone 2,Hanoukopé,40000000,600,66667.0,ValeursVenales
-GOLFE,Zone 2,Doulassamé,40000000,600,66667.0,ValeursVenales
-GOLFE,Zone 2,Amoutivé,40000000,600,66667.0,ValeursVenales
-GOLFE,Zone 2,Lomnava,40000000,600,66667.0,ValeursVenales
-GOLFE,Zone 2,Kpehénou,40000000,600,66667.0,ValeursVenales
-GOLFE,Zone 2,Bassadji,40000000,600,66667.0,ValeursVenales
-GOLFE,Zone 2,Bè Apéyémé,40000000,600,66667.0,ValeursVenales
-GOLFE,Zone 2,Souza Nétimé,40000000,600,66667.0,ValeursVenales
-GOLFE,Zone 2,Anthonio Nétimé,40000000,600,66667.0,ValeursVenales
-GOLFE,Zone 3,Kotokou kondji,25000000,600,41667.0,ValeursVenales
-GOLFE,Zone 3,Bè Ahligo,25000000,600,41667.0,ValeursVenales
-GOLFE,Zone 3,Ablogamé,25000000,600,41667.0,ValeursVenales
-GOLFE,Zone 3,Wété,25000000,600,41667.0,ValeursVenales
-GOLFE,Zone 3,Akodéssewa,25000000,600,41667.0,ValeursVenales
-GOLFE,Zone 3,Gbenyédji,25000000,600,41667.0,ValeursVenales
-GOLFE,Zone 3,Bè,25000000,600,41667.0,ValeursVenales
-GOLFE,Zone 3,Tokoin Ouest,25000000,600,41667.0,ValeursVenales
-GOLFE,Zone 3,Tokoin Hopital,25000000,600,41667.0,ValeursVenales
-GOLFE,Zone 3,Tokoin Solidarité,25000000,600,41667.0,ValeursVenales
-GOLFE,Zone 3,Cassablanca,25000000,600,41667.0,ValeursVenales
-GOLFE,Zone 3,Abové,25000000,600,41667.0,ValeursVenales
-GOLFE,Zone 3,Akossombo,25000000,600,41667.0,ValeursVenales
-GOLFE,Zone 3,Tokoin Gbadago,25000000,600,41667.0,ValeursVenales
-GOLFE,Zone 3,Tokoin Elavagnon,25000000,600,41667.0,ValeursVenales
-GOLFE,Zone 3,Tokoin Lycée,25000000,600,41667.0,ValeursVenales
-GOLFE,Zone 3,Gbonvié,25000000,600,41667.0,ValeursVenales
-GOLFE,Zone 3,Dogbéavou,25000000,600,41667.0,ValeursVenales
-GOLFE,Zone 3,Saint Joseph,25000000,600,41667.0,ValeursVenales
-GOLFE,Zone 3,Bè Kpota,25000000,600,41667.0,ValeursVenales
-GOLFE,Zone 4,Klikamé,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Université,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Doulassamé,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Tokoin Tamé,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Tokoin Forever,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Tokoin Nkafu,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Tokoin Wuiti,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Hédzranawoé,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Tokoin Aéroport,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Lomé II (Hors cité OUA et caisse),12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Agbalépédogan,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Totsi-Cacavéli,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Kelegougan,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Attiégou,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Soviépé,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Avénou Batomé,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Kégué,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Aflao Gakli,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Amandahomé,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Apédokoè,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Avédji,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Akodésséwa Kponou,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Kanyikopé,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Adakpamé,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 4,Akodésséwa Kpota,12500000,600,20833.0,ValeursVenales
-GOLFE,Zone 5,Sagbado,7000000,600,11667.0,ValeursVenales
-GOLFE,Zone 5,Yokoè,7000000,600,11667.0,ValeursVenales
-GOLFE,Zone 5,Awatamé,7000000,600,11667.0,ValeursVenales
-GOLFE,Zone 5,Gblinkomégan,7000000,600,11667.0,ValeursVenales
-GOLFE,Zone 5,Ségbé,7000000,600,11667.0,ValeursVenales
-GOLFE,Zone 5,Wonyomé,7000000,600,11667.0,ValeursVenales
-GOLFE,Zone 5,Lankouvi,7000000,600,11667.0,ValeursVenales
-GOLFE,Zone 5,Akato,7000000,600,11667.0,ValeursVenales
-GOLFE,Zone 5,Akato-Démé,7000000,600,11667.0,ValeursVenales
-GOLFE,Zone 5,Akato-Viépé,7000000,600,11667.0,ValeursVenales
-GOLFE,Zone 5,Akato-Avoiémé,7000000,600,11667.0,ValeursVenales
-GOLFE,Zone 5,Klémé-Agokpanou,7000000,600,11667.0,ValeursVenales
-GOLFE,Zone 5 (Dévégo),Dévégo,8000000,600,13333.0,ValeursVenales
-GOLFE,Zone 5 (Dévégo),Baguida,8000000,600,13333.0,ValeursVenales
-GOLFE,Zone 5 (Dévégo),Avépozo,8000000,600,13333.0,ValeursVenales
-GOLFE,Zone 5 (Dévégo),Kpogan,8000000,600,13333.0,ValeursVenales
-GOLFE,Zone 5 (Dévégo),Baguida Plantation,8000000,600,13333.0,ValeursVenales
-GOLFE,Zone 5 (Dévégo),Kpogan Agodékè,8000000,600,13333.0,ValeursVenales
-GOLFE,Zone 5 (Dévégo),Kpogan Agbétiko,8000000,600,13333.0,ValeursVenales
-GOLFE,Zone 5 (Dévégo),Kpogan nouveau quartier,8000000,600,13333.0,ValeursVenales
-GOLFE,Zone 5 (Dévégo),Adamavo,8000000,600,13333.0,ValeursVenales
-GOLFE,Zone 6,Zone portuaire,100000000,600,166667.0,ValeursVenales
-GOLFE,Zone 7,Résidence du Bénin,100000000,600,166667.0,ValeursVenales
-GOLFE,Zone 7,Résidence de la caisse(Baguida),100000000,600,166667.0,ValeursVenales
-GOLFE,Zone 7,Cité Mokpokpo,100000000,600,166667.0,ValeursVenales
-GOLFE,Zone 7,Cité des anges,100000000,600,166667.0,ValeursVenales
-GOLFE,Zone 7,Well city,100000000,600,166667.0,ValeursVenales
-GOLFE,Zone 7,Résidence de la BOAD,100000000,600,166667.0,ValeursVenales
-GOLFE,Zone 7,Résidence de la BCEAO,100000000,600,166667.0,ValeursVenales
-GOLFE,Zone 7,Baie des anges,100000000,600,166667.0,ValeursVenales
-GOLFE,Zone 7,Cité millénium,100000000,600,166667.0,ValeursVenales
-GOLFE,Zone 7,Cité renaissance,100000000,600,166667.0,ValeursVenales
-GOLFE,Zone 7,Lomé II,100000000,600,166667.0,ValeursVenales
-GOLFE,Zone 7,Sito Aéroport,100000000,600,166667.0,ValeursVenales
-AGOE-NYIVE,Zone 1: Urbaine,Agoènyivé,10000000,600,16667.0,ValeursVenales
-AGOE-NYIVE,Zone 1: Urbaine,Anomé,10000000,600,16667.0,ValeursVenales
-AGOE-NYIVE,Zone 1: Urbaine,Vakpossito,10000000,600,16667.0,ValeursVenales
-AGOE-NYIVE,Zone 1: Urbaine,Téléssou,10000000,600,16667.0,ValeursVenales
-AGOE-NYIVE,Zone 1: Urbaine,Démakpoè,10000000,600,16667.0,ValeursVenales
-AGOE-NYIVE,Zone 1: Urbaine,Sogbossito,10000000,600,16667.0,ValeursVenales
-AGOE-NYIVE,Zone 1: Urbaine,Fiovi,10000000,600,16667.0,ValeursVenales
-AGOE-NYIVE,Zone 1: Urbaine,Nyivémé,10000000,600,16667.0,ValeursVenales
-AGOE-NYIVE,Zone 1: Urbaine,Kididjan,10000000,600,16667.0,ValeursVenales
-AGOE-NYIVE,Zone 1: Urbaine,Atchanvé,10000000,600,16667.0,ValeursVenales
-AGOE-NYIVE,Zone 1: Urbaine,Agoè Assiyéyé,10000000,600,16667.0,ValeursVenales
-AGOE-NYIVE,Zone 1: Urbaine,Logopé,10000000,600,16667.0,ValeursVenales
-AGOE-NYIVE,Zone 1: Urbaine,Anokoui,10000000,600,16667.0,ValeursVenales
-AGOE-NYIVE,Zone 1: Urbaine,Adétikopé Zone Urbaine,10000000,600,16667.0,ValeursVenales
-AGOE-NYIVE,Zone 2: Périurbaine,Sanguera 2,5000000,600,8333.0,ValeursVenales
-AGOE-NYIVE,Zone 2: Périurbaine,Amédenta,5000000,600,8333.0,ValeursVenales
-AGOE-NYIVE,Zone 2: Périurbaine,Konhé,5000000,600,8333.0,ValeursVenales
-AGOE-NYIVE,Zone 2: Périurbaine,Zopomahé,5000000,600,8333.0,ValeursVenales
-AGOE-NYIVE,Zone 2: Périurbaine,Zossimé,5000000,600,8333.0,ValeursVenales
-AGOE-NYIVE,Zone 2: Périurbaine,Daliko,5000000,600,8333.0,ValeursVenales
-AGOE-NYIVE,Zone 2: Périurbaine,Légbassito,5000000,600,8333.0,ValeursVenales
-AGOE-NYIVE,Zone 2: Périurbaine,Madjikpéto,5000000,600,8333.0,ValeursVenales
-AGOE-NYIVE,Zone 2: Périurbaine,Ahonkpoè,5000000,600,8333.0,ValeursVenales
-AGOE-NYIVE,Zone 2: Périurbaine,Togblékopé,5000000,600,8333.0,ValeursVenales
-AGOE-NYIVE,Zone 2: Périurbaine,Zongo,5000000,600,8333.0,ValeursVenales
-AGOE-NYIVE,Zone 2: Périurbaine,Adétikopé Périurbain,5000000,600,8333.0,ValeursVenales
-ZIO,Zone 1: Urbaine,Daviémodji,5000000,600,8333.0,ValeursVenales
-ZIO,Zone 1: Urbaine,Tsévié wémé,5000000,600,8333.0,ValeursVenales
-ZIO,Zone 1: Urbaine,Tsévié Wagba,5000000,600,8333.0,ValeursVenales
-ZIO,Zone 1: Urbaine,Tsévié Wuagba (cité Nord),5000000,600,8333.0,ValeursVenales
-ZIO,Zone 1: Urbaine,Tsévié Davié Adidomé,5000000,600,8333.0,ValeursVenales
-ZIO,Zone 1: Urbaine,Tsévié Assiama,5000000,600,8333.0,ValeursVenales
-ZIO,Zone 1: Urbaine,Tsévié Boloumondji,5000000,600,8333.0,ValeursVenales
-ZIO,Zone 1: Urbaine,Tsévié Gbatopémodji,5000000,600,8333.0,ValeursVenales
-ZIO,Zone 1: Urbaine,Kpali,5000000,600,8333.0,ValeursVenales
-ZIO,Zone 1: Urbaine,Kpatéfi,5000000,600,8333.0,ValeursVenales
-ZIO,Zone 2: Périurbaine,Mission Tové,2000000,600,3333.0,ValeursVenales
-ZIO,Zone 2: Périurbaine,Apessito,2000000,600,3333.0,ValeursVenales
-ZIO,Zone 2: Périurbaine,Kpala,2000000,600,3333.0,ValeursVenales
-ZIO,Zone 2: Périurbaine,Davié Assomé,2000000,600,3333.0,ValeursVenales
-ZIO,Zone 2: Périurbaine,Djagblé,2000000,600,3333.0,ValeursVenales
-ZIO,Zone 3: Rurale,Terrains agricoles,700000,10000,70.0,ValeursVenales
-OGOU,Zone 1: Urbaine,Atakpamé Eroma,4000000,600,6667.0,ValeursVenales
-OGOU,Zone 1: Urbaine,Agbonou Kpota,4000000,600,6667.0,ValeursVenales
-OGOU,Zone 1: Urbaine,Idiotsè,4000000,600,6667.0,ValeursVenales
-OGOU,Zone 1: Urbaine,Commune,4000000,600,6667.0,ValeursVenales
-OGOU,Zone 1: Urbaine,Talo Sanin,4000000,600,6667.0,ValeursVenales
-OGOU,Zone 1: Urbaine,Ayelecopé,4000000,600,6667.0,ValeursVenales
-OGOU,Zone 1: Urbaine,Agbonou-kpota,4000000,600,6667.0,ValeursVenales
-OGOU,Zone 1: Urbaine,Agbonou,4000000,600,6667.0,ValeursVenales
-OGOU,Zone 1: Urbaine,Gnagna,4000000,600,6667.0,ValeursVenales
-OGOU,Zone 1: Urbaine,Woudou,4000000,600,6667.0,ValeursVenales
-OGOU,Zone 1: Urbaine,Doulassamé,4000000,600,6667.0,ValeursVenales
-OGOU,Zone 1: Urbaine,Agbonou-kpotamé,4000000,600,6667.0,ValeursVenales
-OGOU,Zone 1: Urbaine,Talo-Tandjé,4000000,600,6667.0,ValeursVenales
-OGOU,Zone 1: Urbaine,Aféyé-kpota,4000000,600,6667.0,ValeursVenales
-OGOU,Zone 2: Périurbaine,Zone périurbaine,2000000,600,3333.0,ValeursVenales
-OGOU,Zone 3: Rurale,Terrains agricoles,200000,10000,20.0,ValeursVenales
-LACS,Zone 1: Urbaine,Nlessi,5000000,600,8333.0,ValeursVenales
-LACS,Zone 1: Urbaine,Glidji,5000000,600,8333.0,ValeursVenales
-LACS,Zone 1: Urbaine,Zébé,5000000,600,8333.0,ValeursVenales
-LACS,Zone 1: Urbaine,Assoukondji,5000000,600,8333.0,ValeursVenales
-LACS,Zone 1: Urbaine,Vodougbé Cocoteraie,5000000,600,8333.0,ValeursVenales
-LACS,Zone 1: Urbaine,Adjido,5000000,600,8333.0,ValeursVenales
-LACS,Zone 1: Urbaine,Abalo Kondji,5000000,600,8333.0,ValeursVenales
-LACS,Zone 1: Urbaine,Vodougbé,5000000,600,8333.0,ValeursVenales
-LACS,Zone 1: Urbaine,tonoukondji,5000000,600,8333.0,ValeursVenales
-LACS,Zone 1: Urbaine,Yésuvito,5000000,600,8333.0,ValeursVenales
-LACS,Zone 1: Urbaine,Kpota,5000000,600,8333.0,ValeursVenales
-LACS,Zone 1: Urbaine,Dégbénou,5000000,600,8333.0,ValeursVenales
-LACS,Zone 1: Urbaine,Commune,5000000,600,8333.0,ValeursVenales
-LACS,Zone 1: Urbaine,Goumoukopé,5000000,600,8333.0,ValeursVenales
-LACS,Zone 2: Périurbaine,Zone périurbaine,2000000,600,3333.0,ValeursVenales
-LACS,Zone 3: Rurale,Terrains agricoles,600000,10000,60.0,ValeursVenales
-VO,Zone 1: Urbaine,Séva-Mondji,4000000,600,6667.0,ValeursVenales
-VO,Zone 1: Urbaine,Adjrégo-Apégan,4000000,600,6667.0,ValeursVenales
-VO,Zone 1: Urbaine,Adagbé,4000000,600,6667.0,ValeursVenales
-VO,Zone 1: Urbaine,Agbopé,4000000,600,6667.0,ValeursVenales
-VO,Zone 1: Urbaine,Ville de Vogan,4000000,600,6667.0,ValeursVenales
-VO,Zone 1: Urbaine,Agogbezin,4000000,600,6667.0,ValeursVenales
-VO,Zone 1: Urbaine,Amoindji-Pédakomé,4000000,600,6667.0,ValeursVenales
-VO,Zone 2: Périurbaine,Zone périurbaine,2000000,600,3333.0,ValeursVenales
-VO,Zone 3: Rurale,Terrains agricoles,500000,10000,50.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Kpodzi,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Kusuntu,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Kpegolonou,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Kligekodzi,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Kpota,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Zomayi Kpota,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Kpeta,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Dzodzekodzi,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Agoekodzi,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Kpogadzi,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Sihinu,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Gakpodzi,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Zongo,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Afiadényigba Kodzi,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Dome,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Totsoanyi,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Samkodzi,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Akpamé Kondzi,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Numetukodzi,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Nogo,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Lomnava,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Novissi,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Tsivé,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 1: Urbaine,Nyivémé,5000000,600,8333.0,ValeursVenales
-KLOTO,Zone 2: Périurbaine,Zone périurbaine,2000000,600,3333.0,ValeursVenales
-KLOTO,Zone 3: Rurale,Terrains agricoles,200000,10000,20.0,ValeursVenales
-HAHO,Zone 1: Urbaine,Notsè,4000000,600,6667.0,ValeursVenales
-HAHO,Zone 1: Urbaine,Avizouha,4000000,600,6667.0,ValeursVenales
-HAHO,Zone 1: Urbaine,Atiteromé,4000000,600,6667.0,ValeursVenales
-HAHO,Zone 1: Urbaine,Sabakomé,4000000,600,6667.0,ValeursVenales
-HAHO,Zone 1: Urbaine,Adjigo,4000000,600,6667.0,ValeursVenales
-HAHO,Zone 1: Urbaine,Zongo,4000000,600,6667.0,ValeursVenales
-HAHO,Zone 1: Urbaine,Nawolo,4000000,600,6667.0,ValeursVenales
-HAHO,Zone 1: Urbaine,Agbaladomé,4000000,600,6667.0,ValeursVenales
-HAHO,Zone 1: Urbaine,Kpédomé,4000000,600,6667.0,ValeursVenales
-HAHO,Zone 1: Urbaine,Kpota,4000000,600,6667.0,ValeursVenales
-HAHO,Zone 1: Urbaine,Ekli,4000000,600,6667.0,ValeursVenales
-HAHO,Zone 1: Urbaine,Tegbé,4000000,600,6667.0,ValeursVenales
-HAHO,Zone 1: Urbaine,Adimè,4000000,600,6667.0,ValeursVenales
-HAHO,Zone 1: Urbaine,Tako,4000000,600,6667.0,ValeursVenales
-HAHO,Zone 2: Périurbaine,Zone périurbaine,2000000,600,3333.0,ValeursVenales
-HAHO,Zone 3: Rurale,Terrains agricoles,200000,10000,20.0,ValeursVenales
-SOTOUBOUA,Zone 1: Urbaine,Paix,2000000,600,3333.0,ValeursVenales
-SOTOUBOUA,Zone 1: Urbaine,Kpandio,2000000,600,3333.0,ValeursVenales
-SOTOUBOUA,Zone 1: Urbaine,Meteo,2000000,600,3333.0,ValeursVenales
-SOTOUBOUA,Zone 1: Urbaine,Watchalo,2000000,600,3333.0,ValeursVenales
-SOTOUBOUA,Zone 1: Urbaine,Lawai,2000000,600,3333.0,ValeursVenales
-SOTOUBOUA,Zone 1: Urbaine,Zongo,2000000,600,3333.0,ValeursVenales
-SOTOUBOUA,Zone 1: Urbaine,Tchitchao,2000000,600,3333.0,ValeursVenales
-SOTOUBOUA,Zone 1: Urbaine,Essowavana,2000000,600,3333.0,ValeursVenales
-SOTOUBOUA,Zone 1: Urbaine,Sondè,2000000,600,3333.0,ValeursVenales
-SOTOUBOUA,Zone 1: Urbaine,Wekada,2000000,600,3333.0,ValeursVenales
-SOTOUBOUA,Zone 1: Urbaine,Nima,2000000,600,3333.0,ValeursVenales
-SOTOUBOUA,Zone 1: Urbaine,Gnimda,2000000,600,3333.0,ValeursVenales
-SOTOUBOUA,Zone 2: Périurbaine,Zone périurbaine,1000000,600,1667.0,ValeursVenales
-SOTOUBOUA,Zone 3: Rurale,Terrains agricoles,200000,10000,20.0,ValeursVenales
-TCHAOUDJO,Zone 1: Urbaine,Centre-ville,4000000,600,6667.0,ValeursVenales
-TCHAOUDJO,Zone 1: Urbaine,Kpengalam,4000000,600,6667.0,ValeursVenales
-TCHAOUDJO,Zone 1: Urbaine,Komah,4000000,600,6667.0,ValeursVenales
-TCHAOUDJO,Zone 1: Urbaine,Akamadè,4000000,600,6667.0,ValeursVenales
-TCHAOUDJO,Zone 1: Urbaine,Tchawanda,4000000,600,6667.0,ValeursVenales
-TCHAOUDJO,Zone 1: Urbaine,Kagnidè,4000000,600,6667.0,ValeursVenales
-TCHAOUDJO,Zone 1: Urbaine,Barrière,4000000,600,6667.0,ValeursVenales
-TCHAOUDJO,Zone 1: Urbaine,Kossobio,4000000,600,6667.0,ValeursVenales
-TCHAOUDJO,Zone 1: Urbaine,Zongo,4000000,600,6667.0,ValeursVenales
-TCHAOUDJO,Zone 1: Urbaine,Didaourè,4000000,600,6667.0,ValeursVenales
-TCHAOUDJO,Zone 1: Urbaine,Kouloundè,4000000,600,6667.0,ValeursVenales
-TCHAOUDJO,Zone 1: Urbaine,Centre admnistratif,4000000,600,6667.0,ValeursVenales
-TCHAOUDJO,Zone 2: Périurbaine,Zone périurbaine,2000000,600,3333.0,ValeursVenales
-TCHAOUDJO,Zone 3: Rurale,Terrains agricoles,200000,10000,20.0,ValeursVenales
-BASSAR,Zone 1: Urbaine,Okoro,3000000,600,5000.0,ValeursVenales
-BASSAR,Zone 1: Urbaine,Boukoundjibé,3000000,600,5000.0,ValeursVenales
-BASSAR,Zone 1: Urbaine,Ouadandé,3000000,600,5000.0,ValeursVenales
-BASSAR,Zone 1: Urbaine,Bamimda,3000000,600,5000.0,ValeursVenales
-BASSAR,Zone 1: Urbaine,Boukoutchabe,3000000,600,5000.0,ValeursVenales
-BASSAR,Zone 1: Urbaine,Biakpabe,3000000,600,5000.0,ValeursVenales
-BASSAR,Zone 1: Urbaine,Kpankissi,3000000,600,5000.0,ValeursVenales
-BASSAR,Zone 1: Urbaine,Saboundjra,3000000,600,5000.0,ValeursVenales
-BASSAR,Zone 1: Urbaine,Ketangbao,3000000,600,5000.0,ValeursVenales
-BASSAR,Zone 1: Urbaine,Kpadja Doumpou,3000000,600,5000.0,ValeursVenales
-BASSAR,Zone 1: Urbaine,Kodjo Doumpou,3000000,600,5000.0,ValeursVenales
-BASSAR,Zone 1: Urbaine,Biakpabe-Aviation,3000000,600,5000.0,ValeursVenales
-BASSAR,Zone 1: Urbaine,Aviation,3000000,600,5000.0,ValeursVenales
-BASSAR,Zone 1: Urbaine,Nangbani,3000000,600,5000.0,ValeursVenales
-BASSAR,Zone 2: Périurbaine,Zone périurbaine,1500000,600,2500.0,ValeursVenales
-BASSAR,Zone 3: Rurale,Terrains agricoles,200000,10000,20.0,ValeursVenales
-KOZAH,Zone 1: Urbaine,Centre ville,5000000,600,8333.0,ValeursVenales
-KOZAH,Zone 1: Urbaine,Téloudè,5000000,600,8333.0,ValeursVenales
-KOZAH,Zone 1: Urbaine,Tomdè,5000000,600,8333.0,ValeursVenales
-KOZAH,Zone 1: Urbaine,Lama-Feing,5000000,600,8333.0,ValeursVenales
-KOZAH,Zone 1: Urbaine,Lama-Elimdè,5000000,600,8333.0,ValeursVenales
-KOZAH,Zone 1: Urbaine,Hopital chinois,5000000,600,8333.0,ValeursVenales
-KOZAH,Zone 1: Urbaine,Powaï,5000000,600,8333.0,ValeursVenales
-KOZAH,Zone 1: Urbaine,Dongoyo,5000000,600,8333.0,ValeursVenales
-KOZAH,Zone 2: Périurbaine,Zone périurbaine,2000000,600,3333.0,ValeursVenales
-KOZAH,Zone 3: Rurale,Terrains agricoles,250000,10000,25.0,ValeursVenales
-TONE,Zone 1: Urbaine,Kombonloaga,5000000,600,8333.0,ValeursVenales
-TONE,Zone 1: Urbaine,Nassable,5000000,600,8333.0,ValeursVenales
-TONE,Zone 1: Urbaine,Bodjopale,5000000,600,8333.0,ValeursVenales
-TONE,Zone 1: Urbaine,Worgou,5000000,600,8333.0,ValeursVenales
-TONE,Zone 1: Urbaine,Napiengue (Zongo),5000000,600,8333.0,ValeursVenales
-TONE,Zone 1: Urbaine,Carnavale,5000000,600,8333.0,ValeursVenales
-TONE,Zone 1: Urbaine,Konkoaré,5000000,600,8333.0,ValeursVenales
-TONE,Zone 1: Urbaine,Diyobe,5000000,600,8333.0,ValeursVenales
-TONE,Zone 1: Urbaine,Gbayoba,5000000,600,8333.0,ValeursVenales
-TONE,Zone 1: Urbaine,Nakolbe,5000000,600,8333.0,ValeursVenales
-TONE,Zone 1: Urbaine,Loabe,5000000,600,8333.0,ValeursVenales
-TONE,Zone 1: Urbaine,Naleguebe,5000000,600,8333.0,ValeursVenales
-TONE,Zone 2: Périurbaine,Zone périurbaine,2000000,600,3333.0,ValeursVenales
-TONE,Zone 3: Rurale,Terrains agricoles,150000,10000,15.0,ValeursVenales
-CINKASSE,Zone 1: Urbaine,Pogoyogo,5000000,600,8333.0,ValeursVenales
-CINKASSE,Zone 1: Urbaine,Natinga,5000000,600,8333.0,ValeursVenales
-CINKASSE,Zone 1: Urbaine,Limanfogue,5000000,600,8333.0,ValeursVenales
-CINKASSE,Zone 1: Urbaine,Samango,5000000,600,8333.0,ValeursVenales
-CINKASSE,Zone 1: Urbaine,Pourinde,5000000,600,8333.0,ValeursVenales
-CINKASSE,Zone 1: Urbaine,Akossombo,5000000,600,8333.0,ValeursVenales
-CINKASSE,Zone 1: Urbaine,Silmissi,5000000,600,8333.0,ValeursVenales
-CINKASSE,Zone 2: Périurbaine,Zone périurbaine,2000000,600,3333.0,ValeursVenales
-CINKASSE,Zone 3: Rurale,Terrains agricoles,200000,10000,20.0,ValeursVenales
-OTI,Zone 1 et 2: Urbaine et Périurbaine,Mango,2000000,600,3333.0,ValeursVenales
-OTI,Zone 3: Rurale,Terrains agricoles,100000,10000,10.0,ValeursVenales
-WAWA,Zone 1 et 2: Urbaine et Périurbaine,Badou,2000000,600,3333.0,ValeursVenales
-WAWA,Zone 3: Rurale,Terrains agricoles,100000,10000,10.0,ValeursVenales
-ANIE,Zone 1 et 2: Urbaine et Périurbaine,Anié,2000000,600,3333.0,ValeursVenales
-ANIE,Zone 3: Rurale,Terrains agricoles,100000,10000,10.0,ValeursVenales
-AVE,Zone 1 et 2: Urbaine et Périurbaine,Kévé,2000000,600,3333.0,ValeursVenales
-AVE,Zone 3: Rurale,Terrains agricoles,400000,10000,40.0,ValeursVenales
-TCHAMBA,Zone 1 et 2: Urbaine et Périurbaine,Tchamba,2000000,600,3333.0,ValeursVenales
-TCHAMBA,Zone 3: Rurale,Terrains agricoles,150000,10000,15.0,ValeursVenales
-MOYEN MONO,Zone 1 et 2: Urbaine et Périurbaine,Afangnan,2000000,600,3333.0,ValeursVenales
-MOYEN MONO,Zone 3: Rurale,Terrains agricoles,150000,10000,15.0,ValeursVenales
-AMOU,Zone 1 et 2: Urbaine et Périurbaine,Amlamé,2000000,600,3333.0,ValeursVenales
-AMOU,Zone 3: Rurale,Terrains agricoles,150000,10000,15.0,ValeursVenales
-BINAH,Zone 1 et 2: Urbaine et Périurbaine,Pagouda,2000000,600,3333.0,ValeursVenales
-BINAH,Zone 3: Rurale,Terrains agricoles,100000,10000,10.0,ValeursVenales
-ASSOLI,Zone 1 et 2: Urbaine et Périurbaine,Bafilo,2000000,600,3333.0,ValeursVenales
-ASSOLI,Zone 3: Rurale,Terrains agricoles,200000,10000,20.0,ValeursVenales
-DOUFELGOU,Zone 1 et 2: Urbaine et Périurbaine,Niamtougou,2000000,600,3333.0,ValeursVenales
-DOUFELGOU,Zone 3: Rurale,Terrains agricoles,150000,10000,15.0,ValeursVenales
-BLITTA,Zone 1 et 2: Urbaine et Périurbaine,Blitta,2000000,600,3333.0,ValeursVenales
-BLITTA,Zone 3: Rurale,Terrains agricoles,175000,10000,17.5,ValeursVenales
-YOTO,Zone 1 et 2: Urbaine et Périurbaine,Tabligbo,2000000,600,3333.0,ValeursVenales
-YOTO,Zone 3: Rurale,Terrains agricoles,200000,10000,20.0,ValeursVenales
-EST-MONO,Zone 1 et 2: Urbaine et Périurbaine,Elavagnon,2000000,600,3333.0,ValeursVenales
-EST-MONO,Zone 3: Rurale,Terrains agricoles,100000,10000,10.0,ValeursVenales
-TANDJOUARE,Zone 1 et 2: Urbaine et Périurbaine,Tandjoare,2000000,600,3333.0,ValeursVenales
-TANDJOUARE,Zone 3: Rurale,Terrains agricoles,100000,10000,10.0,ValeursVenales
-KPENDJAL,Zone 1 et 2: Urbaine et Périurbaine,Mandouri,2000000,600,3333.0,ValeursVenales
-KPENDJAL,Zone 3: Rurale,Terrains agricoles,75000,10000,7.5,ValeursVenales
-DANKPEN,Zone 1 et 2: Urbaine et Périurbaine,Guérin-Kouka,2000000,600,3333.0,ValeursVenales
-DANKPEN,Zone 3: Rurale,Terrains agricoles,100000,10000,10.0,ValeursVenales
-KPELE,Zone 1 et 2: Urbaine et Périurbaine,Adéta,2000000,600,3333.0,ValeursVenales
-KPELE,Zone 3: Rurale,Terrains agricoles,150000,10000,15.0,ValeursVenales
-DANYI,Zone 1 et 2: Urbaine et Périurbaine,Danyi,2000000,600,3333.0,ValeursVenales
-DANYI,Zone 3: Rurale,Terrains agricoles,100000,10000,10.0,ValeursVenales
-MÔ,Zone 1 et 2: Urbaine et Périurbaine,Djarkpanga,2000000,600,3333.0,ValeursVenales
-MÔ,Zone 3: Rurale,Terrains agricoles,100000,10000,10.0,ValeursVenales
-AKEBOU,Zone 1 et 2: Urbaine et Périurbaine,Kougnohou,2000000,600,3333.0,ValeursVenales
-AKEBOU,Zone 3: Rurale,Terrains agricoles,100000,10000,10.0,ValeursVenales
-KERAN,Zone 1 et 2: Urbaine et Périurbaine,Kantè,2000000,600,3333.0,ValeursVenales
-KERAN,Zone 3: Rurale,Terrains agricoles,150000,10000,15.0,ValeursVenales
-AGOU,Zone 1 et 2: Urbaine et Périurbaine,Gadzépé,2000000,600,3333.0,ValeursVenales
-AGOU,Zone 3: Rurale,Terrains agricoles,200000,10000,20.0,ValeursVenales
-MOYEN MONO,Zone 1 et 2: Urbaine et Périurbaine,Tohoun,2000000,600,3333.0,ValeursVenales
-MOYEN MONO,Zone 3: Rurale,Terrains agricoles,100000,10000,10.0,ValeursVenales
-KPENDJAL-OUEST,Zone 1 et 2: Urbaine et Périurbaine,Naki-Est,2000000,600,3333.0,ValeursVenales
-KPENDJAL-OUEST,Zone 3: Rurale,Terrains agricoles,75000,10000,7.5,ValeursVenales
-OTI SUD,Zone 1 et 2: Urbaine et Périurbaine,Gando,2000000,600,3333.0,ValeursVenales
-OTI SUD,Zone 3: Rurale,Terrains agricoles,100000,10000,10.0,ValeursVenales
+Préfecture,Zone,Type d'offre,Type de bien,Quartier,Valeur vénale (FCFA),Surface (m²),Valeur/m² (FCFA),source
+GOLFE,ZONE 1,VENTE,TERRAIN,QUARTIER ADMINISTRATIF,50000000,600,83333,valeursvenales
+GOLFE,ZONE 1,VENTE,TERRAIN,WETIRIVIKONDJI,50000000,600,83333,valeursvenales
+GOLFE,ZONE 1,VENTE,TERRAIN,ADOBOUKOME,50000000,600,83333,valeursvenales
+GOLFE,ZONE 1,VENTE,TERRAIN,ABOBOKOME,50000000,600,83333,valeursvenales
+GOLFE,ZONE 1,VENTE,TERRAIN,ZANGUERA,50000000,600,83333,valeursvenales
+GOLFE,ZONE 1,VENTE,TERRAIN,KOKETIME,50000000,600,83333,valeursvenales
+GOLFE,ZONE 1,VENTE,TERRAIN,AGBADAHONOU,50000000,600,83333,valeursvenales
+GOLFE,ZONE 1,VENTE,TERRAIN,ADAWLATO,50000000,600,83333,valeursvenales
+GOLFE,ZONE 1,VENTE,TERRAIN,BENIGLATO,50000000,600,83333,valeursvenales
+GOLFE,ZONE 1,VENTE,TERRAIN,AGUIARKOME,50000000,600,83333,valeursvenales
+GOLFE,ZONE 1,VENTE,TERRAIN,FREAU JARDIN,50000000,600,83333,valeursvenales
+GOLFE,ZONE 2,VENTE,TERRAIN,KODJOVIAKOPE,40000000,600,66667,valeursvenales
+GOLFE,ZONE 2,VENTE,TERRAIN,NYECONAKPOE,40000000,600,66667,valeursvenales
+GOLFE,ZONE 2,VENTE,TERRAIN,OCTAVIANO NETIME,40000000,600,66667,valeursvenales
+GOLFE,ZONE 2,VENTE,TERRAIN,HANOUKOPE,40000000,600,66667,valeursvenales
+GOLFE,ZONE 2,VENTE,TERRAIN,DOULASSAME,40000000,600,66667,valeursvenales
+GOLFE,ZONE 2,VENTE,TERRAIN,AMOUTIVE,40000000,600,66667,valeursvenales
+GOLFE,ZONE 2,VENTE,TERRAIN,LOMNAVA,40000000,600,66667,valeursvenales
+GOLFE,ZONE 2,VENTE,TERRAIN,KPEHENOU,40000000,600,66667,valeursvenales
+GOLFE,ZONE 2,VENTE,TERRAIN,BASSADJI,40000000,600,66667,valeursvenales
+GOLFE,ZONE 2,VENTE,TERRAIN,BE APEYEME,40000000,600,66667,valeursvenales
+GOLFE,ZONE 2,VENTE,TERRAIN,SOUZA NETIME,40000000,600,66667,valeursvenales
+GOLFE,ZONE 2,VENTE,TERRAIN,ANTHONIO NETIME,40000000,600,66667,valeursvenales
+GOLFE,ZONE 3,VENTE,TERRAIN,KOTOKOU KONDJI,25000000,600,41667,valeursvenales
+GOLFE,ZONE 3,VENTE,TERRAIN,BE AHLIGO,25000000,600,41667,valeursvenales
+GOLFE,ZONE 3,VENTE,TERRAIN,ABLOGAME,25000000,600,41667,valeursvenales
+GOLFE,ZONE 3,VENTE,TERRAIN,WETE,25000000,600,41667,valeursvenales
+GOLFE,ZONE 3,VENTE,TERRAIN,AKODESSEWA,25000000,600,41667,valeursvenales
+GOLFE,ZONE 3,VENTE,TERRAIN,GBENYEDJI,25000000,600,41667,valeursvenales
+GOLFE,ZONE 3,VENTE,TERRAIN,BE,25000000,600,41667,valeursvenales
+GOLFE,ZONE 3,VENTE,TERRAIN,TOKOIN OUEST,25000000,600,41667,valeursvenales
+GOLFE,ZONE 3,VENTE,TERRAIN,TOKOIN HOPITAL,25000000,600,41667,valeursvenales
+GOLFE,ZONE 3,VENTE,TERRAIN,TOKOIN SOLIDARITE,25000000,600,41667,valeursvenales
+GOLFE,ZONE 3,VENTE,TERRAIN,CASSABLANCA,25000000,600,41667,valeursvenales
+GOLFE,ZONE 3,VENTE,TERRAIN,ABOVE,25000000,600,41667,valeursvenales
+GOLFE,ZONE 3,VENTE,TERRAIN,AKOSSOMBO,25000000,600,41667,valeursvenales
+GOLFE,ZONE 3,VENTE,TERRAIN,TOKOIN GBADAGO,25000000,600,41667,valeursvenales
+GOLFE,ZONE 3,VENTE,TERRAIN,TOKOIN ELAVAGNON,25000000,600,41667,valeursvenales
+GOLFE,ZONE 3,VENTE,TERRAIN,TOKOIN LYCEE,25000000,600,41667,valeursvenales
+GOLFE,ZONE 3,VENTE,TERRAIN,GBONVIE,25000000,600,41667,valeursvenales
+GOLFE,ZONE 3,VENTE,TERRAIN,DOGBEAVOU,25000000,600,41667,valeursvenales
+GOLFE,ZONE 3,VENTE,TERRAIN,SAINT JOSEPH,25000000,600,41667,valeursvenales
+GOLFE,ZONE 3,VENTE,TERRAIN,BE KPOTA,25000000,600,41667,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,KLIKAME,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,UNIVERSITE,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,DOULASSAME,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,TOKOIN TAME,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,TOKOIN FOREVER,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,TOKOIN NKAFU,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,TOKOIN WUITI,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,HEDZRANAWOE,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,TOKOIN AEROPORT,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,LOME II (HORS CITE OUA ET CAISSE),12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,AGBALEPEDOGAN,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,TOTSI-CACAVELI,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,KELEGOUGAN,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,ATTIEGOU,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,SOVIEPE,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,AVENOU BATOME,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,KEGUE,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,AFLAO GAKLI,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,AMANDAHOME,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,APEDOKOE,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,AVEDJI,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,AKODESSEWA KPONOU,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,KANYIKOPE,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,ADAKPAME,12500000,600,20833,valeursvenales
+GOLFE,ZONE 4,VENTE,TERRAIN,AKODESSEWA KPOTA,12500000,600,20833,valeursvenales
+GOLFE,ZONE 5,VENTE,TERRAIN,SAGBADO,7000000,600,11667,valeursvenales
+GOLFE,ZONE 5,VENTE,TERRAIN,YOKOE,7000000,600,11667,valeursvenales
+GOLFE,ZONE 5,VENTE,TERRAIN,AWATAME,7000000,600,11667,valeursvenales
+GOLFE,ZONE 5,VENTE,TERRAIN,GBLINKOMEGAN,7000000,600,11667,valeursvenales
+GOLFE,ZONE 5,VENTE,TERRAIN,SEGBE,7000000,600,11667,valeursvenales
+GOLFE,ZONE 5,VENTE,TERRAIN,WONYOME,7000000,600,11667,valeursvenales
+GOLFE,ZONE 5,VENTE,TERRAIN,LANKOUVI,7000000,600,11667,valeursvenales
+GOLFE,ZONE 5,VENTE,TERRAIN,AKATO,7000000,600,11667,valeursvenales
+GOLFE,ZONE 5,VENTE,TERRAIN,AKATO-DEME,7000000,600,11667,valeursvenales
+GOLFE,ZONE 5,VENTE,TERRAIN,AKATO-VIEPE,7000000,600,11667,valeursvenales
+GOLFE,ZONE 5,VENTE,TERRAIN,AKATO-AVOIEME,7000000,600,11667,valeursvenales
+GOLFE,ZONE 5,VENTE,TERRAIN,KLEME-AGOKPANOU,7000000,600,11667,valeursvenales
+GOLFE,ZONE 5 (DÉVÉGO),VENTE,TERRAIN,DEVEGO,8000000,600,13333,valeursvenales
+GOLFE,ZONE 5 (DÉVÉGO),VENTE,TERRAIN,BAGUIDA,8000000,600,13333,valeursvenales
+GOLFE,ZONE 5 (DÉVÉGO),VENTE,TERRAIN,AVEPOZO,8000000,600,13333,valeursvenales
+GOLFE,ZONE 5 (DÉVÉGO),VENTE,TERRAIN,KPOGAN,8000000,600,13333,valeursvenales
+GOLFE,ZONE 5 (DÉVÉGO),VENTE,TERRAIN,BAGUIDA PLANTATION,8000000,600,13333,valeursvenales
+GOLFE,ZONE 5 (DÉVÉGO),VENTE,TERRAIN,KPOGAN AGODEKE,8000000,600,13333,valeursvenales
+GOLFE,ZONE 5 (DÉVÉGO),VENTE,TERRAIN,KPOGAN AGBETIKO,8000000,600,13333,valeursvenales
+GOLFE,ZONE 5 (DÉVÉGO),VENTE,TERRAIN,KPOGAN NOUVEAU QUARTIER,8000000,600,13333,valeursvenales
+GOLFE,ZONE 5 (DÉVÉGO),VENTE,TERRAIN,ADAMAVO,8000000,600,13333,valeursvenales
+GOLFE,ZONE 6,VENTE,TERRAIN,ZONE PORTUAIRE,100000000,600,166667,valeursvenales
+GOLFE,ZONE 7,VENTE,TERRAIN,RESIDENCE DU BENIN,100000000,600,166667,valeursvenales
+GOLFE,ZONE 7,VENTE,TERRAIN,RESIDENCE DE LA CAISSE(BAGUIDA),100000000,600,166667,valeursvenales
+GOLFE,ZONE 7,VENTE,TERRAIN,CITE MOKPOKPO,100000000,600,166667,valeursvenales
+GOLFE,ZONE 7,VENTE,TERRAIN,CITE DES ANGES,100000000,600,166667,valeursvenales
+GOLFE,ZONE 7,VENTE,TERRAIN,WELL CITY,100000000,600,166667,valeursvenales
+GOLFE,ZONE 7,VENTE,TERRAIN,RESIDENCE DE LA BOAD,100000000,600,166667,valeursvenales
+GOLFE,ZONE 7,VENTE,TERRAIN,RESIDENCE DE LA BCEAO,100000000,600,166667,valeursvenales
+GOLFE,ZONE 7,VENTE,TERRAIN,BAIE DES ANGES,100000000,600,166667,valeursvenales
+GOLFE,ZONE 7,VENTE,TERRAIN,CITE MILLENIUM,100000000,600,166667,valeursvenales
+GOLFE,ZONE 7,VENTE,TERRAIN,CITE RENAISSANCE,100000000,600,166667,valeursvenales
+GOLFE,ZONE 7,VENTE,TERRAIN,LOME II,100000000,600,166667,valeursvenales
+GOLFE,ZONE 7,VENTE,TERRAIN,SITO AEROPORT,100000000,600,166667,valeursvenales
+AGOE-NYIVE,ZONE 1: URBAINE,VENTE,TERRAIN,AGOENYIVE,10000000,600,16667,valeursvenales
+AGOE-NYIVE,ZONE 1: URBAINE,VENTE,TERRAIN,ANOME,10000000,600,16667,valeursvenales
+AGOE-NYIVE,ZONE 1: URBAINE,VENTE,TERRAIN,VAKPOSSITO,10000000,600,16667,valeursvenales
+AGOE-NYIVE,ZONE 1: URBAINE,VENTE,TERRAIN,TELESSOU,10000000,600,16667,valeursvenales
+AGOE-NYIVE,ZONE 1: URBAINE,VENTE,TERRAIN,DEMAKPOE,10000000,600,16667,valeursvenales
+AGOE-NYIVE,ZONE 1: URBAINE,VENTE,TERRAIN,SOGBOSSITO,10000000,600,16667,valeursvenales
+AGOE-NYIVE,ZONE 1: URBAINE,VENTE,TERRAIN,FIOVI,10000000,600,16667,valeursvenales
+AGOE-NYIVE,ZONE 1: URBAINE,VENTE,TERRAIN,NYIVEME,10000000,600,16667,valeursvenales
+AGOE-NYIVE,ZONE 1: URBAINE,VENTE,TERRAIN,KIDIDJAN,10000000,600,16667,valeursvenales
+AGOE-NYIVE,ZONE 1: URBAINE,VENTE,TERRAIN,ATCHANVE,10000000,600,16667,valeursvenales
+AGOE-NYIVE,ZONE 1: URBAINE,VENTE,TERRAIN,AGOE ASSIYEYE,10000000,600,16667,valeursvenales
+AGOE-NYIVE,ZONE 1: URBAINE,VENTE,TERRAIN,LOGOPE,10000000,600,16667,valeursvenales
+AGOE-NYIVE,ZONE 1: URBAINE,VENTE,TERRAIN,ANOKOUI,10000000,600,16667,valeursvenales
+AGOE-NYIVE,ZONE 1: URBAINE,VENTE,TERRAIN,ADETIKOPE ZONE URBAINE,10000000,600,16667,valeursvenales
+AGOE-NYIVE,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,SANGUERA 2,5000000,600,8333,valeursvenales
+AGOE-NYIVE,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,AMEDENTA,5000000,600,8333,valeursvenales
+AGOE-NYIVE,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,KONHE,5000000,600,8333,valeursvenales
+AGOE-NYIVE,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,ZOPOMAHE,5000000,600,8333,valeursvenales
+AGOE-NYIVE,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,ZOSSIME,5000000,600,8333,valeursvenales
+AGOE-NYIVE,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,DALIKO,5000000,600,8333,valeursvenales
+AGOE-NYIVE,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,LEGBASSITO,5000000,600,8333,valeursvenales
+AGOE-NYIVE,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,MADJIKPETO,5000000,600,8333,valeursvenales
+AGOE-NYIVE,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,AHONKPOE,5000000,600,8333,valeursvenales
+AGOE-NYIVE,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,TOGBLEKOPE,5000000,600,8333,valeursvenales
+AGOE-NYIVE,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,ZONGO,5000000,600,8333,valeursvenales
+AGOE-NYIVE,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,ADETIKOPE PERIURBAIN,5000000,600,8333,valeursvenales
+ZIO,ZONE 1: URBAINE,VENTE,TERRAIN,DAVIEMODJI,5000000,600,8333,valeursvenales
+ZIO,ZONE 1: URBAINE,VENTE,TERRAIN,TSEVIE WEME,5000000,600,8333,valeursvenales
+ZIO,ZONE 1: URBAINE,VENTE,TERRAIN,TSEVIE WAGBA,5000000,600,8333,valeursvenales
+ZIO,ZONE 1: URBAINE,VENTE,TERRAIN,TSEVIE WUAGBA (CITE NORD),5000000,600,8333,valeursvenales
+ZIO,ZONE 1: URBAINE,VENTE,TERRAIN,TSEVIE DAVIE ADIDOME,5000000,600,8333,valeursvenales
+ZIO,ZONE 1: URBAINE,VENTE,TERRAIN,TSEVIE ASSIAMA,5000000,600,8333,valeursvenales
+ZIO,ZONE 1: URBAINE,VENTE,TERRAIN,TSEVIE BOLOUMONDJI,5000000,600,8333,valeursvenales
+ZIO,ZONE 1: URBAINE,VENTE,TERRAIN,TSEVIE GBATOPEMODJI,5000000,600,8333,valeursvenales
+ZIO,ZONE 1: URBAINE,VENTE,TERRAIN,KPALI,5000000,600,8333,valeursvenales
+ZIO,ZONE 1: URBAINE,VENTE,TERRAIN,KPATEFI,5000000,600,8333,valeursvenales
+ZIO,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,MISSION TOVE,2000000,600,3333,valeursvenales
+ZIO,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,APESSITO,2000000,600,3333,valeursvenales
+ZIO,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,KPALA,2000000,600,3333,valeursvenales
+ZIO,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,DAVIE ASSOME,2000000,600,3333,valeursvenales
+ZIO,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,DJAGBLE,2000000,600,3333,valeursvenales
+ZIO,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,700000,10000,70,valeursvenales
+OGOU,ZONE 1: URBAINE,VENTE,TERRAIN,ATAKPAME EROMA,4000000,600,6667,valeursvenales
+OGOU,ZONE 1: URBAINE,VENTE,TERRAIN,AGBONOU KPOTA,4000000,600,6667,valeursvenales
+OGOU,ZONE 1: URBAINE,VENTE,TERRAIN,IDIOTSE,4000000,600,6667,valeursvenales
+OGOU,ZONE 1: URBAINE,VENTE,TERRAIN,COMMUNE,4000000,600,6667,valeursvenales
+OGOU,ZONE 1: URBAINE,VENTE,TERRAIN,TALO SANIN,4000000,600,6667,valeursvenales
+OGOU,ZONE 1: URBAINE,VENTE,TERRAIN,AYELECOPE,4000000,600,6667,valeursvenales
+OGOU,ZONE 1: URBAINE,VENTE,TERRAIN,AGBONOU-KPOTA,4000000,600,6667,valeursvenales
+OGOU,ZONE 1: URBAINE,VENTE,TERRAIN,AGBONOU,4000000,600,6667,valeursvenales
+OGOU,ZONE 1: URBAINE,VENTE,TERRAIN,GNAGNA,4000000,600,6667,valeursvenales
+OGOU,ZONE 1: URBAINE,VENTE,TERRAIN,WOUDOU,4000000,600,6667,valeursvenales
+OGOU,ZONE 1: URBAINE,VENTE,TERRAIN,DOULASSAME,4000000,600,6667,valeursvenales
+OGOU,ZONE 1: URBAINE,VENTE,TERRAIN,AGBONOU-KPOTAME,4000000,600,6667,valeursvenales
+OGOU,ZONE 1: URBAINE,VENTE,TERRAIN,TALO-TANDJE,4000000,600,6667,valeursvenales
+OGOU,ZONE 1: URBAINE,VENTE,TERRAIN,AFEYE-KPOTA,4000000,600,6667,valeursvenales
+OGOU,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,ZONE PERIURBAINE,2000000,600,3333,valeursvenales
+OGOU,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,200000,10000,20,valeursvenales
+LACS,ZONE 1: URBAINE,VENTE,TERRAIN,NLESSI,5000000,600,8333,valeursvenales
+LACS,ZONE 1: URBAINE,VENTE,TERRAIN,GLIDJI,5000000,600,8333,valeursvenales
+LACS,ZONE 1: URBAINE,VENTE,TERRAIN,ZEBE,5000000,600,8333,valeursvenales
+LACS,ZONE 1: URBAINE,VENTE,TERRAIN,ASSOUKONDJI,5000000,600,8333,valeursvenales
+LACS,ZONE 1: URBAINE,VENTE,TERRAIN,VODOUGBE COCOTERAIE,5000000,600,8333,valeursvenales
+LACS,ZONE 1: URBAINE,VENTE,TERRAIN,ADJIDO,5000000,600,8333,valeursvenales
+LACS,ZONE 1: URBAINE,VENTE,TERRAIN,ABALO KONDJI,5000000,600,8333,valeursvenales
+LACS,ZONE 1: URBAINE,VENTE,TERRAIN,VODOUGBE,5000000,600,8333,valeursvenales
+LACS,ZONE 1: URBAINE,VENTE,TERRAIN,TONOUKONDJI,5000000,600,8333,valeursvenales
+LACS,ZONE 1: URBAINE,VENTE,TERRAIN,YESUVITO,5000000,600,8333,valeursvenales
+LACS,ZONE 1: URBAINE,VENTE,TERRAIN,KPOTA,5000000,600,8333,valeursvenales
+LACS,ZONE 1: URBAINE,VENTE,TERRAIN,DEGBENOU,5000000,600,8333,valeursvenales
+LACS,ZONE 1: URBAINE,VENTE,TERRAIN,COMMUNE,5000000,600,8333,valeursvenales
+LACS,ZONE 1: URBAINE,VENTE,TERRAIN,GOUMOUKOPE,5000000,600,8333,valeursvenales
+LACS,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,ZONE PERIURBAINE,2000000,600,3333,valeursvenales
+LACS,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,600000,10000,60,valeursvenales
+VO,ZONE 1: URBAINE,VENTE,TERRAIN,SEVA-MONDJI,4000000,600,6667,valeursvenales
+VO,ZONE 1: URBAINE,VENTE,TERRAIN,ADJREGO-APEGAN,4000000,600,6667,valeursvenales
+VO,ZONE 1: URBAINE,VENTE,TERRAIN,ADAGBE,4000000,600,6667,valeursvenales
+VO,ZONE 1: URBAINE,VENTE,TERRAIN,AGBOPE,4000000,600,6667,valeursvenales
+VO,ZONE 1: URBAINE,VENTE,TERRAIN,VILLE DE VOGAN,4000000,600,6667,valeursvenales
+VO,ZONE 1: URBAINE,VENTE,TERRAIN,AGOGBEZIN,4000000,600,6667,valeursvenales
+VO,ZONE 1: URBAINE,VENTE,TERRAIN,AMOINDJI-PEDAKOME,4000000,600,6667,valeursvenales
+VO,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,ZONE PERIURBAINE,2000000,600,3333,valeursvenales
+VO,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,500000,10000,50,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,KPODZI,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,KUSUNTU,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,KPEGOLONOU,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,KLIGEKODZI,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,KPOTA,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,ZOMAYI KPOTA,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,KPETA,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,DZODZEKODZI,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,AGOEKODZI,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,KPOGADZI,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,SIHINU,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,GAKPODZI,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,ZONGO,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,AFIADENYIGBA KODZI,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,DOME,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,TOTSOANYI,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,SAMKODZI,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,AKPAME KONDZI,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,NUMETUKODZI,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,NOGO,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,LOMNAVA,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,NOVISSI,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,TSIVE,5000000,600,8333,valeursvenales
+KLOTO,ZONE 1: URBAINE,VENTE,TERRAIN,NYIVEME,5000000,600,8333,valeursvenales
+KLOTO,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,ZONE PERIURBAINE,2000000,600,3333,valeursvenales
+KLOTO,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,200000,10000,20,valeursvenales
+HAHO,ZONE 1: URBAINE,VENTE,TERRAIN,NOTSE,4000000,600,6667,valeursvenales
+HAHO,ZONE 1: URBAINE,VENTE,TERRAIN,AVIZOUHA,4000000,600,6667,valeursvenales
+HAHO,ZONE 1: URBAINE,VENTE,TERRAIN,ATITEROME,4000000,600,6667,valeursvenales
+HAHO,ZONE 1: URBAINE,VENTE,TERRAIN,SABAKOME,4000000,600,6667,valeursvenales
+HAHO,ZONE 1: URBAINE,VENTE,TERRAIN,ADJIGO,4000000,600,6667,valeursvenales
+HAHO,ZONE 1: URBAINE,VENTE,TERRAIN,ZONGO,4000000,600,6667,valeursvenales
+HAHO,ZONE 1: URBAINE,VENTE,TERRAIN,NAWOLO,4000000,600,6667,valeursvenales
+HAHO,ZONE 1: URBAINE,VENTE,TERRAIN,AGBALADOME,4000000,600,6667,valeursvenales
+HAHO,ZONE 1: URBAINE,VENTE,TERRAIN,KPEDOME,4000000,600,6667,valeursvenales
+HAHO,ZONE 1: URBAINE,VENTE,TERRAIN,KPOTA,4000000,600,6667,valeursvenales
+HAHO,ZONE 1: URBAINE,VENTE,TERRAIN,EKLI,4000000,600,6667,valeursvenales
+HAHO,ZONE 1: URBAINE,VENTE,TERRAIN,TEGBE,4000000,600,6667,valeursvenales
+HAHO,ZONE 1: URBAINE,VENTE,TERRAIN,ADIME,4000000,600,6667,valeursvenales
+HAHO,ZONE 1: URBAINE,VENTE,TERRAIN,TAKO,4000000,600,6667,valeursvenales
+HAHO,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,ZONE PERIURBAINE,2000000,600,3333,valeursvenales
+HAHO,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,200000,10000,20,valeursvenales
+SOTOUBOUA,ZONE 1: URBAINE,VENTE,TERRAIN,PAIX,2000000,600,3333,valeursvenales
+SOTOUBOUA,ZONE 1: URBAINE,VENTE,TERRAIN,KPANDIO,2000000,600,3333,valeursvenales
+SOTOUBOUA,ZONE 1: URBAINE,VENTE,TERRAIN,METEO,2000000,600,3333,valeursvenales
+SOTOUBOUA,ZONE 1: URBAINE,VENTE,TERRAIN,WATCHALO,2000000,600,3333,valeursvenales
+SOTOUBOUA,ZONE 1: URBAINE,VENTE,TERRAIN,LAWAI,2000000,600,3333,valeursvenales
+SOTOUBOUA,ZONE 1: URBAINE,VENTE,TERRAIN,ZONGO,2000000,600,3333,valeursvenales
+SOTOUBOUA,ZONE 1: URBAINE,VENTE,TERRAIN,TCHITCHAO,2000000,600,3333,valeursvenales
+SOTOUBOUA,ZONE 1: URBAINE,VENTE,TERRAIN,ESSOWAVANA,2000000,600,3333,valeursvenales
+SOTOUBOUA,ZONE 1: URBAINE,VENTE,TERRAIN,SONDE,2000000,600,3333,valeursvenales
+SOTOUBOUA,ZONE 1: URBAINE,VENTE,TERRAIN,WEKADA,2000000,600,3333,valeursvenales
+SOTOUBOUA,ZONE 1: URBAINE,VENTE,TERRAIN,NIMA,2000000,600,3333,valeursvenales
+SOTOUBOUA,ZONE 1: URBAINE,VENTE,TERRAIN,GNIMDA,2000000,600,3333,valeursvenales
+SOTOUBOUA,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,ZONE PERIURBAINE,1000000,600,1667,valeursvenales
+SOTOUBOUA,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,200000,10000,20,valeursvenales
+TCHAOUDJO,ZONE 1: URBAINE,VENTE,TERRAIN,CENTRE-VILLE,4000000,600,6667,valeursvenales
+TCHAOUDJO,ZONE 1: URBAINE,VENTE,TERRAIN,KPENGALAM,4000000,600,6667,valeursvenales
+TCHAOUDJO,ZONE 1: URBAINE,VENTE,TERRAIN,KOMAH,4000000,600,6667,valeursvenales
+TCHAOUDJO,ZONE 1: URBAINE,VENTE,TERRAIN,AKAMADE,4000000,600,6667,valeursvenales
+TCHAOUDJO,ZONE 1: URBAINE,VENTE,TERRAIN,TCHAWANDA,4000000,600,6667,valeursvenales
+TCHAOUDJO,ZONE 1: URBAINE,VENTE,TERRAIN,KAGNIDE,4000000,600,6667,valeursvenales
+TCHAOUDJO,ZONE 1: URBAINE,VENTE,TERRAIN,BARRIERE,4000000,600,6667,valeursvenales
+TCHAOUDJO,ZONE 1: URBAINE,VENTE,TERRAIN,KOSSOBIO,4000000,600,6667,valeursvenales
+TCHAOUDJO,ZONE 1: URBAINE,VENTE,TERRAIN,ZONGO,4000000,600,6667,valeursvenales
+TCHAOUDJO,ZONE 1: URBAINE,VENTE,TERRAIN,DIDAOURE,4000000,600,6667,valeursvenales
+TCHAOUDJO,ZONE 1: URBAINE,VENTE,TERRAIN,KOULOUNDE,4000000,600,6667,valeursvenales
+TCHAOUDJO,ZONE 1: URBAINE,VENTE,TERRAIN,CENTRE ADMNISTRATIF,4000000,600,6667,valeursvenales
+TCHAOUDJO,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,ZONE PERIURBAINE,2000000,600,3333,valeursvenales
+TCHAOUDJO,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,200000,10000,20,valeursvenales
+BASSAR,ZONE 1: URBAINE,VENTE,TERRAIN,OKORO,3000000,600,5000,valeursvenales
+BASSAR,ZONE 1: URBAINE,VENTE,TERRAIN,BOUKOUNDJIBE,3000000,600,5000,valeursvenales
+BASSAR,ZONE 1: URBAINE,VENTE,TERRAIN,OUADANDE,3000000,600,5000,valeursvenales
+BASSAR,ZONE 1: URBAINE,VENTE,TERRAIN,BAMIMDA,3000000,600,5000,valeursvenales
+BASSAR,ZONE 1: URBAINE,VENTE,TERRAIN,BOUKOUTCHABE,3000000,600,5000,valeursvenales
+BASSAR,ZONE 1: URBAINE,VENTE,TERRAIN,BIAKPABE,3000000,600,5000,valeursvenales
+BASSAR,ZONE 1: URBAINE,VENTE,TERRAIN,KPANKISSI,3000000,600,5000,valeursvenales
+BASSAR,ZONE 1: URBAINE,VENTE,TERRAIN,SABOUNDJRA,3000000,600,5000,valeursvenales
+BASSAR,ZONE 1: URBAINE,VENTE,TERRAIN,KETANGBAO,3000000,600,5000,valeursvenales
+BASSAR,ZONE 1: URBAINE,VENTE,TERRAIN,KPADJA DOUMPOU,3000000,600,5000,valeursvenales
+BASSAR,ZONE 1: URBAINE,VENTE,TERRAIN,KODJO DOUMPOU,3000000,600,5000,valeursvenales
+BASSAR,ZONE 1: URBAINE,VENTE,TERRAIN,BIAKPABE-AVIATION,3000000,600,5000,valeursvenales
+BASSAR,ZONE 1: URBAINE,VENTE,TERRAIN,AVIATION,3000000,600,5000,valeursvenales
+BASSAR,ZONE 1: URBAINE,VENTE,TERRAIN,NANGBANI,3000000,600,5000,valeursvenales
+BASSAR,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,ZONE PERIURBAINE,1500000,600,2500,valeursvenales
+BASSAR,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,200000,10000,20,valeursvenales
+KOZAH,ZONE 1: URBAINE,VENTE,TERRAIN,CENTRE VILLE,5000000,600,8333,valeursvenales
+KOZAH,ZONE 1: URBAINE,VENTE,TERRAIN,TELOUDE,5000000,600,8333,valeursvenales
+KOZAH,ZONE 1: URBAINE,VENTE,TERRAIN,TOMDE,5000000,600,8333,valeursvenales
+KOZAH,ZONE 1: URBAINE,VENTE,TERRAIN,LAMA-FEING,5000000,600,8333,valeursvenales
+KOZAH,ZONE 1: URBAINE,VENTE,TERRAIN,LAMA-ELIMDE,5000000,600,8333,valeursvenales
+KOZAH,ZONE 1: URBAINE,VENTE,TERRAIN,HOPITAL CHINOIS,5000000,600,8333,valeursvenales
+KOZAH,ZONE 1: URBAINE,VENTE,TERRAIN,POWAI,5000000,600,8333,valeursvenales
+KOZAH,ZONE 1: URBAINE,VENTE,TERRAIN,DONGOYO,5000000,600,8333,valeursvenales
+KOZAH,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,ZONE PERIURBAINE,2000000,600,3333,valeursvenales
+KOZAH,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,250000,10000,25,valeursvenales
+TONE,ZONE 1: URBAINE,VENTE,TERRAIN,KOMBONLOAGA,5000000,600,8333,valeursvenales
+TONE,ZONE 1: URBAINE,VENTE,TERRAIN,NASSABLE,5000000,600,8333,valeursvenales
+TONE,ZONE 1: URBAINE,VENTE,TERRAIN,BODJOPALE,5000000,600,8333,valeursvenales
+TONE,ZONE 1: URBAINE,VENTE,TERRAIN,WORGOU,5000000,600,8333,valeursvenales
+TONE,ZONE 1: URBAINE,VENTE,TERRAIN,NAPIENGUE (ZONGO),5000000,600,8333,valeursvenales
+TONE,ZONE 1: URBAINE,VENTE,TERRAIN,CARNAVALE,5000000,600,8333,valeursvenales
+TONE,ZONE 1: URBAINE,VENTE,TERRAIN,KONKOARE,5000000,600,8333,valeursvenales
+TONE,ZONE 1: URBAINE,VENTE,TERRAIN,DIYOBE,5000000,600,8333,valeursvenales
+TONE,ZONE 1: URBAINE,VENTE,TERRAIN,GBAYOBA,5000000,600,8333,valeursvenales
+TONE,ZONE 1: URBAINE,VENTE,TERRAIN,NAKOLBE,5000000,600,8333,valeursvenales
+TONE,ZONE 1: URBAINE,VENTE,TERRAIN,LOABE,5000000,600,8333,valeursvenales
+TONE,ZONE 1: URBAINE,VENTE,TERRAIN,NALEGUEBE,5000000,600,8333,valeursvenales
+TONE,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,ZONE PERIURBAINE,2000000,600,3333,valeursvenales
+TONE,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,150000,10000,15,valeursvenales
+CINKASSE,ZONE 1: URBAINE,VENTE,TERRAIN,POGOYOGO,5000000,600,8333,valeursvenales
+CINKASSE,ZONE 1: URBAINE,VENTE,TERRAIN,NATINGA,5000000,600,8333,valeursvenales
+CINKASSE,ZONE 1: URBAINE,VENTE,TERRAIN,LIMANFOGUE,5000000,600,8333,valeursvenales
+CINKASSE,ZONE 1: URBAINE,VENTE,TERRAIN,SAMANGO,5000000,600,8333,valeursvenales
+CINKASSE,ZONE 1: URBAINE,VENTE,TERRAIN,POURINDE,5000000,600,8333,valeursvenales
+CINKASSE,ZONE 1: URBAINE,VENTE,TERRAIN,AKOSSOMBO,5000000,600,8333,valeursvenales
+CINKASSE,ZONE 1: URBAINE,VENTE,TERRAIN,SILMISSI,5000000,600,8333,valeursvenales
+CINKASSE,ZONE 2: PÉRIURBAINE,VENTE,TERRAIN,ZONE PERIURBAINE,2000000,600,3333,valeursvenales
+CINKASSE,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,200000,10000,20,valeursvenales
+OTI,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,MANGO,2000000,600,3333,valeursvenales
+OTI,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,100000,10000,10,valeursvenales
+WAWA,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,BADOU,2000000,600,3333,valeursvenales
+WAWA,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,100000,10000,10,valeursvenales
+ANIE,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,ANIE,2000000,600,3333,valeursvenales
+ANIE,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,100000,10000,10,valeursvenales
+AVE,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,KEVE,2000000,600,3333,valeursvenales
+AVE,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,400000,10000,40,valeursvenales
+TCHAMBA,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,TCHAMBA,2000000,600,3333,valeursvenales
+TCHAMBA,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,150000,10000,15,valeursvenales
+MOYEN MONO,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,AFANGNAN,2000000,600,3333,valeursvenales
+MOYEN MONO,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,150000,10000,15,valeursvenales
+AMOU,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,AMLAME,2000000,600,3333,valeursvenales
+AMOU,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,150000,10000,15,valeursvenales
+BINAH,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,PAGOUDA,2000000,600,3333,valeursvenales
+BINAH,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,100000,10000,10,valeursvenales
+ASSOLI,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,BAFILO,2000000,600,3333,valeursvenales
+ASSOLI,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,200000,10000,20,valeursvenales
+DOUFELGOU,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,NIAMTOUGOU,2000000,600,3333,valeursvenales
+DOUFELGOU,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,150000,10000,15,valeursvenales
+BLITTA,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,BLITTA,2000000,600,3333,valeursvenales
+BLITTA,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,175000,10000,18,valeursvenales
+YOTO,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,TABLIGBO,2000000,600,3333,valeursvenales
+YOTO,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,200000,10000,20,valeursvenales
+EST-MONO,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,ELAVAGNON,2000000,600,3333,valeursvenales
+EST-MONO,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,100000,10000,10,valeursvenales
+TANDJOUARE,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,TANDJOARE,2000000,600,3333,valeursvenales
+TANDJOUARE,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,100000,10000,10,valeursvenales
+KPENDJAL,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,MANDOURI,2000000,600,3333,valeursvenales
+KPENDJAL,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,75000,10000,8,valeursvenales
+DANKPEN,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,GUERIN-KOUKA,2000000,600,3333,valeursvenales
+DANKPEN,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,100000,10000,10,valeursvenales
+KPELE,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,ADETA,2000000,600,3333,valeursvenales
+KPELE,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,150000,10000,15,valeursvenales
+DANYI,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,DANYI,2000000,600,3333,valeursvenales
+DANYI,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,100000,10000,10,valeursvenales
+MÔ,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,DJARKPANGA,2000000,600,3333,valeursvenales
+MÔ,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,100000,10000,10,valeursvenales
+AKEBOU,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,KOUGNOHOU,2000000,600,3333,valeursvenales
+AKEBOU,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,100000,10000,10,valeursvenales
+KERAN,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,KANTE,2000000,600,3333,valeursvenales
+KERAN,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,150000,10000,15,valeursvenales
+AGOU,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,GADZEPE,2000000,600,3333,valeursvenales
+AGOU,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,200000,10000,20,valeursvenales
+MOYEN MONO,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,TOHOUN,2000000,600,3333,valeursvenales
+MOYEN MONO,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,100000,10000,10,valeursvenales
+KPENDJAL-OUEST,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,NAKI-EST,2000000,600,3333,valeursvenales
+KPENDJAL-OUEST,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,75000,10000,8,valeursvenales
+OTI SUD,ZONE 1 ET 2: URBAINE ET PÉRIURBAINE,VENTE,TERRAIN,GANDO,2000000,600,3333,valeursvenales
+OTI SUD,ZONE 3: RURALE,VENTE,TERRAIN,TERRAINS AGRICOLES,100000,10000,10,valeursvenales
