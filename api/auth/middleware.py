@@ -24,7 +24,17 @@ async def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(s
             headers={"WWW-Authenticate": "Bearer"},
         )
 
-    user = await db.users.find_one({"_id": user_id})
+    from bson import ObjectId
+    try:
+        object_id = ObjectId(user_id)
+    except Exception:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid user id in token",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+
+    user = await db.users.find_one({"_id": object_id})
     if user is None:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,

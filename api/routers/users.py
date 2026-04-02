@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException, Depends
 from ..database import db
-from ..models.user import UserCreate, UserResponse, TokenResponse
+from ..models.user import UserCreate, UserLogin, UserResponse, TokenResponse
 from ..auth.password import get_password_hash, verify_password
 from ..auth.jwt import create_access_token
 from ..auth.middleware import get_current_user
@@ -11,34 +11,47 @@ router = APIRouter()
 
 @router.post("/auth/register", response_model=TokenResponse)
 async def register(user: UserCreate):
-    # Vérifier email unique
-    existing_user = await db.users.find_one({"email": user.email})
-    if existing_user:
-        raise HTTPException(status_code=400, detail="Email already registered")
+    try:
+        # Vérifier email unique
+        existing_user = await db.users.find_one({"email": user.email})
+        if existing_user:
+            raise HTTPException(status_code=400, detail="Email already registered")
 
-    # Hasher le mot de passe
-    hashed_password = get_password_hash(user.password)
+        # Hasher le mot de passe
+        raw_password = user.password
+        raw_bytes = raw_password.encode('utf-8')
+        if len(raw_bytes) > 72:
+            raise HTTPException(status_code=400, detail=f"password too long {len(raw_bytes)} bytes")
 
-    user_dict = user.dict()
-    user_dict.pop("password")  # Ne pas stocker le mot de passe en clair
-    user_dict["hashed_password"] = hashed_password
-    user_dict["role"] = "user"
-    user_dict["created_at"] = datetime.utcnow().isoformat() + "Z"
+        try:
+            hashed_password = get_password_hash(raw_password)
+        except Exception as e:
+            raise HTTPException(status_code=500, detail=f"hash error: {type(e).__name__}: {e} (raw_password={raw_password!r}, bytes={len(raw_bytes)})")
 
-    result = await db.users.insert_one(user_dict)
-    user_dict["id"] = str(result.inserted_id)
+        user_dict = user.dict()
+        user_dict.pop("password")  # Ne pas stocker le mot de passe en clair
+        user_dict["hashed_password"] = hashed_password
+        user_dict["role"] = "user"
+        user_dict["created_at"] = datetime.utcnow().isoformat() + "Z"
 
-    # Créer token
-    access_token = create_access_token(data={"sub": str(result.inserted_id)})
+        result = await db.users.insert_one(user_dict)
+        user_dict["id"] = str(result.inserted_id)
 
-    user_response = UserResponse(**{k: v for k, v in user_dict.items() if k != "hashed_password"})
+        # Créer token
+        access_token = create_access_token(data={"sub": str(result.inserted_id)})
 
-    return TokenResponse(access_token=access_token, user=user_response)
+        user_response = UserResponse(**{k: v for k, v in user_dict.items() if k != "hashed_password"})
+
+        return TokenResponse(access_token=access_token, user=user_response)
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=str(e))
 
 @router.post("/auth/login", response_model=TokenResponse)
-async def login(email: str, password: str):
-    user = await db.users.find_one({"email": email})
-    if not user or not verify_password(password, user["hashed_password"]):
+async def login(credentials: UserLogin):
+    user = await db.users.find_one({"email": credentials.email})
+    if not user or not verify_password(credentials.password, user.get("hashed_password", "")):
         raise HTTPException(status_code=401, detail="Invalid credentials")
 
     access_token = create_access_token(data={"sub": str(user["_id"])})
