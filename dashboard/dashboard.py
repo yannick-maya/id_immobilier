@@ -68,7 +68,7 @@ def load_indice_carte():
     db = get_connection()
     pipeline = [
         {"$group": {"_id": "$zone", "prix_moyen_m2": {"$avg": "$prix_moyen_m2"}, "indice_valeur": {"$avg": "$indice_valeur"}, "nb_indices": {"$sum": 1}, "tendance": {"$first": "$tendance"}}},
-        {"$project": {"zone_nom": "$_id", "prix_moyen_m2": 1, "indice_valeur": 1, "tendance": 1, "nb_indices": 1, "_id": 0}},
+        {"$project": {"zone": "$_id", "prix_moyen_m2": 1, "indice_valeur": 1, "tendance": 1, "nb_indices": 1, "_id": 0}},
         {"$sort": {"indice_valeur": -1}}
     ]
     docs = list(db.indices.aggregate(pipeline))
@@ -105,7 +105,7 @@ if page == "Tableau de bord":
 
     # Filtres sidebar
     st.sidebar.subheader("Filtres")
-    zones_dispo = sorted(df_stats["zone_nom"].unique().tolist())
+    zones_dispo = sorted(df_stats["zone"].unique().tolist())
     zone_sel = st.sidebar.selectbox("Zone", ["Toutes"] + zones_dispo)
 
     types_bien = sorted(df_stats["type_bien"].unique().tolist())
@@ -123,9 +123,9 @@ if page == "Tableau de bord":
     df_ind = df_indice.copy()
 
     if zone_sel != "Toutes":
-        df_f   = df_f[df_f["zone_nom"] == zone_sel]
+        df_f   = df_f[df_f["zone"] == zone_sel]
         df_ann = df_ann[df_ann["zone"] == zone_sel]
-        df_ind = df_ind[df_ind["zone_nom"] == zone_sel]
+        df_ind = df_ind[df_ind["zone"] == zone_sel]
     df_f   = df_f[df_f["type_bien"].isin(type_sel)]
     df_ann = df_ann[df_ann["type_bien"].isin(type_sel)]
     df_ind = df_ind[df_ind["type_bien"].isin(type_sel)]
@@ -143,7 +143,7 @@ if page == "Tableau de bord":
     k1.metric("Prix moyen / m2",    f"{df_f['prix_moyen_m2'].mean():,.0f} FCFA")
     k2.metric("Prix median / m2",   f"{df_f['prix_median_m2'].median():,.0f} FCFA")
     k3.metric("Annonces analysees", f"{df_f['nombre_annonces'].sum():,}")
-    k4.metric("Zones couvertes",    f"{df_f['zone_nom'].nunique()}")
+    k4.metric("Zones couvertes",    f"{df_f['zone'].nunique()}")
     k5.metric("Biens uniques",      f"{len(df_ann):,}")
     st.divider()
 
@@ -162,11 +162,11 @@ if page == "Tableau de bord":
 
     # Top 20 zones
     st.subheader("Prix moyen au m2 par zone")
-    df_bar = df_f.groupby("zone_nom")["prix_moyen_m2"].mean().reset_index()
+    df_bar = df_f.groupby("zone")["prix_moyen_m2"].mean().reset_index()
     df_bar = df_bar.sort_values("prix_moyen_m2", ascending=True).tail(20)
-    fig_bar = px.bar(df_bar, x="prix_moyen_m2", y="zone_nom", orientation="h",
+    fig_bar = px.bar(df_bar, x="prix_moyen_m2", y="zone", orientation="h",
                      color="prix_moyen_m2", color_continuous_scale="Oranges",
-                     labels={"prix_moyen_m2": "Prix moyen / m2 (FCFA)", "zone_nom": "Zone"},
+                     labels={"prix_moyen_m2": "Prix moyen / m2 (FCFA)", "zone": "Zone"},
                      title="Top 20 zones — Prix moyen au m2")
     st.plotly_chart(fig_bar, use_container_width=True)
     st.divider()
@@ -210,8 +210,8 @@ if page == "Tableau de bord":
     # Carte — echantillon representatif
     st.subheader("Carte des prix au m2 — Zones representatives")
 
-    df_zones = (df_f.groupby("zone_nom")["prix_moyen_m2"].mean()
-                .reset_index().rename(columns={"zone_nom": "zone"})
+    df_zones = (df_f.groupby("zone")["prix_moyen_m2"].mean()
+                .reset_index().rename(columns={"zone": "zone"})
                 .dropna(subset=["prix_moyen_m2"]))
 
     rows_map, not_found = [], []
@@ -369,7 +369,7 @@ if page == "Tableau de bord":
 
     # Tableau comparatif zones
     st.subheader("Tableau comparatif des zones")
-    cols_ok = [c for c in ["zone_nom","type_bien","type_offre","prix_moyen_m2",
+    cols_ok = [c for c in ["zone","type_bien","type_offre","prix_moyen_m2",
                             "prix_median_m2","nombre_annonces","ecart_valeur_venale"]
                if c in df_f.columns]
     st.dataframe(df_f[cols_ok].sort_values("prix_moyen_m2", ascending=False),

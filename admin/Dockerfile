@@ -1,12 +1,16 @@
-FROM node:16-alpine
+FROM node:18-alpine
 
 WORKDIR /app
 
 COPY package*.json ./
-RUN npm install
+RUN npm install --legacy-peer-deps
 
 COPY . .
 
-EXPOSE 3000
+RUN npm run build
 
-CMD ["npm", "start"]
+RUN npm install -g serve
+
+EXPOSE 3001
+
+CMD ["serve", "-s", "build", "-l", "3001"]
