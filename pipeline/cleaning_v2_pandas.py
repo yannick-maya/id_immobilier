@@ -298,6 +298,34 @@ def clean_venales():
         "Valeur/m² (FCFA)"   : "prix_m2_officiel",
     }
     df = df.rename(columns={k: v for k, v in rename_map.items() if k in df.columns})
+    df["prix"] = clean_prix(df["prix"])
+    df["surface_m2"] = pd.to_numeric(df["surface_m2"], errors="coerce")
+    df["prix_m2_officiel"] = pd.to_numeric(df["prix_m2_officiel"], errors="coerce")
+    df["zone"] = df["zone"].astype(str).str.lower().str.strip()
+    return df
+
+
+def enrich_period_fields(df: pd.DataFrame) -> pd.DataFrame:
+    """Ajoute ou normalise les colonnes periode, annee, trimestre d'après date_annonce."""
+
+    # S'assurer que la colonne existe pour les opérations suivantes
+    if "date_annonce" not in df.columns:
+        df["date_annonce"] = pd.NaT
+        print("  [!] date_annonce absent, on crée une colonne date_annonce vide")
+
+    df["date_annonce"] = pd.to_datetime(df["date_annonce"], errors="coerce")
+
+    annee_courante = pd.Timestamp.now().year
+    trimestre_courant = pd.Timestamp.now().quarter
+
+    df["annee"] = df.get("annee")
+    df["trimestre"] = df.get("trimestre")
+
+    df["annee"] = df["date_annonce"].dt.year.fillna(annee_courante).astype(int)
+    df["trimestre"] = df["date_annonce"].dt.quarter.fillna(trimestre_courant).astype(int)
+    df["periode"] = df["annee"].astype(str) + "-Q" + df["trimestre"].astype(str)
+
+    return df
     df["prix"]             = clean_prix(df.get("prix", pd.Series()))
     df["surface_m2"]       = pd.to_numeric(df.get("surface_m2"), errors="coerce")
     df["prix_m2_officiel"] = clean_prix(df.get("prix_m2_officiel", pd.Series()))
@@ -329,6 +357,9 @@ def run():
     df_all_valides = pd.concat(tous_valides, ignore_index=True)
     df_all_rejetes = pd.concat(tous_rejetes, ignore_index=True)
     df_venales     = clean_venales()
+
+    # Ajouter les champs de période
+    df_all_valides = enrich_period_fields(df_all_valides)
 
     df_all_valides.to_csv(os.path.join(CLEANED_DIR, "annonces_clean.csv"), index=False)
     df_all_rejetes.to_csv(os.path.join(REJETS_DIR,  "annonces_rejetees.csv"), index=False)

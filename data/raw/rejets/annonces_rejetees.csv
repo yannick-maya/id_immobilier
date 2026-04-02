@@ -1,0 +1,171 @@
+titre,type_offre,type_bien,zone,prix,pieces,surface_m2,Valeur par piece,Valeur par m2,source,raison_rejet
+Espace commercial 2 pièce(s) 10 m² - Kpomé,LOCATION,Boutique,kpome,5003.0,2.0,10.0,2502.0,500.0,immoask,prix_trop_bas
+Espace commercial 2 pièce(s) 10 m² - Kpomé,LOCATION,Boutique,kpome,5003.0,2.0,10.0,2502.0,500.0,immoask,prix_trop_bas
+Espace commercial 2 pièce(s) 10 m² - Kpomé,LOCATION,Boutique,kpome,5003.0,2.0,10.0,2502.0,500.0,immoask,prix_trop_bas
+Location appartement meublé - Forever,LOCATION,Appartement,forever,450000.0,5.0,96.0,90000.0,4688.0,coinafrique,zone_description_lieu
+Location appartement meublé 3 pièces - Forever,LOCATION,Appartement,forever,350000.0,3.0,48.0,116667.0,7292.0,coinafrique,zone_description_lieu
+Location appartement 4 pièces a kegué pharmacie,LOCATION,Appartement,kegue pharmacie,150000.0,4.0,64.0,37500.0,2344.0,coinafrique,zone_description_lieu
+Location appartement 3 pièces - Carrefour Agbemado,LOCATION,Appartement,carrefour agbemadon,70000.0,3.0,48.0,23333.0,1458.0,coinafrique,zone_description_lieu
+Location appartement 3 pièces - Carrefour Kpogli,LOCATION,Appartement,carrefour kpogli,55000.0,3.0,48.0,18333.0,1146.0,coinafrique,zone_description_lieu
+Location bureau meublé à Forever,LOCATION,Bureau,forever,2500000.0,3.0,450.0,833333.0,5556.0,coinafrique,zone_description_lieu
+Location bureaux à Forever,LOCATION,Bureau,forever,2500000.0,3.0,350.0,833333.0,7143.0,coinafrique,zone_description_lieu
+Location bureau meublée de 03 pièces à hedzranawoe à côté de clinique ST Joseph,LOCATION,Bureau,hedzranawoe a cote de clinique st joseph,300000.0,3.0,36.0,100000.0,8333.0,coinafrique,zone_trop_longue
+Location chambre salon - Davié juste derrière l'école de la police,LOCATION,Chambre,davie juste,30000.0,2.0,24.0,15000.0,1250.0,coinafrique,zone_description_lieu
+Location villa duplex 6 pièces - Forever wuiti novissi caisse,LOCATION,Villa,forever,22000000.0,6.0,96.0,3666667.0,229167.0,coinafrique,zone_description_lieu
+Location villa 5 pièces avec piscine à Forever,LOCATION,Villa,forever,1500000.0,5.0,80.0,300000.0,18750.0,coinafrique,zone_description_lieu
+Location villa 4 pièces à Forever),LOCATION,Villa,forever,1100000.0,4.0,64.0,275000.0,17188.0,coinafrique,zone_description_lieu
+Location villa duplex piscine 3 chambres Forever,LOCATION,Villa,forever,1100000.0,3.0,48.0,366667.0,22917.0,coinafrique,zone_description_lieu
+Location villa 4 chambres salon + 2 dépendances à Forever,LOCATION,Villa,forever,750000.0,4.0,64.0,187500.0,11719.0,coinafrique,zone_description_lieu
+Location villa basse 7 pièces a forever,LOCATION,Villa,forever,750000.0,7.0,112.0,107143.0,6696.0,coinafrique,zone_description_lieu
+Location villa 6 chambres 2 salons Noukafou pas loin de la pharmacie,LOCATION,Villa,pharmacie,700000.0,6.0,96.0,116667.0,7292.0,coinafrique,zone_description_lieu
+Location villa jardin de 10 chambres salon à Hedranawoé clinique,LOCATION,Villa,hedzranawoe clinique,600000.0,10.0,160.0,60000.0,3750.0,coinafrique,zone_description_lieu
+Location villa 4 pièces - Hedranawoé à côté de l'hôtel balkan une cilla duplex de 3 chambres salon,LOCATION,Villa,hedzranawoe a cote de l hotel balkan une cilla duplex de 3 chambres salon,400000.0,4.0,64.0,100000.0,6250.0,coinafrique,zone_trop_longue
+Location villa 4 pièces - Forever,LOCATION,Villa,forever,400000.0,4.0,64.0,100000.0,6250.0,coinafrique,zone_description_lieu
+Location villa basse jardin 7 pièces a forever,LOCATION,Villa,forever,400000.0,7.0,112.0,57143.0,3571.0,coinafrique,zone_description_lieu
+Location villa 5 pièces à forever 3 k au bord du goudron,LOCATION,Villa,forever,350000.0,5.0,80.0,70000.0,4375.0,coinafrique,zone_description_lieu
+Location villa cour unique de 4 pièces à forever bar 3 k,LOCATION,Villa,forever,250000.0,4.0,64.0,62500.0,3906.0,coinafrique,zone_description_lieu
+Location villa cour unique 3 chambres salon à Forever bar 3 k,LOCATION,Villa,forever,250000.0,3.0,48.0,83333.0,5208.0,coinafrique,zone_description_lieu
+Location villa cour unique 3 chambresà Hedranawoé pharmacie bien etre,LOCATION,Villa,hedzranawoe pharmacie bien etre,200000.0,3.0,48.0,66667.0,4167.0,coinafrique,zone_trop_longue
+Location villa 4 pièces - Carrefour Bruyère,LOCATION,Villa,carrefour bruyere,135000.0,4.0,64.0,33750.0,2109.0,coinafrique,zone_description_lieu
+Vente immeuble - Pharmacie Yembla,VENTE,Immeuble,pharmacie yembla,2000000000.0,,600.0,,3333333.0,coinafrique,zone_description_lieu
+Terrain 2 lots collés - carrefour Sanol,VENTE,Terrain,carrefour sanol,170000000.0,,1200.0,,141667.0,coinafrique,zone_description_lieu
+Terrain 1 lot et 1/4 face au goudron pavé Forever,VENTE,Terrain,forever,170000000.0,,750.0,,226667.0,coinafrique,zone_description_lieu
+Terrain 1 lot à Forever,VENTE,Terrain,forever,170000000.0,,600.0,,283333.0,coinafrique,zone_description_lieu
+Terrain 740m² à Forever,VENTE,Terrain,forever,170000000.0,,740.0,,229730.0,coinafrique,zone_description_lieu
+Terrain 1 lot - Forever,VENTE,Terrain,forever,90000000.0,,600.0,,150000.0,coinafrique,zone_description_lieu
+Terrain 1 lot - Carrefour Tazo,VENTE,Terrain,carrefour tazo,55000000.0,,600.0,,91667.0,coinafrique,zone_description_lieu
+Terrain 1 lot non loin du carrefour commando et du CCL,VENTE,Terrain,carrefour commando,35000000.0,,600.0,,58333.0,coinafrique,zone_description_lieu
+Terrain 2 lots loin du Carrefour Bonheur,VENTE,Terrain,carrefour bonheur,35000000.0,,1200.0,,29167.0,coinafrique,zone_description_lieu
+Terrain 1/2 Lot 350 m² TF en face de la pharmacie St Joseph,VENTE,Terrain,pharmacie st joseph,33000000.0,,300.0,,110000.0,coinafrique,zone_description_lieu
+Terrain chambres salon - Entreprise de l'union 500m du goudron,VENTE,Terrain,entreprise de l union 500m du goudron,26000000.0,,600.0,,43333.0,coinafrique,zone_trop_longue
+Terrain à Kegue clinique des moineaux,VENTE,Terrain,kegue clinique des moineaux,25000000.0,,600.0,,41667.0,coinafrique,zone_description_lieu
+Terrain 1 lot non loin de la station Sanol Adidogome Sagbado,VENTE,Terrain,station sanol adidogome sagbado,25000000.0,,600.0,,41667.0,coinafrique,zone_trop_longue
+Terrain ½ Lot 300m² à carrefour Obena,VENTE,Terrain,carrefour obena,18000000.0,,300.0,,60000.0,coinafrique,zone_description_lieu
+Terrain 3/4 de lot clôturé à Togokome côté plage angle rue a 300 m du goudron,VENTE,Terrain,togokome cote plage angle rue a,17000000.0,,450.0,,37778.0,coinafrique,zone_trop_longue
+Terrain 1/4 lot - contournement après péage,VENTE,Terrain,contournement apres peage,7000000.0,,150.0,,46667.0,coinafrique,zone_description_lieu
+Terrain 1/2 lot - Pharmacie de Davié,VENTE,Terrain,pharmacie de davie,5500000.0,,300.0,,18333.0,coinafrique,zone_description_lieu
+Terrain à Djagble klobateme non loin du goudron,VENTE,Terrain,djagble klobateme non loin du goudron,5000000.0,,600.0,,8333.0,coinafrique,zone_trop_longue
+Terrain à Togo ville coté lac pas loin du goudron,VENTE,Terrain,togo ville cote lac pas loin du goudron,5000000.0,,600.0,,8333.0,coinafrique,zone_trop_longue
+Vente villa duplex à Forever juste à côté de cité sidéal,VENTE,Villa,forever,1750000000.0,,600.0,,2916667.0,coinafrique,zone_description_lieu
+Vente villa duplex de 4 chambres salon à Axuiti forever proche de la caisse,VENTE,Villa,axuiti forever proche de la caisse,500000000.0,4.0,600.0,,833333.0,coinafrique,zone_trop_longue
+Vente villa - Pharmacie Yembla,VENTE,Villa,pharmacie yembla,500000000.0,,600.0,,833333.0,coinafrique,zone_description_lieu
+Vente villa piscine de haut standing à Baguida côté plage,VENTE,Villa,baguida cote plage,400000000.0,,600.0,,666667.0,coinafrique,zone_description_lieu
+Vente maison à raser à la caisse à la Résidence Caisse,VENTE,Villa,raser a la caisse a la residence caisse,350000000.0,,600.0,,583333.0,coinafrique,zone_trop_longue
+Vente villa duplex 6pièces - Baguida côté plage,VENTE,Villa,baguida cote plage,280000000.0,6.0,600.0,,466667.0,coinafrique,zone_description_lieu
+Vente 2 villas 5 pièces - forever wuiti Lomé togo 228,VENTE,Villa,forever,185000000.0,5.0,600.0,,308333.0,coinafrique,zone_description_lieu
+Vente villa 7 pièces à Forever,VENTE,Villa,forever,185000000.0,7.0,600.0,,308333.0,coinafrique,zone_description_lieu
+Vente villa 6 pièces à Forever,VENTE,Villa,forever,185000000.0,6.0,600.0,,308333.0,coinafrique,zone_description_lieu
+Vente villa avec piscine à Forever,VENTE,Villa,forever,175000000.0,,600.0,,291667.0,coinafrique,zone_description_lieu
+Vente villa duplex 5 pièces - Forever,VENTE,Villa,forever,175000000.0,5.0,600.0,,291667.0,coinafrique,zone_description_lieu
+Vente villa duplex à Forever,VENTE,Villa,forever,170000000.0,,600.0,,283333.0,coinafrique,zone_description_lieu
+Vente villa duplex 10 pièces - Forever,VENTE,Villa,forever,170000000.0,10.0,600.0,,283333.0,coinafrique,zone_description_lieu
+Vente villa à Attiegou pharmacie raoudha,VENTE,Villa,attiegou pharmacie raoudha,170000000.0,,600.0,,283333.0,coinafrique,zone_description_lieu
+4 chambres salon à Attiegou pharmacie roauda,VENTE,Villa,attiegou pharmacie roauda,170000000.0,4.0,600.0,,283333.0,coinafrique,zone_description_lieu
+Vente villa 10 pièces à Forever,VENTE,Villa,forever,135000000.0,10.0,600.0,,225000.0,coinafrique,zone_description_lieu
+"Vente villa 4 pièces à zanguera akepedo, avant le nouveau péage à 800m du goudron lomé - kpalimé, villa composée de : __ rez: une très g",VENTE,Villa,kpalime villa composee de __ rez une tres g,70000000.0,4.0,600.0,,116667.0,coinafrique,zone_trop_longue
+Vente villa 5 pièces - Pharmacie Ave Maria,VENTE,Villa,pharmacie ave maria,65000000.0,5.0,600.0,,108333.0,coinafrique,zone_description_lieu
+Vente villa 4 pièces à Forever,VENTE,Villa,forever,60000000.0,4.0,600.0,,100000.0,coinafrique,zone_description_lieu
+Vente villa inachevée - Avepozo à 800m du goudron,VENTE,Villa,avepozo a 800m du goudron,45000000.0,,600.0,,75000.0,coinafrique,zone_description_lieu
+Vente villa 3 chambres salon - Legbassito pharmacie m'ba Senoukopé,VENTE,Villa,legbassito pharmacie m ba senoukope,30000000.0,3.0,600.0,,50000.0,coinafrique,zone_trop_longue
+Vente maison de location sur demi lot composée de chambres salon - Entreprise de l'union 500m du goudron,VENTE,Villa,entreprise de l union 500m du goudron,26000000.0,,300.0,,86667.0,coinafrique,zone_trop_longue
+Vente villa 2 pièces - Atilamonou non loin du bar one day,VENTE,Villa,atilamonou non loin du bar one day,9000000.0,2.0,600.0,,15000.0,coinafrique,zone_trop_longue
+"Vente maison - Kpala juste après la ""cité kpala""",VENTE,Villa,kpala juste apres la,5000000.0,,600.0,,8333.0,coinafrique,zone_description_lieu
+Vente villa 4pièces - Forever,VENTE,Villa,forever,1100000.0,4.0,600.0,,1833.0,coinafrique,zone_description_lieu
+Villa Lomé,LOCATION,Appartement,nan,500.0,3.0,120.0,,,immoask_scraped,zone_invalide
+,LOCATION,Commerce,kpomé,5003.0,0.0,10.0,,,immoask_scraped,prix_trop_bas
+,LOCATION,Commerce,kpomé,5003.0,0.0,10.0,,,immoask_scraped,prix_trop_bas
+,LOCATION,Commerce,kpomé,5003.0,0.0,10.0,,,immoask_scraped,prix_trop_bas
+"chambre,louer,lome,totsi egblinkome",LOCATION,Chambre,totsi,0.0,0.0,10.0,,,immoask_scraped,prix_trop_bas
+"appartement meublé,louer,lome,be gbenyedzi ",LOCATION,Appartement,bè,0.0,2.0,100.0,,,immoask_scraped,prix_trop_bas
+"terrain,vendre,lome,agbalepedo",LOCATION,Terrain,agbalépédo,0.0,0.0,345.0,,,immoask_scraped,prix_trop_bas
+"terrain,vendre,lome,agoe",LOCATION,Terrain,agoe,0.0,0.0,600.0,,,immoask_scraped,prix_trop_bas
+"terrain,vendre,lome,agoe",LOCATION,Terrain,agoe,0.0,0.0,1200.0,,,immoask_scraped,prix_trop_bas
+"boutique,louer,lome,lomegan",LOCATION,Boutique,lomégan,0.0,0.0,50.0,,,immoask_scraped,prix_trop_bas
+"immeuble commercial,louer,lome,assivito",LOCATION,Appartement,assivito,0.0,0.0,1000.0,,,immoask_scraped,prix_trop_bas
+"villa,vendre,lome,amadahome ",VENTE,Villa,adidogome,0.0,3.0,10.0,,,immoask_scraped,prix_trop_bas
+Vente villa duplex 5 chambres 2 salons pAgbalepedo iscine,VENTE,Villa,baguida,190000000.0,5.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+À VENDRE,VENTE,Non specifie,baguida,45000000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa 2 chambres salon à  Sanguera,VENTE,Villa,baguida,20000000.0,2.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Terrain demi-lot au bord d'une rue de 28m à Avédji CEG.,NON SPECIFIE,Terrain,avédji,20000000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente maison locative à Legbassito,VENTE,Maison,agoè,55000000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location villa 3 chambres salon à Kégué,LOCATION,Villa,kégué,300000.0,3.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location villa duplex 5 pièces piscine et jardin Totsi,LOCATION,Villa,totsi,2000000.0,5.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente maison - Adidogomé ségbé,VENTE,Maison,adidogomé,35000000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location villa 3 pièces - Agoe Total État Major,LOCATION,Villa,baguida,150000.0,3.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente maison 5 pièces à légbassito zone  des sœurs.avec titre foncier personnel,VENTE,Maison,légbassito,19000000.0,5.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location villa de 03 pièces à Nukafu togocel,LOCATION,Villa,baguida,200000.0,3.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente maison de 04 pièces - Avedji sun-city,VENTE,Maison,avédji,53000000.0,4.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa triplex  7 pièces  - Tokoin,VENTE,Villa,tokoin,,7.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa duplex  7 pièces - Kodjoviakopé,VENTE,Villa,kodjoviakopé,150000000.0,7.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location villa 5 pièces - Forever,LOCATION,Villa,baguida,1500000.0,5.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa triplex  6pièces  - Djidjole,VENTE,Villa,baguida,300000000.0,6.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa duplex 4 pièces à Hedranawoe,VENTE,Villa,baguida,160000000.0,4.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location entrepôt avec des bureaux - Agoè ccl,LOCATION,Bureau,agoè,800000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa de 04 pièces hédzranawoé,VENTE,Villa,hédzranawoé,160000000.0,4.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location villa de 03 pièces à Adidogomé,LOCATION,Villa,adidogomé,300000.0,3.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Studio meublé à cacavéli,NON SPECIFIE,Studio,cacavéli,160000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location studio meublé à Agoè assiyéyé,LOCATION,Studio,agoè,185000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location studio meublé à Adidogomé lycée technique,LOCATION,Studio,adidogomé,185000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location studio meublé à Totsi glinkomé,LOCATION,Studio,totsi,200000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location villa 4 pièces - Kégué,LOCATION,Villa,kégué,350.0,4.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Terrain  - Agoe legbassito,NON SPECIFIE,Terrain,agoè,8500000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location villa 4 pièces - Adidogome Wonyomé,LOCATION,Villa,baguida,650000.0,4.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location boutique au bord du goudron à Be kpehenou,LOCATION,Boutique,baguida,250000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa 8 pièces avec piscine sur deux lots à Baguida bkbg,VENTE,Villa,baguida,370000000.0,8.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente  villa 6 pièces -Avedji limousine,VENTE,Villa,avédji,47000000.0,6.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa duplex de 7 pièces avec piscine - Adidogomé,VENTE,Villa,adidogomé,360000000.0,7.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Terrains 600  - grand marché de lomé,NON SPECIFIE,Terrain,baguida,16000000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa 04 pièces  -Adetikopé kpotavé,VENTE,Villa,baguida,85000000.0,4.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location appartement meublé à Attiegou dva,LOCATION,Appartement,baguida,180000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa 4 pièces piscine et jardin  à  Baguida,VENTE,Villa,baguida,350000000.0,4.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa 6 pièces - Agoè,VENTE,Villa,agoè,65000000.0,6.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa 06 pièces - adidogomé balissimé,VENTE,Villa,adidogomé,360000000.0,6.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Terrain ½ lot à  Apessito catholique,NON SPECIFIE,Terrain,baguida,11000000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location villa 4 pièces à Kegué,LOCATION,Villa,baguida,500000.0,4.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa 3 pièces à Kégué,VENTE,Villa,kégué,48000000.0,3.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location appartement 03 chambres Avedji Léo 2000,LOCATION,Appartement,baguida,200000.0,3.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location villa climatisées de 04 pièces à Adidogomé douane,LOCATION,Villa,adidogomé,300000.0,4.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location villa de 06 pièces à tokoin protestant,LOCATION,Villa,tokoin,400000.0,6.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa duplex 3 chambres salon à  Hedzranawoé Nathaba,VENTE,Villa,baguida,250000000.0,3.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location villa 4 pièces - kégué koffi kpanou,LOCATION,Villa,kégué,120000.0,4.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location villa duplex 6 pièces avec piscine de 05 pièces à  Baguida,LOCATION,Villa,baguida,1500000.0,6.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location villa de 03 pièces à zanguera la madone,LOCATION,Villa,baguida,120000.0,3.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente maison  à Adidogomé Rail,VENTE,Maison,adidogomé,25000000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa 5 pièces à Baguida,VENTE,Villa,baguida,500000000.0,5.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa 4 pièces à Djidjole,VENTE,Villa,baguida,27000000.0,4.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa 8 pièces avec piscine sur deux lots à Baguida bkbg,VENTE,Villa,baguida,370000000.0,8.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa duplex 5 chambres 2 salons pAgbalepedo iscine,VENTE,Villa,baguida,190000000.0,5.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa 8 pièces avec meubles Lomé-Avepozo,VENTE,Villa,baguida,400000000.0,8.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location villa 3 chambres salon à Agoè bks2,LOCATION,Villa,agoè,170000.0,3.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa R+2 à  Zanguera,VENTE,Villa,baguida,34000000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location appartement 4 chambres salon à  Agoè camp fir,LOCATION,Appartement,agoè,150000.0,4.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location résidence  à la Caisse,LOCATION,Non specifie,baguida,2600000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa à Assiyeye,VENTE,Villa,baguida,45000000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa  à Segbe,VENTE,Villa,baguida,55000000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location appartement 02 pièces à Amadahome,LOCATION,Appartement,baguida,85000.0,2.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location villa  dans la cité Oua,LOCATION,Villa,baguida,2000000000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Terrain ½ lot à Avédji,NON SPECIFIE,Terrain,avédji,33000000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa duplex 6 pièces à Baguida,VENTE,Villa,baguida,85000000.0,6.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa 3 pièces à zanguéra,VENTE,Villa,zanguéra,55000000.0,3.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Terrain - Tsevié,NON SPECIFIE,Terrain,baguida,3500000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente maison 9 pièces - Avédji,VENTE,Maison,avédji,18000000.0,9.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente maison de location à Agoè koffi panou,VENTE,Maison,agoè,22000000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location studio meublé  - Avedji,LOCATION,Studio,totsi,200000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente maison 3 pièces - Tokoin,VENTE,Maison,tokoin,80000000.0,3.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location appartement - Adidogomé,LOCATION,Appartement,adidogomé,55000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location appartements - Adidogomé,LOCATION,Appartement,adidogomé,35000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location appartement 3 pièces - Agoè logopé tazo,LOCATION,Appartement,agoè,70000.0,3.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente  maison 3 pièces à Adidogomè hôtel nord sud,VENTE,Maison,adidogomé,18000000.0,3.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Terrain à Agoè Assiyiyé,NON SPECIFIE,Terrain,agoè,13500000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa 4 pièces - Ségbé,VENTE,Villa,baguida,130000000.0,4.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location appartement 3 pièces - Adidogomè atilamonou,LOCATION,Appartement,baguida,90000.0,3.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location appartement 3 pièces - Adidogomè cap amadahomè,LOCATION,Appartement,baguida,130000.0,3.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location appartement 3 pièces - Adidogome Logote,LOCATION,Appartement,baguida,100000.0,3.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location villa meublée 03 pièces à cito aéroport,LOCATION,Villa,baguida,500000.0,3.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente entrepôt à agoè fiovi,VENTE,Non specifie,agoè,85000000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location appartement - kégué Oqueens,LOCATION,Appartement,kégué,75000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+"Location à Vakpo NDE Chic appartement nouvelle construction dallé staffé lumineux avec chauffe eau, d'une Chambre salon wc douche cuisine interne avec armoire de rangement + balcon bien clean , dispon",LOCATION,Appartement,baguida,65000.0,,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location villa duplex 05 pièces Gnekonakpoé,LOCATION,Villa,nyékonakpoè,800000.0,5.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Vente villa duplex 5 pièces -   Avenou,VENTE,Villa,avenou,165000000.0,5.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location appartements 02 pièces Totsi,LOCATION,Appartement,totsi,150000.0,2.0,,,,coinafrique_scraped,prix_ou_surface_manquant
+Location appartement de 02 pièces à wonyome au bord du goudron,LOCATION,Appartement,adidogomé,80000.0,2.0,,,,coinafrique_scraped,prix_ou_surface_manquant

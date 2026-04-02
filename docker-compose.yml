@@ -48,14 +48,12 @@ services:
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
       - AIRFLOW__WEBSERVER__SECRET_KEY=id_immobilier_secret
       - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=False
-      - MYSQL_HOST=host.docker.internal
-      - MYSQL_USER=root
-      - MYSQL_PASSWORD=
-      - MYSQL_DB=id_immobilier
+      - MONGO_URI=mongodb://mongo:27017
+      - MONGO_DB=id_immobilier
     ports:
       - "8081:8080"
     volumes:
-      - ./dags:/opt/airflow/dags
+      - ./pipeline/dags:/opt/airflow/dags
       - ./pipeline:/opt/airflow/pipeline
       - ./data:/opt/airflow/data
       - ./sql:/opt/airflow/sql
@@ -87,11 +85,8 @@ services:
     container_name: id_immobilier_streamlit
     restart: always
     environment:
-      # Connexion vers XAMPP sur ta machine locale
-      - MYSQL_HOST=host.docker.internal
-      - MYSQL_USER=root
-      - MYSQL_PASSWORD=
-      - MYSQL_DB=id_immobilier
+      - MONGO_URI=mongodb://mongo:27017
+      - MONGO_DB=id_immobilier
     ports:
       - "8501:8501"
     volumes:
@@ -101,6 +96,62 @@ services:
       - immo_network
     extra_hosts:
       - "host.docker.internal:host-gateway"
+
+  # ── MongoDB ─────────────────────────────────────────────────────────────────
+  mongo:
+    image: mongo:7.0
+    container_name: id_immobilier_mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data/mongo:/data/db
+    networks:
+      - immo_network
+
+  # ── FastAPI ──────────────────────────────────────────────────────────────────
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: id_immobilier_api
+    restart: always
+    environment:
+      - MONGO_URI=mongodb://mongo:27017
+      - MONGO_DB=id_immobilier
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./api:/app/api
+      - ./data:/app/data
+    networks:
+      - immo_network
+    depends_on:
+      - mongo
+
+  # ── Frontend React ───────────────────────────────────────────────────────────
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: id_immobilier_frontend
+    restart: always
+    ports:
+      - "3000:3000"
+    networks:
+      - immo_network
+
+  # ── Admin React ──────────────────────────────────────────────────────────────
+  admin:
+    build:
+      context: ./admin
+      dockerfile: Dockerfile
+    container_name: id_immobilier_admin
+    restart: always
+    ports:
+      - "3001:3001"
+    networks:
+      - immo_network
 
 # ── Volumes ───────────────────────────────────────────────────────────────────
 volumes:

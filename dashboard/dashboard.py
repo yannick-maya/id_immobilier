@@ -9,7 +9,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import folium
 from streamlit_folium import st_folium
-import mysql.connector
+from pymongo import MongoClient
 import unicodedata
 import re
 import os
@@ -23,365 +23,57 @@ st.set_page_config(
     layout="wide"
 )
 
-# ── Connexion MySQL ────────────────────────────────────────────────────────────
 @st.cache_resource
 def get_connection():
-    return mysql.connector.connect(
-        host=os.getenv("MYSQL_HOST", "localhost"),
-        user=os.getenv("MYSQL_USER", "root"),
-        password=os.getenv("MYSQL_PASSWORD", ""),
-        database=os.getenv("MYSQL_DB", "id_immobilier"),
-        buffered=True
-    )
-
-def run_query(query):
-    conn = get_connection()
-    return pd.read_sql(query, conn)
+    client = MongoClient(os.getenv("MONGO_URI", "mongodb://mongo:27017"))
+    return client[os.getenv("MONGO_DB", "id_immobilier")]
 
 @st.cache_data(ttl=3600)
 def load_statistiques():
-    return run_query("""
-        SELECT s.*, z.nom AS zone_nom
-        FROM statistiques_zone s
-        JOIN zone_geographique z ON s.id_zone = z.id
-    """)
+    db = get_connection()
+    docs = list(db.statistiques.find({}))
+    return pd.DataFrame(docs)
 
 @st.cache_data(ttl=3600)
 def load_annonces():
-    return run_query("""
-        SELECT a.prix, a.prix_m2, a.titre,
-               b.type_bien, b.type_offre, b.surface_m2,
-               z.nom AS zone,
-               s.nom AS source
-        FROM annonce a
-        JOIN bien_immobilier b ON a.id_bien = b.id
-        JOIN zone_geographique z ON b.id_zone = z.id
-        JOIN source_donnees s ON a.id_source = s.id
-        WHERE a.prix_m2 IS NOT NULL AND a.prix_m2 > 0
-    """)
+    db = get_connection()
+    docs = list(db.annonces.find({}))
+    return pd.DataFrame(docs)
 
 @st.cache_data(ttl=3600)
 def load_venales():
-    return run_query("""
-        SELECT vv.prix_m2_officiel, vv.surface_m2, vv.valeur_totale,
-               z.nom AS zone
-        FROM valeur_venale vv
-        JOIN zone_geographique z ON vv.id_zone = z.id
-        WHERE vv.prix_m2_officiel IS NOT NULL
-    """)
+    db = get_connection()
+    docs = list(db.valeurs_venales.find({}))
+    return pd.DataFrame(docs)
 
 @st.cache_data(ttl=3600)
 def load_sources():
-    return run_query("""
-        SELECT s.nom AS source, COUNT(a.id) AS nombre_annonces
-        FROM source_donnees s
-        LEFT JOIN annonce a ON a.id_source = s.id
-        GROUP BY s.id, s.nom
-        ORDER BY nombre_annonces DESC
-    """)
+    db = get_connection()
+    pipeline = [{"$group": {"_id": "$source", "nombre_annonces": {"$sum": 1}}}, {"$project": {"source": "$_id", "nombre_annonces": 1, "_id": 0}}]
+    docs = list(db.annonces.aggregate(pipeline))
+    return pd.DataFrame(docs)
 
 @st.cache_data(ttl=3600)
 def load_indice_par_type():
-    return run_query("""
-        SELECT
-            b.type_bien,
-            b.type_offre,
-            z.nom AS zone_nom,
-            AVG(a.prix_m2) AS prix_moyen_m2,
-            COUNT(a.id) AS nb_annonces
-        FROM annonce a
-        JOIN bien_immobilier b ON a.id_bien = b.id
-        JOIN zone_geographique z ON b.id_zone = z.id
-        WHERE a.prix_m2 IS NOT NULL AND a.prix_m2 > 0
-        GROUP BY b.type_bien, b.type_offre, z.nom
-        HAVING COUNT(a.id) >= 2
-        ORDER BY prix_moyen_m2 DESC
-    """)
+    db = get_connection()
+    pipeline = [
+        {"$group": {"_id": {"zone": "$zone", "type_bien": "$type_bien", "type_offre": "$type_offre"}, "prix_moyen_m2": {"$avg": "$prix_m2"}, "nb_annonces": {"$sum": 1}}},
+        {"$project": {"zone": "$_id.zone", "type_bien": "$_id.type_bien", "type_offre": "$_id.type_offre", "prix_moyen_m2": 1, "nb_annonces": 1, "_id": 0}}
+    ]
+    docs = list(db.indices.aggregate(pipeline))
+    return pd.DataFrame(docs)
 
 @st.cache_data(ttl=3600)
 def load_indice_carte():
-    """
-    Charge les vraies tendances (HAUSSE / STABLE / BAISSE) depuis
-    la table indice_immobilier calculée par index.py.
-    On agrège par zone pour avoir un seul point par zone sur la carte.
-    """
-    return run_query("""
-        SELECT
-            z.nom                       AS zone_nom,
-            AVG(i.prix_moyen_m2)        AS prix_moyen_m2,
-            AVG(i.indice_valeur)        AS indice_valeur,
-            (
-                SELECT ii2.tendance
-                FROM indice_immobilier ii2
-                WHERE ii2.id_zone = i.id_zone
-                GROUP BY ii2.tendance
-                ORDER BY COUNT(*) DESC
-                LIMIT 1
-            )                           AS tendance,
-            COUNT(*)                    AS nb_indices
-        FROM indice_immobilier i
-        JOIN zone_geographique z ON i.id_zone = z.id
-        GROUP BY i.id_zone, z.nom
-        ORDER BY indice_valeur DESC
-    """)
+    db = get_connection()
+    pipeline = [
+        {"$group": {"_id": "$zone", "prix_moyen_m2": {"$avg": "$prix_moyen_m2"}, "indice_valeur": {"$avg": "$indice_valeur"}, "nb_indices": {"$sum": 1}, "tendance": {"$first": "$tendance"}}},
+        {"$project": {"zone_nom": "$_id", "prix_moyen_m2": 1, "indice_valeur": 1, "tendance": 1, "nb_indices": 1, "_id": 0}},
+        {"$sort": {"indice_valeur": -1}}
+    ]
+    docs = list(db.indices.aggregate(pipeline))
+    return pd.DataFrame(docs)
 
-
-# ═══════════════════════════════════════════════════════════════════════════════
-# COORDONNÉES GPS — Quartiers de Lomé et villes du Togo
-# Source : OpenStreetMap / Relevés terrain
-# Format : "nom_normalisé": [latitude, longitude]
-# ═══════════════════════════════════════════════════════════════════════════════
-
-COORDS_TOGO = {
-    # ── CENTRE DE LOMÉ ──────────────────────────────────────────────────────
-    "lome":                 [6.1375,  1.2123],
-    "lome centre":          [6.1375,  1.2123],
-    "centre ville":         [6.1375,  1.2123],
-    "grand marche":         [6.1350,  1.2200],
-    "marche":               [6.1350,  1.2200],
-    "port":                 [6.1270,  1.2150],
-
-    # ── QUARTIERS NORD ───────────────────────────────────────────────────────
-    "agoe":                 [6.1950,  1.2220],
-    "agoe nyive":           [6.1950,  1.2220],
-    "agoe assiyeye":        [6.2050,  1.2150],
-    "agoe cacaveli":        [6.1850,  1.2400],
-    "agoe demakpoe":        [6.2100,  1.2050],
-    "agoe zongo":           [6.2000,  1.2200],
-    "agoe logopoe":         [6.2150,  1.2100],
-    "adetikope":            [6.2400,  1.1850],
-    "togblekope":           [6.2200,  1.1950],
-    "kpogan":               [6.2300,  1.2000],
-    "sagbado":              [6.1900,  1.2150],
-    "gbossime":             [6.1850,  1.2100],
-    "avedji":               [6.1780,  1.2180],
-    "avenu":                [6.1700,  1.2300],
-    "aveno":                [6.1700,  1.2300],
-    "avenou":               [6.1700,  1.2300],
-    "lege":                 [6.1750,  1.2350],
-    "legbassito":           [6.1750,  1.2400],
-    "adidogome":            [6.1700,  1.1900],
-    "adidogome assiyeye":   [6.1750,  1.1850],
-    "adidogome baguida":    [6.1650,  1.1950],
-    "gbedome":              [6.1800,  1.1950],
-    "doulassame":           [6.1580,  1.2200],
-    "doulasame":            [6.1580,  1.2200],
-    "assiyeye":             [6.1800,  1.2000],
-
-    # ── QUARTIERS NORD-OUEST ─────────────────────────────────────────────────
-    "djidjole":             [6.1600,  1.1900],
-    "cassablanca":          [6.1550,  1.1800],
-    "casablanca":           [6.1550,  1.1800],
-    "assivito":             [6.1500,  1.1950],
-    "kegue":                [6.1500,  1.2400],
-    "nukafu":               [6.1600,  1.2480],
-    "zanguera":             [6.1650,  1.2500],
-    "zanguera nord":        [6.1700,  1.2520],
-
-    # ── QUARTIERS CENTRE-NORD ────────────────────────────────────────────────
-    "tokoin":               [6.1520,  1.2100],
-    "tokoin hopital":       [6.1480,  1.2150],
-    "tokoin forever":       [6.1560,  1.2080],
-    "tokoin tameta":        [6.1540,  1.2050],
-    "tokoin nord":          [6.1560,  1.2100],
-    "tokoin est":           [6.1520,  1.2200],
-    "tokoin ouest":         [6.1520,  1.2000],
-    "hedzranawoe":          [6.1430,  1.2180],
-    "hedzranawo":           [6.1430,  1.2180],
-    "hedranawe":            [6.1430,  1.2180],
-    "amoutive":             [6.1400,  1.2050],
-    "amoutive nord":        [6.1430,  1.2050],
-    "amoutive sud":         [6.1380,  1.2050],
-    "nyekonakpoe":          [6.1450,  1.2250],
-    "nyekonakpoe nord":     [6.1480,  1.2250],
-    "nyekonakpoe sud":      [6.1420,  1.2250],
-
-    # ── QUARTIERS CENTRE ─────────────────────────────────────────────────────
-    "be":                   [6.1320,  1.2300],
-    "be kpota":             [6.1280,  1.2350],
-    "be apeyeme":           [6.1350,  1.2350],
-    "be klikame":           [6.1300,  1.2400],
-    "be ouest":             [6.1320,  1.2250],
-    "be nord":              [6.1370,  1.2300],
-    "cacaveli":             [6.1550,  1.2650],
-    "cacaveli nord":        [6.1600,  1.2650],
-    "cacaveli sud":         [6.1500,  1.2650],
-    "baguida":              [6.1167,  1.3500],
-    "baguida nord":         [6.1200,  1.3450],
-    "baguida village":      [6.1150,  1.3550],
-
-    # ── QUARTIERS SUD-OUEST ──────────────────────────────────────────────────
-    "ablogame":             [6.1280,  1.2050],
-    "ablogame nord":        [6.1310,  1.2050],
-    "kodjoviakope":         [6.1180,  1.2100],
-    "kodjoviakope nord":    [6.1210,  1.2100],
-    "aflao gare":           [6.1080,  1.1950],
-    "aflao":                [6.1080,  1.1950],
-    "gbenyedzi":            [6.1150,  1.2200],
-    "gbenye":               [6.1150,  1.2200],
-    "attiegan":             [6.1200,  1.2000],
-    "attiegann":            [6.1200,  1.2000],
-    "akodessewa":           [6.1250,  1.2600],
-    "akodesewa":            [6.1250,  1.2600],
-    "akodesewa nord":       [6.1280,  1.2600],
-    "zebe":                 [6.1180,  1.2500],
-    "apeyeme":              [6.1350,  1.2380],
-    "bionkoli":             [6.1220,  1.2300],
-    "dekon":                [6.1300,  1.2150],
-    "dekon nord":           [6.1330,  1.2150],
-    "kpota":                [6.1280,  1.2350],
-    "kpota nord":           [6.1310,  1.2350],
-    "katanga":              [6.1350,  1.2120],
-    "bamelie":              [6.1400,  1.2300],
-    "bamelie nord":         [6.1430,  1.2300],
-    "adawlato":             [6.1460,  1.2180],
-    "legoun":               [6.1550,  1.2300],
-    "legon":                [6.1550,  1.2300],
-    "totsi":                [6.1500,  1.2250],
-    "assomè":               [6.1420,  1.2400],
-    "assome":               [6.1420,  1.2400],
-    "gbagba":               [6.1380,  1.2450],
-    "ahanoukope":           [6.1600,  1.1800],
-    "ahanoukopé":           [6.1600,  1.1800],
-    "wuiti":                [6.1650,  1.2100],
-    "wuite":                [6.1650,  1.2100],
-    "sogbossito":           [6.1500,  1.2600],
-    "sogbossito nord":      [6.1530,  1.2600],
-    "sito":                 [6.1500,  1.2600],
-    "atikoume":             [6.1350,  1.2000],
-    "atikoumé":             [6.1350,  1.2000],
-    "atikoume nord":        [6.1380,  1.2000],
-
-    # ── ZONE AÉROPORT / EST ───────────────────────────────────────────────────
-    "aeroport":             [6.1657,  1.2545],
-    "aeroport nord":        [6.1700,  1.2545],
-    "tokoin aeroport":      [6.1600,  1.2500],
-    "tokoin aéroport":      [6.1600,  1.2500],
-    "tsiame":               [6.1700,  1.2600],
-    "amegame":              [6.1450,  1.2650],
-    "amégame":              [6.1450,  1.2650],
-
-    # ── ZONE CÔTIÈRE EST ─────────────────────────────────────────────────────
-    "cinkasse":             [6.1050,  1.2800],
-    "avepozo":              [6.1000,  1.3000],
-    "avepozo nord":         [6.1050,  1.3000],
-    "agbalepedogan":        [6.1100,  1.3200],
-    "agbalepedo":           [6.1100,  1.3200],
-    "kpogan sud":           [6.1050,  1.3500],
-    "gbetsogo":             [6.1150,  1.3300],
-
-    # ── AUTRES PRÉFECTURES DE LOMÉ ────────────────────────────────────────────
-    "golfe 1":              [6.1375,  1.2123],
-    "golfe 2":              [6.1450,  1.2050],
-    "golfe 3":              [6.1550,  1.2050],
-    "golfe 4":              [6.1650,  1.2000],
-    "golfe 5":              [6.1750,  1.2050],
-    "golfe 6":              [6.1850,  1.2100],
-    "golfe 7":              [6.1950,  1.2200],
-
-    # ── VILLES DU TOGO ────────────────────────────────────────────────────────
-    "kara":                 [9.5508,  1.1860],
-    "kara centre":          [9.5508,  1.1860],
-    "atakpame":             [7.5333,  1.1333],
-    "atakpamé":             [7.5333,  1.1333],
-    "sokode":               [8.9833,  1.1333],
-    "sokodé":               [8.9833,  1.1333],
-    "dapaong":              [10.8667, 0.2000],
-    "tsevie":               [6.4233,  1.2139],
-    "tsévié":               [6.4233,  1.2139],
-    "notse":                [6.9500,  1.1667],
-    "notsé":                [6.9500,  1.1667],
-    "vogan":                [6.3000,  1.5500],
-    "aneho":                [6.2333,  1.5967],
-    "aného":                [6.2333,  1.5967],
-    "tabligbo":             [6.5833,  1.5000],
-    "kpalime":              [6.9000,  0.6333],
-    "kpalimé":              [6.9000,  0.6333],
-    "badou":                [7.5833,  0.5833],
-    "kante":                [9.9500,  1.3667],
-    "kanté":                [9.9500,  1.3667],
-    "bassar":               [9.2500,  0.7833],
-    "mango":                [10.3667, 0.4667],
-    "blitta":               [8.3167,  0.9833],
-    "tchamba":              [9.0333,  1.4167],
-    "sotouboua":            [8.5667,  0.9833],
-    "akloa":                [6.9833,  0.5833],
-    "agou":                 [6.8167,  0.6667],
-    "kouve":                [6.7333,  0.7333],
-
-    # ── ZONES PÉRIURBAINES ────────────────────────────────────────────────────
-    "vakpossito":           [6.2500,  1.2000],
-    "zio":                  [6.3000,  1.1500],
-    "agu":                  [6.3500,  1.1500],
-    "gboto":                [6.3000,  1.2000],
-    "kovie":                [6.2700,  1.2300],
-    "kovié":                [6.2700,  1.2300],
-    "gblainvie":            [6.2600,  1.2100],
-}
-
-
-def normalize(name: str) -> str:
-    """Normalise un nom de zone : minuscule, sans accents, sans ponctuation."""
-    if not isinstance(name, str):
-        return ""
-    # Minuscule
-    name = name.lower().strip()
-    # Supprimer accents
-    name = unicodedata.normalize("NFD", name)
-    name = "".join(c for c in name if unicodedata.category(c) != "Mn")
-    # Supprimer ponctuation sauf tirets/espaces
-    name = re.sub(r"[^\w\s-]", "", name)
-    # Normaliser espaces multiples
-    name = re.sub(r"\s+", " ", name).strip()
-    return name
-
-
-def get_coords(zone_name: str):
-    """
-    Cherche les coordonnées GPS d'une zone.
-    Stratégie :
-      1. Correspondance exacte après normalisation
-      2. Correspondance partielle (la zone contient un nom connu)
-      3. Correspondance inverse (un nom connu est contenu dans la zone)
-      4. None si rien trouvé
-    """
-    key = normalize(zone_name)
-    if not key:
-        return None
-
-    # 1. Correspondance exacte
-    if key in COORDS_TOGO:
-        return COORDS_TOGO[key]
-
-    # 2. La zone contient un nom connu (ex: "Adidogomé Extension" → "adidogome")
-    for ref_key, coords in COORDS_TOGO.items():
-        if ref_key in key:
-            return coords
-
-    # 3. Un nom connu est contenu dans la zone (ex: "Lomé Tokoin" → "tokoin")
-    for ref_key, coords in COORDS_TOGO.items():
-        if key in ref_key:
-            return coords
-
-    # 4. Mots en commun (≥ 2 mots correspondants)
-    key_words = set(key.split())
-    best_match = None
-    best_score = 0
-    for ref_key, coords in COORDS_TOGO.items():
-        ref_words = set(ref_key.split())
-        common = len(key_words & ref_words)
-        if common > best_score and common >= 2:
-            best_score = common
-            best_match = coords
-    if best_match:
-        return best_match
-
-    return None
-
-
-# ══════════════════════════════════════════════════════════════════════════════
-# NAVIGATION — sélecteur de page dans la sidebar
-# ══════════════════════════════════════════════════════════════════════════════
 st.sidebar.title("ID Immobilier")
 page = st.sidebar.radio(
     "Navigation",
@@ -422,6 +114,8 @@ if page == "Tableau de bord":
         type_sel = types_bien
 
     offre_sel = st.sidebar.radio("Type d'offre", ["Tous", "VENTE", "LOCATION"])
+    periodes = sorted(df_stats["periode"].dropna().unique().tolist()) if "periode" in df_stats else []
+    periode_sel = st.sidebar.selectbox("Période", ["Toutes"] + periodes)
 
     # Filtrage
     df_f   = df_stats.copy()
@@ -439,6 +133,10 @@ if page == "Tableau de bord":
         df_f   = df_f[df_f["type_offre"] == offre_sel]
         df_ann = df_ann[df_ann["type_offre"] == offre_sel]
         df_ind = df_ind[df_ind["type_offre"] == offre_sel]
+    if periode_sel != "Toutes":
+        df_f   = df_f[df_f["periode"] == periode_sel]
+        df_ann = df_ann[df_ann["periode"] == periode_sel] if "periode" in df_ann else df_ann
+        df_ind = df_ind[df_ind["periode"] == periode_sel] if "periode" in df_ind else df_ind
 
     # KPIs
     k1, k2, k3, k4, k5 = st.columns(5)
@@ -710,6 +408,8 @@ elif page == "Toutes les annonces":
         type_sel2 = types2
 
     offre_sel2 = st.sidebar.radio("Type d'offre", ["Tous", "VENTE", "LOCATION"])
+    periodes2 = sorted(df["periode"].dropna().unique().tolist()) if "periode" in df else []
+    periode_sel2 = st.sidebar.selectbox("Période", ["Toutes"] + periodes2)
 
     sources2 = sorted(df["source"].dropna().unique().tolist())
     source_sel2 = st.sidebar.multiselect("Source", sources2, default=sources2)
@@ -732,6 +432,8 @@ elif page == "Toutes les annonces":
     df2 = df2[df2["source"].isin(source_sel2)]
     if offre_sel2 != "Tous":
         df2 = df2[df2["type_offre"] == offre_sel2]
+    if periode_sel2 != "Toutes":
+        df2 = df2[df2["periode"] == periode_sel2]
     df2 = df2[(df2["prix"] >= prix_range[0]) & (df2["prix"] <= prix_range[1])]
     if search:
         df2 = df2[df2["titre"].str.contains(search, case=False, na=False)]

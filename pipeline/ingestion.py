@@ -86,10 +86,60 @@ def ingest_scraped():
         print(f"   Sauvegarde : {output_path}")
 
 
+def enrich_period_fields(df: pd.DataFrame) -> pd.DataFrame:
+    """Ajoute ou normalise les colonnes periode, annee, trimestre d'après date_annonce."""
+
+    # S'assurer que la colonne existe pour les opérations suivantes
+    if "date_annonce" not in df.columns:
+        df["date_annonce"] = pd.NaT
+        print("  [!] date_annonce absent, on crée une colonne date_annonce vide")
+
+    df["date_annonce"] = pd.to_datetime(df["date_annonce"], errors="coerce")
+
+    annee_courante = pd.Timestamp.now().year
+    trimestre_courant = pd.Timestamp.now().quarter
+
+    df["annee"] = df.get("annee")
+    df["trimestre"] = df.get("trimestre")
+
+    df["annee"] = df["date_annonce"].dt.year.fillna(annee_courante).astype(int)
+    df["trimestre"] = df["date_annonce"].dt.quarter.fillna(trimestre_courant).astype(int)
+    df["periode"] = df["annee"].astype(str) + "-Q" + df["trimestre"].astype(str)
+
+    return df
+
+
 def ingest():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     ingest_excel()
     ingest_scraped()
+
+    # Concaténation de toutes les sources ingérées
+    source_files = glob.glob(os.path.join(OUTPUT_DIR, "*.csv"))
+    if not source_files:
+        print("Aucun fichier source trouvé pour concaténation.")
+        return
+
+    frames = []
+    for path in source_files:
+        try:
+            tmp = pd.read_csv(path, encoding="utf-8")
+            frames.append(tmp)
+        except Exception as ex:
+            print(f"  [!] Impossible de lire {path} : {ex}")
+
+    if not frames:
+        print("Aucune donnée à concaténer après lecture des CSV.")
+        return
+
+    df_all = pd.concat(frames, ignore_index=True, sort=False)
+    df_all = enrich_period_fields(df_all)
+
+    output_combined = os.path.join(OUTPUT_DIR, "annonces.csv")
+    df_all.to_csv(output_combined, index=False, encoding="utf-8")
+
+    print(f"Concaténation terminée : {len(df_all)} lignes -> {output_combined}")
+    print(f"Colonnes disponibles: {list(df_all.columns)}")
 
 
 if __name__ == "__main__":

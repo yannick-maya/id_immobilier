@@ -4,101 +4,95 @@ Prix au m², moyenne/médiane par zone, écart vs valeurs vénales officielles
 """
 
 import pandas as pd
-import mysql.connector
 import os
 from dotenv import load_dotenv
+from pymongo import MongoClient
 
 load_dotenv()
 
-DB_CONFIG = {
-    "host":     os.getenv("MYSQL_HOST", "localhost"),
-    "user":     os.getenv("MYSQL_USER", "root"),
-    "password": os.getenv("MYSQL_PASSWORD", ""),
-    "database": os.getenv("MYSQL_DB", "id_immobilier"),
-}
+MONGO_URI = os.getenv("MONGO_URI")
+MONGO_DB = os.getenv("MONGO_DB", "id_immobilier")
+
+if not MONGO_URI:
+    raise ValueError("MONGO_URI non trouvée dans le fichier .env")
 
 
 def get_connection():
-    return mysql.connector.connect(**DB_CONFIG)
+    client = MongoClient(MONGO_URI)
+    return client[MONGO_DB]
 
 
-def calculer_statistiques(conn):
-    """Calcule les stats par zone et type de bien"""
+def calculer_statistiques(db):
+    annonces = list(db.annonces.find({"Valeur par m2": {"$gt": 0}}, {
+        "zone": 1, "type_bien": 1, "type_offre": 1, "periode": 1,
+        "Valeur par m2": 1, "prix": 1
+    }))
 
-    query = """
-        SELECT
-            z.id AS id_zone,
-            z.nom AS zone,
-            b.type_bien,
-            b.type_offre,
-            a.prix_m2,
-            a.prix
-        FROM annonce a
-        JOIN bien_immobilier b ON a.id_bien = b.id
-        JOIN zone_geographique z ON b.id_zone = z.id
-        WHERE a.prix_m2 IS NOT NULL AND a.prix_m2 > 0
-    """
+    if not annonces:
+        print("Aucune annonce disponible pour le calcul des indicateurs")
+        return pd.DataFrame()
 
-    df = pd.read_sql(query, conn)
+    df = pd.DataFrame(annonces)
+    if df.empty:
+        return df
 
-    # Calcul des statistiques groupées
-    stats = df.groupby(["id_zone", "zone", "type_bien", "type_offre"]).agg(
-        prix_moyen_m2   = ("prix_m2", "mean"),
-        prix_median_m2  = ("prix_m2", "median"),
-        prix_min        = ("prix", "min"),
-        prix_max        = ("prix", "max"),
-        nombre_annonces = ("prix_m2", "count")
+    df["zone"] = df["zone"].astype(str)
+    df["type_bien"] = df["type_bien"].astype(str)
+    df["type_offre"] = df["type_offre"].astype(str)
+    df["periode"] = df["periode"].fillna("unknown").astype(str)
+
+    stats = df.groupby(["zone", "type_bien", "type_offre", "periode"]).agg(
+        prix_moyen_m2=("Valeur par m2", "mean"),
+        prix_median_m2=("Valeur par m2", "median"),
+        prix_min=("prix", "min"),
+        prix_max=("prix", "max"),
+        nombre_annonces=("Valeur par m2", "count")
     ).reset_index()
 
-    stats["prix_moyen_m2"]  = stats["prix_moyen_m2"].round(2)
+    stats["prix_moyen_m2"] = stats["prix_moyen_m2"].round(2)
     stats["prix_median_m2"] = stats["prix_median_m2"].round(2)
-    stats["periode"]        = "GLOBAL"
 
-    # Calcul écart vs valeurs vénales
-    venales_query = """
-        SELECT z.nom AS zone, AVG(vv.prix_m2_officiel) AS prix_m2_officiel
-        FROM valeur_venale vv
-        JOIN zone_geographique z ON vv.id_zone = z.id
-        GROUP BY z.nom
-    """
-    df_venales = pd.read_sql(venales_query, conn)
-    stats = stats.merge(df_venales, on="zone", how="left")
+    venales = list(db.valeurs_venales.find({"prix_m2_officiel": {"$gt": 0}}, {"zone": 1, "prix_m2_officiel": 1}))
+    if venales:
+        df_venales = pd.DataFrame(venales)
+        df_venales = df_venales.groupby("zone").agg(prix_m2_officiel=("prix_m2_officiel", "mean")).reset_index()
+        stats = stats.merge(df_venales, on="zone", how="left")
+    else:
+        stats["prix_m2_officiel"] = None
 
-    # Protection division par zéro si prix_m2_officiel est 0 ou manquant
     mask = stats["prix_m2_officiel"].notna() & (stats["prix_m2_officiel"] > 0)
     stats["ecart_valeur_venale"] = None
     stats.loc[mask, "ecart_valeur_venale"] = (
-        (stats.loc[mask, "prix_moyen_m2"] - stats.loc[mask, "prix_m2_officiel"])
-        / stats.loc[mask, "prix_m2_officiel"] * 100
+        (stats.loc[mask, "prix_moyen_m2"] - stats.loc[mask, "prix_m2_officiel"]) /
+        stats.loc[mask, "prix_m2_officiel"] * 100
     ).round(2)
 
     return stats
 
 
-def inserer_statistiques(conn, stats):
-    cursor = conn.cursor()
+def inserer_statistiques(db, stats):
+    collection = db.statistiques
     for _, row in stats.iterrows():
-        cursor.execute(
-            """INSERT INTO statistiques_zone
-               (id_zone, type_bien, type_offre, periode, prix_moyen_m2, prix_median_m2,
-                prix_min, prix_max, nombre_annonces, ecart_valeur_venale)
-               VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)""",
-            (
-                int(row["id_zone"]),
-                str(row["type_bien"]),
-                str(row["type_offre"]),
-                str(row["periode"]),
-                float(row["prix_moyen_m2"]),
-                float(row["prix_median_m2"]),
-                float(row["prix_min"]),
-                float(row["prix_max"]),
-                int(row["nombre_annonces"]),
-                float(row["ecart_valeur_venale"]) if pd.notna(row.get("ecart_valeur_venale")) else None
-            )
-        )
-    conn.commit()
-    cursor.close()
-    print(f"  {len(stats)} statistiques insérées")
+        key = {
+            "zone": row["zone"],
+            "type_bien": row["type_bien"],
+            "type_offre": row["type_offre"],
+            "periode": row["periode"]
+        }
+        doc = {
+            **key,
+            "prix_moyen_m2": float(row["prix_moyen_m2"]),
+            "prix_median_m2": float(row["prix_median_m2"]),
+            "prix_min": float(row["prix_min"]),
+            "prix_max": float(row["prix_max"]),
+            "nombre_annonces": int(row["nombre_annonces"]),
+            "prix_m2_officiel": float(row["prix_m2_officiel"]) if pd.notna(row.get("prix_m2_officiel")) else None,
+            "ecart_valeur_venale": float(row["ecart_valeur_venale"]) if pd.notna(row.get("ecart_valeur_venale")) else None,
+            "updated_at": pd.Timestamp.now().to_pydatetime()
+        }
+        collection.update_one(key, {"$set": doc}, upsert=True)
+
+    print(f"  {len(stats)} statistiques upsertées")
 
 
 def afficher_top_zones(stats):
@@ -113,11 +107,13 @@ def afficher_top_zones(stats):
 
 def run():
     print("  Calcul des indicateurs...")
-    conn = get_connection()
-    stats = calculer_statistiques(conn)
-    inserer_statistiques(conn, stats)
+    db = get_connection()
+    stats = calculer_statistiques(db)
+    if stats.empty:
+        print("Aucune statistique calculée, arret.")
+        return
+    inserer_statistiques(db, stats)
     afficher_top_zones(stats)
-    conn.close()
     print("  Indicateurs calculés !")
 
 

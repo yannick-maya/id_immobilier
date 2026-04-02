@@ -279,6 +279,27 @@ def clean_annonces_v2(spark, source_name):
     if "type_offre" in df.columns:
         df = df.withColumn("type_offre", F.upper(F.trim(F.col("type_offre"))))
 
+    # Assurer la propagation des champs temporels (TODO 1.3)
+    if "date_annonce" in df.columns:
+        df = df.withColumn("date_annonce", F.to_date(F.col("date_annonce"), "yyyy-MM-dd"))
+    else:
+        df = df.withColumn("date_annonce", F.lit(None).cast(StringType()))
+
+    if "annee" not in df.columns:
+        df = df.withColumn("annee", F.year(F.col("date_annonce")))
+    else:
+        df = df.withColumn("annee", F.coalesce(F.col("annee"), F.year(F.col("date_annonce"))))
+
+    if "trimestre" not in df.columns:
+        df = df.withColumn("trimestre", F.quarter(F.col("date_annonce")))
+    else:
+        df = df.withColumn("trimestre", F.coalesce(F.col("trimestre"), F.quarter(F.col("date_annonce"))))
+
+    if "periode" not in df.columns:
+        df = df.withColumn("periode", F.concat(F.col("annee").cast(StringType()), F.lit("-Q"), F.col("trimestre").cast(StringType())))
+    else:
+        df = df.withColumn("periode", F.when(F.col("periode").isNull(), F.concat(F.col("annee").cast(StringType()), F.lit("-Q"), F.col("trimestre").cast(StringType()))).otherwise(F.col("periode")))
+
     # Règles de rejet
     df = ajouter_raison_rejet(df)
 
@@ -362,6 +383,11 @@ def run():
     df_all_rejetes = dfs_rejetes[0]
     for df in dfs_rejetes[1:]:
         df_all_rejetes = df_all_rejetes.unionByName(df, allowMissingColumns=True)
+
+    # S'assurer que les colonnes temporelles restent présentes en sortie
+    for required_col in ["annee", "trimestre", "periode"]:
+        if required_col not in df_all_valides.columns:
+            df_all_valides = df_all_valides.withColumn(required_col, F.lit(None).cast(StringType()))
 
     out_annonces = os.path.join(CLEANED_DIR, "annonces")
     df_all_valides.write.mode("overwrite").csv(out_annonces, header=True)
