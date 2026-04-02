@@ -135,13 +135,27 @@ data/raw/sources/
 
 ### 4. Lancer le pipeline manuellement
 
+Ce pipeline s’appuie sur Apache Spark pour le nettoyage (meilleure performance sur gros fichiers) et sur MongoDB (stockage NoSQL) :
+
 ```bash
+# 4.1 Ingestion des sources brutes
 python pipeline/ingestion.py
-spark-submit --master local[*] pipeline/cleaning.py
-python pipeline/modeling.py
+
+# 4.2 Nettoyage Spark (version 2.x ou nouvelles) - génère cleaned_v2
+spark-submit --master local[*] pipeline/cleaning_v2_pandas.py
+# ou
+spark-submit --master local[*] pipeline/cleaning_pyspark_v2.py
+
+# 4.3 Modélisation / insertion en MongoDB
+# (depuis le csv nettoyé produit dans data/cleaned_v2/annonces_clean.csv)
+python pipeline/modeling_mongodb.py
+
+# 4.4 Calcul des indicateurs / indices (optionnel backtest MySQL existant)
 python pipeline/indicators.py
 python pipeline/index.py
 ```
+
+> POSE : si tu veux passer par MySQL comme avant, tu peux également exécuter `python pipeline/modeling.py`.
 
 ### 5. Lancer le dashboard
 
@@ -220,7 +234,7 @@ MySQL                : localhost:3307
 
 ---
 
-## Point important — XAMPP et MySQL
+## Point important — XAMPP, MySQL et MongoDB
 
 Comme tu utilises XAMPP sur le port 3306, le MySQL Docker est configure sur le **port 3307** pour eviter le conflit. Quand tu utilises Docker, change ton `.env` :
 ```
@@ -229,6 +243,10 @@ MYSQL_USER=immo_user
 MYSQL_PASSWORD=immo1234
 MYSQL_DB=id_immobilier
 # Port 3307 pour Docker, 3306 pour XAMPP
+
+# MongoDB (Atlas ou local) :
+MONGO_URI=mongodb://localhost:27017
+MONGO_DB=id_immobilier
 
 # SPARK code
 

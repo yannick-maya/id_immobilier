@@ -58,6 +58,21 @@ Endpoints clés :
 
 ## 5. Admin - back-office (dev)
 
+> NOTE : en local Windows (chemin npm manquant / `react-scripts` non trouvé), lance via Docker Compose pour bypasser tous les problèmes environnements.
+
+### Using Docker (recommandé)
+
+`docker compose up --build` dans `id_immobilier/`:
+- Service `mongo` (base) doit démarrer en premier.
+- Service `api` (FastAPI) derrière, puis `frontend` + `admin`.
+- `streamlit` + `airflow` peuvent démarrer ensuite.
+
+### Si tu veux tester ‘dev’ sans Docker :
+- `cd admin` / `npm install` / `npm start`
+- `cd frontend` / `npm install` / `npm start`
+
+(les erreurs `npm install`/`react-scripts not recognized` reflètent un écosystème Node manquant sur ton shell Windows. Le conteneur Docker ne les aura pas.)
+
 1. Aller dans `id_immobilier/admin`
 2. Installer dépendances : `npm install`
 3. Lancer : `npm start`
@@ -79,6 +94,21 @@ Ce back-office a été développé dans `admin/src/App.js` et consomme :
 2. `npm install`
 3. `npm start`
 4. Ouvrir `http://localhost:3000`
+
+---
+
+## 6. Pipeline - ordre de démarrage recommandé
+
+Pour voir le rendu complet et avoir toutes les données prêtes :
+1. `docker compose up mongo` (base MongoDB)
+2. `docker compose up api` (FastAPI + DB)
+3. `docker compose up frontend admin` (UI user + admin)
+4. `docker compose up streamlit` (dashboard analytics)
+5. `docker compose up airflow` (orchestration pipeline)
+
+Notes :
+- `airflow` dépend de `mongo` et `api`, et en Default SequentialExecutor il démarre en local.
+- Si tu veux pipeline de données, lancer une DAG via interface Airflow (http://localhost:8081).
 
 ---
 
@@ -129,9 +159,12 @@ Ce back-office a été développé dans `admin/src/App.js` et consomme :
 
 ## 11. Problèmes rencontrés / opérations échouées
 
-- 1) `npm install` dans `admin/` n’a pas créé `node_modules` dans cet environnement (tentatives : 2). Relancer localement.
-- 2) `pip install motor` échoué initialement via conda, puis réussi via pip en local.
-- 3) Registration `login` via API échouait avant correction de l’auth middleware (maintenant OK localement).
+- 1) `npm install` dans `admin/` n’a pas créé `node_modules` dans cet environnement (tentatives : 2).
+  - Cause probable : `npm` manquant/inaccessible dans le shell Windows utilisé.
+  - Mitigation : utiliser Docker Compose pour isoler le build (ok même si host n’a pas npm) ; + `npm install` dans conteneur.
+- 2) `npm start` admin échoue localement : `'react-scripts' is not recognized` (package non installé dans cet environnement), également lié au problème `npm`.
+- 3) `pip install motor` échoué initialement via conda, puis réussi via `python -m pip install --force-reinstall --no-deps motor` (les dépendances sont maintenant dans Docker via `requirements.txt`).
+- 4) Registration/login API échouait avant correction de l’auth middleware (maintenant validé sur API container).
 
 ---
 
