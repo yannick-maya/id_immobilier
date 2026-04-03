@@ -1,0 +1,501 @@
+﻿source,id,nuo,titre,usage,offre,categorie,ville,quartier,piece,surface,garage,cout_mensuel,cout_vente,nuitee
+ImmoAsk,1566,5506,Villa Lomé,Logement,louer,Appartement,Tsevie,,3,120.0,1,500,0,50
+ImmoAsk,1565,5505,,Logement,louer,Boutique,Lome,Baguida,1,50.0,0,70000,0,0
+ImmoAsk,1564,5504,,Logement,louer,Villa,Lome,Agoe,3,104.0,2,250000,0,0
+ImmoAsk,1563,5503,,Logement,louer,Espace commercial,Tabligbo,Kpomé,0,10.0,0,5003,0,0
+ImmoAsk,1562,5502,,Logement,louer,Espace commercial,Tabligbo,Kpomé,0,10.0,0,5003,0,0
+ImmoAsk,1561,5501,,Logement,louer,Espace commercial,Tabligbo,Kpomé,0,10.0,0,5003,0,0
+ImmoAsk,1560,5500,,Logement,louer,Appartement,Lome,Adetikope,0,10.0,0,100000,0,0
+ImmoAsk,1559,5499,,Logement,louer,Maison,Afagnan,Afagnan,0,10.0,0,80000,0,0
+ImmoAsk,1558,5498,,Logement,louer,Villa,Lome,Adetikope,0,10.0,0,90000,0,0
+ImmoAsk,1557,5497,,Sejour,louer,Chambre salon,Lome,Baguida,0,14.0,0,300000,0,20000
+ImmoAsk,1556,5496,,Sejour,louer,Appartement meublé,Lome,Agbalépédo,1,30.0,1,450000,0,25000
+ImmoAsk,1555,5495,,Sejour,louer,Appartement meublé,Lome,Djidjolé,1,25.0,1,500000,0,20000
+ImmoAsk,1554,5494,,Acquisition,vendre,Terrain urbain,Lome,Agoe,0,600.0,0,0,32000000,0
+ImmoAsk,1553,5493,,Logement,louer,Appartement,Lome,Ablogame,3,40.0,1,250000,0,0
+ImmoAsk,1552,5492,,Logement,louer,Appartement,Lome,Bè,0,10.0,1,300000,0,0
+ImmoAsk,1551,5491,,Acquisition,vendre,Maison,Lome,Avepozo,4,600.0,0,0,35000000,0
+ImmoAsk,1550,5490,,Sejour,louer,Appartement meublé,Lome,Adidogome,2,80.0,1,500000,0,50000
+ImmoAsk,1549,5489,,Logement,bailler,Terrain urbain,Lome,Ablogame,0,600.0,0,400000,0,0
+ImmoAsk,1548,5488,,Logement,louer,Appartement,Lome,Totsi,3,60.0,1,200000,0,0
+ImmoAsk,1547,5487,,Logement,louer,Appartement,Lome,Adidogome,3,70.0,2,80000,0,0
+ImmoAsk,1546,5486,,Logement,louer,Appartement,Lome,Djidjolé,2,40.0,0,90000,0,0
+ImmoAsk,1545,5485,,Logement,louer,Villa,Lome,Djidjolé,3,80.0,1,200000,0,0
+ImmoAsk,1544,5484,,Acquisition,vendre,Villa,Lome,Agoe,3,900.0,2,45000000,45000000,0
+ImmoAsk,1543,5483,,Logement,louer,Villa,Lome,Agoe,3,900.0,2,90000,0,0
+ImmoAsk,1542,5482,,Sejour,louer,Appartement meublé,Lome,Adidogome,2,78.0,1,1150000,0,79000
+ImmoAsk,1541,5481,,Sejour,louer,Appartement meublé,Lome,Adidogome,1,20.0,1,673000,0,45000
+ImmoAsk,1540,5480,,Logement,louer,Appartement,Lome,Agoe,3,80.0,1,100000,0,0
+ImmoAsk,1539,5479,,Sejour,louer,Appartement meublé,Lome,Adidogome,2,70.0,1,1070000,0,69000
+ImmoAsk,1538,5478,,Sejour,louer,Appartement meublé,Lome,Adidogome,2,77.0,1,980000,0,65000
+ImmoAsk,1537,5477,,Sejour,louer,Appartement meublé,Lome,Adewui,1,60.0,1,430000,0,50000
+ImmoAsk,1536,5476,,Sejour,louer,Appartement meublé,Lome,Adidogome,2,71.0,1,450000,0,40000
+ImmoAsk,1535,5475,,Sejour,louer,Appartement meublé,Lome,Adewui,1,25.0,1,320000,0,35000
+ImmoAsk,1534,5474,,Logement,louer,Villa,Lome,Totsi,3,80.0,1,200000,0,0
+ImmoAsk,1533,5473,,Sejour,louer,Appartement meublé,Lome,Adidogome,2,70.0,1,1150000,0,79000
+ImmoAsk,1532,5472,,Sejour,louer,Appartement meublé,Lome,Hédzranawoe,1,26.0,1,350000,0,25000
+ImmoAsk,1531,5471,,Sejour,louer,Appartement meublé,Lome,Hédzranawoe,1,20.0,1,250000,0,20000
+ImmoAsk,1529,5470,,Logement,louer,Villa,Lome,Agbalépédo,4,150.0,1,380000,0,0
+ImmoAsk,1528,5469,,Logement,louer,Appartement,Lome,Agoe,2,60.0,1,70000,0,0
+ImmoAsk,1527,5468,,Logement,louer,Chambre,Lome,Adidogome,1,15.0,1,30000,0,0
+ImmoAsk,1526,5467,,Sejour,louer,Appartement meublé,Lome,Adidogome,2,70.0,1,1092000,0,75000
+ImmoAsk,1525,5466,,Logement,louer,Appartement,Lome,Djidjolé,3,80.0,1,220000,0,0
+ImmoAsk,1530,5465,,Acquisition,vendre,Terrain urbain,Lome,Segbe,0,450.0,0,0,8500000,0
+ImmoAsk,1523,5464,"villa,louer,lome,sagboville",Logement,louer,Villa,Lome,Sagboville,3,10.0,2,200000,0,0
+ImmoAsk,1522,5463,"villa meublée,louer,lome,agoe ",Sejour,louer,Villa meublée,Lome,Agoe,4,600.0,4,800000,0,0
+ImmoAsk,1521,5462,"villa meublée,louer,lome,agoe",Sejour,louer,Villa meublée,Lome,Agoe,4,600.0,3,800000,0,0
+ImmoAsk,1520,5461,"villa,louer,lome,adidogome ",Logement,louer,Villa,Lome,Adidogome,3,150.0,1,250000,0,0
+ImmoAsk,1519,5460,"terrain,vendre,lome,djagble",Acquisition,vendre,Terrain,Lome,Djagble,0,600.0,0,0,15000000,0
+ImmoAsk,1518,5459,"bureau,louer,lome,bernard cope",Commercial,louer,Bureau,Lome,Agoe,0,60.0,0,150000,0,0
+ImmoAsk,1517,5458,"boutique,louer,lome,agbalepedo",Commercial,louer,Boutique,Lome,Agbalépédo,1,20.0,2,60000,0,0
+ImmoAsk,1516,5457,"villa,louer,lome,zossime",Logement,louer,Villa,Lome,Agoe,4,100.0,1,150000,0,0
+ImmoAsk,1515,5456,"terrain,vendre,lome,akepedo",Acquisition,vendre,Terrain,Lome,Akepedo,0,15000.0,0,0,320000000,0
+ImmoAsk,1514,5455,"appartement meublé,louer,lome,kegue ",Sejour,louer,Appartement meublé,Lome,Kegue,2,90.0,1,500000,0,0
+ImmoAsk,1513,5454,"appartement meublé,louer,lome,agoe ",Sejour,louer,Appartement meublé,Lome,Agoe,2,300.0,0,400000,0,0
+ImmoAsk,1512,5453,"appartement meublé,louer,lome,kegue ",Sejour,louer,Appartement meublé,Lome,Kegue,2,90.0,0,400000,0,0
+ImmoAsk,1511,5452,"terrain,vendre,lome,legbassito",Acquisition,vendre,Terrain,Lome,Agoe,0,600.0,0,0,30000000,0
+ImmoAsk,1510,5451,"terrain,vendre,lome,segbe ",Acquisition,vendre,Terrain,Lome,Segbe,0,900.0,0,0,17000000,0
+ImmoAsk,1509,5450,"terrain,vendre,lome,segbe ",Acquisition,vendre,Terrain,Lome,Segbe,0,600.0,0,0,20000000,0
+ImmoAsk,1508,5449,"terrain,vendre,lome,adidogome ",Acquisition,vendre,Terrain,Lome,Adidogome,0,600.0,0,0,30000000,0
+ImmoAsk,1507,5448,"villa meublée,louer,lome,baguida",Sejour,louer,Villa meublée,Lome,Baguida,3,600.0,1,850000,0,0
+ImmoAsk,1506,5447,"chambre salon,louer,lome,zanguera ",Logement,louer,Chambre salon,Lome,Zanguera,1,40.0,0,45000,0,0
+ImmoAsk,1505,5446,"2 chambres salon,louer,lome,legbasito",Logement,louer,2 chambres salon,Lome,Agoe,2,10.0,0,70000,0,0
+ImmoAsk,1504,5445,"2 chambres salon,louer,lome,adidogome assiyeye",Logement,louer,2 chambres salon,Lome,Adidogome,0,100.0,0,120000,0,0
+ImmoAsk,1503,5444,"studio meublé,louer,lome,kegue ",Sejour,louer,Appartement meublé,Lome,Kegue,1,20.0,1,300000,0,0
+ImmoAsk,1502,5443,"3 chambres salon,louer,lome,lankouvi",Logement,louer,3 chambres salon,Lome,Adidogome,0,80.0,0,80000,0,0
+ImmoAsk,1501,5442,"appartement meublé,louer,lome,agbalepedo ",Sejour,louer,Appartement meublé,Lome,Agbalépédo,2,100.0,1,600000,0,0
+ImmoAsk,1500,5441,"villa,louer,lome,3k",Logement,louer,Villa,Lome,Baguida,0,300.0,0,350000,0,0
+ImmoAsk,1499,5440,"chambre salon,louer,lome,nukafu",Logement,louer,Chambre salon,Lome,Nukafu,1,25.0,0,45000,0,0
+ImmoAsk,1498,5439,"terrain,vendre,lome,agbelouve",Acquisition,vendre,Terrain,Lome,Agbelouve,0,10000.0,0,0,2800000,0
+ImmoAsk,1497,5438,"terrain,vendre,lome,kegue",Acquisition,vendre,Terrain,Lome,Kegue,0,750.0,0,0,55000000,0
+ImmoAsk,1496,5437,"villa meublée,vendre,lome,zanguera",Sejour,vendre,Villa meublée,Lome,Zanguera,3,600.0,2,0,550000000,0
+ImmoAsk,1495,5436,"chambre,louer,lome,totsi egblinkome",Logement,louer,Chambre,Lome,Totsi,0,10.0,2,0,0,0
+ImmoAsk,1494,5435,"2 chambres salon,louer,1,nukafu",Logement,louer,2 chambres salon,Lome,Nukafu,0,60.0,0,100000,0,0
+ImmoAsk,1493,5434,"3 chambres salon,louer,lome,kegue",Logement,louer,3 chambres salon,Lome,Kegue,0,120.0,0,250000,0,0
+ImmoAsk,1492,5433,"villa,vendre,lome,forever",Acquisition,vendre,Villa,Lome,Tokoin,5,10.0,3,0,250000000,0
+ImmoAsk,1491,5432,"chambre,louer,lome,zanguera",Logement,louer,Chambre,Lome,Zanguera,1,16.0,2,30000,0,0
+ImmoAsk,1490,5431,"2 chambres salon,louer,lome,tokoin ",Logement,louer,2 chambres salon,Lome,Tokoin,0,80.0,0,35000,0,0
+ImmoAsk,1489,5430,"chambre salon,louer,lome,adidogome atilamonou",Logement,louer,Chambre salon,Lome,Adidogome,0,25.0,0,45000,0,0
+ImmoAsk,1488,5429,"2 chambres salon,louer,lome,adidogome kohe",Logement,louer,2 chambres salon,Lome,Adidogome,0,50.0,0,70000,0,0
+ImmoAsk,1487,5428,"3 chambres salon,louer,lome,kegue",Logement,louer,3 chambres salon,Lome,Kegue,0,80.0,0,150000,0,0
+ImmoAsk,1486,5427,"chambre salon,louer,lome,kegue",Logement,louer,Chambre salon,Lome,Kegue,0,20.0,0,60000,0,0
+ImmoAsk,1485,5426,"villa meublée,louer,lome,avenou",Sejour,louer,Villa meublée,Lome,Avenou,0,120.0,0,2000000,0,0
+ImmoAsk,1484,5425,"villa meublée,louer,lome,avenou",Sejour,louer,Villa meublée,Lome,Avenou,0,120.0,0,2000000,0,0
+ImmoAsk,1483,5424,"studio meublé,louer,lome,agoe",Sejour,louer,Studio,Lome,Agoe,1,80.0,1,150000,0,0
+ImmoAsk,1482,5423,"maison,vendre,lome,agoe ",Acquisition,vendre,Maison,Lome,Agoe,3,10.0,1,0,35000000,0
+ImmoAsk,1481,5422,"appartement meublé,louer,lome,tokoin",Sejour,louer,Appartement meublé,Lome,Tokoin,2,80.0,1,450000,0,0
+ImmoAsk,1480,5421,"appartement meublé,louer,lome,agbalepedo",Sejour,louer,Appartement meublé,Lome,Agbalépédo,0,25.0,0,400000,0,0
+ImmoAsk,1479,5420,"villa meublée,louer,lome,hedzranawoe ",Sejour,louer,Villa meublée,Lome,Hédzranawoe,0,300.0,0,500000,0,0
+ImmoAsk,1478,5419,"appartement meublé,louer,lome,adidoadin ",Sejour,louer,Appartement meublé,Lome,Adidoadin ,0,250.0,0,500000,0,0
+ImmoAsk,1477,5418,"appartement meublé,louer,1,adidoadin ",Sejour,louer,Appartement meublé,Lome,Adidoadin ,0,250.0,0,500000,0,0
+ImmoAsk,1476,5417,"appartement meublé,louer,lome,agoe ",Sejour,louer,Appartement meublé,Lome,Agoe,0,25.0,0,200000,0,0
+ImmoAsk,1475,5416,"appartement meublé,louer,lome,avedji limousine",Sejour,louer,Appartement meublé,Lome,Adidogome,0,300.0,0,550000,0,0
+ImmoAsk,1474,5415,"appartement meublé,louer,lome,amadahome ",Sejour,louer,Appartement meublé,Lome,Adidogome,0,25.0,0,350000,0,0
+ImmoAsk,1473,5414,"appartement meublé,louer,lome,amandahome ",Sejour,louer,Appartement meublé,Lome,Adidogome,0,300.0,0,700000,0,0
+ImmoAsk,1472,5413,"villa,vendre,lome,agoe ",Acquisition,vendre,Appartement meublé,Lome,Agoe,0,1200.0,0,0,155000000,0
+ImmoAsk,1471,5412,"villa,vendre,lome,adidogome akato ",Acquisition,vendre,Villa,Lome,Adidogome,0,300.0,0,0,65000000,0
+ImmoAsk,1470,5411,"studio meublé,louer,lome,agoe ",Sejour,louer,Appartement meublé,Lome,Agoe,0,16.0,0,170000,0,0
+ImmoAsk,1469,5410,"maison,vendre,lome,tokoin hopital",Acquisition,vendre,Maison,Lome,Tokoin,0,392.0,0,0,70000000,0
+ImmoAsk,1468,5409,"studio meublé,louer,lome,avedji ",Sejour,louer,Appartement meublé,Lome,Avedji,0,20.0,0,200000,0,0
+ImmoAsk,1467,5408,"terrain,vendre,kpalime,avetonou",Acquisition,vendre,Terrain,Kpalime,Avetonou,0,10000.0,0,0,550000,0
+ImmoAsk,1466,5407,"terrain,vendre,kpalime,avetonou",Acquisition,vendre,Terrain,Kpalime,Avetonou,0,10000.0,0,0,550000,0
+ImmoAsk,1465,5406,"terrain,vendre,kpalime,avetonou",Acquisition,vendre,Terrain,Kpalime,Avetonou,0,10000.0,0,0,550000,0
+ImmoAsk,1464,5405,"terrain,vendre,kpalime,avetonou",Acquisition,vendre,Terrain,Kpalime,Avetonou,0,10000.0,0,0,550000,0
+ImmoAsk,1463,5404,"terrain,vendre,kpalime,avetonou",Acquisition,vendre,Terrain,Kpalime,Avetonou,0,10000.0,0,0,550000,0
+ImmoAsk,1462,5403,"terrain,vendre,kpalime,avetonou",Acquisition,vendre,Terrain,Kpalime,Avetonou,0,10000.0,0,0,550000,0
+ImmoAsk,1461,5402,"appartement meublé,louer,lome,be gbenyedzi",Sejour,louer,Appartement meublé,Lome,Bè,0,120.0,0,400000,0,0
+ImmoAsk,1460,5401,"appartement meublé,louer,lome,atiegou",Sejour,louer,Appartement meublé,Lome,Attiégou,1,80.0,1,200000,0,0
+ImmoAsk,1459,5400,"appartement meublé,louer,lome,be gbenyedzi ",Sejour,louer,Appartement meublé,Lome,Bè,2,100.0,2,0,0,0
+ImmoAsk,1458,5399,"villa,vendre,lome,segbe",Acquisition,vendre,Villa,Lome,Segbe,0,300.0,0,0,30000000,0
+ImmoAsk,1457,5398,"villa,louer,lome,totsi ",Logement,louer,Villa,Lome,Totsi,0,300.0,0,300000,0,0
+ImmoAsk,1456,5397,"villa,louer,lome,totsi",Logement,louer,Villa,Lome,Totsi,0,300.0,0,300000,0,0
+ImmoAsk,1455,5396,"villa,louer,lome,totsi",Logement,louer,Villa,Lome,Totsi,0,300.0,0,300000,0,0
+ImmoAsk,1454,5395,"villa,louer,lome,leo 2000",Logement,louer,Villa,Lome,Leo 2000,3,150.0,2,230000,0,0
+ImmoAsk,1453,5394,"villa,louer,lome,sagbado",Logement,louer,Villa,Lome,Sagbado,4,300.0,1,100000,0,0
+ImmoAsk,1452,5393,"boutique,louer,akepe,noepe ",Commercial,louer,Boutique,Akepe,Noepe ,1,80.0,0,60000,0,0
+ImmoAsk,1451,5392,"chambre,louer,lome,hedzranawoe ",Logement,louer,Chambre,Lome,Hédzranawoe,1,25.0,0,30000,0,0
+ImmoAsk,1450,5391,"terrain,vendre,lome,sagbado",Acquisition,vendre,Terrain,Lome,Sagbado,0,300.0,0,0,11000000,0
+ImmoAsk,1449,5390,"appartement meublé,louer,lome,adewi",Sejour,louer,Appartement meublé,Lome,Adewui,2,100.0,1,410000,0,0
+ImmoAsk,1448,5389,"appartement meublé,louer,lome,atilamonou ",Sejour,louer,Appartement meublé,Lome,Adidogome,0,120.0,0,180000,0,0
+ImmoAsk,1447,5388,"appartement meublé,louer,lome,atilamonou ",Sejour,louer,Appartement meublé,Lome,Adidogome,0,120.0,0,180000,0,0
+ImmoAsk,1446,5387,"appartement meublé,louer,lome, adewi",Sejour,louer,Appartement meublé,Lome,Adewui,1,110.0,1,310000,0,0
+ImmoAsk,1445,5386,"studio meublé,louer,lome,adewi ",Sejour,louer,Studio,Lome,Adewui,1,90.0,1,210000,0,0
+ImmoAsk,1444,5385,"magasin,louer,lome,hedzranawoe ",Commercial,louer,Magasin,Lome,Hédzranawoe,1,300.0,0,350000,0,0
+ImmoAsk,1443,5384,"appartement meublé,louer,lome,nyekonakpoe",Sejour,louer,Appartement meublé,Lome,Nyékonakpoè ,3,156.0,3,1000000,0,0
+ImmoAsk,1442,5383,"immeuble,vendre,lome,adewui",Acquisition,vendre,Immeuble,Lome,Adewui,0,680.0,0,0,100000000,0
+ImmoAsk,1441,5382,"terrain,vendre,lome,akepe",Acquisition,vendre,Terrain,Lome,Akepe,0,600.0,0,0,5500000,0
+ImmoAsk,1440,5381,"terrain,vendre,lome,akepe",Acquisition,vendre,Terrain,Lome,Akepe,0,600.0,0,0,6500000,0
+ImmoAsk,1439,5380,"appartement meublé,louer,lome,adewi",Sejour,louer,Appartement meublé,Lome,Adewui,0,130.0,0,450000,0,0
+ImmoAsk,1438,5379,"villa,louer,lome,ave maria ",Logement,louer,Villa,Lome,Adidogome,2,70.0,2,120000,0,0
+ImmoAsk,1437,5378,"terrain,vendre,lome,adidogome ",Acquisition,vendre,Terrain,Lome,Adidogome,0,300.0,0,0,15500000,0
+ImmoAsk,1436,5377,"chambre salon,louer,lome,soviepe",Logement,louer,Chambre salon,Lome,Adidogome,1,15.0,0,25000,0,0
+ImmoAsk,1435,5376,"appartement meublé,louer,lome,hedzranawoe",Sejour,louer,Appartement meublé,Lome,Hédzranawoe,3,250.0,2,500000,0,0
+ImmoAsk,1434,5375,"appartement,louer,lome,adidogome",Logement,louer,Appartement,Lome,Adidogome,2,100.0,2,120000,0,0
+ImmoAsk,1433,5374,"terrain,vendre,lome,non loin de t-oil leo 2000",Acquisition,vendre,Terrain,Lome,Agoe,0,740.0,0,0,40000000,0
+ImmoAsk,1432,5373,"appartement,louer,lome,adidogome",Logement,louer,Appartement,Lome,Adidogome,3,120.0,1,180000,0,0
+ImmoAsk,1431,5372,"appartement meublé,louer,lome,hedzranawoe",Sejour,louer,Appartement meublé,Lome,Hédzranawoe,3,250.0,2,600000,0,0
+ImmoAsk,1430,5371,"chambre salon,louer,lome,adewi",Logement,louer,Chambre salon,Lome,Adewui,1,60.0,1,200000,0,0
+ImmoAsk,1429,5370,"villa,louer,lome,adidogome ",Logement,louer,Villa,Lome,Adidogome,3,70.0,1,80000,0,0
+ImmoAsk,1428,5369,"terrain,vendre,lome,agoe ",Acquisition,vendre,Terrain,Lome,Agoe,0,300.0,0,0,12500000,0
+ImmoAsk,1427,5368,"chambre salon,louer,lome,soviefe",Logement,louer,Chambre salon,Lome,Adidogome,1,16.0,0,50000,0,0
+ImmoAsk,1426,5367,"chambre salon,louer,lome,soviefe",Logement,louer,Chambre salon,Lome,Adidogome,1,16.0,1,50000,0,0
+ImmoAsk,1425,5366,"chambre salon,louer,lome,adidogome ",Logement,louer,Chambre salon,Lome,Adidogome,1,16.0,2,60000,0,0
+ImmoAsk,1424,5365,"chambre salon,louer,lome,adidogome",Logement,louer,Chambre salon,Lome,Adidogome,0,14.5,0,25000,0,0
+ImmoAsk,1423,5364,"chambre salon,louer,lome,adidogome",Logement,louer,Chambre salon,Lome,Adidogome,1,25.0,1,33000,0,0
+ImmoAsk,1422,5363,"villa meublée,louer,lome,adidogome",Sejour,louer,Villa meublée,Lome,Adidogome,3,100.0,2,600000,0,0
+ImmoAsk,1421,5362,"villa meublée,louer,lome,adidogome",Sejour,louer,Villa meublée,Lome,Adidogome,2,100.0,2,450000,0,0
+ImmoAsk,1420,5361,"villa,louer,lome,adidogome",Logement,louer,Villa,Lome,Adidogome,6,120.0,4,300000,0,0
+ImmoAsk,1419,5360,"chambre salon,louer,lome,adidogome",Logement,louer,Chambre salon,Lome,Adidogome,1,20.0,2,50000,0,0
+ImmoAsk,1418,5359,"2 chambres salon,louer,lome,adidogome",Logement,louer,2 chambres salon,Lome,Adidogome,2,40.0,1,60000,0,0
+ImmoAsk,1417,5358,"appartement meublé,louer,lome,agoe",Sejour,louer,Appartement meublé,Lome,Agoe,1,100.0,1,250000,0,0
+ImmoAsk,1416,5357,"appartement meublé,louer,lome,adidogome",Sejour,louer,Appartement meublé,Lome,Adidogome,2,150.0,1,350000,0,0
+ImmoAsk,1415,5356,"villa meublée,louer,lome,adidogome",Sejour,louer,Villa meublée,Lome,Adidogome,4,150.0,1,1000000,0,0
+ImmoAsk,1414,5355,"chambre salon,louer,lome,zanguera",Logement,louer,Chambre salon,Lome,Zanguera,1,15.0,0,35000,0,0
+ImmoAsk,1413,5354,"appartement meublé,louer,lome,adidogome",Sejour,louer,Appartement meublé,Lome,Adidogome,2,150.0,4,450000,0,0
+ImmoAsk,1412,5353,"appartement meublé,louer,lome, centre ville",Sejour,louer,Appartement meublé,Lome,Nyékonakpoè ,1,100.0,1,1100000,0,0
+ImmoAsk,1411,5352,"chambre salon,louer,lome, zanguera",Logement,louer,Chambre salon,Lome,Zanguera,1,20.0,2,45000,0,0
+ImmoAsk,1410,5351,"villa meublée,louer,lome,carrefour aised",Sejour,louer,Villa meublée,Lome,Adidogome,2,150.0,1,400000,0,0
+ImmoAsk,1409,5350,"appartement meublé,louer,lome, gblinkome",Sejour,louer,Appartement meublé,Lome,Gblinkome,0,55.0,0,250000,0,0
+ImmoAsk,1408,5349,"appartement meublé,louer,lome, gblinkome",Sejour,louer,Appartement meublé,Lome,Gblinkome,1,55.0,2,250000,0,0
+ImmoAsk,1407,5348,"appartement meublé,louer,lome,kodjoviakope",Sejour,louer,Appartement meublé,Lome,Kodjoviakope,1,50.0,1,300000,0,0
+ImmoAsk,1406,5347,"studio meublé,louer,lome,agoe",Sejour,louer,Appartement meublé,Lome,Agoe,1,25.0,0,150000,0,0
+ImmoAsk,1405,5346,"appartement meublé,louer,lome,adidogome",Sejour,louer,Appartement meublé,Lome,Adidogome,0,50.0,0,200000,0,0
+ImmoAsk,1404,5345,"appartement meublé,louer,lome,kodjoviakope",Sejour,louer,Appartement meublé,Lome,Kodjoviakope,2,100.0,1,550000,0,0
+ImmoAsk,1403,5344,"appartement meublé,louer,lome,hedzranawoe ",Sejour,louer,Appartement meublé,Lome,Hédzranawoe,1,70.0,1,350000,0,0
+ImmoAsk,1402,5343,"appartement meublé,louer,lome,agoe nyive",Sejour,louer,Appartement meublé,Lome,Agoe,1,70.0,2,250000,0,0
+ImmoAsk,1401,5342,"immeuble commercial,vendre,lome,legbassito",Acquisition,vendre,Appartement meublé,Lome,Agoe,0,600.0,0,0,85000000,0
+ImmoAsk,1400,5341,"appartement meublé,louer,lome,avenou",Sejour,louer,Appartement meublé,Lome,Avenou,2,100.0,1,450000,0,0
+ImmoAsk,1399,5340,"appartement meublé,louer,lome,agbalepedo",Sejour,louer,Appartement meublé,Lome,Agbalépédo,0,70.0,0,150000,0,0
+ImmoAsk,1398,5339,"appartement meublé,louer,lome,agbalepedo",Sejour,louer,Appartement meublé,Lome,Agbalépédo,3,120.0,1,300000,0,0
+ImmoAsk,1397,5338,"appartement meublé,louer,lome,segbe ",Sejour,louer,Appartement meublé,Lome,Segbe,2,70.0,2,330000,0,0
+ImmoAsk,1396,5337,"appartement meublé,louer,lome,segbe",Sejour,louer,Appartement meublé,Lome,Segbe,2,70.0,2,330000,0,0
+ImmoAsk,1395,5336,"appartement meublé,louer,lome,adidoadin",Sejour,louer,Appartement meublé,Lome,Adidoadin ,2,100.0,1,350000,0,0
+ImmoAsk,1394,5335,"boutique,louer,lome,djidjole",Commercial,louer,2 chambres salon,Lome,Djidjolé,1,11.0,0,40000,0,0
+ImmoAsk,1393,5334,"appartement meublé,louer,lome,avedji",Sejour,louer,Appartement meublé,Lome,Avedji,2,150.0,1,250000,0,0
+ImmoAsk,1392,5333,"appartement meublé,louer,lome,avedji",Sejour,louer,Appartement meublé,Lome,Avedji,0,150.0,0,250000,0,0
+ImmoAsk,1391,5332,"appartement meublé,louer,lome,avedji",Sejour,louer,Appartement meublé,Lome,Avedji,0,15.0,0,250000,0,0
+ImmoAsk,1390,5331,"appartement meublé,louer,lome,avedji",Sejour,louer,Appartement meublé,Lome,Avedji,0,15.0,0,250000,0,0
+ImmoAsk,1389,5330,"appartement meublé,louer,lome,sagbado",Sejour,louer,Appartement meublé,Lome,Sagbado,0,150.0,0,350000,0,0
+ImmoAsk,1388,5329,"terrain,vendre,lome,davie",Acquisition,vendre,Terrain,Lome,Davie,0,150.0,0,0,1000000,0
+ImmoAsk,1387,5328,"terrain,vendre,lome,davie",Acquisition,vendre,Terrain,Lome,Davie,0,600.0,0,0,6500000,0
+ImmoAsk,1386,5327,"terrain,vendre,lome,kohe",Acquisition,vendre,Terrain,Lome,Adidogome,0,760.0,0,0,13500000,0
+ImmoAsk,1385,5326,"villa,louer,lome,avepozo ",Logement,louer,Villa,Lome,Avepozo,3,300.0,1,250000,0,0
+ImmoAsk,1384,5325,"appartement meublé,louer,lome,segbe ",Sejour,louer,Appartement meublé,Lome,Segbe,0,100.0,0,350000,0,0
+ImmoAsk,1383,5324,"terrain,vendre,lome,adetikope ",Acquisition,vendre,Terrain,Lome,Adetikope,0,600.0,0,0,8000000,0
+ImmoAsk,1382,5323,"terrain,vendre,lome,adetikope",Acquisition,vendre,Terrain,Lome,Adetikope,0,600.0,0,0,16000000,0
+ImmoAsk,1381,5322,"terrain,vendre,lome,segbe",Acquisition,vendre,Terrain,Lome,Segbe,0,880.0,0,0,26000000,0
+ImmoAsk,1380,5321,"terrain,vendre,lome,adeticope",Acquisition,vendre,Terrain,Lome,Adetikope,0,300.0,0,0,3500000,0
+ImmoAsk,1379,5320,"terrain,vendre,lome,adeticope",Acquisition,vendre,Terrain,Lome,Adetikope,0,150.0,0,0,2000000,0
+ImmoAsk,1378,5319,"maison,vendre,lome,vapkossito",Acquisition,vendre,Maison,Lome,Agoe,0,300.0,0,0,25000000,0
+ImmoAsk,1377,5318,"villa meublée,louer,lome,adidoadin",Sejour,louer,Villa meublée,Lome,Adidoadin ,1,150.0,1,250000,0,0
+ImmoAsk,1376,5317,"terrain,vendre,lome,adetikope",Acquisition,vendre,Terrain,Lome,Adetikope,0,300.0,0,0,3500000,0
+ImmoAsk,1375,5316,"terrain,vendre,lome,adetikope",Acquisition,vendre,Terrain,Lome,Adetikope,0,150.0,0,0,2000000,0
+ImmoAsk,1374,5315,"terrain,vendre,lome,djagble",Acquisition,vendre,Terrain,Lome,Djagble,0,300.0,0,0,3500000,0
+ImmoAsk,1373,5314,"terrain,vendre,lome,adetikope",Acquisition,vendre,Terrain,Lome,Adetikope,0,600.0,0,0,6500000,0
+ImmoAsk,1372,5313,"appartement,louer,lome,adewi",Logement,louer,Appartement meublé,Lome,Adewui,2,60.0,2,300000,0,0
+ImmoAsk,1371,5312,"villa,vendre,lome,agoe",Acquisition,vendre,Villa,Lome,Agoe,0,300.0,0,0,40000000,0
+ImmoAsk,1370,5311,"studio meublé,louer,lome,adidogome",Sejour,louer,Appartement meublé,Lome,Adidogome,1,17.0,1,250000,0,0
+ImmoAsk,1369,5310,"villa meublée,louer,lome,akodessewa",Sejour,louer,Villa meublée,Lome,Akodessewa,5,700.0,2,1800000,0,0
+ImmoAsk,1368,5309,"appartement meublé,louer,lome,adidogome",Sejour,louer,Appartement meublé,Lome,Adidogome,1,35.0,1,350000,0,0
+ImmoAsk,1367,5308,"appartement meublé,louer,lome,adidogome",Sejour,louer,Appartement meublé,Lome,Adidogome,2,80.0,1,500000,0,0
+ImmoAsk,1366,5307,"appartement meublé,louer,lome,adidogome",Sejour,louer,Appartement meublé,Lome,Adidogome,2,80.0,1,600000,0,0
+ImmoAsk,1365,5306,"terrain,vendre,lome,djagble",Acquisition,vendre,Terrain,Lome,Djagble,0,600.0,0,0,12000000,0
+ImmoAsk,1364,5305,"appartement meublé,louer,lome,attiegou",Sejour,louer,Appartement meublé,Lome,Attiégou,0,153.0,0,500000,0,0
+ImmoAsk,1363,5304,"chambre salon,louer,lome,agbalepedo",Logement,louer,Chambre salon,Lome,Agbalépédo,0,35.0,0,55000,0,0
+ImmoAsk,1362,5303,"terrain,vendre,lome,zanguera ",Acquisition,vendre,Terrain,Lome,Zanguera,0,600.0,0,0,9000000,0
+ImmoAsk,1361,5302,"terrain,vendre,lome,adidogome",Acquisition,vendre,Terrain,Lome,Adidogome,0,600.0,0,0,16000000,0
+ImmoAsk,1360,5301,"chambre salon,louer,lome,adidogome",Logement,louer,Chambre salon,Lome,Adidogome,0,30.0,0,35000,0,0
+ImmoAsk,1359,5300,"2 chambres salon,louer,lome,adewui",Logement,louer,2 chambres salon,Lome,Adewui,2,90.0,1,300000,0,0
+ImmoAsk,1358,5299,"chambre salon,louer,lome,adewui",Logement,louer,Chambre salon,Lome,Adewui,0,75.0,0,225000,0,0
+ImmoAsk,1357,5298,"chambre,louer,lome,adewui",Logement,louer,Appartement meublé,Lome,Adewui,0,40.0,0,125000,0,0
+ImmoAsk,1356,5297,"terrain,vendre,lome,adetikope",Acquisition,vendre,Terrain,Lome,Adetikope,0,600.0,0,0,6000000,0
+ImmoAsk,1355,5296,"terrain,vendre,lome,davie",Acquisition,vendre,Terrain,Lome,Davie,0,600.0,0,0,5600000,0
+ImmoAsk,1354,5295,"maison,vendre,lome,djiffa kpota",Acquisition,vendre,Maison,Lome,Bè,0,515.0,0,0,45000000,0
+ImmoAsk,1353,5294,"terrain,vendre,lome,agbalepedo",Acquisition,vendre,Terrain,Lome,Agbalépédo,0,345.0,0,0,37000000,0
+ImmoAsk,1352,5293,"terrain,vendre,lome,agbalepedo",Acquisition,louer,Terrain,Lome,Agbalépédo,0,345.0,0,0,37000000,0
+ImmoAsk,1351,5292,"appartement meublé,louer,lome,adidogome",Sejour,louer,Appartement meublé,Lome,Adidogome,1,30.0,1,350000,0,0
+ImmoAsk,1350,5291,"studio meublé,louer,lome,adidogome",Sejour,louer,Studio meublé,Kpalime,Adidogome,1,25.0,1,250000,0,0
+ImmoAsk,1349,5290,"appartement meublé,louer,lome,adidogome",Sejour,louer,Appartement meublé,Lome,Adidogome,0,100.0,0,1000000,0,0
+ImmoAsk,1348,5289,"appartement meublé,louer,lome,adidogome",Sejour,louer,Appartement meublé,Lome,Adidogome,3,100.0,1,1000000,0,0
+ImmoAsk,1347,5288,"appartement meublé,louer,lome,adidogome ",Sejour,louer,Appartement meublé,Lome,Adidogome,2,70.0,2,600000,0,0
+ImmoAsk,1346,5287,"villa,louer,lome,adidogome",Logement,louer,Villa,Lome,Adidogome,3,200.0,2,150000,0,0
+ImmoAsk,1345,5286,"appartement meublé,louer,lome,adidogome ",Sejour,louer,Appartement meublé,Lome,Adidogome,2,70.0,2,450000,0,0
+ImmoAsk,1344,5285,"appartement meublé,louer,lome,rue de l’ocam",Sejour,louer,Appartement meublé,Lome,Bè,0,45.0,0,300000,0,0
+ImmoAsk,1343,5284,"appartement,louer,lome,agoe",Logement,louer,Appartement meublé,Lome,Agoe,0,53.0,0,55000,0,0
+ImmoAsk,1342,5283,"villa meublée,louer,lome,segbe",Sejour,louer,Villa meublée,Lome,Segbe,1,150.0,1,250000,0,0
+ImmoAsk,1341,5282,"villa,vendre,lome,avenou",Acquisition,vendre,Villa,Lome,Avenou,0,334.0,0,0,130000000,0
+ImmoAsk,1340,5281,"appartement meublé,louer,lome,amandahome.",Sejour,louer,Appartement meublé,Lome,Adidogome,2,70.0,2,300000,0,0
+ImmoAsk,1339,5280,"appartement meublé,louer,aneho,agbanou",Sejour,louer,Appartement meublé,Aneho,Agbanou,3,100.0,1,250000,0,0
+ImmoAsk,1338,5279,"appartement meublé,louer,aneho,agbanou",Sejour,louer,Appartement meublé,Aneho,Agbanou,0,100.0,0,250000,0,0
+ImmoAsk,1337,5278,"appartement meublé,louer,lome,todman",Sejour,louer,Appartement meublé,Lome,Tokoin,2,60.0,1,500000,0,0
+ImmoAsk,1336,5277,"terrain,vendre,lome,tokoin protestant",Acquisition,vendre,Terrain,Lome,Tokoin,0,300.0,0,0,25000000,0
+ImmoAsk,1335,5276,"terrain,vendre,lome,sagbado",Acquisition,vendre,Terrain,Lome,Sagbado,0,459.0,0,0,19000000,0
+ImmoAsk,1334,5275,"villa,vendre,lome,klikame",Acquisition,vendre,Villa,Lome,Klikamé,0,150.0,0,0,15000000,0
+ImmoAsk,1333,5274,"chambre salon,louer,lome,attiegou",Logement,louer,Chambre salon,Lome,Attiégou,1,30.0,2,45000,0,0
+ImmoAsk,1332,5273,"villa,louer,lome,be",Logement,louer,Villa,Lome,Bè,3,400.0,3,400001,0,0
+ImmoAsk,1331,5272,"terrain,vendre,lome,attiegou",Acquisition,vendre,Terrain,Lome,Attiégou,0,1800.0,0,0,100000000,0
+ImmoAsk,1330,5271,"terrain,vendre,lome,hedzranawoe",Acquisition,vendre,Terrain,Lome,Hédzranawoe,0,1650.0,0,0,200000000,0
+ImmoAsk,1329,5270,"appartement meublé,louer,lome,adidogome",Sejour,louer,Appartement meublé,Lome,Adidogome,2,65.0,1,400000,0,0
+ImmoAsk,1328,5269,"villa meublée,louer,lome,adidogome",Sejour,louer,Villa meublée,Lome,Adidogome,0,700.0,0,800000,0,0
+ImmoAsk,1327,5268,"villa,louer,lome,apedokoe",Logement,louer,Villa,Lome,Adidogome,0,600.0,0,500000,0,0
+ImmoAsk,1326,5267,"appartement meublé,louer,lome,avenou",Sejour,louer,Appartement meublé,Lome,Avenou,2,70.0,1,500000,0,0
+ImmoAsk,1325,5266,"appartement meublé,louer,lome,avenou",Sejour,louer,Appartement meublé,Lome,Avenou,0,70.0,0,500000,0,0
+ImmoAsk,1324,5265,"villa,louer,lome,adidogome",Logement,louer,Villa,Lome,Adidogome,0,150.0,0,110000,0,0
+ImmoAsk,1323,5264,"chambre salon,louer,lome,adidogome",Logement,louer,Chambre salon,Lome,Adidogome,0,30.0,0,45000,0,0
+ImmoAsk,1322,5263,"2 chambres salon,louer,lome,adidogome",Logement,louer,2 chambres salon,Lome,Adidogome,0,50.0,0,65000,0,0
+ImmoAsk,1321,5262,"terrain,vendre,lome,agoe",Acquisition,vendre,Terrain,Lome,Agoe,0,600.0,0,0,15000000,0
+ImmoAsk,1320,5261,"terrain,vendre,lome,zanguera",Acquisition,vendre,Terrain,Lome,Zanguera,0,1330.0,0,0,27000000,0
+ImmoAsk,1319,5260,"terrain,vendre,lome,lankouvi",Acquisition,vendre,Terrain,Lome,Adidogome,0,300.0,0,0,11500000,0
+ImmoAsk,1318,5259,"terrain,vendre,lome,agoe",Acquisition,louer,Terrain,Lome,Agoe,0,600.0,0,0,15000000,0
+ImmoAsk,1317,5258,"appartement meublé,louer,lome,adidogome",Sejour,louer,Appartement meublé,Lome,Adidogome,3,300.0,1,400000,0,0
+ImmoAsk,1316,5257,"villa meublée,louer,lome,agbavi",Sejour,louer,Villa meublée,Lome,Agbavi,2,600.0,3,500000,0,0
+ImmoAsk,1315,5256,"villa,louer,lomé,kegue ",Logement,louer,Villa,Lome,Kegue,0,300.0,0,500000,0,0
+ImmoAsk,1314,5255,"villa,louer,lome,tokoin",Logement,louer,Appartement meublé,Lome,Tokoin,0,300.0,0,450000,0,0
+ImmoAsk,1313,5254,"chambre salon,louer,lome,attilamonou",Logement,louer,Chambre salon,Lome,Adidogome,0,40.0,0,45000,0,0
+ImmoAsk,1312,5253,"chambre salon,louer,lome,zanguera",Logement,louer,Chambre salon,Lome,Zanguera,0,35.0,0,35000,0,0
+ImmoAsk,1311,5252,"appartement meublé,louer,lome,adidogome",Sejour,louer,Appartement meublé,Lome,Adidogome,0,60.0,0,300000,0,0
+ImmoAsk,1310,5251,"villa,louer,lome,cite oua",Logement,louer,Villa,Lome,Cite oua,5,900.0,2,2500000,0,0
+ImmoAsk,1309,5250,"chambre salon,louer,lome,zanguera",Logement,louer,Chambre salon,Lome,Zanguera,1,50.0,1,50000,0,0
+ImmoAsk,1308,5249,"appartement meublé,louer,lome,tokoin",Sejour,louer,Appartement meublé,Lome,Tokoin,2,70.0,2,500000,0,0
+ImmoAsk,1307,5248,"appartement meublé,louer,lome,hedzranawoe ",Sejour,louer,Appartement meublé,Lome,Hédzranawoe,0,80.0,0,400000,0,0
+ImmoAsk,1306,5247,"villa,louer,lome,kegue",Logement,louer,Villa,Lome,Kegue,0,300.0,0,500000,0,0
+ImmoAsk,1305,5246,"appartement meublé,louer,lome,zanguera",Sejour,louer,Appartement meublé,Lome,Zanguera,3,70.0,2,300000,0,0
+ImmoAsk,1304,5245,"villa,louer,lome,avepozo",Logement,louer,Villa,Lome,Avepozo,0,600.0,0,550000,0,0
+ImmoAsk,1303,5244,"appartement meublé,louer,lome,super taco",Sejour,louer,Appartement meublé,Lome,Super taco,0,300.0,0,200000,0,0
+ImmoAsk,1302,5243,"appartement meublé,louer,lome,adidogome ",Sejour,louer,Appartement meublé,Lome,Adidogome,0,600.0,0,600000,0,0
+ImmoAsk,1301,5242,"villa meublée,louer,lome,kpogan ",Sejour,louer,Villa meublée,Lome,Kpogan,4,600.0,2,800000,0,0
+ImmoAsk,1300,5241,"appartement meublé,louer,lome,adidogome ",Logement,louer,Appartement meublé,Lome,Adidogome,0,300.0,0,350000,0,0
+ImmoAsk,1299,5240,"appartement meublé,louer,lome,super taco",Sejour,louer,Appartement meublé,Lome,Super taco,0,300.0,0,200000,0,0
+ImmoAsk,1298,5239,"appartement meublé,louer,lomé,nyekonakpoe",Sejour,louer,Appartement meublé,Lome,Nyékonakpoè ,0,300.0,0,350000,0,0
+ImmoAsk,1297,5238,"villa meublée,louer,lome,adidogome ",Sejour,louer,Villa meublée,Lome,Adidogome,0,600.0,0,600000,0,0
+ImmoAsk,1296,5237,"villa meublée,louer,lome,adidogome ",Sejour,louer,Villa meublée,Lome,Adidogome,0,600.0,0,1000000,0,0
+ImmoAsk,1295,5236,"appartement meublé,louer,lome,kodjoviakope",Sejour,louer,Appartement meublé,Lome,Kodjoviakope,0,300.0,0,600000,0,0
+ImmoAsk,1294,5235,"villa meublée,louer,lome,gbossime ",Sejour,louer,Villa meublée,Lome,Gbossime,0,300.0,0,250000,0,0
+ImmoAsk,1293,5234,"appartement meublé,louer,lome,agbalepedo ",Sejour,louer,Appartement meublé,Lome,Agbalépédo,0,300.0,0,300000,0,0
+ImmoAsk,1292,5233,"villa meublée,louer,lome,adidogome",Sejour,louer,Villa meublée,Lome,Adidogome,0,300.0,0,1200000,0,0
+ImmoAsk,1291,5232,"villa meublée,louer,lome,adidogome",Sejour,louer,Villa meublée,Lome,Adidogome,0,80.0,0,450000,0,0
+ImmoAsk,1290,5231,"appartement meublé,louer,lome,hedzranawoe",Sejour,louer,Appartement meublé,Lome,Hédzranawoe,0,50.0,0,400000,0,0
+ImmoAsk,1289,5230,"appartement meublé,louer,lome,nyekonakpoe",Sejour,louer,Appartement meublé,Lome,Nyékonakpoè ,0,300.0,0,350000,0,0
+ImmoAsk,1288,5229,"appartement meublé,louer,lome,adidoadin ",Sejour,louer,Appartement meublé,Lome,Adidoadin ,1,150.0,1,250000,0,0
+ImmoAsk,1287,5228,"villa meublée,louer,lome,adeticope",Sejour,louer,Villa meublée,Lome,Adetikope,0,300.0,0,350000,0,0
+ImmoAsk,1286,5227,"appartement meublé,louer,lome,adidoadin",Sejour,louer,Appartement meublé,Lome,Adidoadin ,1,150.0,1,200000,0,0
+ImmoAsk,1285,5226,"appartement meublé,louer,lome,kpota non loin du lycee",Sejour,louer,Appartement meublé,Lome,Bè,3,300.0,2,450000,0,0
+ImmoAsk,1284,5225,"appartement meublé,louer,lome,kegue",Sejour,louer,Appartement meublé,Lome,Kegue,0,150.0,0,150000,0,0
+ImmoAsk,1283,5224,"appartement meublé,louer,1,kegue",Sejour,louer,Appartement meublé,Lome,Kegue,0,150.0,0,150000,0,0
+ImmoAsk,1282,5223,"appartement meublé,louer,1,kegue",Sejour,louer,Appartement meublé,Lome,Kegue,0,150.0,0,150000,0,0
+ImmoAsk,1281,5222,"appartement meublé,louer,lome,attiegou ",Sejour,louer,Appartement meublé,Lome,Attiégou,0,150.0,0,250000,0,0
+ImmoAsk,1280,5221,"villa meublée,louer,lome,hedzanawoe - novissi",Sejour,louer,Villa meublée,Lome,Hédzranawoe,0,300.0,0,500000,0,0
+ImmoAsk,1279,5220,"villa meublée,louer,lome,kpogan non loin du goudron",Sejour,louer,Villa meublée,Lome,Kpogan,0,300.0,0,800000,0,0
+ImmoAsk,1278,5219,"appartement meublé,louer,lome,kegue tsinga",Sejour,louer,Appartement meublé,Lome,Kegue,1,150.0,1,200000,0,0
+ImmoAsk,1277,5218,"villa meublée,louer,lome,hedzranawoe ",Sejour,louer,Villa meublée,Lome,Hédzranawoe,0,300.0,0,400000,0,0
+ImmoAsk,1276,5217,"appartement meublé,louer,lome,cito aeroport",Sejour,louer,Appartement meublé,Lome,Cito aeroport,1,150.0,1,300000,0,0
+ImmoAsk,1275,5216,"chambre salon,louer,lome,cito aeroport",Logement,louer,Chambre salon,Lome,Cito aeroport,0,150.0,0,300000,0,0
+ImmoAsk,1274,5215,"villa,louer,lome,tokoin",Logement,louer,Villa,Lome,Tokoin,2,150.0,1,150000,0,0
+ImmoAsk,1273,5214,"appartement meublé,louer,lome,hedzranawoe",Sejour,louer,Appartement meublé,Lome,Hédzranawoe,0,200.0,0,350000,0,0
+ImmoAsk,1272,5213,"appartement meublé,louer,lome,hedzranawoe",Sejour,louer,Appartement meublé,Lome,Hédzranawoe,0,120.0,0,350000,0,0
+ImmoAsk,1271,5212,"villa,vendre,lome,adidogome",Acquisition,vendre,Villa,Lome,Adidogome,0,300.0,0,0,50000000,0
+ImmoAsk,1270,5211,"terrain,vendre,lome,agoe",Acquisition,vendre,Terrain,Lome,Agoe,0,1200.0,0,0,150000000,0
+ImmoAsk,1269,5210,"terrain,vendre,lome,agoe",Acquisition,louer,Terrain,Lome,Agoe,0,1200.0,0,0,150000000,0
+ImmoAsk,1268,5209,"chambre salon,louer,lome,agoe zossime",Logement,louer,Chambre salon,Lome,Agoe,0,45.0,0,45000,0,0
+ImmoAsk,1267,5208,"appartement,louer,lome,agoe zossime",Logement,louer,Appartement,Lome,Agoe,2,50.0,1,70000,0,0
+ImmoAsk,1266,5207,"villa,louer,lome,avepozo",Logement,louer,Appartement meublé,Lome,Avepozo,0,1200.0,0,250000,0,0
+ImmoAsk,1265,5206,"villa,louer,lome,avepozo",Sejour,louer,Villa,Lome,Avepozo,6,1200.0,1,250000,0,0
+ImmoAsk,1264,5205,"terrain,vendre,kpalime,yokele",Acquisition,vendre,Terrain,Kpalime,Yokele,0,2400.0,0,0,20000000,0
+ImmoAsk,1263,5204,"chambre salon,louer,lome,be kpota",Logement,louer,Chambre salon,Lome,Bè,0,42.0,0,45000,0,0
+ImmoAsk,1262,5203,"chambre salon,louer,lome,cacaveli",Logement,louer,Chambre salon,Lome,Agoe,0,25.0,0,55000,0,0
+ImmoAsk,1261,5202,"terrain,vendre,kpalime,kpime",Acquisition,vendre,Terrain,Kpalime,Kpime,0,490000.0,0,0,700000,0
+ImmoAsk,1260,5201,"studio meublé,louer,lomé,avenou",Sejour,louer,Appartement meublé,Lome,Avenou,0,24.0,0,220000,0,0
+ImmoAsk,1259,5200,"appartement meublé,louer,lome,adidogome",Sejour,louer,Appartement meublé,Lome,Adidogome,2,35.0,1,500000,0,0
+ImmoAsk,1258,5199,"appartement meublé,louer,lome,adidogome",Sejour,louer,Appartement meublé,Lome,Adidogome,2,35.0,1,500000,0,0
+ImmoAsk,1257,5198,"villa,vendre,lome,be kpota",Acquisition,vendre,Villa,Lome,Bè,4,300.0,4,0,130000000,0
+ImmoAsk,1256,5197,"appartement meublé,louer,lome,agoe",Sejour,louer,Appartement meublé,Lome,Agoe,0,55.0,0,170000,0,0
+ImmoAsk,1255,5196,"terrain,vendre,lome,agoe",Acquisition,vendre,Appartement meublé,Lome,Agoe,0,300.0,0,0,33000000,0
+ImmoAsk,1254,5195,"terrain,vendre,lome,agoe",Acquisition,vendre,Terrain,Lome,Agoe,0,300.0,0,0,33000000,0
+ImmoAsk,1253,5194,"terrain,vendre,lome,agoe",Acquisition,vendre,Terrain,Lome,Agoe,0,300.0,0,0,33000000,0
+ImmoAsk,1252,5193,"terrain,vendre,lome,agoe",Acquisition,vendre,Terrain,Lome,Agoe,0,300.0,0,0,33000000,0
+ImmoAsk,1251,5192,"villa,louer,lome,baguida",Logement,louer,Villa,Lome,Baguida,3,300.0,1,150000,0,0
+ImmoAsk,1250,5191,"villa meublée,louer,lome,adidogome la pampar",Sejour,louer,Villa meublée,Lome,Adidogome,0,300.0,0,600000,0,0
+ImmoAsk,1249,5190,"appartement meublé,louer,lome,adidogome la pampar",Sejour,louer,Appartement meublé,Lome,Adidogome,0,400.0,0,700000,0,0
+ImmoAsk,1248,5189,"villa meublée,louer,lome,baguida",Sejour,louer,Villa meublée,Lome,Baguida,0,600.0,0,500000,0,0
+ImmoAsk,1247,5188,"villa,louer,lome,sagbado",Logement,louer,Villa,Lome,Sagbado,3,300.0,2,300000,0,0
+ImmoAsk,1246,5187,"appartement meublé,louer,lome,tokoin ",Sejour,louer,Appartement meublé,Lome,Tokoin,1,80.0,1,150000,0,0
+ImmoAsk,1245,5186,"studio meublé,louer,lome,agbalepedo",Sejour,louer,Appartement meublé,Lome,Agbalépédo,0,80.0,0,210000,0,0
+ImmoAsk,1244,5185,"studio meublé,louer,lome,agbalepeto",Sejour,louer,Studio meublé,Lome,Agbalepeto,1,80.0,1,210000,0,0
+ImmoAsk,1243,5184,"terrain,vendre,lome,agoe sogbossito",Acquisition,vendre,Terrain,Lome,Agoe,0,300.0,0,0,6000000,0
+ImmoAsk,1242,5183,"villa,louer,lome,kegue",Logement,louer,Villa,Lome,Kegue,3,300.0,2,300000,0,0
+ImmoAsk,1241,5182,"villa meublée,louer,lome,avedji",Sejour,louer,Villa meublée,Lome,Avedji,0,300.0,0,300000,0,0
+ImmoAsk,1240,5181,"villa,louer,lomé,atiegou",Logement,louer,Villa,Lome,Attiégou,3,300.0,2,250000,0,0
+ImmoAsk,1239,5180,"villa,louer,lome,atiegou ",Logement,louer,Villa,Lome,Attiégou,0,300.0,0,250000,0,0
+ImmoAsk,1238,5179,"villa,vendre,lome,djagble",Acquisition,vendre,Villa,Lome,Djagble,10,300.0,2,0,215000000,0
+ImmoAsk,1237,5178,"appartement,louer,lome,djagble",Logement,louer,Appartement,Lome,Djagble,6,300.0,1,300000,0,0
+ImmoAsk,1236,5177,"appartement,louer,lome,djagble",Logement,louer,Appartement,Lome,Djagble,6,300.0,2,300000,0,0
+ImmoAsk,1235,5176,"appartement,louer,lome,djagble",Logement,louer,Appartement,Lome,Djagble,4,300.0,2,350000,0,0
+ImmoAsk,1234,5175,"appartement,louer,lome,djagble",Logement,louer,Appartement,Lome,Djagble,0,300.0,0,350000,0,0
+ImmoAsk,1233,5174,"appartement meublé,louer,lome,nyekonakpoe",Sejour,louer,Appartement meublé,Lome,Nyékonakpoè ,0,60.0,0,400000,0,0
+ImmoAsk,1232,5173,"appartement meublé,louer,lome,tokoin casablanca",Sejour,louer,Appartement meublé,Lome,Tokoin,2,125.0,1,450000,0,0
+ImmoAsk,1231,5172,"appartement meublé,louer,lome,totsi",Sejour,louer,Appartement meublé,Lome,Totsi,0,150.0,0,300000,0,0
+ImmoAsk,1230,5171,"appartement meublé,louer,lome,adidoadin",Sejour,louer,Appartement meublé,Lome,Adidoadin ,0,200.0,0,300000,0,0
+ImmoAsk,1229,5170,"terrain,vendre,lome,legbassito ",Acquisition,vendre,Terrain,Lome,Agoe,0,600.0,0,0,15000000,0
+ImmoAsk,1228,5169,"chambre salon,louer,lome,kagome",Logement,louer,Chambre salon,Lome,Kagome,0,50.0,0,30000,0,0
+ImmoAsk,1227,5168,"villa,louer,lome,adidogome ",Logement,louer,Villa,Lome,Adidogome,0,400.0,0,375000,0,0
+ImmoAsk,1226,5167,"appartement meublé,louer,lome,agbalepedo",Sejour,louer,Appartement meublé,Lome,Agbalépédo,2,200.0,1,300000,0,0
+ImmoAsk,1225,5166,"appartement meublé,louer,lome,agbalepedo",Sejour,louer,Appartement meublé,Lome,Agbalépédo,0,300.0,0,300000,0,0
+ImmoAsk,1224,5165,"maison,vendre,lome,sanguera",Acquisition,vendre,Maison,Lome,Sanguera,0,500.0,0,0,65000000,0
+ImmoAsk,1223,5164,"terrain,vendre,1,afagnan",Acquisition,vendre,Terrain,Afagnan,Afagnan,0,600.0,0,0,3000000,0
+ImmoAsk,1222,5163,"terrain,vendre,1,afagnan",Acquisition,vendre,Terrain,Afagnan,Afagnan,0,600.0,0,0,3000000,0
+ImmoAsk,1221,5162,"terrain,vendre,1,afagnan",Acquisition,vendre,Terrain,Afagnan,Afagnan,0,600.0,0,0,3000000,0
+ImmoAsk,1220,5161,"terrain,vendre,1,afagnan",Acquisition,vendre,Terrain,Afagnan,Afagnan,0,600.0,0,0,3000000,0
+ImmoAsk,1219,5160,"terrain,vendre,lome,djidjole",Acquisition,vendre,Appartement meublé,Lome,Djidjolé,0,386.0,0,0,27000000,0
+ImmoAsk,1218,5159,"villa,louer,lome,segbe,akato-deme",Logement,louer,Villa,Lome,Segbe,4,300.0,1,140000,0,0
+ImmoAsk,1217,5158,"appartement meublé,louer,lome,gbossime",Sejour,louer,Appartement meublé,Lome,Gbossime,3,150.0,1,250000,0,0
+ImmoAsk,1216,5157,"villa,vendre,lome,djagble",Acquisition,vendre,Villa,Lome,Djagble,5,445.0,2,0,32000000,0
+ImmoAsk,1215,5156,"magasin,louer,lome,be kpota",Commercial,louer,Magasin,Lome,Bè,1,300.0,2,400000,0,0
+ImmoAsk,1214,5155,"appartement meublé,louer,lome,agoe anome ",Sejour,louer,Appartement meublé,Lome,Agoe,0,300.0,0,300000,0,0
+ImmoAsk,1213,5154,"villa meublée,louer,lomé,amadahome",Sejour,louer,Villa meublée,Lome,Adidogome,0,600.0,0,600000,0,0
+ImmoAsk,1212,5153,"appartement meublé,louer,lome,kegue",Sejour,louer,Appartement meublé,Lome,Kegue,0,80.0,0,150000,0,0
+ImmoAsk,1211,5152,"appartement meublé,louer,lome,kegue",Sejour,louer,Appartement meublé,Lome,Kegue,1,80.0,1,150000,0,0
+ImmoAsk,1210,5151,"appartement meublé,louer,lome,hedzranawoe",Sejour,louer,Appartement meublé,Lome,Hédzranawoe,2,100.0,1,350000,0,0
+ImmoAsk,1209,5150,"appartement meublé,louer,lome,hedzranawoe",Sejour,louer,Appartement meublé,Lome,Hédzranawoe,2,100.0,1,350000,0,0
+ImmoAsk,1208,5149,"appartement meublé,louer,lome,hedzranawoe",Sejour,louer,Appartement meublé,Lome,Hédzranawoe,0,100.0,0,350000,0,0
+ImmoAsk,1207,5148,"appartement meublé,louer,lome,hedranawoe ",Sejour,louer,Appartement meublé,Lome,Hédzranawoe,1,80.0,1,250000,0,0
+ImmoAsk,1206,5147,"appartement meublé,louer,lome,djidjole ",Sejour,louer,Appartement meublé,Lome,Djidjolé,0,100.0,0,350000,0,0
+ImmoAsk,1205,5146,"villa meublée,louer,lome,avepozo ",Sejour,louer,Villa meublée,Lome,Avepozo,0,300.0,0,400000,0,0
+ImmoAsk,1204,5145,"appartement meublé,louer,lome,baguida ",Sejour,louer,Appartement meublé,Lome,Baguida,0,300.0,0,400000,0,0
+ImmoAsk,1203,5144,"villa,vendre,lome,be kpota",Acquisition,vendre,Villa,Lome,Bè,4,400.0,2,0,130000000,0
+ImmoAsk,1202,5143,"villa,louer,lome,hedzranawoe",Logement,louer,Villa,Lome,Hédzranawoe,6,600.0,1,1200000,0,0
+ImmoAsk,1201,5142,"villa,louer,lome,hedranawoe ",Logement,louer,Villa,Lome,Hédzranawoe,0,600.0,0,1200000,0,0
+ImmoAsk,1200,5141,"immeuble commercial,vendre,lome,legbassito",Acquisition,vendre,Immeuble commercial,Lome,Agoe,13,600.0,2,0,85000000,0
+ImmoAsk,1199,5140,"villa,louer,lome,be kpota ",Logement,louer,Villa,Lome,Bè,3,300.0,1,500000,0,0
+ImmoAsk,1198,5139,"terrain,vendre,lome,agoe togble",Acquisition,vendre,Terrain,Lome,Agoe,0,300.0,0,0,6500000,0
+ImmoAsk,1197,5138,"appartement meublé,louer,lome,agoe legbassito anhonkpoe ",Sejour,louer,Appartement meublé,Lome,Agoe,0,48.0,0,200000,0,0
+ImmoAsk,1196,5137,"maison,vendre,lome,agoe sogbossito",Acquisition,vendre,Maison,Lome,Agoe,2,120.0,1,0,35000000,0
+ImmoAsk,1195,5136,"2 chambres salon,louer,lome,agoe legbassito anhonkpoe",Logement,louer,2 chambres salon,Lome,Agoe,0,48.0,0,200000,0,0
+ImmoAsk,1194,5135,"boutique,louer,lome,lomegan",Commercial,louer,Boutique,Lome,Lomégan,0,50.0,0,0,100000,0
+ImmoAsk,1193,5134,"terrain,bailler,lome,sagbado",Commercial,bailler,Terrain,Lome,Sagbado,0,600.0,0,75000,0,0
+ImmoAsk,1192,5133,"terrain,bailler,lome,agoe",Commercial,bailler,Terrain,Lome,Agoe,0,600.0,0,75000,0,0
+ImmoAsk,1191,5132,"villa,louer,lome,avedji",Logement,louer,Villa,Lome,Avedji,0,150.0,0,150000,0,0
+ImmoAsk,1190,5131,"chambre salon,louer,lome,agoe",Logement,louer,Chambre salon,Lome,Agoe,0,25.0,0,50000,0,0
+ImmoAsk,1189,5130,"chambre salon,louer,lome,agoe",Logement,louer,Chambre salon,Lome,Agoe,0,25.0,0,50000,0,0
+ImmoAsk,1188,5129,"chambre salon,louer,lome,agoe",Logement,louer,Chambre salon,Lome,Agoe,0,25.0,0,50000,0,0
+ImmoAsk,1187,5128,"terrain,bailler,lome,avedji",Commercial,bailler,Terrain,Lome,Avedji,0,1200.0,0,150000,0,0
+ImmoAsk,1186,5127,"3 chambres salon,louer,lome,vakpossito",Logement,louer,Appartement,Lome,Agoe,3,80.0,1,90000,0,0
+ImmoAsk,1185,5126,"3 chambres salon,louer,lome,adidogome cite mokpokpo",Logement,louer,3 chambres salon,Lome,Adidogome,0,80.0,0,120000,0,0
+ImmoAsk,1184,5125,"terrain,vendre,tsevie,davie ",Acquisition,vendre,Terrain,Tsevie,Davie,0,1800.0,0,0,4500000,0
+ImmoAsk,1183,5124,"2 chambres salon,louer,lome,be station t-oil",Logement,louer,2 chambres salon,Lome,Bè,2,48.0,1,220000,0,0
+ImmoAsk,1182,5123,"villa meublée,louer,lome,zanguera",Sejour,louer,Villa meublée,Lome,Zanguera,2,48.0,1,250000,0,0
+ImmoAsk,1181,5122,"chambre,louer,lome,zanguera",Logement,louer,Chambre,Lome,Zanguera,1,16.0,2,15000,0,0
+ImmoAsk,1180,5121,"2 chambres salon,louer,lome,adidogome soviepe",Logement,louer,2 chambres salon,Lome,Adidogome,0,64.0,0,65000,0,0
+ImmoAsk,1179,5120,"chambre salon,louer,lome,carrefour minamadou",Logement,louer,Chambre salon,Lome,Agoe,0,64.0,0,60000,0,0
+ImmoAsk,1178,5119,"2 chambres salon,louer,lomé,segbe",Logement,louer,2 chambres salon,Lome,Segbe,0,48.0,0,35000,0,0
+ImmoAsk,1177,5118,"2 chambres salon,louer,lome,segbe",Logement,louer,2 chambres salon,Lome,Segbe,2,48.0,1,45000,0,0
+ImmoAsk,1176,5117,"appartement meublé,louer,lome,agoe",Sejour,louer,Appartement meublé,Lome,Agoe,2,80.0,1,350000,0,0
+ImmoAsk,1175,5116,"villa meublée,louer,lome,lome madibar",Sejour,louer,Villa meublée,Lome,Adidogome,11,1200.0,3,650000,0,0
+ImmoAsk,1174,5115,"villa,vendre,lome,segbe",Acquisition,vendre,Villa,Lome,Segbe,0,450.0,0,0,65000000,0
+ImmoAsk,1173,5114,"villa,louer,lome,gbegnedji ",Logement,louer,Villa,Lome,Gbegnedji ,0,150.0,0,80000,0,0
+ImmoAsk,1172,5113,"villa,louer,lome,kagome ",Logement,louer,Villa,Lome,Kagome,2,300.0,2,100000,0,0
+ImmoAsk,1171,5112,"villa,louer,lome,kagome ",Logement,louer,Villa,Lome,Kagome,0,300.0,0,100000,0,0
+ImmoAsk,1170,5111,"villa,louer,lome, adidogome ",Logement,louer,Villa,Lome,Adidogome,4,600.0,1,350000,0,0
+ImmoAsk,1169,5110,"appartement meublé,louer,lome,djidjole",Sejour,louer,Appartement meublé,Lome,Djidjolé,1,45.0,2,200000,0,0
+ImmoAsk,1168,5109,"villa meublée,louer,aneho,kpeme ",Sejour,louer,Villa meublée,Aneho,Kpeme ,0,600.0,0,700000,0,0
+ImmoAsk,1167,5108,"appartement meublé,louer,lome,djidjole",Sejour,louer,Appartement meublé,Lome,Djidjolé,0,80.0,0,550000,0,0
+ImmoAsk,1166,5107,"chambre salon,louer,lome,akodessewa",Logement,louer,Chambre salon,Lome,Akodessewa,0,35.0,0,50000,0,0
+ImmoAsk,1165,5106,"chambre salon,louer,lome,akodessewa ",Logement,louer,Chambre salon,Lome,Akodessewa,0,35.0,0,60000,0,0
+ImmoAsk,1164,5105,"chambre salon,louer,lome,akodessewa ",Logement,louer,Chambre salon,Lome,Akodessewa,0,35.0,0,60000,0,0
+ImmoAsk,1163,5104,"villa,louer,lome,baguida",Logement,louer,Villa,Lome,Baguida,4,10.0,2,750000,0,0
+ImmoAsk,1162,5103,"appartement,louer,lome,amadahome",Logement,louer,Appartement,Lome,Adidogome,2,55.0,1,60000,0,0
+ImmoAsk,1161,5102,"appartement meublé,louer,lome,tokoin",Sejour,louer,Appartement meublé,Lome,Tokoin,1,35.0,1,300000,0,0
+ImmoAsk,1160,5101,"studio meublé,louer,lome, tokoin ",Sejour,louer,Appartement meublé,Lome,Tokoin,1,25.0,1,350000,0,0
+ImmoAsk,1159,5100,"studio meublé,louer,lome, tokoin",Sejour,louer,Appartement meublé,Lome,Tokoin,1,18.0,1,300000,0,0
+ImmoAsk,1158,5099,"appartement meublé,louer,lome, tokoin",Sejour,louer,Appartement meublé,Lome,Tokoin,0,100.0,0,450000,0,0
+ImmoAsk,1157,5098,"appartement meublé,louer,lome,tokoin",Sejour,louer,Appartement meublé,Lome,Tokoin,0,80.0,0,350000,0,0
+ImmoAsk,1156,5097,"terrain,vendre,lome,hedzranawoe",Acquisition,vendre,Terrain,Lome,Hédzranawoe,0,9000.0,0,0,1050000000,0
+ImmoAsk,1155,5096,"terrain,vendre,lome,hedzranawoe",Acquisition,vendre,Terrain,Lome,Hédzranawoe,0,4200.0,0,0,560000000,0
+ImmoAsk,1154,5095,"terrain,vendre,lome,agoe",Acquisition,vendre,Terrain,Lome,Agoe,0,300.0,0,0,7000000,0
+ImmoAsk,1153,5094,"terrain,vendre,lome,zanguera",Acquisition,vendre,Terrain,Lome,Zanguera,0,600.0,0,0,11000000,0
+ImmoAsk,1152,5093,"terrain,vendre,lome,djagble",Acquisition,vendre,Terrain,Lome,Djagble,0,300.0,0,0,6000000,0
+ImmoAsk,1151,5092,"villa,louer,lome,avenou",Logement,louer,Villa,Lome,Avenou,0,600.0,0,350000,0,0
+ImmoAsk,1150,5091,"villa,louer,lome,avenou",Logement,louer,Villa,Lome,Avenou,0,600.0,0,350000,0,0
+ImmoAsk,1149,5090,"villa,louer,lome,avenou",Logement,louer,Villa,Lome,Avenou,0,600.0,0,350000,0,0
+ImmoAsk,1148,5089,"immeuble commercial,louer,lome,assivito",Commercial,louer,Appartement meublé,Lome,Assivito,0,1000.0,0,0,1200000,0
+ImmoAsk,1147,5088,"studio meublé,louer,lome,assivito ",Sejour,louer,Appartement meublé,Lome,Assivito,0,18.0,0,900000,0,0
+ImmoAsk,1146,5087,"appartement meublé,louer,lome,assivito",Sejour,louer,Appartement meublé,Lome,Assivito,0,35.0,0,1800000,0,0
+ImmoAsk,1145,5086,"appartement meublé,louer,lomé,adidogome",Sejour,louer,Appartement meublé,Lome,Adidogome,0,85.0,0,350000,0,0
+ImmoAsk,1144,5085,"terrain,vendre,lome,djidjole ",Acquisition,vendre,Terrain,Lome,Djidjolé,0,500.0,0,0,40000000,0
+ImmoAsk,1143,5084,"terrain,vendre,lome,djidjole ",Acquisition,vendre,Terrain,Lome,Djidjolé,0,500.0,0,0,40000000,0
+ImmoAsk,1142,5083,"maison,louer,lome,djidjole",Logement,louer,Maison,Lome,Djidjolé,3,500.0,0,40000000,0,0
+ImmoAsk,1141,5082,"villa,vendre,lome,agoe",Acquisition,vendre,Villa,Lome,Agoe,2,150.0,1,0,15000000,0
+ImmoAsk,1140,5081,"appartement meublé,louer,lome,agoe",Sejour,louer,Appartement meublé,Lome,Agoe,0,90.0,0,400000,0,0
+ImmoAsk,1139,5080,"appartement,louer,lome,djidjole",Logement,louer,Appartement,Lome,Djidjolé,0,80.0,0,150000,0,0
+ImmoAsk,1138,5079,"appartement meublé,louer,lome, cacaveli ",Sejour,louer,Appartement meublé,Lome,Agoe,0,35.0,0,300000,0,0
+ImmoAsk,1137,5078,"appartement meublé,louer,lome,cacaveli",Sejour,louer,Appartement meublé,Lome,Agoe,0,69.0,0,400000,0,0
+ImmoAsk,1136,5077,"studio meublé,louer,lome,be",Sejour,louer,Appartement meublé,Lome,Bè,0,20.0,0,200000,0,0
+ImmoAsk,1135,5076,"appartement meublé,louer,lome,be",Sejour,louer,Appartement meublé,Lome,Bè,0,65.0,0,400000,0,0
+ImmoAsk,1134,5075,"villa meublée,louer,lome,kegue",Sejour,louer,Villa meublée,Lome,Kegue,0,250.0,0,350000,0,0
+ImmoAsk,1133,5074,"villa meublée,louer,lome,adidogome ",Sejour,louer,Villa meublée,Lome,Adidogome,0,250.0,0,450000,0,0
+ImmoAsk,1132,5073,"villa meublée,louer,lome,kegue ",Sejour,louer,Villa meublée,Lome,Kegue,0,120.0,0,300000,0,0
+ImmoAsk,1131,5072,"villa meublée,louer,lome,hedzranawoe ",Sejour,louer,Villa meublée,Lome,Hédzranawoe,0,250.0,0,400000,0,0
+ImmoAsk,1130,5071,"appartement meublé,louer,lome,adidogome",Sejour,louer,Appartement meublé,Lome,Adidogome,0,30.0,0,230000,0,0
+ImmoAsk,1129,5070,"villa,vendre,lome,sito aeroport",Acquisition,vendre,Villa,Lome,Sito aeroport  ,0,600.0,0,0,100000000,0
+ImmoAsk,1128,5069,"villa meublée,louer,lome,totsi",Sejour,louer,Villa meublée,Lome,Totsi,0,150.0,0,450000,0,0
+ImmoAsk,1127,5068,"terrain,vendre,lome,djagble",Acquisition,vendre,Terrain,Lome,Djagble,0,600.0,0,0,6000000,0
+ImmoAsk,1126,5067,"villa,louer,lome,agoe",Logement,louer,Villa,Lome,Agoe,3,300.0,1,170000,0,0
+ImmoAsk,1125,5066,"villa,louer,lome, agoe",Logement,louer,Villa,Lome,Agoe,0,300.0,0,200000,0,0
+ImmoAsk,1124,5065,"terrain,vendre,lome,leo2000",Acquisition,vendre,Terrain,Lome,Leo 2000,0,600.0,0,0,35000000,0
+ImmoAsk,1123,5064,"appartement meublé,louer,lomé,djidjole",Logement,louer,Appartement meublé,Lome,Djidjolé,0,35.0,0,200000,0,0
+ImmoAsk,1122,5063,"maison,vendre,lome,agoe",Acquisition,vendre,Maison,Lome,Agoe,0,310.0,0,0,40000000,0
+ImmoAsk,1121,5062,"terrain,vendre,lome,zanguera ",Acquisition,vendre,Terrain,Lome,Zanguera,0,300.0,0,0,7000000,0
+ImmoAsk,1120,5061,"villa,louer,lome,leo2000",Logement,louer,Villa,Lome,Leo 2000,0,400.0,0,500000,0,0
+ImmoAsk,1119,5060,"villa,louer,lome,agoe",Logement,louer,Villa,Lome,Agoe,0,200.0,0,150000,0,0
+ImmoAsk,1118,5059,"villa meublée,louer,lome,agoe",Sejour,louer,Villa meublée,Lome,Agoe,0,200.0,0,300000,0,0
+ImmoAsk,1117,5058,"chambre salon,louer,lome,agoe",Logement,louer,Chambre salon,Lome,Agoe,0,30.0,0,50000,0,0
+ImmoAsk,1116,5057,"chambre salon,louer,lome,agoe",Logement,louer,Chambre salon,Lome,Agoe,0,35.0,0,70000,0,0
+ImmoAsk,1115,5056,"chambre salon,louer,lome,agoe ",Logement,louer,Chambre salon,Lome,Agoe,1,25.0,1,50000,0,0
+ImmoAsk,1114,5055,"villa,louer,lome,adidogome ",Logement,louer,Villa,Lome,Adidogome,3,300.0,2,130000,0,0
+ImmoAsk,1113,5054,"villa,louer,lome,sito aeroport  ",Logement,louer,Villa,Lome,Sito aeroport  ,0,300.0,0,300000,0,0
+ImmoAsk,1112,5053,"villa,louer,lome,kegue",Logement,louer,Villa,Lome,Kegue,3,200.0,4,180000,0,0
+ImmoAsk,1111,5052,"chambre,louer,lome,avepozo",Logement,louer,Chambre,Lome,Avepozo,0,1200.0,0,150000,0,0
+ImmoAsk,1110,5051,"appartement meublé,louer,lome,tokoin",Sejour,louer,Appartement meublé,Lome,Tokoin,0,65.0,0,300000,0,0
+ImmoAsk,1109,5050,"appartement meublé,louer,lome,tokoin",Sejour,louer,Appartement meublé,Lome,Tokoin,0,65.0,0,300000,0,0
+ImmoAsk,1108,5049,"maison,vendre,lome, agbavi",Acquisition,vendre,Maison,Lome,Agbavi,0,300.0,0,0,27000000,0
+ImmoAsk,1107,5048,"maison,vendre,lome, agbavi",Acquisition,vendre,Maison,Lome,Agbavi,0,300.0,0,0,27000000,0
+ImmoAsk,1106,5047,"villa,vendre,lome,dague",Acquisition,vendre,Villa,Lome,Dague,2,300.0,1,0,15000000,0
+ImmoAsk,1105,5046,"villa,louer,lome,kagome",Logement,louer,Villa,Lome,Kagome,0,600.0,0,100000,0,0
+ImmoAsk,1104,5045,"maison,vendre,lome,avepozo",Acquisition,vendre,Maison,Lome,Avepozo,0,300.0,0,0,23000000,0
+ImmoAsk,1103,5044,"terrain,vendre,lome,ahanoukope",Acquisition,vendre,Terrain,Lome,Ahanoukope,0,1200.0,0,0,800000000,0
+ImmoAsk,1102,5043,"chambre salon,louer,lome,agoe",Logement,louer,Chambre salon,Lome,Agoe,0,25.0,0,50000,0,0
+ImmoAsk,1101,5042,"appartement,louer,lome,agoe",Logement,louer,Appartement,Lome,Agoe,2,65.0,2,65000,0,0
+ImmoAsk,1100,5041,"appartement meublé,louer,lome,amadahome",Sejour,louer,Appartement meublé,Lome,Adidogome,0,25.0,0,200000,0,0
+ImmoAsk,1099,5040,"bureau,louer,lome,noukafou ",Commercial,louer,Bureau,Lome,Noukafou ,5,120.0,2,100000,0,0
+ImmoAsk,1098,5039,"villa,vendre,lome,togo2000",Acquisition,vendre,Villa,Lome,Togo 2000,0,300.0,0,0,32000000,0
+ImmoAsk,1097,5038,"appartement meublé,louer,lome,avedji ",Sejour,louer,Appartement meublé,Lome,Avedji,0,120.0,0,350000,0,0
+ImmoAsk,1096,5037,"villa,louer,lome,be kpota",Logement,louer,Villa,Lome,Bè,0,600.0,0,250000,0,0
+ImmoAsk,1095,5036,"appartement meublé,louer,lome,djidjole",Sejour,louer,Appartement meublé,Lome,Djidjolé,0,25.0,0,200000,0,0
+ImmoAsk,1094,5035,"villa,louer,lome,totsi",Logement,louer,Villa,Lome,Totsi,2,120.0,1,100000,0,0
+ImmoAsk,1093,5034,"appartement meublé,louer,lome,adidogome",Sejour,louer,Appartement meublé,Lome,Adidogome,0,35.0,0,250000,0,0
+ImmoAsk,1092,5033,"villa,louer,lome,agoe",Logement,louer,Villa,Lome,Agoe,2,100.0,1,80000,0,0
+ImmoAsk,1091,5032,"chambre salon,louer,lome,djidjole",Logement,louer,Chambre salon,Lome,Djidjolé,1,40.0,0,60000,0,0
+ImmoAsk,1090,5031,"chambre salon,louer,aneho,djidjole",Logement,louer,Chambre salon,Aneho,Djidjolé,0,40.0,0,60000,0,0
+ImmoAsk,1089,5030,"appartement,louer,lome,agoe ",Logement,louer,Appartement,Lome,Agoe,0,400.0,0,300000,0,0
+ImmoAsk,1088,5029,"appartement meublé,louer,lome,agoe",Sejour,louer,Appartement meublé,Lome,Agoe,0,35.0,0,150000,0,0
+ImmoAsk,1087,5028,"studio meublé,louer,lome,agoe",Sejour,louer,Appartement meublé,Lome,Agoe,0,20.0,0,150000,0,0
+ImmoAsk,1086,5027,"chambre salon,louer,lome,agoe",Logement,louer,Chambre salon,Lome,Agoe,0,35.0,0,45000,0,0
+ImmoAsk,1085,5026,"appartement meublé,louer,lome,sagbado ",Sejour,louer,Appartement meublé,Lome,Sagbado,0,35.0,0,200000,0,0
+ImmoAsk,1084,5025,"villa meublée,louer,lomé,sagbado",Logement,louer,Villa meublée,Lome,Sagbado,0,200.0,0,300000,0,0
+ImmoAsk,1083,5024,"appartement,louer,lome,agoe ",Logement,louer,Appartement,Lome,Agoe,0,75.0,0,70000,0,0
+ImmoAsk,1082,5023,"chambre salon,louer,lome,agoe",Logement,louer,Chambre salon,Lome,Agoe,1,60.0,1,45000,0,0
+ImmoAsk,1081,5022,"appartement,louer,lome,agoe",Logement,louer,Appartement,Lome,Agoe,3,120.0,1,100000,0,0
+ImmoAsk,1080,5021,"villa,louer,lome,leo2000",Logement,louer,Villa,Lome,Leo 2000,0,300.0,0,300000,0,0
+ImmoAsk,1079,5020,"villa,louer,lome,agoe",Logement,louer,Villa,Lome,Agoe,0,400.0,0,300000,0,0
+ImmoAsk,1078,5019,"villa,vendre,lome,adidogome",Acquisition,vendre,Villa,Lome,Adidogome,0,150.0,0,0,26000000,0
+ImmoAsk,1077,5018,"appartement,louer,lome,agbalepedo",Logement,louer,Appartement,Lome,Agbalépédo,2,78.0,2,120000,0,0
+ImmoAsk,1076,5017,"appartement,louer,lome,agbalepedo",Logement,louer,Appartement,Lome,Agbalépédo,0,80.0,0,120000,0,0
+ImmoAsk,1075,5016,"appartement,louer,lome,agbalepedo",Logement,louer,Appartement,Lome,Agbalépédo,2,70.0,1,102000,0,0
+ImmoAsk,1074,5015,"villa,louer,lome,entreprise de l'union",Logement,louer,Villa,Lome,Leo 2000,0,300.0,0,200000,0,0
+ImmoAsk,1073,5014,"villa,louer,lome,entreprise de l'union ",Logement,louer,Villa,Lome,Leo 2000,0,300.0,0,200000,0,0
+ImmoAsk,1072,5013,"immeuble commercial,louer,lome,attiegou",Commercial,louer,Appartement,Lome,Attiégou,3,300.0,2,250000,0,0
+ImmoAsk,1071,5012,"villa,vendre,lome,amadahome ",Acquisition,vendre,Villa,Lome,Adidogome,3,10.0,2,0,0,0
+ImmoAsk,1070,5011,"studio meublé,louer,lomé,adidogome",Sejour,louer,Appartement meublé,Lome,Adidogome,0,21.0,0,150000,0,0
+ImmoAsk,1069,5010,"villa,louer,lome,agoe",Logement,louer,Villa,Lome,Agoe,5,250.0,2,130000,0,0
+ImmoAsk,1068,5009,"villa,louer,lome, amadahome",Logement,louer,Villa,Lome,Adidogome,0,150.0,0,23000000,0,0
+ImmoAsk,1067,5008,"villa,louer,lome,kegue",Logement,louer,Villa,Lome,Kegue,0,300.0,0,300000,0,0
+ImmoAsk,1066,5007,"appartement meublé,louer,lome,tokoin",Sejour,louer,Appartement meublé,Lome,Tokoin,0,100.0,0,350000,0,0

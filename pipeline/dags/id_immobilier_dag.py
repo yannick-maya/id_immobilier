@@ -31,7 +31,7 @@ dag = DAG(
 # ── Tache 0 : Scraping ImmoAsk ────────────────────────────────────────────────
 def run_scraping_immoask():
     sys.path.insert(0, "/opt/airflow")
-    from pipeline.scrapers.scraper_immoask import ImmoAskScraper
+    from pipeline.scrapers.immoask import ImmoAskScraper
     scraper = ImmoAskScraper(limit=500)
     scraper.run()
 
@@ -54,16 +54,16 @@ task_ingestion = PythonOperator(
     dag=dag,
 )
 
-# ── Tache 2a : Nettoyage fichiers precedents ──────────────────────────────────
-task_nettoyage = BashOperator(
-    task_id="nettoyage_precedent",
-    bash_command=(
-        "rm -f /opt/airflow/data/cleaned_v2/annonces_clean.csv && "
-        "rm -f /opt/airflow/data/raw/rejets/annonces_rejetees.csv && "
-        "echo 'Anciens fichiers supprimes'"
-    ),
-    dag=dag,
-)
+# # ── Tache 2a : Nettoyage fichiers precedents ──────────────────────────────────
+# task_nettoyage = BashOperator(
+#     task_id="nettoyage_precedent",
+#     bash_command=(
+#         "rm -f /opt/airflow/data/cleaned_v2/annonces_clean.csv && "
+#         "rm -f /opt/airflow/data/raw/rejets/annonces_rejetees.csv && "
+#         "echo 'Anciens fichiers supprimes'"
+#     ),
+#     dag=dag,
+# )
 
 # ── Tache 2b : Cleaning Spark ─────────────────────────────────────────────────
 def run_cleaning_spark():
@@ -73,7 +73,7 @@ def run_cleaning_spark():
             "docker", "exec", "id_immobilier_spark",
             "/opt/spark/bin/spark-submit",
             "--master", "spark://spark:7077",
-            "/app/pipeline/cleaning_v2_spark.py",
+            "/app/pipeline/cleaning_spark_v2.py",
         ],
         capture_output=True, text=True, timeout=1800
     )
@@ -93,11 +93,11 @@ task_cleaning = PythonOperator(
 # ── Tache 3 : Modelisation V2 ─────────────────────────────────────────────────
 def run_modeling():
     sys.path.insert(0, "/opt/airflow")
-    from pipeline.modeling_v2 import run
+    from pipeline.modeling_mongodb import run
     run()
 
 task_modeling = PythonOperator(
-    task_id="modeling_mysql_v2",
+    task_id="modeling_mongodb",
     python_callable=run_modeling,
     dag=dag,
 )

@@ -93,7 +93,7 @@ class ImmoAskScraper:
 
         if path is None:
             ts   = datetime.now().strftime("%Y%m%d_%H%M%S")
-            path = f"data/raw/scraped/immoask_{ts}.csv"
+            path = f"..\\..\\data\\raw\\scraped\\immoask_{ts}.csv"
 
         Path(path).parent.mkdir(parents=True, exist_ok=True)
         self.df.to_csv(path, index=False, encoding="utf-8-sig")
