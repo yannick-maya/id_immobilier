@@ -90,7 +90,12 @@ try:
     df_sources  = load_sources()
     df_indice   = load_indice_par_type()
 except Exception as e:
-    st.error(f"Erreur de connexion MySQL : {e}")
+    st.error(f"Erreur de connexion à la base de données : {e}")
+    st.stop()
+
+# Vérifier si les données sont disponibles
+if df_stats.empty:
+    st.warning("Aucune donnée statistique trouvée dans la base de données. Veuillez exécuter le pipeline de données.")
     st.stop()
 
 
@@ -105,16 +110,18 @@ if page == "Tableau de bord":
 
     # Filtres sidebar
     st.sidebar.subheader("Filtres")
-    zones_dispo = sorted(df_stats["zone"].unique().tolist())
+    
+    # Vérifier les colonnes disponibles
+    zones_dispo = sorted(df_stats["zone"].unique().tolist()) if "zone" in df_stats.columns else []
     zone_sel = st.sidebar.selectbox("Zone", ["Toutes"] + zones_dispo)
 
-    types_bien = sorted(df_stats["type_bien"].unique().tolist())
+    types_bien = sorted(df_stats["type_bien"].unique().tolist()) if "type_bien" in df_stats.columns else []
     type_sel = st.sidebar.multiselect("Type de bien", types_bien, default=types_bien)
     if not type_sel:
         type_sel = types_bien
 
     offre_sel = st.sidebar.radio("Type d'offre", ["Tous", "VENTE", "LOCATION"])
-    periodes = sorted(df_stats["periode"].dropna().unique().tolist()) if "periode" in df_stats else []
+    periodes = sorted(df_stats["periode"].dropna().unique().tolist()) if "periode" in df_stats.columns and df_stats["periode"].notna().any() else []
     periode_sel = st.sidebar.selectbox("Période", ["Toutes"] + periodes)
 
     # Filtrage
@@ -122,29 +129,52 @@ if page == "Tableau de bord":
     df_ann = df_annonces.copy()
     df_ind = df_indice.copy()
 
-    if zone_sel != "Toutes":
+    if zone_sel != "Toutes" and "zone" in df_f.columns:
         df_f   = df_f[df_f["zone"] == zone_sel]
+    if zone_sel != "Toutes" and "zone" in df_ann.columns:
         df_ann = df_ann[df_ann["zone"] == zone_sel]
+    if zone_sel != "Toutes" and "zone" in df_ind.columns:
         df_ind = df_ind[df_ind["zone"] == zone_sel]
-    df_f   = df_f[df_f["type_bien"].isin(type_sel)]
-    df_ann = df_ann[df_ann["type_bien"].isin(type_sel)]
-    df_ind = df_ind[df_ind["type_bien"].isin(type_sel)]
+    
+    if "type_bien" in df_f.columns:
+        df_f   = df_f[df_f["type_bien"].isin(type_sel)]
+    if "type_bien" in df_ann.columns:
+        df_ann = df_ann[df_ann["type_bien"].isin(type_sel)]
+    if "type_bien" in df_ind.columns:
+        df_ind = df_ind[df_ind["type_bien"].isin(type_sel)]
+    
     if offre_sel != "Tous":
-        df_f   = df_f[df_f["type_offre"] == offre_sel]
-        df_ann = df_ann[df_ann["type_offre"] == offre_sel]
-        df_ind = df_ind[df_ind["type_offre"] == offre_sel]
+        if "type_offre" in df_f.columns:
+            df_f   = df_f[df_f["type_offre"] == offre_sel]
+        if "type_offre" in df_ann.columns:
+            df_ann = df_ann[df_ann["type_offre"] == offre_sel]
+        if "type_offre" in df_ind.columns:
+            df_ind = df_ind[df_ind["type_offre"] == offre_sel]
+    
     if periode_sel != "Toutes":
-        df_f   = df_f[df_f["periode"] == periode_sel]
-        df_ann = df_ann[df_ann["periode"] == periode_sel] if "periode" in df_ann else df_ann
-        df_ind = df_ind[df_ind["periode"] == periode_sel] if "periode" in df_ind else df_ind
+        if "periode" in df_f.columns:
+            df_f   = df_f[df_f["periode"] == periode_sel]
+        if "periode" in df_ann.columns:
+            df_ann = df_ann[df_ann["periode"] == periode_sel]
+        if "periode" in df_ind.columns:
+            df_ind = df_ind[df_ind["periode"] == periode_sel]
 
     # KPIs
     k1, k2, k3, k4, k5 = st.columns(5)
-    k1.metric("Prix moyen / m2",    f"{df_f['prix_moyen_m2'].mean():,.0f} FCFA")
-    k2.metric("Prix median / m2",   f"{df_f['prix_median_m2'].median():,.0f} FCFA")
-    k3.metric("Annonces analysees", f"{df_f['nombre_annonces'].sum():,}")
-    k4.metric("Zones couvertes",    f"{df_f['zone'].nunique()}")
-    k5.metric("Biens uniques",      f"{len(df_ann):,}")
+    
+    prix_moyen = df_f['prix_moyen_m2'].mean() if 'prix_moyen_m2' in df_f.columns and not df_f.empty else 0
+    k1.metric("Prix moyen / m2", f"{prix_moyen:,.0f} FCFA")
+    
+    prix_median = df_f['prix_median_m2'].median() if 'prix_median_m2' in df_f.columns and not df_f.empty else 0
+    k2.metric("Prix median / m2", f"{prix_median:,.0f} FCFA")
+    
+    nb_annonces = df_f['nombre_annonces'].sum() if 'nombre_annonces' in df_f.columns and not df_f.empty else 0
+    k3.metric("Annonces analysees", f"{nb_annonces:,}")
+    
+    zones_count = df_f['zone'].nunique() if 'zone' in df_f.columns and not df_f.empty else 0
+    k4.metric("Zones couvertes", f"{zones_count}")
+    
+    k5.metric("Biens uniques", f"{len(df_ann):,}")
     st.divider()
 
     # Sources

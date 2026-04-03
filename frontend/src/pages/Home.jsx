@@ -24,7 +24,7 @@ const Home = () => {
 
   useEffect(() => {
     // Charger les statistiques générales
-    fetch('/api/statistiques')
+    fetch('http://localhost:8000/statistiques')
       .then(res => res.json())
       .then(data => {
         setStats({

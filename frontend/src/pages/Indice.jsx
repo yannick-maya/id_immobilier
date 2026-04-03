@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { api } from '../services/api';
+import api from '../services/api';
 
 const Indice = () => {
   const [searchParams] = useSearchParams();
