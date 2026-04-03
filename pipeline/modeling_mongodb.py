@@ -20,11 +20,16 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # Configuration MongoDB
-MONGO_URI = os.getenv("MONGO_URI")
+# Utilise localhost pour l'exécution locale, sinon l'URI configurée
+MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
 MONGO_DB = os.getenv("MONGO_DB", "id_immobilier")
 
-if not MONGO_URI:
-    raise ValueError("MONGO_URI non trouvée dans le fichier .env")
+# Pour éviter les problèmes SSL avec Atlas en local, forcer localhost si pas dans Docker
+if "mongodb+srv://" in MONGO_URI and "localhost" not in MONGO_URI:
+    logger.warning("URI Atlas détectée, utilisation de localhost pour exécution locale")
+    MONGO_URI = "mongodb://localhost:27017"
+
+logger.info(f"Connexion à MongoDB: {MONGO_URI}")
 
 # Connexion MongoDB
 client = MongoClient(MONGO_URI)
