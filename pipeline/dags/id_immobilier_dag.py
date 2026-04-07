@@ -132,14 +132,12 @@ task_index = PythonOperator(
 #         ↓
 #   ingestion_donnees
 #         ↓
-#   nettoyage_precedent
-#         ↓
 #   cleaning_pyspark_v2
 #         ↓
-#   modeling_mysql_v2
+#   modeling_mongodb
 #         ↓
 #   calcul_indicateurs
 #         ↓
 #   calcul_indice
 #
-task_scraping >> task_ingestion >> task_nettoyage >> task_cleaning >> task_modeling >> task_indicators >> task_index
+task_scraping >> task_ingestion  >> task_cleaning >> task_modeling >> task_indicators >> task_index
