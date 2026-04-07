@@ -2,13 +2,13 @@ from fastapi import APIRouter, Query, HTTPException, Depends
 from typing import Optional, List
 from datetime import datetime
 from ..database import db
-from ..models.annonce import AnnonceResponse, AnnonceCreate
+from ..models.annonce import AnnonceResponse, AnnonceCreate, AnnonceListResponse
 from ..auth.middleware import get_current_user
 from bson import ObjectId
 
 router = APIRouter()
 
-@router.get("/annonces", response_model=List[AnnonceResponse])
+@router.get("/annonces", response_model=AnnonceListResponse)
 async def get_annonces(
     zone: Optional[str] = None,
     type_bien: Optional[str] = None,
@@ -41,8 +41,12 @@ async def get_annonces(
     skip = (page - 1) * limit
     cursor = db.annonces.find(query).skip(skip).limit(limit)
     annonces = await cursor.to_list(length=limit)
+    total = await db.annonces.count_documents(query)
 
-    return [AnnonceResponse(**{**annonce, "id": str(annonce["_id"])}) for annonce in annonces]
+    return {
+        "annonces": [AnnonceResponse(**{**annonce, "id": str(annonce["_id"])}) for annonce in annonces],
+        "total": total
+    }
 
 @router.get("/annonces/{annonce_id}", response_model=AnnonceResponse)
 async def get_annonce(annonce_id: str):

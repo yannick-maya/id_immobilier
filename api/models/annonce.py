@@ -17,6 +17,10 @@ class AnnonceResponse(BaseModel):
     periode: Optional[str]
     created_at: Optional[str]
 
+class AnnonceListResponse(BaseModel):
+    annonces: List[AnnonceResponse]
+    total: int
+
 class AnnonceCreate(BaseModel):
     titre: str
     type_offre: str

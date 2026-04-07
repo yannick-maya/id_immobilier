@@ -17,16 +17,15 @@ async def register(user: UserCreate):
         if existing_user:
             raise HTTPException(status_code=400, detail="Email already registered")
 
-        # Hasher le mot de passe
+        # Vérifier la longueur minimale du mot de passe
         raw_password = user.password
-        raw_bytes = raw_password.encode('utf-8')
-        if len(raw_bytes) > 72:
-            raise HTTPException(status_code=400, detail=f"password too long {len(raw_bytes)} bytes")
+        if len(raw_password) < 8:
+            raise HTTPException(status_code=400, detail="Le mot de passe doit contenir au moins 8 caractères")
 
         try:
             hashed_password = get_password_hash(raw_password)
         except Exception as e:
-            raise HTTPException(status_code=500, detail=f"hash error: {type(e).__name__}: {e} (raw_password={raw_password!r}, bytes={len(raw_bytes)})")
+            raise HTTPException(status_code=500, detail=f"hash error: {type(e).__name__}: {e}")
 
         user_dict = user.dict()
         user_dict.pop("password")  # Ne pas stocker le mot de passe en clair
@@ -43,6 +42,8 @@ async def register(user: UserCreate):
         user_response = UserResponse(**{k: v for k, v in user_dict.items() if k != "hashed_password"})
 
         return TokenResponse(access_token=access_token, user=user_response)
+    except HTTPException:
+        raise
     except Exception as e:
         import traceback
         traceback.print_exc()
